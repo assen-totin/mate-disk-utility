@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=Disk Utility
+_Comment=Manage Drives and Media
+Exec=matepalimpsest
+Icon=matepalimpsest
+Terminal=false
+Type=Application
+StartupNotify=true
+X-MATE-DocPath=matepalimpsest/matepalimpsest.xml
+Categories=MATE;GTK;System;
+
