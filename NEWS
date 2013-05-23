@@ -675,7 +675,7 @@ David Zeuthen (58):
       clean up some more debug spew
       export :device-presentation-hide property in the API
       export new property device-detection-time
-      use libmatenotify to show a notification when a disk is failing
+      use libnotify to show a notification when a disk is failing
       work around notification-daemon brokenness
       nuke the "It's now safe to remove" dialog after four seconds
       allow passing options to gdu_device_op_filesystem_mount()

@@ -29,7 +29,7 @@
 
 #include <mdu/mdu.h>
 #include <mdu-gtk/mdu-gtk.h>
-#include <libmatenotify/notify.h>
+#include <libnotify/notify.h>
 
 #include "mdu-slow-unmount-dialog.h"
 
@@ -527,7 +527,7 @@ update_status_icon (NotificationData *data)
 
         gtk_status_icon_set_visible (data->status_icon, TRUE);
 
-        /* we've started showing the icon for ATA RAID failures; pop up a libmatenotify notification */
+        /* we've started showing the icon for ATA RAID failures; pop up a libnotify notification */
         if (old_show_icon_for_ata_smart_failures != data->show_icon_for_ata_smart_failures) {
 
 		data->ata_smart_notification = notify_notification_new (
@@ -535,10 +535,7 @@ update_status_icon (NotificationData *data)
                     _("A hard disk may be failing"),
                     /* Translators: This is used as the text of the notification*/
                     _("One or more hard disks report health problems. Click the icon to get more information."),
-                    "gtk-dialog-warning",
-                    NULL);
-                notify_notification_attach_to_status_icon (data->ata_smart_notification,
-                                                           data->status_icon);
+                    "gtk-dialog-warning");
                 notify_notification_set_urgency (data->ata_smart_notification, NOTIFY_URGENCY_CRITICAL);
                 notify_notification_set_timeout (data->ata_smart_notification, NOTIFY_EXPIRES_NEVER);
                 show_notification (data);

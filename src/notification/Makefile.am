@@ -25,7 +25,7 @@ mdu_notification_daemon_CFLAGS = 			\
 	$(GIO_UNIX2_CFLAGS)				\
 	$(GTK2_CFLAGS)					\
 	$(WARN_CFLAGS)					\
-	$(LIBMATENOTIFY_CFLAGS)				\
+	$(LIBNOTIFY_CFLAGS)				\
 	$(AM_CFLAGS)
 
 mdu_notification_daemon_LDFLAGS = 			\
@@ -36,7 +36,7 @@ mdu_notification_daemon_LDADD = 			\
 	$(GOBJECT2_LIBS)				\
 	$(GIO2_LIBS)					\
 	$(GTK2_LIBS)					\
-	$(LIBMATENOTIFY_LIBS)				\
+	$(LIBNOTIFY_LIBS)				\
 	$(top_builddir)/src/mdu/libmdu.la		\
 	$(top_builddir)/src/mdu-gtk/libmdu-gtk.la
 
