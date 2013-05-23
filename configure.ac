@@ -1,4 +1,4 @@
-AC_INIT([MATE Disk Utility],[1.4.0],[https://bugzilla.mate.org/enter_bug.cgi?product=mate-disk-utility],[mate-disk-utility])
+AC_INIT([MATE Disk Utility],[1.6.0],[https://bugzilla.mate.org/enter_bug.cgi?product=mate-disk-utility],[mate-disk-utility])
 
 AM_INIT_AUTOMAKE([1.9 foreign dist-bzip2 no-dist-gzip])
 
