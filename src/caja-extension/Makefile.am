@@ -1,6 +1,6 @@
 NULL =
 
-INCLUDES =						\
+AM_CPPFLAGS =						\
 	-DDATADIR=\"$(datadir)\"			\
 	-DMATELOCALEDIR=\""$(datadir)/locale"\"	\
 	-DLIBEXECDIR=\"$(libexecdir)\"			\
