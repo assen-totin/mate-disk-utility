@@ -1,6 +1,6 @@
 NULL =
 
-AM_CPPFLAGS =						\
+INCLUDES =						\
 	-DDATADIR=\"$(datadir)\"			\
 	-DMATELOCALEDIR=\""$(datadir)/locale"\"	\
 	-I$(top_srcdir)/src				\
@@ -18,7 +18,6 @@ CORE_CFLAGS = 						\
 	$(GIO_UNIX2_CFLAGS)				\
 	$(GTHREAD2_CFLAGS)				\
 	$(GTK2_CFLAGS)					\
-	$(AM_CPPFLAGS)					\
 	$(NULL)
 
 CORE_LIBADD = 						\
