@@ -1,8 +1,28 @@
 -------------------------
-mate-disk-utility 2.32.0
+mate-disk-utility 1.6.1
 -------------------------
 
 The mate-disk-utility project provides libraries and applications for
+dealing with storage devices. It relies on the udisks project.
+
+- add add support for DeviceAutomountHint
+- several improvments
+
+-------------------------
+mate-disk-utility 1.6.0
+-------------------------
+
+The mate-disk-utility project provides libraries and applications for
+dealing with storage devices. It relies on the udisks project.
+
+- switch to libnotify
+
+
+-------------------------
+gnome-disk-utility 2.32.0
+-------------------------
+
+The gnome-disk-utility project provides libraries and applications for
 dealing with storage devices. It relies on the udisks project.
 
 David Yu-Chia Chang (1):
