@@ -7,5 +7,5 @@ Terminal=false
 Type=Application
 StartupNotify=true
 X-MATE-DocPath=matepalimpsest/matepalimpsest.xml
-Categories=MATE;GTK;System;
+Categories=GTK;System;
 
