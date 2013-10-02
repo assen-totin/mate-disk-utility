@@ -143,6 +143,7 @@ const char *mdu_device_drive_get_wwn (MduDevice *device);
 const char *mdu_device_drive_get_connection_interface (MduDevice *device);
 guint64 mdu_device_drive_get_connection_speed (MduDevice *device);
 char **mdu_device_drive_get_media_compatibility (MduDevice *device);
+const gchar *mdu_device_get_automount_hint(MduDevice *device);
 const char *mdu_device_drive_get_media (MduDevice *device);
 gboolean mdu_device_drive_get_is_media_ejectable (MduDevice *device);
 gboolean mdu_device_drive_get_requires_eject (MduDevice *device);
