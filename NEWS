@@ -211,7 +211,7 @@ David Zeuthen (163):
       Add a way to change the name of a Volume Group
       Add a way to change the name of a Logical Volume
       Make it possible to delete a LVM2 LV
-      Make MATE Keyring usage optional
+      Make GNOME Keyring usage optional
       First cut add creating LVM2 Logical Volumes
       Add UI for editing (add/remove) PVs in a VG
       Update POTFILES.in
@@ -240,7 +240,7 @@ David Zeuthen (163):
       Catch up with udisks API changes and implement Expansion for Linux's MD RAID
       Provide 24x24 application icon
       Show a warning if a partition is not properly aligned
-      Handle quirky mate_keyring_find_password_sync() behavior
+      Handle quirky gnome_keyring_find_password_sync() behavior
       lvm2: Implement various GduDrive vfuncs related to activation
       Add gitignore file
       Add a get_volumes() method to GduDrive

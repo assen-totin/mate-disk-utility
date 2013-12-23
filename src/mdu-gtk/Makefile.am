@@ -112,7 +112,7 @@ libmdu_gtk_la_CFLAGS = 					\
 	$(GIO2_CFLAGS)					\
 	$(GIO_UNIX2_CFLAGS)				\
 	$(DBUS_GLIB_CFLAGS)				\
-	$(MATE_KEYRING_CFLAGS)				\
+	$(GNOME_KEYRING_CFLAGS)				\
 	$(GTK2_CFLAGS)					\
 	$(WARN_CFLAGS)					\
 	$(AM_CFLAGS)					\
@@ -125,7 +125,7 @@ libmdu_gtk_la_LIBADD = 					\
 	$(GIO2_LIBS)					\
 	$(GIO_UNIX2_LIBS)				\
 	$(DBUS_GLIB_LIBS)				\
-	$(MATE_KEYRING_LIBS)				\
+	$(GNOME_KEYRING_LIBS)				\
 	$(GTK2_LIBS)					\
 	$(INTLLIBS)					\
 	$(LIBATASMART_LIBS)				\

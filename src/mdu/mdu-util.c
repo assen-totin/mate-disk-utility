@@ -26,8 +26,8 @@
 #include <string.h>
 #include <dbus/dbus-glib.h>
 
-#ifdef HAVE_MATE_KEYRING
-#include <mate-keyring.h>
+#ifdef HAVE_GNOME_KEYRING
+#include <gnome-keyring.h>
 #endif
 
 #include "mdu-util.h"
@@ -683,11 +683,11 @@ mdu_util_get_default_part_type_for_scheme_and_fstype (const char *scheme, const 
 
 /* ---------------------------------------------------------------------------------------------------- */
 
-#ifdef HAVE_MATE_KEYRING
-static MateKeyringPasswordSchema encrypted_device_password_schema = {
-        MATE_KEYRING_ITEM_GENERIC_SECRET,
+#ifdef HAVE_GNOME_KEYRING
+static GnomeKeyringPasswordSchema encrypted_device_password_schema = {
+        GNOME_KEYRING_ITEM_GENERIC_SECRET,
         {
-                { "luks-device-uuid", MATE_KEYRING_ATTRIBUTE_TYPE_STRING },
+                { "luks-device-uuid", GNOME_KEYRING_ATTRIBUTE_TYPE_STRING },
                 { NULL, 0 }
         }
 };
@@ -715,14 +715,14 @@ mdu_util_get_secret (MduDevice *device)
                 goto out;
         }
 
-        if (!mate_keyring_find_password_sync (&encrypted_device_password_schema,
+        if (!gnome_keyring_find_password_sync (&encrypted_device_password_schema,
                                                &password,
                                                "luks-device-uuid", uuid,
-                                               NULL) == MATE_KEYRING_RESULT_OK)
+                                               NULL) == GNOME_KEYRING_RESULT_OK)
                 goto out;
 
         ret = g_strdup (password);
-        mate_keyring_free_password (password);
+        gnome_keyring_free_password (password);
 
 out:
         return ret;
@@ -751,14 +751,14 @@ mdu_util_have_secret (MduDevice *device)
                 goto out;
         }
 
-        if (!mate_keyring_find_password_sync (&encrypted_device_password_schema,
+        if (!gnome_keyring_find_password_sync (&encrypted_device_password_schema,
                                                &password,
                                                "luks-device-uuid", uuid,
-                                               NULL) == MATE_KEYRING_RESULT_OK)
+                                               NULL) == GNOME_KEYRING_RESULT_OK)
                 goto out;
 
         ret = TRUE;
-        mate_keyring_free_password (password);
+        gnome_keyring_free_password (password);
 
 out:
         return ret;
@@ -786,9 +786,9 @@ mdu_util_delete_secret (MduDevice *device)
                 goto out;
         }
 
-        ret = mate_keyring_delete_password_sync (&encrypted_device_password_schema,
+        ret = gnome_keyring_delete_password_sync (&encrypted_device_password_schema,
                                                   "luks-device-uuid", uuid,
-                                                  NULL) == MATE_KEYRING_RESULT_OK;
+                                                  NULL) == GNOME_KEYRING_RESULT_OK;
 
 out:
         return ret;
@@ -823,16 +823,16 @@ mdu_util_save_secret (MduDevice      *device,
 
         keyring = NULL;
         if (save_in_keyring_session)
-                keyring = MATE_KEYRING_SESSION;
+                keyring = GNOME_KEYRING_SESSION;
 
         name = g_strdup_printf (_("LUKS Passphrase for UUID %s"), uuid);
 
-        if (mate_keyring_store_password_sync (&encrypted_device_password_schema,
+        if (gnome_keyring_store_password_sync (&encrypted_device_password_schema,
                                                keyring,
                                                name,
                                                secret,
                                                "luks-device-uuid", uuid,
-                                               NULL) != MATE_KEYRING_RESULT_OK) {
+                                               NULL) != GNOME_KEYRING_RESULT_OK) {
                 g_warning ("%s: couldn't store passphrase in keyring", __FUNCTION__);
                 goto out;
         }
@@ -845,7 +845,7 @@ out:
 }
 
 /* ---------------------------------------------------------------------------------------------------- */
-#else /* ifdef HAVE_MATE_KEYRING */
+#else /* ifdef HAVE_GNOME_KEYRING */
 
 gboolean
 mdu_util_save_secret (MduDevice      *device,
