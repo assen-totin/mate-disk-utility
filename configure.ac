@@ -1,6 +1,6 @@
-AC_INIT([MATE Disk Utility],[1.6.1],[https://bugzilla.mate.org/enter_bug.cgi?product=mate-disk-utility],[mate-disk-utility])
+AC_INIT([MATE Disk Utility],[1.6.2],[https://bugzilla.mate.org/enter_bug.cgi?product=mate-disk-utility],[mate-disk-utility])
 
-AM_INIT_AUTOMAKE([1.9 foreign dist-bzip2 no-dist-gzip])
+AM_INIT_AUTOMAKE([1.9 foreign dist-xz no-dist-gzip])
 
 AC_CONFIG_SRCDIR([src])
 AC_CONFIG_HEADERS([config.h])
