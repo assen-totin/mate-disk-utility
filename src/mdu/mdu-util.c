@@ -26,8 +26,10 @@
 #include <string.h>
 #include <dbus/dbus-glib.h>
 
-#ifdef HAVE_GNOME_KEYRING
-#include <gnome-keyring.h>
+#ifdef HAVE_MATE_KEYRING
+#include <mate-keyring.h>
+#elif HAVE_LIBSECRET
+#include <libsecret/secret.h>
 #endif
 
 #include "mdu-util.h"
@@ -683,11 +685,11 @@ mdu_util_get_default_part_type_for_scheme_and_fstype (const char *scheme, const 
 
 /* ---------------------------------------------------------------------------------------------------- */
 
-#ifdef HAVE_GNOME_KEYRING
-static GnomeKeyringPasswordSchema encrypted_device_password_schema = {
-        GNOME_KEYRING_ITEM_GENERIC_SECRET,
+#ifdef HAVE_MATE_KEYRING
+static MateKeyringPasswordSchema encrypted_device_password_schema = {
+        MATE_KEYRING_ITEM_GENERIC_SECRET,
         {
-                { "luks-device-uuid", GNOME_KEYRING_ATTRIBUTE_TYPE_STRING },
+                { "luks-device-uuid", MATE_KEYRING_ATTRIBUTE_TYPE_STRING },
                 { NULL, 0 }
         }
 };
@@ -715,14 +717,14 @@ mdu_util_get_secret (MduDevice *device)
                 goto out;
         }
 
-        if (!gnome_keyring_find_password_sync (&encrypted_device_password_schema,
+        if (!mage_keyring_find_password_sync (&encrypted_device_password_schema,
                                                &password,
                                                "luks-device-uuid", uuid,
-                                               NULL) == GNOME_KEYRING_RESULT_OK)
+                                               NULL) == MATE_KEYRING_RESULT_OK)
                 goto out;
 
         ret = g_strdup (password);
-        gnome_keyring_free_password (password);
+        mate_keyring_free_password (password);
 
 out:
         return ret;
@@ -751,14 +753,14 @@ mdu_util_have_secret (MduDevice *device)
                 goto out;
         }
 
-        if (!gnome_keyring_find_password_sync (&encrypted_device_password_schema,
+        if (!mate_keyring_find_password_sync (&encrypted_device_password_schema,
                                                &password,
                                                "luks-device-uuid", uuid,
-                                               NULL) == GNOME_KEYRING_RESULT_OK)
+                                               NULL) == MATE_KEYRING_RESULT_OK)
                 goto out;
 
         ret = TRUE;
-        gnome_keyring_free_password (password);
+        mate_keyring_free_password (password);
 
 out:
         return ret;
@@ -786,9 +788,9 @@ mdu_util_delete_secret (MduDevice *device)
                 goto out;
         }
 
-        ret = gnome_keyring_delete_password_sync (&encrypted_device_password_schema,
+        ret = mate_keyring_delete_password_sync (&encrypted_device_password_schema,
                                                   "luks-device-uuid", uuid,
-                                                  NULL) == GNOME_KEYRING_RESULT_OK;
+                                                  NULL) == MATE_KEYRING_RESULT_OK;
 
 out:
         return ret;
@@ -823,16 +825,16 @@ mdu_util_save_secret (MduDevice      *device,
 
         keyring = NULL;
         if (save_in_keyring_session)
-                keyring = GNOME_KEYRING_SESSION;
+                keyring = MATE_KEYRING_SESSION;
 
         name = g_strdup_printf (_("LUKS Passphrase for UUID %s"), uuid);
 
-        if (gnome_keyring_store_password_sync (&encrypted_device_password_schema,
+        if (mate_keyring_store_password_sync (&encrypted_device_password_schema,
                                                keyring,
                                                name,
                                                secret,
                                                "luks-device-uuid", uuid,
-                                               NULL) != GNOME_KEYRING_RESULT_OK) {
+                                               NULL) != MATE_KEYRING_RESULT_OK) {
                 g_warning ("%s: couldn't store passphrase in keyring", __FUNCTION__);
                 goto out;
         }
@@ -844,8 +846,133 @@ out:
         return ret;
 }
 
+#elif HAVE_LIBSECRET
+static SecretSchema encrypted_device_password_schema = {
+        "org.mate.palimpsest",
+        SECRET_SCHEMA_NONE,
+        {
+                { "luks-device-uuid", SECRET_SCHEMA_ATTRIBUTE_STRING },
+                { NULL, 0 }
+        }
+};
+
+gchar *gdu_util_get_secret (GduDevice *device) {
+        const char *usage;
+        const char *uuid;
+        char *password;
+        gchar *ret;
+                GError *error = NULL;
+
+        usage = gdu_device_id_get_usage (device);
+        uuid = gdu_device_id_get_uuid (device);
+
+        if (strcmp (usage, "crypto") != 0) {
+                g_warning ("%s: device is not a crypto device", __FUNCTION__);
+                return NULL;
+        }
+
+        if (uuid == NULL || strlen (uuid) == 0) {
+                g_warning ("%s: device has no UUID", __FUNCTION__);
+                return NULL;
+        }
+
+
+        password = secret_password_lookup_sync(&encrypted_device_password_schema, NULL, &error, "luks-device-uuid", uuid, NULL);
+        if (!password || error)
+                return NULL;
+
+        ret = g_strdup(password);
+        secret_password_free(password);
+
+        return ret;
+}
+
+gboolean gdu_util_have_secret (GduDevice *device) {
+        const char *usage;
+        const char *uuid;
+                GError *error = NULL;
+
+        usage = gdu_device_id_get_usage (device);
+        uuid = gdu_device_id_get_uuid (device);
+
+        if (strcmp (usage, "crypto") != 0) {
+                g_warning ("%s: device is not a crypto device", __FUNCTION__);
+                return FALSE;
+        }
+
+        if (uuid == NULL || strlen (uuid) == 0) {
+                g_warning ("%s: device has no UUID", __FUNCTION__);
+                return FALSE;
+        }
+
+        if (!secret_password_lookup_sync(&encrypted_device_password_schema, NULL, &error, "luks-device-uuid", uuid, NULL))
+                return FALSE;
+
+        return TRUE;
+}
+
+gboolean gdu_util_delete_secret (GduDevice *device) {
+        const char *usage;
+        const char *uuid;
+        GError *error = NULL;
+
+        usage = gdu_device_id_get_usage (device);
+        uuid = gdu_device_id_get_uuid (device);
+
+        if (strcmp (usage, "crypto") != 0) {
+                g_warning ("%s: device is not a crypto device", __FUNCTION__);
+                return FALSE;
+        }
+
+        if (uuid == NULL || strlen (uuid) == 0) {
+                g_warning ("%s: device has no UUID", __FUNCTION__);
+                return FALSE;
+        }
+
+        secret_password_clear_sync (&encrypted_device_password_schema, NULL, &error, "luks-device-uuid", uuid, NULL);
+        if (error)
+                return FALSE;
+
+        return TRUE;
+}
+
+gboolean gdu_util_save_secret (GduDevice *device, const char *password, gboolean save_in_keyring_session) {
+        const gchar *collection = NULL;
+        const char *usage;
+        const char *uuid;
+        gchar *label = NULL;
+        GError *error = NULL;
+
+        usage = gdu_device_id_get_usage (device);
+        uuid = gdu_device_id_get_uuid (device);
+
+        if (strcmp (usage, "crypto") != 0) {
+                g_warning ("%s: device is not a crypto device", __FUNCTION__);
+                return FALSE;
+        }
+
+        if (uuid == NULL || strlen (uuid) == 0) {
+                g_warning ("%s: device has no UUID", __FUNCTION__);
+                return FALSE;
+        }
+
+        if (save_in_keyring_session)
+                collection = SECRET_COLLECTION_SESSION;
+
+        label = g_strdup_printf (_("LUKS Passphrase for UUID %s"), uuid);
+
+        secret_password_store_sync (&encrypted_device_password_schema, collection, label, password, NULL, &error, "luks-device-uuid", uuid, NULL);
+        if (error) {
+                g_warning ("%s: couldn't store passphrase in collection", __FUNCTION__);
+                return FALSE;
+        }
+
+        g_free (label);
+        return TRUE;
+}
+
 /* ---------------------------------------------------------------------------------------------------- */
-#else /* ifdef HAVE_GNOME_KEYRING */
+#else /* ifdef HAVE_MATE_KEYRING */
 
 gboolean
 mdu_util_save_secret (MduDevice      *device,

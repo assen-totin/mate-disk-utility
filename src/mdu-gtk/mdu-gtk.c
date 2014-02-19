@@ -26,8 +26,10 @@
 #include <string.h>
 #include <dbus/dbus-glib.h>
 
-#ifdef HAVE_GNOME_KEYRING
-#include <gnome-keyring.h>
+#ifdef HAVE_MATE_KEYRING
+#include <mate-keyring.h>
+#elif HAVE_LIBSECRET
+#include <libsecret/secret.h>
 #endif
 
 #include <mdu/mdu.h>
@@ -818,11 +820,20 @@ out:
         return secret;
 }
 
-#ifdef HAVE_GNOME_KEYRING
-static GnomeKeyringPasswordSchema encrypted_device_password_schema = {
+#ifdef HAVE_MATE_KEYRING
+static MateKeyringPasswordSchema encrypted_device_password_schema = {
         GNOME_KEYRING_ITEM_GENERIC_SECRET,
         {
                 { "luks-device-uuid", GNOME_KEYRING_ATTRIBUTE_TYPE_STRING },
+                { NULL, 0 }
+        }
+};
+#elif HAVE_LIBSECRET
+static SecretSchema encrypted_device_password_schema = {
+        "org.mate.palimpsest",
+        SECRET_SCHEMA_NONE,
+        {
+                { "luks-device-uuid", SECRET_SCHEMA_ATTRIBUTE_STRING },
                 { NULL, 0 }
         }
 };
@@ -906,7 +917,7 @@ mdu_util_dialog_ask_for_secret (GtkWidget      *parent_window,
         }
 
         if (!bypass_keyring) {
-#ifdef HAVE_GNOME_KEYRING
+#ifdef HAVE_MATE_KEYRING
                 password = NULL;
                 if (gnome_keyring_find_password_sync (&encrypted_device_password_schema,
                                                       &password,
@@ -917,6 +928,14 @@ mdu_util_dialog_ask_for_secret (GtkWidget      *parent_window,
                          */
                         secret = g_strdup (password);
                         gnome_keyring_free_password (password);
+                        goto out;
+                }
+#elif HAVE_LIBSECRET
+                GError *error = NULL;
+                password = secret_password_lookup_sync(&encrypted_device_password_schema, NULL, &error, "luks-device-uuid", uuid, NULL);
+                if (password) {
+                        secret = g_strdup (password);
+                        secret_password_free(password);
                         goto out;
                 }
 #endif
@@ -954,7 +973,7 @@ mdu_util_dialog_ask_for_secret (GtkWidget      *parent_window,
         if (asked_user != NULL)
                 *asked_user = TRUE;
 
-#ifdef HAVE_GNOME_KEYRING
+#ifdef HAVE_MATE_KEYRING
         if (secret != NULL && (save_in_keyring || save_in_keyring_session)) {
                 const char *keyring;
                 gchar *name;
@@ -975,6 +994,24 @@ mdu_util_dialog_ask_for_secret (GtkWidget      *parent_window,
                 }
 
                 g_free (name);
+        }
+#elif HAVE_LIBSECRET
+        if (secret != NULL && (save_in_keyring || save_in_keyring_session)) {
+                const char *collection = NULL;
+                gchar *label;
+                GError *error = NULL;
+
+                if (save_in_keyring_session)
+                        collection = SECRET_COLLECTION_SESSION;
+
+                label = g_strdup_printf (_("LUKS Passphrase for UUID %s"), uuid);
+
+                secret_password_store_sync (&encrypted_device_password_schema, collection, label, password, NULL, &error, "luks-device-uuid", uuid, NULL);
+
+                if (error)
+                        g_warning ("%s: couldn't store passphrase in collection", __FUNCTION__);
+
+                g_free (label);
         }
 #endif
 
@@ -1049,7 +1086,7 @@ mdu_util_dialog_change_secret (GtkWidget       *parent_window,
                 goto out;
         }
 
-#ifdef HAVE_GNOME_KEYRING
+#ifdef HAVE_MATE_KEYRING
         if (!bypass_keyring) {
                 password = NULL;
                 if (gnome_keyring_find_password_sync (&encrypted_device_password_schema,
@@ -1061,6 +1098,15 @@ mdu_util_dialog_change_secret (GtkWidget       *parent_window,
                          */
                         old_secret_from_keyring = g_strdup (password);
                         gnome_keyring_free_password (password);
+                }
+        }
+#elif HAVE_LIBSECRET
+        if (!bypass_keyring) {
+                GError *error = NULL;
+                password = secret_password_lookup_sync(&encrypted_device_password_schema, NULL, &error, "luks-device-uuid", uuid, NULL);
+                if (!password) {
+                        old_secret_from_keyring = g_strdup (password);
+                        secret_password_free(password);
                 }
         }
 #endif

@@ -102,7 +102,8 @@ libmdu_la_CFLAGS = 					\
 	$(GIO2_CFLAGS)					\
 	$(GIO_UNIX2_CFLAGS)				\
 	$(DBUS_GLIB_CFLAGS)				\
-	$(GNOME_KEYRING_CFLAGS)				\
+	$(MATE_KEYRING_CFLAGS)				\
+	$(LIBSECRET_CFLAGS)				\
 	$(WARN_CFLAGS)					\
 	$(AM_CFLAGS)
 
@@ -111,7 +112,8 @@ libmdu_la_LIBADD = 					\
 	$(GIO2_LIBS)					\
 	$(GIO_UNIX2_LIBS)				\
 	$(DBUS_GLIB_LIBS)				\
-	$(GNOME_KEYRING_LIBS)				\
+	$(MATE_KEYRING_LIBS)				\
+	$(LIBSECRET_LIBS)				\
 	$(INTLLIBS)
 
 libmdu_la_LDFLAGS = -version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE) \

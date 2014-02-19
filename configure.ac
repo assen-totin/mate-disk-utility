@@ -125,7 +125,8 @@ GLIB2_REQUIRED=2.22
 GOBJECT2_REQUIRED=2.16
 GIO2_REQUIRED=2.22
 DBUS_GLIB_REQUIRED=0.74
-GNOME_KEYRING_REQUIRED=1.2.0
+MATE_KEYRING_REQUIRED=1.6.0
+LIBSECRET_REQUIRED=0.16
 GTK2_REQUIRED=2.20.0
 UNIQUE_REQUIRED=1.0
 LIBNOTIFY_REQUIRED=0.6.1
@@ -163,25 +164,51 @@ if test "x$enable_remote_access" != "xno"; then
 fi
 AM_CONDITIONAL(HAVE_REMOTE_ACCESS, [test "$have_remote_access" = "yes"])
 
-# *************
-# GNOME Keyring
-# *************
+# *************************
+# Libsecret or MATE Keyring
+# *************************
+have_libsecret=no
+have_mate_keyring=no
+selected_keyring=none
+FORCED_KEYRING=none
+AC_ARG_ENABLE([keyring], [AS_HELP_STRING([--enable-keyring], [compile for specified secret storage, mate or libsecret (default: autodetect, prefer libsecret)])], [FORCED_KEYRING=$enableval])
+PKG_CHECK_MODULES([LIBSECRET], [libsecret-1 >= $LIBSECRET_REQUIRED], [AC_DEFINE(HAVE_LIBSECRET, 1, [Define if libsecret is available]) have_libsecret=yes], [have_libsecret=no])
+PKG_CHECK_MODULES([MATE_KEYRING], [mate-keyring-1 >= $MATE_KEYRING_REQUIRED], [AC_DEFINE(HAVE_MATE_KEYRING, 1, [Define if mate-keyring is available]) have_mate_keyring=yes], [have_mate_keyring=no])
 
-have_gnome_keyring=no
-AC_ARG_ENABLE(gnome-keyring, AS_HELP_STRING([--disable-gnome-keyring], [disable use of GNOME Keyring]))
-
-if test "x$enable_gnome_keyring" != "xno"; then
-	PKG_CHECK_MODULES(GNOME_KEYRING, gnome-keyring-1 >= $GNOME_KEYRING_REQUIRED,
-			  [AC_DEFINE(HAVE_GNOME_KEYRING, 1, [Define if gnome-keyring is available])
-			  have_gnome_keyring=yes], have_gnome_keyring=no)
-	if test "x$have_gnome_keyring" = xno -a "x$enable_gnome_keyring" = xyes; then
-		AC_MSG_ERROR([gnome-keyring support requested but libraries not found])
-	fi
+if test "x$FORCED_KEYRING" = xlibsecret; then
+        if test "x$have_libsecret" = xno; then
+                AC_MSG_ERROR([libsecret support requested but libraries not found])
+        else
+                selected_keyring=$FORCED_KEYRING
+        fi
+elif test "x$FORCED_KEYRING" = xlibsecret; then
+        if test "x$have_mate_keyring" = xno; then
+                AC_MSG_ERROR([mate-keyring support requested but libraries not found])
+        else
+                selected_keyring=$FORCED_KEYRING
+        fi
+else
+        if test "x$have_libsecret" = xyes; then
+                selected_keyring=libsecret
+        elif test "x$have_mate_keyring" = xyes; then
+                selected_keyring=mate
+        fi
 fi
 
-AC_SUBST(GNOME_KEYRING_LIBS)
-AC_SUBST(GNOME_KEYRING_CFLAGS)
-AM_CONDITIONAL(ENABLE_GNOME_KEYRING, [test "$have_gnome_keyring" = "yes"])
+if test "x$selected_keyring" = xlibsecret; then
+        MATE_KEYRING_LIBS=""
+        MATE_KEYRING_CFLAGS=""
+elif test "x$selected_keyring" = xmate; then
+        LIBSECRET_LIBS=""
+        LIBSECRET_CFLAGS=""
+fi
+
+AC_SUBST([LIBSECRET_LIBS])
+AC_SUBST([LIBSECRET_CFLAGS])
+AC_SUBST([MATE_KEYRING_LIBS])
+AC_SUBST([MATE_KEYRING_CFLAGS])
+AM_CONDITIONAL(ENABLE_LIBSECRET, [test "x$selected_keyring" = "xlibsecret"])
+AM_CONDITIONAL(ENABLE_MATE_KEYRING, [test "x$selected_keyring" = "xmate"])
 
 # *************
 # Documentation
@@ -279,8 +306,8 @@ echo "
 
         Maintainer mode:            ${USE_MAINTAINER_MODE}
         Building api docs:          ${enable_gtk_doc}
-        Caja extension:         ${have_caja}
+        Caja extension:             ${have_caja}
 
-        GNOME Keyring support:      ${have_gnome_keyring}
+        Keyring support:            ${selected_keyring}
         Remote Access:              ${have_remote_access}
 "
