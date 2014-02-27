@@ -856,15 +856,15 @@ static SecretSchema encrypted_device_password_schema = {
         }
 };
 
-gchar *gdu_util_get_secret (GduDevice *device) {
+gchar *mdu_util_get_secret (MduDevice *device) {
         const char *usage;
         const char *uuid;
         char *password;
         gchar *ret;
                 GError *error = NULL;
 
-        usage = gdu_device_id_get_usage (device);
-        uuid = gdu_device_id_get_uuid (device);
+        usage = mdu_device_id_get_usage (device);
+        uuid = mdu_device_id_get_uuid (device);
 
         if (strcmp (usage, "crypto") != 0) {
                 g_warning ("%s: device is not a crypto device", __FUNCTION__);
@@ -887,13 +887,13 @@ gchar *gdu_util_get_secret (GduDevice *device) {
         return ret;
 }
 
-gboolean gdu_util_have_secret (GduDevice *device) {
+gboolean mdu_util_have_secret (MduDevice *device) {
         const char *usage;
         const char *uuid;
                 GError *error = NULL;
 
-        usage = gdu_device_id_get_usage (device);
-        uuid = gdu_device_id_get_uuid (device);
+        usage = mdu_device_id_get_usage (device);
+        uuid = mdu_device_id_get_uuid (device);
 
         if (strcmp (usage, "crypto") != 0) {
                 g_warning ("%s: device is not a crypto device", __FUNCTION__);
@@ -911,13 +911,13 @@ gboolean gdu_util_have_secret (GduDevice *device) {
         return TRUE;
 }
 
-gboolean gdu_util_delete_secret (GduDevice *device) {
+gboolean mdu_util_delete_secret (MduDevice *device) {
         const char *usage;
         const char *uuid;
         GError *error = NULL;
 
-        usage = gdu_device_id_get_usage (device);
-        uuid = gdu_device_id_get_uuid (device);
+        usage = mdu_device_id_get_usage (device);
+        uuid = mdu_device_id_get_uuid (device);
 
         if (strcmp (usage, "crypto") != 0) {
                 g_warning ("%s: device is not a crypto device", __FUNCTION__);
@@ -936,15 +936,15 @@ gboolean gdu_util_delete_secret (GduDevice *device) {
         return TRUE;
 }
 
-gboolean gdu_util_save_secret (GduDevice *device, const char *password, gboolean save_in_keyring_session) {
+gboolean mdu_util_save_secret (MduDevice *device, const char *password, gboolean save_in_keyring_session) {
         const gchar *collection = NULL;
         const char *usage;
         const char *uuid;
         gchar *label = NULL;
         GError *error = NULL;
 
-        usage = gdu_device_id_get_usage (device);
-        uuid = gdu_device_id_get_uuid (device);
+        usage = mdu_device_id_get_usage (device);
+        uuid = mdu_device_id_get_uuid (device);
 
         if (strcmp (usage, "crypto") != 0) {
                 g_warning ("%s: device is not a crypto device", __FUNCTION__);
