@@ -107,10 +107,12 @@ fi
 # *****
 
 MATE_COMMON_INIT
-MATE_DOC_INIT
 MATE_DEBUG_CHECK
 MATE_COMPILE_WARNINGS([maximum])
 MATE_MAINTAINER_MODE_DEFINES
+
+# User documentation
+YELP_HELP_INIT
 
 AC_ARG_ENABLE(gtk-doc, AS_HELP_STRING([--enable-gtk-doc],
   [use gtk-doc to build documentation [default=no]]),,
@@ -136,7 +138,6 @@ AVAHI_UI_REQUIRED=0.6.25
 UDISKS_REQUIRED=1.0.0
 UDISKS_NEXT_ABI_INCOMPATIBLE_VERSION=1.1.0
 
-SCROLLKEEPER_REQUIRED=0.3.14
 INTLTOOL_REQUIRED=0.35.0
 
 PKG_CHECK_MODULES(GLIB2, [glib-2.0 >= $GLIB2_REQUIRED])
@@ -209,15 +210,6 @@ AC_SUBST([MATE_KEYRING_LIBS])
 AC_SUBST([MATE_KEYRING_CFLAGS])
 AM_CONDITIONAL(ENABLE_LIBSECRET, [test "x$selected_keyring" = "xlibsecret"])
 AM_CONDITIONAL(ENABLE_MATE_KEYRING, [test "x$selected_keyring" = "xmate"])
-
-# *************
-# Documentation
-# *************
-
-AC_PATH_PROG(SCROLLKEEPER_CONFIG, scrollkeeper-config,no)
-if test x$SCROLLKEEPER_CONFIG = xno; then
-  AC_MSG_ERROR(Couldn't find scrollkeeper-config, please install the scrollkeeper package)
-fi
 
 # ********************
 # Internationalization

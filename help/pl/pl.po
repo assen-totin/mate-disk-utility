@@ -45,8 +45,8 @@ msgid "MATE Documentation Project"
 msgstr "Projekt dokumentacji MATE"
 
 #: C/matepalimpsest.xml:2(para)
-msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
-msgstr "Udziela się zezwolenia na kopiowanie, rozpowszechniania i modyfikację tego dokumentu zgodnie z zasadami Licencji GNU Wolnej Dokumentacji w wersji 1.1 lub dowolnej późniejszej wersji opublikowanej przez Free Software Foundation; bez Części Stałych, bez Treści Przedniej Okładki oraz bez Treści Tylnej Okładki. Kopię GFDL można znaleźć pod tym <ulink type=\"help\" url=\"ghelp:fdl\">odnośnikiem</ulink> lub w pliku COPYING-DOCS rozpowszechnianym z tym podręcznikiem."
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+msgstr "Udziela się zezwolenia na kopiowanie, rozpowszechniania i modyfikację tego dokumentu zgodnie z zasadami Licencji GNU Wolnej Dokumentacji w wersji 1.1 lub dowolnej późniejszej wersji opublikowanej przez Free Software Foundation; bez Części Stałych, bez Treści Przedniej Okładki oraz bez Treści Tylnej Okładki. Kopię GFDL można znaleźć pod tym <ulink type=\"help\" url=\"help:fdl\">odnośnikiem</ulink> lub w pliku COPYING-DOCS rozpowszechnianym z tym podręcznikiem."
 
 #: C/matepalimpsest.xml:12(para)
 msgid "This manual is part of a collection of MATE manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
@@ -97,8 +97,8 @@ msgid "Feedback"
 msgstr "Opinie"
 
 #: C/matepalimpsest.xml:58(para)
-msgid "To report a bug or make a suggestion regarding the <application>MatePalimpsest Disk Utility</application> application or this manual, follow the directions in the <ulink url=\"ghelp:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
-msgstr "Aby zgłosić błąd lub zaproponować poprawkę w programie <application>Narzędzie dysku MatePalimpsest</application> lub tym podręczniku użytkownika, proszę postępować zgodnie ze wskazówkami na <ulink url=\"ghelp:mate-feedback\" type=\"help\">stronie zgłaszania opinii MATE</ulink>."
+msgid "To report a bug or make a suggestion regarding the <application>MatePalimpsest Disk Utility</application> application or this manual, follow the directions in the <ulink url=\"help:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
+msgstr "Aby zgłosić błąd lub zaproponować poprawkę w programie <application>Narzędzie dysku MatePalimpsest</application> lub tym podręczniku użytkownika, proszę postępować zgodnie ze wskazówkami na <ulink url=\"help:mate-feedback\" type=\"help\">stronie zgłaszania opinii MATE</ulink>."
 
 #: C/matepalimpsest.xml:66(title)
 msgid "Introduction."
