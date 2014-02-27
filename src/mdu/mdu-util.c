@@ -717,7 +717,7 @@ mdu_util_get_secret (MduDevice *device)
                 goto out;
         }
 
-        if (!mage_keyring_find_password_sync (&encrypted_device_password_schema,
+        if (!mate_keyring_find_password_sync (&encrypted_device_password_schema,
                                                &password,
                                                "luks-device-uuid", uuid,
                                                NULL) == MATE_KEYRING_RESULT_OK)

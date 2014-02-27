@@ -822,9 +822,9 @@ out:
 
 #ifdef HAVE_MATE_KEYRING
 static MateKeyringPasswordSchema encrypted_device_password_schema = {
-        GNOME_KEYRING_ITEM_GENERIC_SECRET,
+        MATE_KEYRING_ITEM_GENERIC_SECRET,
         {
-                { "luks-device-uuid", GNOME_KEYRING_ATTRIBUTE_TYPE_STRING },
+                { "luks-device-uuid", MATE_KEYRING_ATTRIBUTE_TYPE_STRING },
                 { NULL, 0 }
         }
 };
@@ -919,15 +919,15 @@ mdu_util_dialog_ask_for_secret (GtkWidget      *parent_window,
         if (!bypass_keyring) {
 #ifdef HAVE_MATE_KEYRING
                 password = NULL;
-                if (gnome_keyring_find_password_sync (&encrypted_device_password_schema,
+                if (mate_keyring_find_password_sync (&encrypted_device_password_schema,
                                                       &password,
                                                       "luks-device-uuid", uuid,
-                                                      NULL) == GNOME_KEYRING_RESULT_OK && password != NULL) {
+                                                      NULL) == MATE_KEYRING_RESULT_OK && password != NULL) {
                         /* By contract, the caller is responsible for scrubbing the password
                          * so dupping the string into pageable memory is "fine". Or not?
                          */
                         secret = g_strdup (password);
-                        gnome_keyring_free_password (password);
+                        mate_keyring_free_password (password);
                         goto out;
                 }
 #elif HAVE_LIBSECRET
@@ -980,16 +980,16 @@ mdu_util_dialog_ask_for_secret (GtkWidget      *parent_window,
 
                 keyring = NULL;
                 if (save_in_keyring_session)
-                        keyring = GNOME_KEYRING_SESSION;
+                        keyring = MATE_KEYRING_SESSION;
 
                 name = g_strdup_printf (_("LUKS Passphrase for UUID %s"), uuid);
 
-                if (gnome_keyring_store_password_sync (&encrypted_device_password_schema,
+                if (mate_keyring_store_password_sync (&encrypted_device_password_schema,
                                                        keyring,
                                                        name,
                                                        secret,
                                                        "luks-device-uuid", uuid,
-                                                       NULL) != GNOME_KEYRING_RESULT_OK) {
+                                                       NULL) != MATE_KEYRING_RESULT_OK) {
                         g_warning ("%s: couldn't store passphrase in keyring", __FUNCTION__);
                 }
 
@@ -1089,15 +1089,15 @@ mdu_util_dialog_change_secret (GtkWidget       *parent_window,
 #ifdef HAVE_MATE_KEYRING
         if (!bypass_keyring) {
                 password = NULL;
-                if (gnome_keyring_find_password_sync (&encrypted_device_password_schema,
+                if (mate_keyring_find_password_sync (&encrypted_device_password_schema,
                                                       &password,
                                                       "luks-device-uuid", uuid,
-                                                      NULL) == GNOME_KEYRING_RESULT_OK && password != NULL) {
+                                                      NULL) == MATE_KEYRING_RESULT_OK && password != NULL) {
                         /* By contract, the caller is responsible for scrubbing the password
                          * so dupping the string into pageable memory "fine". Or not?
                          */
                         old_secret_from_keyring = g_strdup (password);
-                        gnome_keyring_free_password (password);
+                        mate_keyring_free_password (password);
                 }
         }
 #elif HAVE_LIBSECRET

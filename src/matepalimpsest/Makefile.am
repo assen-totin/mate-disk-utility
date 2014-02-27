@@ -30,7 +30,8 @@ matepalimpsest_CFLAGS = 					\
 	$(GIO2_CFLAGS)					\
 	$(GIO_UNIX2_CFLAGS)				\
 	$(DBUS_GLIB_CFLAGS)				\
-	$(GNOME_KEYRING_CFLAGS)				\
+	$(MATE_KEYRING_CFLAGS)			\
+	$(LIBSECRET_CFLAGS)				\
 	$(GTK2_CFLAGS)					\
 	$(UNIQUE_CFLAGS)				\
 	$(X11_CFLAGS)					\
@@ -45,7 +46,8 @@ matepalimpsest_LDADD = 					\
 	$(GIO2_LIBS)					\
 	$(GIO_UNIX2_LIBS)				\
 	$(DBUS_GLIB_LIBS)				\
-	$(GNOME_KEYRING_LIBS)				\
+	$(MATE_KEYRING_LIBS)			\
+	$(LIBSECRET_LIBS)				\
 	$(GTK2_LIBS)					\
 	$(UNIQUE_LIBS)					\
 	$(X11_LIBS)					\
