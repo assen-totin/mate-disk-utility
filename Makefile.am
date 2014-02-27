@@ -5,7 +5,6 @@ EXTRA_DIST = \
 	intltool-extract.in	\
 	intltool-merge.in	\
 	intltool-update.in	\
-	mate-doc-utils.make	\
 	TODO
 
 DISTCLEANFILES = \
@@ -15,5 +14,3 @@ DISTCLEANFILES = \
 
 clean-local :
 	rm -f *~ po/*~
-
-DISTCHECK_CONFIGURE_FLAGS = --disable-scrollkeeper
