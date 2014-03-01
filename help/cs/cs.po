@@ -95,8 +95,8 @@ msgid "Feedback"
 msgstr "Ohlasy"
 
 #: C/matepalimpsest.xml:58(para)
-msgid "To report a bug or make a suggestion regarding the <application>MatePalimpsest Disk Utility</application> application or this manual, follow the directions in the <ulink url=\"help:mate-feedback\" type=\"help\">MATE Feedback Page</ulink>."
-msgstr "Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k aplikaci <application>Diskový nástroj MatePalimpsest</application> nebo této příručce, postupujte dle instrukcí na <ulink url=\"help:mate-feedback\" type=\"help\">stránce Ohlasy Uživatelské příručky MATE</ulink>."
+msgid "To report a bug or make a suggestion regarding the <application>MatePalimpsest Disk Utility</application> application or this manual, follow the directions in the <ulink url=\"help:mate-user-quide\" type=\"help\">MATE Feedback Page</ulink>."
+msgstr "Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k aplikaci <application>Diskový nástroj MatePalimpsest</application> nebo této příručce, postupujte dle instrukcí na <ulink url=\"help:mate-user-quide\" type=\"help\">stránce Ohlasy Uživatelské příručky MATE</ulink>."
 
 #: C/matepalimpsest.xml:66(title)
 msgid "Introduction."
