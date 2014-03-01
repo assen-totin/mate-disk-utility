@@ -19,31 +19,31 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/matepalimpsest.xml:73(None)
+#: C/index.docbook:73(None)
 msgid "@@image: 'figures/main-app.png'; md5=5bc3f0bd4d9ae5bb4e46e19d1d649f4b"
 msgstr "@@image: 'figures/main-app.png'; md5=5bc3f0bd4d9ae5bb4e46e19d1d649f4b"
 
-#: C/matepalimpsest.xml:18(title)
-msgid "<application>MatePalimpsest Disk Utility</application> Manual"
+#: C/index.docbook:18(title)
+msgid "<application>Mate Disk Utility</application> Manual"
 msgstr "Manuel de la <application>Utilidad de discos MatePalimpsest</application>"
 
-#: C/matepalimpsest.xml:20(para)
-msgid "This document describes the MatePalimpsest Disk Utility application."
+#: C/index.docbook:20(para)
+msgid "This document describes the Mate Disk Utility application."
 msgstr "Este documento describe la aplicación Utilidad de discos Palmipsest."
 
-#: C/matepalimpsest.xml:25(year) C/matepalimpsest.xml:45(date)
+#: C/index.docbook:25(year) C/index.docbook:45(date)
 msgid "2008"
 msgstr "2008"
 
-#: C/matepalimpsest.xml:26(holder)
+#: C/index.docbook:26(holder)
 msgid "David Zeuthen"
 msgstr "David Zeuthen"
 
-#: C/matepalimpsest.xml:29(publishername)
+#: C/index.docbook:29(publishername)
 msgid "MATE Documentation Project"
 msgstr "Proyecto de documentación de MATE"
 
-#: C/matepalimpsest.xml:2(para)
+#: C/index.docbook:2(para)
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
@@ -60,7 +60,7 @@ msgstr ""
 "<ulink type=\"help\" url=\"help:fdl\">enlace</ulink> o en el archivo "
 "COPYING-DOCS distribuido con este manual."
 
-#: C/matepalimpsest.xml:12(para)
+#: C/index.docbook:12(para)
 msgid ""
 "This manual is part of a collection of MATE manuals distributed under the "
 "GFDL. If you want to distribute this manual separately from the collection, "
@@ -72,7 +72,7 @@ msgstr ""
 "puede hacerlo añadiendo una copia de la licencia al manual, tal como se "
 "describe en la sección 6 de la licencia."
 
-#: C/matepalimpsest.xml:19(para)
+#: C/index.docbook:19(para)
 msgid ""
 "Many of the names used by companies to distinguish their products and "
 "services are claimed as trademarks. Where those names appear in any MATE "
@@ -87,7 +87,7 @@ msgstr ""
 "comerciales, los nombres aparecerán en mayúsculas o con las iniciales en "
 "mayúsculas."
 
-#: C/matepalimpsest.xml:35(para)
+#: C/index.docbook:35(para)
 msgid ""
 "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
 "EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
@@ -114,7 +114,7 @@ msgstr ""
 "NI VERSIÓN MODIFICADA DE ÉSTE POR EL PRESENTE, SALVO DENTRO DEL CUMPLIMIENTO "
 "DE LA RENUNCIA;Y"
 
-#: C/matepalimpsest.xml:55(para)
+#: C/index.docbook:55(para)
 msgid ""
 "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
 "NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
@@ -140,7 +140,7 @@ msgstr ""
 "ELLO, INCLUSO SI SE HABÍA COMUNICADO A AQUELLA PARTE LA POSIBILIDAD DE TALES "
 "DAÑOS."
 
-#: C/matepalimpsest.xml:28(para)
+#: C/index.docbook:28(para)
 msgid ""
 "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
@@ -150,36 +150,36 @@ msgstr ""
 "LAS CONDICIONES ESTABLECIDAS EN LA LICENCIA DE DOCUMENTACIÓN LIBRE DE GNU "
 "(GFDL) Y TENIENDO EN CUENTA QUE: <placeholder-1/>"
 
-#: C/matepalimpsest.xml:34(firstname)
+#: C/index.docbook:34(firstname)
 msgid "David"
 msgstr "David"
 
-#: C/matepalimpsest.xml:34(surname)
+#: C/index.docbook:34(surname)
 msgid "Zeuthen"
 msgstr "Zeuthen"
 
-#: C/matepalimpsest.xml:37(email)
+#: C/index.docbook:37(email)
 msgid "davidz@redhat.com"
 msgstr "davidz@redhat.com"
 
-#: C/matepalimpsest.xml:44(revnumber)
-msgid "MatePalimpsest Disk Utility Manual V 0.1"
+#: C/index.docbook:44(revnumber)
+msgid "Mate Disk Utility Manual V 0.1"
 msgstr "Manuel de la Utilidad de discos MatePalimpsest V 0.1"
 
-#: C/matepalimpsest.xml:47(para)
+#: C/index.docbook:47(para)
 msgid "David Zeuthen <email>davidz@redhat.com</email>"
 msgstr "David Zeuthen <email>davidz@redhat.com</email>"
 
-#: C/matepalimpsest.xml:54(releaseinfo)
-msgid "This manual describes version 0.1 of MatePalimpsest Disk Utility."
+#: C/index.docbook:54(releaseinfo)
+msgid "This manual describes version 0.1 of Mate Disk Utility."
 msgstr ""
 "Este manual describe la versión 0.1 de la Utilidad de discos MatePalimpsest."
 
-#: C/matepalimpsest.xml:57(title)
+#: C/index.docbook:57(title)
 msgid "Feedback"
 msgstr "Comentarios"
 
-#: C/matepalimpsest.xml:58(para)
+#: C/index.docbook:58(para)
 msgid ""
 "To report a bug or make a suggestion regarding the <application>MatePalimpsest "
 "Disk Utility</application> application or this manual, follow the directions "
@@ -191,41 +191,41 @@ msgstr ""
 "manual, siga las indicaciones en la <ulink url=\"help:mate-user-quide\" type="
 "\"help\">Página de comentarios de MATE</ulink>."
 
-#: C/matepalimpsest.xml:66(title)
+#: C/index.docbook:66(title)
 msgid "Introduction."
 msgstr "Introducción."
 
-#: C/matepalimpsest.xml:67(para)
+#: C/index.docbook:67(para)
 msgid ""
-"This is the <application>MatePalimpsest Disk Utility</application> user's guide."
+"This is the <application>Mate Disk Utility</application> user's guide."
 msgstr ""
 "Esta es la guía del usuario de la <application>Utilidad de discos "
 "MatePalimpsest</application>."
 
-#: C/matepalimpsest.xml:69(title)
-msgid "<application>MatePalimpsest Disk Utility</application> Window"
+#: C/index.docbook:69(title)
+msgid "<application>Mate Disk Utility</application> Window"
 msgstr "Ventana de la <application>Utilidad de discos MatePalimpsest</application>"
 
-#: C/matepalimpsest.xml:0(application)
-msgid "MatePalimpsest Disk Utility"
+#: C/index.docbook:0(application)
+msgid "Mate Disk Utility"
 msgstr "Herramienta de discos MatePalimpsest"
 
-#: C/matepalimpsest.xml:77(phrase)
+#: C/index.docbook:77(phrase)
 msgid "Shows <placeholder-1/> main window."
 msgstr "Muestra la ventana principal <placeholder-1/>."
 
-#: C/matepalimpsest.xml:85(title)
-msgid "Advanced MatePalimpsest Disk Utility."
+#: C/index.docbook:85(title)
+msgid "Advanced Mate Disk Utility."
 msgstr "Características avanzadas de la Utilidad de discos MatePalimpsest."
 
-#: C/matepalimpsest.xml:86(para)
+#: C/index.docbook:86(para)
 msgid ""
-"MatePalimpsest Disk Utility is a complex program, with many advanced features."
+"Mate Disk Utility is a complex program, with many advanced features."
 msgstr ""
 "La Utilidad de discos MatePalimpsest es un programa complejo, con muchas "
 "características avanzadas."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
-#: C/matepalimpsest.xml:0(None)
+#: C/index.docbook:0(None)
 msgid "translator-credits"
 msgstr "Jorge González <jorgegonz@svn.mate.org>, 2009"

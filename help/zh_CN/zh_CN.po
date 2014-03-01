@@ -17,31 +17,31 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/matepalimpsest.xml:73(None)
+#: C/index.docbook:73(None)
 msgid "@@image: 'figures/main-app.png'; md5=5bc3f0bd4d9ae5bb4e46e19d1d649f4b"
 msgstr "@@image: 'figures/main-app.png'; md5=5bc3f0bd4d9ae5bb4e46e19d1d649f4b"
 
-#: C/matepalimpsest.xml:18(title)
-msgid "<application>MatePalimpsest Disk Utility</application> Manual"
+#: C/index.docbook:18(title)
+msgid "<application>Mate Disk Utility</application> Manual"
 msgstr "<application>MatePalimpsest 磁盘工具</application> 手册"
 
-#: C/matepalimpsest.xml:20(para)
-msgid "This document describes the MatePalimpsest Disk Utility application."
+#: C/index.docbook:20(para)
+msgid "This document describes the Mate Disk Utility application."
 msgstr "此文档描述的是 MatePalimpsest 磁盘工具程序。"
 
-#: C/matepalimpsest.xml:25(year) C/matepalimpsest.xml:45(date)
+#: C/index.docbook:25(year) C/index.docbook:45(date)
 msgid "2008"
 msgstr "2008"
 
-#: C/matepalimpsest.xml:26(holder)
+#: C/index.docbook:26(holder)
 msgid "David Zeuthen"
 msgstr "David Zeuthen"
 
-#: C/matepalimpsest.xml:29(publishername)
+#: C/index.docbook:29(publishername)
 msgid "MATE Documentation Project"
 msgstr "MATE 文档项目"
 
-#: C/matepalimpsest.xml:2(para)
+#: C/index.docbook:2(para)
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
@@ -56,7 +56,7 @@ msgstr ""
 "fdl\">链接</ulink>上或在随本手册一起分发的 COPYING-DOCS 文件中找到 GFDL 的副"
 "本。"
 
-#: C/matepalimpsest.xml:12(para)
+#: C/index.docbook:12(para)
 msgid ""
 "This manual is part of a collection of MATE manuals distributed under the "
 "GFDL. If you want to distribute this manual separately from the collection, "
@@ -66,7 +66,7 @@ msgstr ""
 "本手册是在 GFDL 许可之下分发的 MATE 手册集合的一部分。如果想要单独分发此手"
 "册，可以在手册中添加该许可证的一份副本然后分发，如该许可证的第 6 部分所述。"
 
-#: C/matepalimpsest.xml:19(para)
+#: C/index.docbook:19(para)
 msgid ""
 "Many of the names used by companies to distinguish their products and "
 "services are claimed as trademarks. Where those names appear in any MATE "
@@ -78,7 +78,7 @@ msgstr ""
 "档以及 MATE 文档项目的成员中，这些名称都是以全大写字母或首字母大写显示，从而"
 "表明它们是商标。"
 
-#: C/matepalimpsest.xml:35(para)
+#: C/index.docbook:35(para)
 msgid ""
 "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
 "EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
@@ -99,7 +99,7 @@ msgstr ""
 "维修或更正的费用。此免责声明是本许可证的重要组成部分。如果不接受此免责声明，"
 "那么您就没有权利使用任何文档或文档的修改版本；并且"
 
-#: C/matepalimpsest.xml:55(para)
+#: C/index.docbook:55(para)
 msgid ""
 "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
 "NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
@@ -119,7 +119,7 @@ msgstr ""
 "失、工作停止、计算机失败或故障，或任何以及所有其它损失或由此引发的或与之相关"
 "的损失，即使这些方已被告知存在出现此类损失的可能性时也是如此。"
 
-#: C/matepalimpsest.xml:28(para)
+#: C/index.docbook:28(para)
 msgid ""
 "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
@@ -128,35 +128,35 @@ msgstr ""
 "本文档以及文档的修改版本都是在遵循 GNU 自由文档许可证的条款下提供，这表示具有"
 "以下含义：<placeholder-1/>"
 
-#: C/matepalimpsest.xml:34(firstname)
+#: C/index.docbook:34(firstname)
 msgid "David"
 msgstr "David"
 
-#: C/matepalimpsest.xml:34(surname)
+#: C/index.docbook:34(surname)
 msgid "Zeuthen"
 msgstr "Zeuthen"
 
-#: C/matepalimpsest.xml:37(email)
+#: C/index.docbook:37(email)
 msgid "davidz@redhat.com"
 msgstr "davidz@redhat.com"
 
-#: C/matepalimpsest.xml:44(revnumber)
-msgid "MatePalimpsest Disk Utility Manual V 0.1"
+#: C/index.docbook:44(revnumber)
+msgid "Mate Disk Utility Manual V 0.1"
 msgstr "MatePalimpsest 磁盘工具手册 0.1 版"
 
-#: C/matepalimpsest.xml:47(para)
+#: C/index.docbook:47(para)
 msgid "David Zeuthen <email>davidz@redhat.com</email>"
 msgstr "David Zeuthen <email>davidz@redhat.com</email>"
 
-#: C/matepalimpsest.xml:54(releaseinfo)
-msgid "This manual describes version 0.1 of MatePalimpsest Disk Utility."
+#: C/index.docbook:54(releaseinfo)
+msgid "This manual describes version 0.1 of Mate Disk Utility."
 msgstr "本手册描述的是 0.1 版的 MatePalimpsest 磁盘工具。"
 
-#: C/matepalimpsest.xml:57(title)
+#: C/index.docbook:57(title)
 msgid "Feedback"
 msgstr "反馈"
 
-#: C/matepalimpsest.xml:58(para)
+#: C/index.docbook:58(para)
 msgid ""
 "To report a bug or make a suggestion regarding the <application>MatePalimpsest "
 "Disk Utility</application> application or this manual, follow the directions "
@@ -167,37 +167,37 @@ msgstr ""
 "议，遵从以下指导<ulink url=\"help:mate-user-quide\" type=\"help\">MATE 反馈"
 "页面</ulink>。"
 
-#: C/matepalimpsest.xml:66(title)
+#: C/index.docbook:66(title)
 msgid "Introduction."
 msgstr "简介。"
 
-#: C/matepalimpsest.xml:67(para)
+#: C/index.docbook:67(para)
 msgid ""
-"This is the <application>MatePalimpsest Disk Utility</application> user's guide."
+"This is the <application>Mate Disk Utility</application> user's guide."
 msgstr "这是<application>MatePalimpsest 磁盘工具</application>用户指导。"
 
-#: C/matepalimpsest.xml:69(title)
-msgid "<application>MatePalimpsest Disk Utility</application> Window"
+#: C/index.docbook:69(title)
+msgid "<application>Mate Disk Utility</application> Window"
 msgstr "<application>MatePalimpsest 磁盘工具</application> 窗口"
 
-#: C/matepalimpsest.xml:0(application)
-msgid "MatePalimpsest Disk Utility"
+#: C/index.docbook:0(application)
+msgid "Mate Disk Utility"
 msgstr "MatePalimpsest 磁盘工具"
 
-#: C/matepalimpsest.xml:77(phrase)
+#: C/index.docbook:77(phrase)
 msgid "Shows <placeholder-1/> main window."
 msgstr "显示 <placeholder-1/> 主窗口。"
 
-#: C/matepalimpsest.xml:85(title)
-msgid "Advanced MatePalimpsest Disk Utility."
+#: C/index.docbook:85(title)
+msgid "Advanced Mate Disk Utility."
 msgstr "高级 MatePalimpsest 磁盘工具。"
 
-#: C/matepalimpsest.xml:86(para)
+#: C/index.docbook:86(para)
 msgid ""
-"MatePalimpsest Disk Utility is a complex program, with many advanced features."
+"Mate Disk Utility is a complex program, with many advanced features."
 msgstr "MatePalimpsest 磁盘工具是一个复杂的程序，带有许多先进的特性。"
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
-#: C/matepalimpsest.xml:0(None)
+#: C/index.docbook:0(None)
 msgid "translator-credits"
 msgstr "Zhang Miao <mymzhang@gmail.com>, 2009."

@@ -1,36 +1,47 @@
-<?xml version="1.0"?>
-<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
-"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
-  <!ENTITY legal SYSTEM "legal.xml">
-  <!ENTITY appversion "0.1">
-  <!ENTITY manrevision "0.1">
-  <!ENTITY date "June 2008">
-  <!ENTITY app "<application>MatePalimpsest Disk Utility</application>">
-  <!-- Information about the entities
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "0.1">
+<!ENTITY manrevision "0.1">
+<!ENTITY date "June 2008">
+<!ENTITY app "<application>Mate Disk Utility</application>">
+<!-- Information about the entities
        The legal.xml file contains legal information, there is no need to edit the file. 
        Use the appversion entity to specify the version of the application.
        Use the manrevision entity to specify the revision number of this manual.
        Use the date entity to specify the release date of this manual.
-       Use the app entity to specify the name of the application. -->
-]>
+       Use the app entity to specify the name of the application. -->]>
 <article id="index" lang="en">
   <articleinfo>
     <title>&app; Manual</title>
     <abstract role="description">
-      <para> 
-        This document describes the MatePalimpsest Disk Utility application.
-      </para>
+      <para>This document describes the Mate Disk Utility application.</para>
     </abstract>
-    <copyright> 
+    <copyright lang="en"> 
+      <year>2014</year> 
+      <holder>Wolfgang Ulbrich</holder> 
+    </copyright>
+    <copyright lang="en"> 
       <year>2008</year> 
       <holder>David Zeuthen</holder> 
-    </copyright> 
+    </copyright>
     <publisher> 
       <publishername> MATE Documentation Project </publishername> 
     </publisher> 
-    &legal;
+    <publisher> 
+      <publishername> GNOME Documentation Project </publishername> 
+    </publisher> 
+
     <authorgroup>
-      <author role="maintainer">
+      <author role="maintainer" lang="en">
+	<firstname>Wolfgang</firstname> <surname>Ulbrich</surname>
+	<affiliation>
+	  <address>
+	    <email>chat-to-me@raveit.de</email>
+	  </address>
+	</affiliation>
+      </author>
+      <author role="maintainer" lang="en">
 	<firstname>David</firstname> <surname>Zeuthen</surname>
 	<affiliation>
 	  <address>
@@ -40,25 +51,31 @@
       </author>
     </authorgroup>
     <revhistory>
-      <revision>
-	<revnumber>MatePalimpsest Disk Utility Manual V &appversion;</revnumber>
+      <revision lang="en">
+	<revnumber>Mate Disk Utility Manual V &appversion;</revnumber>
+	<date>2014</date>
+	<revdescription>
+	  <para role="author" lang="en">David Zeuthen
+	    <email>chat-to-me@raveit.de</email>
+	  </para>
+	</revdescription>
+      </revision>
+      <revision lang="en">
+	<revnumber>Palimpsest Disk Utility Manual V &appversion;</revnumber>
 	<date>2008</date>
 	<revdescription>
-	  <para role="author">David Zeuthen
+	  <para role="author" lang="en">David Zeuthen
 	    <email>davidz@redhat.com</email>
 	  </para>
 	</revdescription>
       </revision>
     </revhistory>
 
-    <releaseinfo>This manual describes version &appversion; of MatePalimpsest Disk Utility.
-    </releaseinfo> 
+    <releaseinfo>This manual describes version &appversion; of Mate Disk Utility.</releaseinfo> 
       <legalnotice> 
       <title>Feedback</title> 
       <para>To report a bug or make a suggestion regarding the &app; application or
-      this manual, follow the directions in the <ulink url="help:mate-user-quide"
-	  type="help">MATE Feedback Page</ulink>. 
-      </para>
+      this manual, follow the directions in the <ulink url="help:mate-user-guide" type="help">MATE Feedback Page</ulink>.</para>
       </legalnotice>
   </articleinfo>
 
@@ -81,10 +98,218 @@
     </figure>
   </sect1>
  
-   <sect1 id="advanced">
-      <title>Advanced MatePalimpsest Disk Utility.</title> 
-      <para>MatePalimpsest Disk Utility is a complex program, with many advanced
-      features.</para>
+   <sect1 id="disk-status">
+      <title>Checking the hard disk.</title> 
+      <para>Hard disks have a built-in health-check tool called <application>SMART</application> (Self-Monitoring, Analysis, and Reporting Technology), which continually
+ checks the disk for potential problems. SMART also warns you if the disk
+ is about to fail, helping you avoid loss of important data.</para>
+      <para>Although SMART runs automatically, you can also check your disk's
+ health by running the <application>Drive Management</application> application:</para>
+
+      <orderedlist>
+       <title>Check your disk's health using the Disks application</title>
+
+       <listitem>
+        <para lang="en">
+           Open the menu <menuchoice> <guimenu>Applications</guimenu><application>Drive Management</application> </menuchoice>.
+        </para>
+       </listitem>
+       <listitem>
+        <para lang="en">
+           Select the disk you want to check from the <guimenu>Storage Devices List</guimenu>. Information and status of the disk will appear under <guimenu>Drive</guimenu> angezeigt.
+        </para>
+       </listitem>
+       <listitem>
+        <para lang="en">
+           <guimenu>SMART Status</guimenu> should say "Disk is healthy"
+        </para>
+       </listitem>
+       <listitem>
+        <para lang="en">
+           Click the <guimenu>SMART Data</guimenu>, button to view more drive information, or
+  to run a self-test.
+        </para>
+       </listitem>
+
+      </orderedlist>
+
+      <orderedlist>
+      <title>What if the disk isn't healthy?</title> 
+      <para lang="en">
+        Even if the <guimenu>SMART Status</guimenu> indicates that the disk <emphasis>isn't</emphasis> healthy, there may be no cause for alarm. However, it's better to be prepared
+ with a <emphasis>backup</emphasis> to prevent data loss.
+      </para>
+      <para lang="en">
+        If the status says "Pre-fail", the disk is still reasonably healthy but
+ signs of wear have been detected which mean it might fail in the near future.
+ If your hard disk (or computer) is a few years old, you are likely to see
+ this message on at least some of the health checks. You should <emphasis>backup your important files regularly</emphasis> and check the disk status periodically to see if it gets worse.
+      </para>
+      <para lang="en">
+        If it gets worse, you may wish to take the computer/hard disk to a professional for further diagnosis or repair.
+      </para>
+
+      </orderedlist>
+
+   </sect1>
+
+   <sect1 id="disk-format">
+      <title>Wipe everything off a removable disk</title>
+
+      <para>If you have a removable disk, like a USB memory stick or an external hard disk, you may sometimes wish to completely remove all of its files and folders. You can do this by <emphasis>formatting</emphasis>. the disk - this deletes all of the files on the disk and leaves it empty.
+      </para>
+
+      <orderedlist>
+      <title>Format a removable disk</title>
+      <listitem>
+      <para lang="en">
+         Open the menu <menuchoice> <guimenu>Applications</guimenu><application>Drive Management</application> </menuchoice>.
+      </para>
+      </listitem>
+      <listitem>
+      <para lang="en">
+         Select the disk you want to wipe from the <guimenu>Storage Devices</guimenu> list.
+      </para>
+
+      <note style="warning">
+      <para lang="en">
+         Make sure that you have selected the correct disk! If you choose the wrong disk, all of the files on the other disk will be deleted!
+      </para>
+      </note>
+      </listitem>
+      <listitem>
+      <para lang="en">
+         In the Volumes section, click <guimenu>Unmount Volume</guimenu>. Then click <guimenu>Format Volume</guimenu>.
+      </para>
+      </listitem>
+      <listitem>
+      <para lang="en">
+         In the window that pops up, choose a filesystem <guimenu>Type</guimenu> for the disk.
+      </para>
+      <para lang="en">
+         If you use the disk on Windows and Mac OS computers in addition to Linux computers, choose <guimenu>FAT</guimenu>. If you only use it on Windows, <guimenu>NTFS</guimenu> may be a better option. A brief description of the <guimenu>file system type</guimenu> will be presented as a label.
+      </para>
+      </listitem>
+      <listitem>
+      <para lang="en">
+         Give the disk a name and click <guimenu>Format</guimenu>, to begin wiping the disk.
+      </para>
+      </listitem>
+      <listitem>
+      <para lang="en">
+         Once the formatting has finished, <guimenu>safely remove</guimenu> the disk. It should now be blank and ready to use again.
+      </para>
+      </listitem>
+      </orderedlist>
+
+      <note style="warning">
+      <title>Formatting a disk does not securely delete your files</title>
+      <para lang="en">
+         Formatting a disk is not a completely secure way of wiping all of its data. A formatted disk will not appear to have files on it, but it is possible that special recovery software could retrieve the files. If you need to securely delete the files, you will need to use a command-line utility, such as <application>shred</application>.
+      </para>
+      </note>
+
+   </sect1>
+
+   <sect1 id="disk-manage">
+      <title>Manage volumes and partitions</title>
+
+      <para>
+         The word <emphasis>volume</emphasis> is used to describe a storage device, like a hard disk. It can also refer to a <em>part</em> of the storage on that device, because you can split the storage up into chunks. The computer makes this storage accessible via your file system in a process referred to as <emphasis>mounting</emphasis> . Mounted volumes may be hard drives, USB drives, DVD-RWs, SD cards, and other media. If a volume is currently mounted, you can read (and possibly write) files on it.
+      </para>
+
+      <para>
+         Often, a mounted volume is called a <emphasis>partition</emphasis>, though they are not necessarily the same thing. A “partition” refers to a <em>physical</em> area of storage on a single disk drive. Once a partition has been mounted, it can be referred to as a volume because you can access the files on it. You can think of volumes as the labeled, accessible “storefronts” to the functional “back rooms” of partitions and drives.
+      </para>
+
+      <section id="manage">
+      <title>View and manage volumes and partitions using the disk utility</title>
+
+      <para>
+         You can check and modify your computer's storage volumes with the disk utility.
+      </para>
+
+      <orderedlist>
+      <listitem>
+      <para lang="en">
+         Open the menu <menuchoice> <guimenu>Applications</guimenu><application>Drive Management</application> </menuchoice>.
+      </para>
+      </listitem>
+      <listitem>
+      <para lang="en">
+         In the pane marked <guimenu>Storage Devices</guimenu>, you will find hard disks, CD/DVD drives, and other physical devices. Click the device you want to inspect.
+      </para>
+      </listitem>
+      <listitem>
+      <para lang="en">
+         In the right pane, the area labeled <guimenu>Volumes</guimenu> provides a visual breakdown of the volumes and partitions present on the selected device. It also contains a variety of tools used to manage these volumes.
+      </para>
+      <para lang="en">
+         Be careful: it is possible to completely erase the data on your disk with these utilities.
+      </para>
+      </listitem>
+      </orderedlist>
+
+      <para>
+         Your computer most likely has at least one <emphasis>primary</emphasis> partition and a single <emphasis>swap</emphasis> partition. The swap partition is used by the operating system for memory management, and is rarely mounted. The primary partition contains your operating system, applications, settings, and personal files. These files can also be distributed among multiple partitions for security or convenience.
+      </para>
+
+      <para>
+         One primary partition must contain information that your computer uses to start up, or <emphasis>boot</emphasis>. For this reason it is sometimes called a boot partition, or boot volume. To determine if a volume is bootable, look at its <guimenu>Partition Flags</guimenu> in the disk utility. External media such as USB drives and CDs may also contain a bootable volume.
+      </para>
+
+      </section>
+
+   </sect1>
+
+   <sect1 id="disk-benchmark">
+      <title>Test the performance of your hard disk</title>
+
+      <para>
+         To test the speed of your hard disk:
+      </para>
+
+      <orderedlist>
+      <listitem>
+      <para lang="en">
+         Open the menu <menuchoice> <guimenu>Applications</guimenu><application>Drive Management</application> </menuchoice>.
+      </para>
+      </listitem>
+      <listitem>
+      <para lang="en">
+         Choose the hard disk from the <guimenu>Disk Drives</guimenu> list.
+      </para>
+      </listitem>
+      <listitem>
+      <para lang="en">
+         Click the <guimenu>Benchmark Drive</guimenu>.
+      </para>
+      </listitem>
+      <listitem>
+      <para lang="en">
+        Click <guimenu>Start Benchmark</guimenu> and adjust the <guimenu>Transfer Rate</guimenu> and <guimenu>Access Time</guimenu> parameters as desired.
+      </para>
+      </listitem>
+      <listitem>
+      <para lang="en">
+         Click <guimenu>Start Benchmarking</guimenu> to test how fast data can be read from the disk. Administrative privileges may be required. Enter your password, or the password for the requested administrator account.
+      </para>
+      <note>
+      <para lang="en">
+         If <guimenu>Also perform write-benchmark</guimenu> is checked, the benchmark will test how fast data can be read from and written to the disk. This will take longer to complete.
+      </para>
+      </note>
+      </listitem>
+      </orderedlist>
+
+      <para>
+         When the test is finished, the results will appear on the graph. The green points and connecting lines indicate the samples taken; these correspond to the right axis, showing access time, plotted against the bottom axis,
+  representing percentage time elapsed during the benchmark. The blue line represents read rates, while the red line represents write rates; these are shown as access data rates on the left axis, plotted against percentage of the disk traveled, from the outside to the spindle, along the bottom axis.
+      </para>
+
+      <para>
+         Below the graph, values are displayed for minimum, maximum and average read and write rates, average access time and time elapsed since the last benchmark test.
+      </para>
 
    </sect1>
 
