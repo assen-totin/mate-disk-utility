@@ -541,9 +541,10 @@ presentable_removed (MduPool *pool, MduPresentable *presentable, gpointer user_d
 static void
 help_contents_action_callback (GtkAction *action, gpointer user_data)
 {
-        /* TODO */
-        //mate_help_display ("mate-disk-utility.xml", NULL, NULL);
-        g_warning ("TODO: launch help");
+        gtk_show_uri (NULL, /* GdkScreen */
+                      "help:matepalimpsest",
+                      GDK_CURRENT_TIME,
+                      NULL); /* GError */
 }
 /* ---------------------------------------------------------------------------------------------------- */
 
@@ -825,9 +826,7 @@ static const gchar *ui =
         "      <menuitem action='quit'/>"
         "    </menu>"
         "    <menu action='help'>"
-#if 0
         "      <menuitem action='contents'/>"
-#endif
         "      <menuitem action='about'/>"
         "    </menu>"
         "  </menubar>"
