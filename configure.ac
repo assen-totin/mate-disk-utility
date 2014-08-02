@@ -147,7 +147,31 @@ PKG_CHECK_MODULES(GIO_UNIX2, [gio-unix-2.0 >= $GIO2_REQUIRED])
 PKG_CHECK_MODULES(GTHREAD2, [gthread-2.0 >= $GLIB2_REQUIRED])
 PKG_CHECK_MODULES(DBUS_GLIB, [dbus-glib-1 >= $DBUS_GLIB_REQUIRED])
 PKG_CHECK_MODULES(GTK2, [gtk+-2.0 >= $GTK2_REQUIRED])
-PKG_CHECK_MODULES(UNIQUE, [unique-1.0 >= $UNIQUE_REQUIRED])
+
+#============================================================================
+# libunique
+#============================================================================
+PKG_CHECK_MODULES(UNIQUE, unique-$UNIQUE_REQUIRED, enable_libunique=yes, enable_libunique=no)
+
+AC_SUBST([UNIQUE_CFLAGS])
+AC_SUBST([UNIQUE_LIBS])
+
+#AC_ARG_ENABLE(unique, [ --enable-unique enable the use of libunique instead of g_application or gtk_application], enable_libunique=yes,)
+
+if test "x$enable_libunique" = "xyes"; then
+    UNIQUE_CFLAGS="$UNIQUE_CFLAGS -DUSE_UNIQUE=1"
+    # fix for deprecated on 2.26
+    # unique, on 1.0 version, has deprecated symbols in glib 2.26, but
+    # we avoid problems using -DG_CONST_RETURN=const
+    if $PKG_CONFIG --atleast-version 2.26 glib-2.0; then
+        UNIQUE_CFLAGS="$UNIQUE_CFLAGS -DG_CONST_RETURN=const"
+    fi
+
+    EXTRA_CORE_MODULES="$EXTRA_CORE_MODULES unique-$UNIQUE_REQUIRED"
+else
+    AC_ERROR([LIBUNIQUE ${UNIQUE_REQUIRED} not found])
+fi
+
 PKG_CHECK_MODULES(LIBNOTIFY, [libnotify  >= $LIBNOTIFY_REQUIRED])
 PKG_CHECK_MODULES(UDISKS, [udisks  >= $UDISKS_REQUIRED udisks < $UDISKS_NEXT_ABI_INCOMPATIBLE_VERSION])
 PKG_CHECK_MODULES(X11, [x11])
@@ -299,6 +323,8 @@ echo "
         Maintainer mode:            ${USE_MAINTAINER_MODE}
         Building api docs:          ${enable_gtk_doc}
         Caja extension:             ${have_caja}
+
+        Use libunique:              ${enable_libunique}
 
         Keyring support:            ${selected_keyring}
         Remote Access:              ${have_remote_access}
