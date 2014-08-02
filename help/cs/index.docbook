@@ -11,11 +11,11 @@
        Use the manrevision entity to specify the revision number of this manual.
        Use the date entity to specify the release date of this manual.
        Use the app entity to specify the name of the application. -->]>
-<article id="index" lang="en">
+<article id="index" lang="cs">
   <articleinfo>
-    <title>&app; Manual</title>
+    <title>Příručka k <application>Diskovému nástroji MateDisk</application></title>
     <abstract role="description">
-      <para>This document describes the Mate Disk Utility application.</para>
+      <para>Tento dokument popisuje aplikaci Diskový nástroj MateDisk.</para>
     </abstract>
     <copyright lang="en"> 
       <year>2014</year> 
@@ -26,10 +26,10 @@
       <holder>David Zeuthen</holder> 
     </copyright>
     <publisher> 
-      <publishername> MATE Documentation Project </publishername> 
+      <publishername>Dokumentační projekt MATE</publishername> 
     </publisher> 
     <publisher> 
-      <publishername> GNOME Documentation Project </publishername> 
+      <publishername lang="en"> GNOME Documentation Project </publishername> 
     </publisher> 
 
     <authorgroup>
@@ -52,7 +52,7 @@
     </authorgroup>
     <revhistory>
       <revision lang="en">
-	<revnumber>Mate Disk Utility Manual V &appversion;</revnumber>
+	<revnumber>Mate Disk Utility Manual V 0.1</revnumber>
 	<date>2014</date>
 	<revdescription>
 	  <para role="author" lang="en">David Zeuthen
@@ -61,7 +61,7 @@
 	</revdescription>
       </revision>
       <revision lang="en">
-	<revnumber>Palimpsest Disk Utility Manual V &appversion;</revnumber>
+	<revnumber>Palimpsest Disk Utility Manual V 0.1</revnumber>
 	<date>2008</date>
 	<revdescription>
 	  <para role="author" lang="en">David Zeuthen
@@ -71,27 +71,26 @@
       </revision>
     </revhistory>
 
-    <releaseinfo>This manual describes version &appversion; of Mate Disk Utility.</releaseinfo> 
+    <releaseinfo>Tato příručka popisuje Diskový nástroj MateDisk ve verzi 0.1.</releaseinfo> 
       <legalnotice> 
-      <title>Feedback</title> 
-      <para>To report a bug or make a suggestion regarding the &app; application or
+      <title>Ohlasy</title> 
+      <para lang="en">To report a bug or make a suggestion regarding the <application>Mate Disk Utility</application> application or
       this manual, follow the directions in the <ulink url="help:mate-user-guide" type="help">MATE Feedback Page</ulink>.</para>
       </legalnotice>
   </articleinfo>
 
   <sect1 id="intro">
-    <title>Introduction.</title>
-      <para>This is the &app; user's guide.</para>
+    <title>Úvod.</title>
+      <para>Toto je uživatelská příručka <application>Diskového nástroje MateDisk</application></para>
     <figure id="mainwindow-fig"> 
-	<title>&app; Window</title> 
+	<title>Okno <application>Diskového nástroje MateDisk</application></title> 
 	<screenshot> 
-	  <mediaobject> 
-	    <imageobject><imagedata
-		fileref="figures/main-app.png" format="PNG"/> 
+	  <mediaobject lang="en"> 
+	    <imageobject><imagedata fileref="figures/main-app.png" format="PNG"/> 
 	    </imageobject>
 	    
 	    <textobject> 
-	      <phrase>Shows &app; main window.</phrase> 
+	      <phrase>Shows <application>Mate Disk Utility</application> main window.</phrase> 
 	    </textobject> 
 	  </mediaobject> 
 	</screenshot> 
@@ -99,15 +98,15 @@
   </sect1>
  
    <sect1 id="disk-status">
-      <title>Checking the hard disk.</title> 
-      <para>Hard disks have a built-in health-check tool called <application>SMART</application> (Self-Monitoring, Analysis, and Reporting Technology), which continually
+      <title lang="en">Checking the hard disk.</title> 
+      <para lang="en">Hard disks have a built-in health-check tool called <application>SMART</application> (Self-Monitoring, Analysis, and Reporting Technology), which continually
  checks the disk for potential problems. SMART also warns you if the disk
  is about to fail, helping you avoid loss of important data.</para>
-      <para>Although SMART runs automatically, you can also check your disk's
+      <para lang="en">Although SMART runs automatically, you can also check your disk's
  health by running the <application>Drive Management</application> application:</para>
 
       <orderedlist>
-       <title>Check your disk's health using the Disks application</title>
+       <title lang="en">Check your disk's health using the Disks application</title>
 
        <listitem>
         <para lang="en">
@@ -134,7 +133,7 @@
       </orderedlist>
 
       <orderedlist>
-      <title>What if the disk isn't healthy?</title> 
+      <title lang="en">What if the disk isn't healthy?</title> 
       <para lang="en">
         Even if the <guimenu>SMART Status</guimenu> indicates that the disk <emphasis>isn't</emphasis> healthy, there may be no cause for alarm. However, it's better to be prepared
  with a <emphasis>backup</emphasis> to prevent data loss.
@@ -154,13 +153,13 @@
    </sect1>
 
    <sect1 id="disk-format">
-      <title>Wipe everything off a removable disk</title>
+      <title lang="en">Wipe everything off a removable disk</title>
 
-      <para>If you have a removable disk, like a USB memory stick or an external hard disk, you may sometimes wish to completely remove all of its files and folders. You can do this by <emphasis>formatting</emphasis>. the disk - this deletes all of the files on the disk and leaves it empty.
+      <para lang="en">If you have a removable disk, like a USB memory stick or an external hard disk, you may sometimes wish to completely remove all of its files and folders. You can do this by <emphasis>formatting</emphasis>. the disk - this deletes all of the files on the disk and leaves it empty.
       </para>
 
       <orderedlist>
-      <title>Format a removable disk</title>
+      <title lang="en">Format a removable disk</title>
       <listitem>
       <para lang="en">
          Open the menu <menuchoice> <guimenu>Applications</guimenu><application>Drive Management</application> </menuchoice>.
@@ -203,7 +202,7 @@
       </orderedlist>
 
       <note style="warning">
-      <title>Formatting a disk does not securely delete your files</title>
+      <title lang="en">Formatting a disk does not securely delete your files</title>
       <para lang="en">
          Formatting a disk is not a completely secure way of wiping all of its data. A formatted disk will not appear to have files on it, but it is possible that special recovery software could retrieve the files. If you need to securely delete the files, you will need to use a command-line utility, such as <application>shred</application>.
       </para>
@@ -212,20 +211,20 @@
    </sect1>
 
    <sect1 id="disk-manage">
-      <title>Manage volumes and partitions</title>
+      <title lang="en">Manage volumes and partitions</title>
 
-      <para>
-         The word <emphasis>volume</emphasis> is used to describe a storage device, like a hard disk. It can also refer to a <em>part</em> of the storage on that device, because you can split the storage up into chunks. The computer makes this storage accessible via your file system in a process referred to as <emphasis>mounting</emphasis> . Mounted volumes may be hard drives, USB drives, DVD-RWs, SD cards, and other media. If a volume is currently mounted, you can read (and possibly write) files on it.
+      <para lang="en">
+         The word <emphasis>volume</emphasis> is used to describe a storage device, like a hard disk. It can also refer to a <em lang="en">part</em> of the storage on that device, because you can split the storage up into chunks. The computer makes this storage accessible via your file system in a process referred to as <emphasis>mounting</emphasis> . Mounted volumes may be hard drives, USB drives, DVD-RWs, SD cards, and other media. If a volume is currently mounted, you can read (and possibly write) files on it.
       </para>
 
-      <para>
-         Often, a mounted volume is called a <emphasis>partition</emphasis>, though they are not necessarily the same thing. A “partition” refers to a <em>physical</em> area of storage on a single disk drive. Once a partition has been mounted, it can be referred to as a volume because you can access the files on it. You can think of volumes as the labeled, accessible “storefronts” to the functional “back rooms” of partitions and drives.
+      <para lang="en">
+         Often, a mounted volume is called a <emphasis>partition</emphasis>, though they are not necessarily the same thing. A “partition” refers to a <em lang="en">physical</em> area of storage on a single disk drive. Once a partition has been mounted, it can be referred to as a volume because you can access the files on it. You can think of volumes as the labeled, accessible “storefronts” to the functional “back rooms” of partitions and drives.
       </para>
 
       <section id="manage">
-      <title>View and manage volumes and partitions using the disk utility</title>
+      <title lang="en">View and manage volumes and partitions using the disk utility</title>
 
-      <para>
+      <para lang="en">
          You can check and modify your computer's storage volumes with the disk utility.
       </para>
 
@@ -250,11 +249,11 @@
       </listitem>
       </orderedlist>
 
-      <para>
+      <para lang="en">
          Your computer most likely has at least one <emphasis>primary</emphasis> partition and a single <emphasis>swap</emphasis> partition. The swap partition is used by the operating system for memory management, and is rarely mounted. The primary partition contains your operating system, applications, settings, and personal files. These files can also be distributed among multiple partitions for security or convenience.
       </para>
 
-      <para>
+      <para lang="en">
          One primary partition must contain information that your computer uses to start up, or <emphasis>boot</emphasis>. For this reason it is sometimes called a boot partition, or boot volume. To determine if a volume is bootable, look at its <guimenu>Partition Flags</guimenu> in the disk utility. External media such as USB drives and CDs may also contain a bootable volume.
       </para>
 
@@ -263,9 +262,9 @@
    </sect1>
 
    <sect1 id="disk-benchmark">
-      <title>Test the performance of your hard disk</title>
+      <title lang="en">Test the performance of your hard disk</title>
 
-      <para>
+      <para lang="en">
          To test the speed of your hard disk:
       </para>
 
@@ -302,12 +301,12 @@
       </listitem>
       </orderedlist>
 
-      <para>
+      <para lang="en">
          When the test is finished, the results will appear on the graph. The green points and connecting lines indicate the samples taken; these correspond to the right axis, showing access time, plotted against the bottom axis,
   representing percentage time elapsed during the benchmark. The blue line represents read rates, while the red line represents write rates; these are shown as access data rates on the left axis, plotted against percentage of the disk traveled, from the outside to the spindle, along the bottom axis.
       </para>
 
-      <para>
+      <para lang="en">
          Below the graph, values are displayed for minimum, maximum and average read and write rates, average access time and time elapsed since the last benchmark test.
       </para>
 

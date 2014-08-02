@@ -24,11 +24,11 @@ msgstr "@@image: 'figures/main-app.png'; md5=5bc3f0bd4d9ae5bb4e46e19d1d649f4b"
 
 #: C/index.docbook:18(title)
 msgid "<application>Mate Disk Utility</application> Manual"
-msgstr " Εγχειρίδιο του <application>Εργαλείου δίσκων MatePalimpsest</application>"
+msgstr " Εγχειρίδιο του <application>Εργαλείου δίσκων MateDisk</application>"
 
 #: C/index.docbook:20(para)
 msgid "This document describes the Mate Disk Utility application."
-msgstr "Αυτό το έγγραφο περιγράφει το εργαλείο δίσκων MatePalimpsest. "
+msgstr "Αυτό το έγγραφο περιγράφει το εργαλείο δίσκων MateDisk. "
 
 #: C/index.docbook:25(year) C/index.docbook:45(date)
 msgid "2008"
@@ -164,7 +164,7 @@ msgstr "davidz@redhat.com"
 
 #: C/index.docbook:44(revnumber)
 msgid "Mate Disk Utility Manual V 0.1"
-msgstr "Εγχειρίδιο του εργαλείου δίσκων MatePalimpsest, V 0.1"
+msgstr "Εγχειρίδιο του εργαλείου δίσκων MateDisk, V 0.1"
 
 #: C/index.docbook:47(para)
 msgid "David Zeuthen <email>davidz@redhat.com</email>"
@@ -173,7 +173,7 @@ msgstr "David Zeuthen <email>davidz@redhat.com</email>"
 #: C/index.docbook:54(releaseinfo)
 msgid "This manual describes version 0.1 of Mate Disk Utility."
 msgstr ""
-"Αυτό το εγχειρίδιο περιγράφει την έκδοση 0.1 του εργαλείου δίσκων MatePalimpsest."
+"Αυτό το εγχειρίδιο περιγράφει την έκδοση 0.1 του εργαλείου δίσκων MateDisk."
 
 #: C/index.docbook:57(title)
 msgid "Feedback"
@@ -181,13 +181,13 @@ msgstr "Ανάδραση"
 
 #: C/index.docbook:58(para)
 msgid ""
-"To report a bug or make a suggestion regarding the <application>MatePalimpsest "
+"To report a bug or make a suggestion regarding the <application>MateDisk "
 "Disk Utility</application> application or this manual, follow the directions "
 "in the <ulink url=\"help:mate-user-quide\" type=\"help\">MATE Feedback "
 "Page</ulink>."
 msgstr ""
 "Για να αναφέρετε ένα σφάλμα η να κάνετε μια πρόταση σχετικά με το "
-"<application>Εργαλείο δίσκων MatePalimpsest</application> ή αυτό το εγχειρίδιο, "
+"<application>Εργαλείο δίσκων MateDisk</application> ή αυτό το εγχειρίδιο, "
 "ακολουθήστε τις οδηγίες στην <ulink url=\"help:mate-user-quide\" type=\"help"
 "\">Σελίδα ανάδρασης MATE</ulink>."
 
@@ -199,16 +199,16 @@ msgstr "Εισαγωγή."
 msgid ""
 "This is the <application>Mate Disk Utility</application> user's guide."
 msgstr ""
-"Αυτός είναι ο οδηγός χρήστη του <application>Εργαλείου δίσκων MatePalimpsest</"
+"Αυτός είναι ο οδηγός χρήστη του <application>Εργαλείου δίσκων MateDisk</"
 "application>."
 
 #: C/index.docbook:69(title)
 msgid "<application>Mate Disk Utility</application> Window"
-msgstr "Παράθυρο του <application>Εργαλείου δίσκων MatePalimpsest</application>"
+msgstr "Παράθυρο του <application>Εργαλείου δίσκων MateDisk</application>"
 
 #: C/index.docbook:0(application)
 msgid "Mate Disk Utility"
-msgstr "Εργαλείο δίσκων MatePalimpsest"
+msgstr "Εργαλείο δίσκων MateDisk"
 
 #: C/index.docbook:77(phrase)
 msgid "Shows <placeholder-1/> main window."
@@ -216,13 +216,13 @@ msgstr "Δείχνει <placeholder-1/> το κυρίως παράθυρο."
 
 #: C/index.docbook:85(title)
 msgid "Advanced Mate Disk Utility."
-msgstr "Εργαλείο δίσκων MatePalimpsest για προχωρημένους"
+msgstr "Εργαλείο δίσκων MateDisk για προχωρημένους"
 
 #: C/index.docbook:86(para)
 msgid ""
 "Mate Disk Utility is a complex program, with many advanced features."
 msgstr ""
-"Η εφαρμογή Εργαλείο δίσκων MatePalimpsest είναι ένα σύνθετο πρόγραμμα, με πολλά "
+"Η εφαρμογή Εργαλείο δίσκων MateDisk είναι ένα σύνθετο πρόγραμμα, με πολλά "
 "προχωρημένα χαρακτηριστικά."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.

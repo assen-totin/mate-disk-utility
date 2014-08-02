@@ -25,11 +25,11 @@ msgstr "@@image: 'figures/main-app.png'; md5=5bc3f0bd4d9ae5bb4e46e19d1d649f4b"
 
 #: C/index.docbook:18(title)
 msgid "<application>Mate Disk Utility</application> Manual"
-msgstr "Podręcznik użytkownika <application>Narzędzia do obsługi dysków MatePalimpsest</application>"
+msgstr "Podręcznik użytkownika <application>Narzędzia do obsługi dysków MateDisk</application>"
 
 #: C/index.docbook:20(para)
 msgid "This document describes the Mate Disk Utility application."
-msgstr "Ten dokument opisuje program Narzędzie dysku MatePalimpsest."
+msgstr "Ten dokument opisuje program Narzędzie dysku MateDisk."
 
 #: C/index.docbook:25(year)
 #: C/index.docbook:45(date)
@@ -82,7 +82,7 @@ msgstr "davidz@redhat.com"
 
 #: C/index.docbook:44(revnumber)
 msgid "Mate Disk Utility Manual V 0.1"
-msgstr "Podręcznik użytkownika narzędzia dysku MatePalimpsest v0.1"
+msgstr "Podręcznik użytkownika narzędzia dysku MateDisk v0.1"
 
 #: C/index.docbook:47(para)
 msgid "David Zeuthen <email>davidz@redhat.com</email>"
@@ -90,7 +90,7 @@ msgstr "David Zeuthen <email>davidz@redhat.com</email>"
 
 #: C/index.docbook:54(releaseinfo)
 msgid "This manual describes version 0.1 of Mate Disk Utility."
-msgstr "Ten podręcznik użytkownika opisuje wersję 0.1 narzędzia dysku MatePalimpsest."
+msgstr "Ten podręcznik użytkownika opisuje wersję 0.1 narzędzia dysku MateDisk."
 
 #: C/index.docbook:57(title)
 msgid "Feedback"
@@ -98,7 +98,7 @@ msgstr "Opinie"
 
 #: C/index.docbook:58(para)
 msgid "To report a bug or make a suggestion regarding the <application>Mate Disk Utility</application> application or this manual, follow the directions in the <ulink url=\"help:mate-user-quide\" type=\"help\">MATE Feedback Page</ulink>."
-msgstr "Aby zgłosić błąd lub zaproponować poprawkę w programie <application>Narzędzie dysku MatePalimpsest</application> lub tym podręczniku użytkownika, proszę postępować zgodnie ze wskazówkami na <ulink url=\"help:mate-user-quide\" type=\"help\">stronie zgłaszania opinii MATE</ulink>."
+msgstr "Aby zgłosić błąd lub zaproponować poprawkę w programie <application>Narzędzie dysku MateDisk</application> lub tym podręczniku użytkownika, proszę postępować zgodnie ze wskazówkami na <ulink url=\"help:mate-user-quide\" type=\"help\">stronie zgłaszania opinii MATE</ulink>."
 
 #: C/index.docbook:66(title)
 msgid "Introduction."
@@ -106,15 +106,15 @@ msgstr "Wstęp."
 
 #: C/index.docbook:67(para)
 msgid "This is the <application>Mate Disk Utility</application> user's guide."
-msgstr "To jest podręcznik użytkownika <application>Narzędzia dysku MatePalimpsest</application>."
+msgstr "To jest podręcznik użytkownika <application>Narzędzia dysku MateDisk</application>."
 
 #: C/index.docbook:69(title)
 msgid "<application>Mate Disk Utility</application> Window"
-msgstr "Okno <application>Narzędzia dysku MatePalimpsest</application>"
+msgstr "Okno <application>Narzędzia dysku MateDisk</application>"
 
 #: C/index.docbook:0(application)
 msgid "Mate Disk Utility"
-msgstr "Narzędzie dysku MatePalimpsest"
+msgstr "Narzędzie dysku MateDisk"
 
 #: C/index.docbook:77(phrase)
 msgid "Shows <placeholder-1/> main window."
@@ -122,11 +122,11 @@ msgstr "Wyświetla główne okno <placeholder-1/>."
 
 #: C/index.docbook:85(title)
 msgid "Advanced Mate Disk Utility."
-msgstr "Zaawansowane narzędzie dysku MatePalimpsest."
+msgstr "Zaawansowane narzędzie dysku MateDisk."
 
 #: C/index.docbook:86(para)
 msgid "Mate Disk Utility is a complex program, with many advanced features."
-msgstr "Narzędzie dysku MatePalimpsest jest złożonym programem, z wieloma zaawansowanymi funkcjami."
+msgstr "Narzędzie dysku MateDisk jest złożonym programem, z wieloma zaawansowanymi funkcjami."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: C/index.docbook:0(None)
