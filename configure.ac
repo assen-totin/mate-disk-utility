@@ -259,7 +259,7 @@ src/mdu/Makefile
 src/mdu/mdu.pc
 src/mdu-gtk/Makefile
 src/mdu-gtk/mdu-gtk.pc
-src/matepalimpsest/Makefile
+src/mate-disk/Makefile
 src/notification/Makefile
 src/format-tool/Makefile
 src/caja-extension/Makefile

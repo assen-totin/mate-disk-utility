@@ -542,7 +542,7 @@ static void
 help_contents_action_callback (GtkAction *action, gpointer user_data)
 {
         gtk_show_uri (NULL, /* GdkScreen */
-                      "help:matepalimpsest",
+                      "help:mate-disk",
                       GDK_CURRENT_TIME,
                       NULL); /* GError */
 }
@@ -795,7 +795,7 @@ about_action_callback (GtkAction *action, gpointer user_data)
         };
 
         logo = gtk_icon_theme_load_icon (gtk_icon_theme_get_default (),
-                                         "matepalimpsest",
+                                         "mate-disk",
                                          96,
                                          GTK_ICON_LOOKUP_GENERIC_FALLBACK,
                                          NULL);

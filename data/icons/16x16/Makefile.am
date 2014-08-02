@@ -2,7 +2,7 @@ NULL =
 
 icondir = $(datadir)/icons/mate/16x16/apps
 icon_DATA =				\
-	matepalimpsest.png			\
+	mate-disk.png			\
 	mdu-eject.png			\
 	mdu-detach.png			\
 	mdu-mount.png			\

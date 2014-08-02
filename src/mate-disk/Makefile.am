@@ -1,9 +1,9 @@
 
 NULL =
 
-bin_PROGRAMS = matepalimpsest
+bin_PROGRAMS = mate-disk
 
-matepalimpsest_SOURCES = 									\
+mate_disk_SOURCES = 									\
 						mdu-main.c				\
 	mdu-shell.h				mdu-shell.c				\
 	mdu-section.h				mdu-section.c				\
@@ -14,7 +14,7 @@ matepalimpsest_SOURCES = 									\
 	mdu-section-hub.h			mdu-section-hub.c			\
 	$(NULL)
 
-matepalimpsest_CPPFLAGS = 					\
+mate_disk_CPPFLAGS = 					\
 	-I$(top_srcdir)/src/				\
 	-I$(top_builddir)/src/				\
 	-DG_LOG_DOMAIN=\"Palimpsest\"			\
@@ -24,7 +24,7 @@ matepalimpsest_CPPFLAGS = 					\
 	-DMDU_GTK_API_IS_SUBJECT_TO_CHANGE		\
 	$(AM_CPPFLAGS)
 
-matepalimpsest_CFLAGS = 					\
+mate_disk_CFLAGS = 					\
 	$(GLIB2_CFLAGS)					\
 	$(GOBJECT2_CFLAGS)				\
 	$(GIO2_CFLAGS)					\
@@ -38,10 +38,10 @@ matepalimpsest_CFLAGS = 					\
 	$(WARN_CFLAGS)					\
 	$(AM_CFLAGS)
 
-matepalimpsest_LDFLAGS = 					\
+mate_disk_LDFLAGS = 					\
 	$(AM_LDFLAGS)
 
-matepalimpsest_LDADD = 					\
+mate_disk_LDADD = 					\
 	$(GLIB2_LIBS)					\
 	$(GIO2_LIBS)					\
 	$(GIO_UNIX2_LIBS)				\

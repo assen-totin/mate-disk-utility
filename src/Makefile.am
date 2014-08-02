@@ -1,4 +1,4 @@
-SUBDIRS = mdu mdu-gtk matepalimpsest notification format-tool
+SUBDIRS = mdu mdu-gtk mate-disk notification format-tool
 
 if ENABLE_CAJA
 SUBDIRS += caja-extension

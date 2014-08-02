@@ -559,7 +559,7 @@ on_menu_item_activated (GtkMenuItem *menu_item,
         device = MDU_DEVICE (g_object_get_data (G_OBJECT (menu_item), "mdu-device"));
 
         screen = gtk_status_icon_get_screen (data->status_icon);
-        command_line = g_strdup_printf ("matepalimpsest --show-drive=%s", mdu_device_get_device_file (device));
+        command_line = g_strdup_printf ("mate-disk --show-drive=%s", mdu_device_get_device_file (device));
         gdk_spawn_command_line_on_screen (screen, command_line, NULL);
         g_free (command_line);
 }
@@ -692,7 +692,7 @@ main (int argc, char **argv)
 
         notify_init ("mdu-notification-daemon");
 
-        gtk_window_set_default_icon_name ("matepalimpsest");
+        gtk_window_set_default_icon_name ("mate-disk");
 
         data = notification_data_new ();
         update_all (data);

@@ -3,7 +3,7 @@ NULL =
 SUBDIRS = icons
 
 desktopdir = $(datadir)/applications
-desktop_in_files = matepalimpsest.desktop.in
+desktop_in_files = mate-disk.desktop.in
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 autostartdir = $(sysconfdir)/xdg/autostart

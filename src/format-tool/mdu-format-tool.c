@@ -100,12 +100,12 @@ show_error_dialog (GtkWindow *parent,
 }
 
 static void
-launch_matepalimpsest (const gchar *device_file)
+launch_mate_disk (const gchar *device_file)
 {
         gchar *command_line;
         GError *error;
 
-        command_line = g_strdup_printf ("matepalimpsest --show-volume \"%s\"", device_file);
+        command_line = g_strdup_printf ("mate_disk --show-volume \"%s\"", device_file);
 
         error = NULL;
         if (!g_spawn_command_line_async (command_line, &error)) {
@@ -351,7 +351,7 @@ main (int argc, char *argv[])
         case GTK_RESPONSE_ACCEPT:
                 gtk_widget_destroy (dialog);
                 dialog = NULL;
-                launch_matepalimpsest (device_file);
+                launch_mate_disk (device_file);
                 goto out;
 
         default: /* explicit fallthrough */

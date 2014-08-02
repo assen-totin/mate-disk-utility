@@ -5,7 +5,7 @@ NULL =
 
 icondir = $(datadir)/icons/mate/24x24/apps
 icon_DATA = 				\
-	matepalimpsest.png			\
+	mate-disk.png			\
 	$(NULL)
 
 EXTRA_DIST = \

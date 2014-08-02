@@ -2,7 +2,7 @@ NULL =
 
 icondir = $(datadir)/icons/mate/scalable/apps
 icon_DATA =				\
-	matepalimpsest.svg			\
+	mate-disk.svg			\
 	mdu-eject.svg			\
 	mdu-detach.svg			\
 	mdu-mount.svg			\

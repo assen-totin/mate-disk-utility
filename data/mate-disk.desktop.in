@@ -1,11 +1,11 @@
 [Desktop Entry]
 _Name=Disk Utility
 _Comment=Manage Drives and Media
-Exec=matepalimpsest
-Icon=matepalimpsest
+Exec=mate-disk
+Icon=mate-disk
 Terminal=false
 Type=Application
 StartupNotify=true
-X-MATE-DocPath=matepalimpsest/matepalimpsest.xml
+X-MATE-DocPath=mate-disk/mate-disk.xml
 Categories=GTK;System;
 

@@ -154,9 +154,9 @@ main (int argc, char **argv)
         bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
         textdomain (GETTEXT_PACKAGE);
 
-        gtk_window_set_default_icon_name ("matepalimpsest");
+        gtk_window_set_default_icon_name ("mate-disk");
 
-        unique_app = unique_app_new_with_commands ("org.mate.MatePalimpsest",
+        unique_app = unique_app_new_with_commands ("org.mate.MateDisk",
                                                    NULL,
                                                    "present_window", CMD_PRESENT_WINDOW,
                                                    "show_volume", CMD_SHOW_VOLUME,

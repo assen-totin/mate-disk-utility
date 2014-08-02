@@ -511,7 +511,7 @@ mdu_format_dialog_constructed (GObject *object)
 
         if (dialog->priv->flags & MDU_FORMAT_DIALOG_FLAGS_DISK_UTILITY_BUTTON) {
                 button = gtk_dialog_add_button (GTK_DIALOG (dialog), _("Disk _Utility"), GTK_RESPONSE_ACCEPT);
-                icon = gtk_image_new_from_icon_name ("matepalimpsest", GTK_ICON_SIZE_BUTTON);
+                icon = gtk_image_new_from_icon_name ("mate-disk", GTK_ICON_SIZE_BUTTON);
                 gtk_button_set_image (GTK_BUTTON (button), icon);
                 gtk_button_box_set_child_secondary (GTK_BUTTON_BOX (gtk_dialog_get_action_area (GTK_DIALOG (dialog))),
                                                     button,
