@@ -233,7 +233,9 @@ main (int argc, char *argv[])
         formatting_desc = NULL;
         size_str = NULL;
 
+#if !GLIB_CHECK_VERSION (2, 32, 0)
         g_thread_init (NULL);
+#endif
 
         /* Initialize gettext support */
         bindtextdomain (GETTEXT_PACKAGE, MATELOCALEDIR);
