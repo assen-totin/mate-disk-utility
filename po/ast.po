@@ -21,15 +21,15 @@ msgstr ""
 #.
 #. Translators: Window title when the item representing the local machine is selected.
 #.
-#: ../data/matepalimpsest.desktop.in.h:1
-#: ../src/matepalimpsest/gdu-shell.c:269
-#: ../src/matepalimpsest/gdu-shell.c:321
-#: ../src/matepalimpsest/gdu-shell.c:803
-#: ../src/matepalimpsest/gdu-shell.c:1114
+#: ../data/mate-disk.desktop.in.h:1
+#: ../src/mate-disk/gdu-shell.c:269
+#: ../src/mate-disk/gdu-shell.c:321
+#: ../src/mate-disk/gdu-shell.c:803
+#: ../src/mate-disk/gdu-shell.c:1114
 msgid "Disk Utility"
 msgstr "Utilidá de discos"
 
-#: ../data/matepalimpsest.desktop.in.h:2
+#: ../data/mate-disk.desktop.in.h:2
 msgid "Manage Drives and Media"
 msgstr "Xestiona preseos y sofitos"
 
@@ -72,8 +72,8 @@ msgid "Device to format"
 msgstr "Preseos pa formatear"
 
 #: ../src/format-tool/gdu-format-tool.c:130
-#: ../src/matepalimpsest/gdu-main.c:127
-#: ../src/matepalimpsest/gdu-main.c:128
+#: ../src/mate-disk/gdu-main.c:127
+#: ../src/mate-disk/gdu-main.c:128
 msgid "DEVICE"
 msgstr "PRESÉU"
 
@@ -1702,8 +1702,8 @@ msgstr "¿Daveres que quies empecipiar una nueva prueba de rendimientu de llectu
 
 #. TODO: better icon
 #: ../src/gdu-gtk/gdu-drive-benchmark-dialog.c:594
-#: ../src/matepalimpsest/gdu-section-drive.c:1004
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1053
+#: ../src/mate-disk/gdu-section-drive.c:1004
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1053
 msgid "_Benchmark"
 msgstr "_Prueba de rendimientu"
 
@@ -1836,14 +1836,14 @@ msgstr "Ensin asignar"
 
 #: ../src/gdu-gtk/gdu-edit-linux-lvm2-dialog.c:411
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:449
-#: ../src/matepalimpsest/gdu-section-drive.c:935
+#: ../src/mate-disk/gdu-section-drive.c:935
 msgid "SMART Status:"
 msgstr "Estáu SMART:"
 
 #: ../src/gdu-gtk/gdu-edit-linux-lvm2-dialog.c:415
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:461
-#: ../src/matepalimpsest/gdu-section-drive.c:911
-#: ../src/matepalimpsest/gdu-section-volumes.c:1919
+#: ../src/mate-disk/gdu-section-drive.c:911
+#: ../src/mate-disk/gdu-section-volumes.c:1919
 msgid "Device:"
 msgstr "Preseos:"
 
@@ -1868,7 +1868,7 @@ msgstr "Desaniciar el volume fí­sicu del GV"
 #. Translators: This string is used when SMART is not supported
 #: ../src/gdu-gtk/gdu-edit-linux-lvm2-dialog.c:941
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:845
-#: ../src/matepalimpsest/gdu-section-drive.c:329
+#: ../src/mate-disk/gdu-section-drive.c:329
 msgid "Not Supported"
 msgstr "Nun ta sofitáu téunicamente"
 
@@ -1898,9 +1898,9 @@ msgid "Position:"
 msgstr "Posición:"
 
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:457
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:683
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:974
-#: ../src/matepalimpsest/gdu-section-volumes.c:1908
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:683
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:974
+#: ../src/mate-disk/gdu-section-volumes.c:1908
 msgid "State:"
 msgstr "Estáu:"
 
@@ -1997,7 +1997,7 @@ msgid "Filesystem tools not installed"
 msgstr "Les ferramientes del sistema de ficheros nun tán instalaes"
 
 #: ../src/gdu-gtk/gdu-error-dialog.c:249
-#: ../src/matepalimpsest/gdu-shell.c:958
+#: ../src/mate-disk/gdu-shell.c:958
 msgid "Unknown error"
 msgstr "Fallu desconocíu"
 
@@ -2070,8 +2070,8 @@ msgstr "La etiqueta nemotéunica pal botón afirmativu"
 #. Translators: Format is used as a verb here
 #: ../src/gdu-gtk/gdu-format-dialog.c:238
 #: ../src/gdu-gtk/gdu-partition-dialog.c:216
-#: ../src/matepalimpsest/gdu-section-drive.c:649
-#: ../src/matepalimpsest/gdu-section-volumes.c:371
+#: ../src/mate-disk/gdu-section-drive.c:649
+#: ../src/mate-disk/gdu-section-volumes.c:371
 msgid "_Format"
 msgstr "_Formatu"
 
@@ -2114,8 +2114,8 @@ msgstr "Cifráu, compatible con Linux (FAT)"
 
 #. Translators: 'name' means 'filesystem label' here.
 #: ../src/gdu-gtk/gdu-format-dialog.c:607
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:204
-#: ../src/matepalimpsest/gdu-section-volumes.c:1722
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:204
+#: ../src/mate-disk/gdu-section-volumes.c:1722
 msgid "_Name:"
 msgstr "_Nome:"
 
@@ -2238,7 +2238,7 @@ msgid "Cr_eate"
 msgstr "Cr_iar"
 
 #: ../src/gdu-gtk/gdu-gtk.c:586
-#: ../src/matepalimpsest/gdu-section-volumes.c:2499
+#: ../src/mate-disk/gdu-section-volumes.c:2499
 msgid "Change _Passphrase"
 msgstr "Camudar _frase de pasu"
 
@@ -2325,8 +2325,8 @@ msgid "Extended Partition"
 msgstr "Partición estendida"
 
 #: ../src/gdu-gtk/gdu-gtk.c:1543
-#: ../src/matepalimpsest/gdu-section-drive.c:291
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:254
+#: ../src/mate-disk/gdu-section-drive.c:291
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:254
 msgid "Master Boot Record"
 msgstr "Master Boot Record (MBR)"
 
@@ -2334,8 +2334,8 @@ msgstr "Master Boot Record (MBR)"
 #: ../src/gdu-gtk/gdu-gtk.c:1548
 #: ../src/gdu/gdu-drive.c:833
 #: ../src/gdu/gdu-linux-md-drive.c:572
-#: ../src/matepalimpsest/gdu-section-drive.c:293
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:256
+#: ../src/mate-disk/gdu-section-drive.c:293
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:256
 msgid "GUID Partition Table"
 msgstr "Tabla de particiones GUID"
 
@@ -2345,8 +2345,8 @@ msgstr "Nun particionar"
 
 #: ../src/gdu-gtk/gdu-gtk.c:1558
 #: ../src/gdu/gdu-util.c:495
-#: ../src/matepalimpsest/gdu-section-drive.c:289
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:252
+#: ../src/mate-disk/gdu-section-drive.c:289
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:252
 msgid "Apple Partition Map"
 msgstr "Mapa de particiones d'Apple"
 
@@ -2435,7 +2435,7 @@ msgstr[0] "Fai %d hora"
 msgstr[1] "Fai %d hores"
 
 #: ../src/gdu-gtk/gdu-volume-grid.c:498
-#: ../src/matepalimpsest/gdu-section-drive.c:150
+#: ../src/mate-disk/gdu-section-drive.c:150
 msgid "Drive"
 msgstr "Unidá"
 
@@ -2454,7 +2454,7 @@ msgstr "El conxuntu RAID nun ta executándose"
 #.
 #: ../src/gdu-gtk/gdu-volume-grid.c:1190
 #: ../src/gdu/gdu-drive.c:819
-#: ../src/matepalimpsest/gdu-section-drive.c:343
+#: ../src/mate-disk/gdu-section-drive.c:343
 #, c-format
 msgid "No Media Detected"
 msgstr "Nun se deteutó dengún sofitu"
@@ -2472,7 +2472,7 @@ msgstr "Cifráu"
 #. Translators: shown in the grid for an RAID Component
 #: ../src/gdu-gtk/gdu-volume-grid.c:1296
 #: ../src/gdu/gdu-util.c:344
-#: ../src/matepalimpsest/gdu-section-volumes.c:2195
+#: ../src/mate-disk/gdu-section-volumes.c:2195
 #, c-format
 msgid "RAID Component"
 msgstr "Componente RAID"
@@ -2650,8 +2650,8 @@ msgstr "Particionáu"
 #. Translators: This string is used for conveying a device is not partitioned.
 #.
 #: ../src/gdu/gdu-drive.c:846
-#: ../src/matepalimpsest/gdu-section-drive.c:302
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:265
+#: ../src/mate-disk/gdu-section-drive.c:302
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:265
 msgid "Not Partitioned"
 msgstr "Ensin particionar"
 
@@ -2697,7 +2697,7 @@ msgstr "Volume lóxicu LVM2"
 #. Translators: Description
 #: ../src/gdu/gdu-linux-lvm2-volume-group.c:382
 #: ../src/gdu/gdu-linux-lvm2-volume-group.c:386
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:653
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:653
 msgid "Volume Group"
 msgstr "Grupu de volúmenes"
 
@@ -2727,8 +2727,8 @@ msgstr "%s llibre"
 #. Translators: Description
 #: ../src/gdu/gdu-linux-lvm2-volume-hole.c:205
 #: ../src/gdu/gdu-volume-hole.c:161
-#: ../src/matepalimpsest/gdu-section-volumes.c:2209
-#: ../src/matepalimpsest/gdu-section-volumes.c:2217
+#: ../src/mate-disk/gdu-section-volumes.c:2209
+#: ../src/mate-disk/gdu-section-volumes.c:2217
 msgid "Unallocated Space"
 msgstr "Espaciu ensin usar"
 
@@ -2774,7 +2774,7 @@ msgid "RAID"
 msgstr "RAID"
 
 #: ../src/gdu/gdu-linux-md-drive.c:617
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:944
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:944
 msgid "RAID Array"
 msgstr "Matriz RAID"
 
@@ -3133,7 +3133,7 @@ msgid "udf"
 msgstr "udf"
 
 #: ../src/gdu/gdu-util.c:323
-#: ../src/matepalimpsest/gdu-section-volumes.c:2191
+#: ../src/mate-disk/gdu-section-volumes.c:2191
 msgid "Swap Space"
 msgstr "Espaciu d'intercambéu"
 
@@ -3772,13 +3772,13 @@ msgstr "PATA"
 
 #. Translators: interface name for ATA disks
 #: ../src/gdu/gdu-util.c:919
-#: ../src/matepalimpsest/gdu-section-hub.c:141
+#: ../src/mate-disk/gdu-section-hub.c:141
 msgid "ATA"
 msgstr "ATA"
 
 #. Translators: interface name for SCSI disks
 #: ../src/gdu/gdu-util.c:922
-#: ../src/matepalimpsest/gdu-section-hub.c:145
+#: ../src/mate-disk/gdu-section-hub.c:145
 msgid "SCSI"
 msgstr "SCSI"
 
@@ -4284,15 +4284,15 @@ msgstr "Un discu duru pue tar fallando"
 msgid "One or more hard disks report health problems. Click the icon to get more information."
 msgstr "Uno o más discos informen de problemes de salú. Calca l'iconu pa obtener más información."
 
-#: ../src/matepalimpsest/gdu-main.c:127
+#: ../src/mate-disk/gdu-main.c:127
 msgid "Volume to show"
 msgstr "Volume p'amosar"
 
-#: ../src/matepalimpsest/gdu-main.c:128
+#: ../src/mate-disk/gdu-main.c:128
 msgid "Drive to show"
 msgstr "Unidá p'amosar"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:148
+#: ../src/mate-disk/gdu-section-drive.c:148
 msgid "Multipath Drive"
 msgstr "Unidá multiruta"
 
@@ -4301,7 +4301,7 @@ msgstr "Unidá multiruta"
 #. * PHY number (starts at 1) and the %s is the Adapter/Expander
 #. * name (e.g. "SAS Host Adapter").
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:189
+#: ../src/mate-disk/gdu-section-drive.c:189
 #, c-format
 msgid "PHY %d of %s"
 msgstr "PHY %d de %s"
@@ -4311,17 +4311,17 @@ msgstr "PHY %d de %s"
 #. * PHY number (starts at 1) and the %s is the Adapter/Expander
 #. * name (e.g. "SATA Host Adapter").
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:196
+#: ../src/mate-disk/gdu-section-drive.c:196
 #, c-format
 msgid "Port %d of %s"
 msgstr "Puertu %d de %s"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:261
+#: ../src/mate-disk/gdu-section-drive.c:261
 msgctxt "Write Cache"
 msgid "Enabled"
 msgstr "Activáu"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:263
+#: ../src/mate-disk/gdu-section-drive.c:263
 msgctxt "Write Cache"
 msgid "Disabled"
 msgstr "Desactiváu"
@@ -4329,850 +4329,850 @@ msgstr "Desactiváu"
 #. Translators: This is for the rotation rate of a hard
 #. * disk - RPM means rounds per minute
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:273
+#: ../src/mate-disk/gdu-section-drive.c:273
 #, c-format
 msgctxt "Rotation Rate"
 msgid "%d RPM"
 msgstr "%d RPM"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:281
+#: ../src/mate-disk/gdu-section-drive.c:281
 msgctxt "Rotation Rate"
 msgid "Solid-State Disk"
 msgstr "Discu d'estáu sólidu"
 
 #. Translators: 'scheme' refers to a partition table format here, like 'mbr' or 'gpt'
-#: ../src/matepalimpsest/gdu-section-drive.c:296
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:259
+#: ../src/mate-disk/gdu-section-drive.c:296
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:259
 #, c-format
 msgid "Unknown Scheme: %s"
 msgstr "Esquema desconocíu: %s"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:439
-#: ../src/matepalimpsest/gdu-section-drive.c:459
+#: ../src/mate-disk/gdu-section-drive.c:439
+#: ../src/mate-disk/gdu-section-drive.c:459
 msgid "Error launching Brasero"
 msgstr "Fallu al llanzar Brasero"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:440
+#: ../src/mate-disk/gdu-section-drive.c:440
 msgid "The application is not installed"
 msgstr "Esta aplicación nun ta instalada"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:521
+#: ../src/mate-disk/gdu-section-drive.c:521
 msgid "Error ejecting medium"
 msgstr "Fallu al espulsar el mediu"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:565
+#: ../src/mate-disk/gdu-section-drive.c:565
 msgid "Error detaching drive"
 msgstr "Fallu al desacoplar la unidá"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:610
+#: ../src/mate-disk/gdu-section-drive.c:610
 msgid "Error formatting drive"
 msgstr "Fallu al formatear la unidá"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:648
+#: ../src/mate-disk/gdu-section-drive.c:648
 msgid "Are you sure you want to format the drive?"
 msgstr "¿Daveres quies formatear la unidá?"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:835
+#: ../src/mate-disk/gdu-section-drive.c:835
 msgid "<b>WARNING:</b> Several paths to this drive has been detected but no corresponding multipath device was found. Your OS may be misconfigured."
 msgstr "<b>ALVERTENCIA:</b> deteutáronse delles rutes a esta unidá pero nun s'alcontró dengún preséu multiruta correspondiente. El Sistema Operativu pue tar mal configuráu."
 
-#: ../src/matepalimpsest/gdu-section-drive.c:850
+#: ../src/mate-disk/gdu-section-drive.c:850
 msgid "Go to Multipath Device"
 msgstr "Dir al preséu multiruta"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:861
+#: ../src/mate-disk/gdu-section-drive.c:861
 msgid "<b>NOTE:</b> This object represents one of several paths to the drive. To perform operations on the drive, use the corresponding multipath object."
 msgstr "<b>NOTA:</b> esti oxetu representa una ruta de les delles que tien el preséu. Pa facer operaciones sobro la unidá, usa l'oxetu multiruta correspondiente."
 
-#: ../src/matepalimpsest/gdu-section-drive.c:890
-#: ../src/matepalimpsest/gdu-section-hub.c:225
+#: ../src/mate-disk/gdu-section-drive.c:890
+#: ../src/mate-disk/gdu-section-hub.c:225
 msgid "Model:"
 msgstr "Modelu:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:894
+#: ../src/mate-disk/gdu-section-drive.c:894
 msgid "Serial Number:"
 msgstr "Númberu de serie:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:898
+#: ../src/mate-disk/gdu-section-drive.c:898
 msgid "Firmware Version:"
 msgstr "Versión del firmware:"
 
 #. Translators: if you translate "World Wide Name", please include the abbreviation "WWN"
-#: ../src/matepalimpsest/gdu-section-drive.c:903
+#: ../src/mate-disk/gdu-section-drive.c:903
 msgid "World Wide Name:"
 msgstr "Nome a nivel mundial (WWN):"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:907
+#: ../src/mate-disk/gdu-section-drive.c:907
 msgid "Location:"
 msgstr "Allugamientu:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:915
+#: ../src/mate-disk/gdu-section-drive.c:915
 msgid "Write Cache:"
 msgstr "Caché d'escritura:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:919
+#: ../src/mate-disk/gdu-section-drive.c:919
 msgid "Rotation Rate:"
 msgstr "Tasa de rotación:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:923
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:679
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:978
-#: ../src/matepalimpsest/gdu-section-volumes.c:1952
+#: ../src/mate-disk/gdu-section-drive.c:923
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:679
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:978
+#: ../src/mate-disk/gdu-section-volumes.c:1952
 msgid "Capacity:"
 msgstr "Capacidá:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:927
+#: ../src/mate-disk/gdu-section-drive.c:927
 msgid "Connection:"
 msgstr "Conexón:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:931
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:970
+#: ../src/mate-disk/gdu-section-drive.c:931
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:970
 msgid "Partitioning:"
 msgstr "Particionáu:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:954
+#: ../src/mate-disk/gdu-section-drive.c:954
 msgid "Open CD/_DVD Application"
 msgstr "Abrir aplicación de CD/_DVD"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:955
+#: ../src/mate-disk/gdu-section-drive.c:955
 msgid "Create and copy CDs and DVDs"
 msgstr "Crear y copiar CD y DVD"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:964
+#: ../src/mate-disk/gdu-section-drive.c:964
 msgid "Format _Drive"
 msgstr "Formatear _unidá"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:965
+#: ../src/mate-disk/gdu-section-drive.c:965
 msgid "Erase or partition the drive"
 msgstr "Desaniciar o particionar la unidá"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:974
+#: ../src/mate-disk/gdu-section-drive.c:974
 msgid "SM_ART Data"
 msgstr "Datos SM_ART"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:975
+#: ../src/mate-disk/gdu-section-drive.c:975
 msgid "View SMART data and run self-tests"
 msgstr "Ver los datos SMART y executar autocomprobaciones"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:984
+#: ../src/mate-disk/gdu-section-drive.c:984
 msgid "_Eject"
 msgstr "E_spulsar"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:985
+#: ../src/mate-disk/gdu-section-drive.c:985
 msgid "Eject medium from the drive"
 msgstr "Espulsar el mediu de la unidá"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:994
+#: ../src/mate-disk/gdu-section-drive.c:994
 msgid "Safe Rem_oval"
 msgstr "Quitar de mou s_eguru:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:995
+#: ../src/mate-disk/gdu-section-drive.c:995
 msgid "Power down the drive so it can be removed"
 msgstr "Apagar el preséu pa que pueda quitase"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:1005
+#: ../src/mate-disk/gdu-section-drive.c:1005
 msgid "Measure drive performance"
 msgstr "Midir el rendimientu de la unidá"
 
 #. Translators: Used for SAS to convey the number of PHYs in the
 #. * "Number of Ports" element. You should probably not translate PHY.
 #.
-#: ../src/matepalimpsest/gdu-section-hub.c:106
-#: ../src/matepalimpsest/gdu-section-hub.c:161
+#: ../src/mate-disk/gdu-section-hub.c:106
+#: ../src/mate-disk/gdu-section-hub.c:161
 #, c-format
 msgid "%d PHYs"
 msgstr "%d PHYs"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:137
+#: ../src/mate-disk/gdu-section-hub.c:137
 msgid "Parallel ATA"
 msgstr "ATA Paralelu"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:139
+#: ../src/mate-disk/gdu-section-hub.c:139
 msgid "Serial ATA"
 msgstr "Serial ATA"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:143
+#: ../src/mate-disk/gdu-section-hub.c:143
 msgid "Serial Attached SCSI"
 msgstr "Serial Attached SCSI"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:221
+#: ../src/mate-disk/gdu-section-hub.c:221
 msgid "Vendor:"
 msgstr "Fabricante:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:229
+#: ../src/mate-disk/gdu-section-hub.c:229
 msgid "Revision:"
 msgstr "Revisión:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:233
+#: ../src/mate-disk/gdu-section-hub.c:233
 msgid "Driver:"
 msgstr "Controlador:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:237
+#: ../src/mate-disk/gdu-section-hub.c:237
 msgid "Fabric:"
 msgstr "Fábrica:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:241
+#: ../src/mate-disk/gdu-section-hub.c:241
 msgid "Number of Ports:"
 msgstr "Númberu de puertos:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:77
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:77
 msgid "Error starting Volume Group"
 msgstr "Fallu al aniciar el grupu de volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:123
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:123
 msgid "Error stopping Volume Group"
 msgstr "Fallu al parar el grupu de volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:169
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:169
 msgid "Error setting name for Volume Group"
 msgstr "Fallu al afitar el nome pal grupu de volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:203
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:203
 msgid "Choose a new Volume Group name."
 msgstr "Esbillar un nome nuevu pal grupu de volúmenes."
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:255
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:255
 msgid "Error adding Physical Volume to Volume Group"
 msgstr "Fallu al amestar el volume fí­sicu al grupu de volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:285
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:285
 msgid "Error creating PV for VG"
 msgstr "Fallu al crear el volume fí­sicu pal grupu de volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:380
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:380
 msgid "Error deleting partition for Physical Volume in Volume Group"
 msgstr "Fallu al desaniciar la partición pal volume fí­sicu nel grupu de volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:403
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:403
 msgid "Error removing Physical Volume from Volume Group"
 msgstr "Fallu al desaniciar el volume fí­sicu del grupu de volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:476
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:476
 msgid "Are you sure you want the remove the Physical Volume?"
 msgstr "¿Daveres quies desaniciar el volume fí­sicu?"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:477
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:530
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:477
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:530
 msgid "_Remove"
 msgstr "_Desaniciar"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:597
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:597
 msgid "Not Running"
 msgstr "Nun ta n'execución"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:601
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:601
 msgid "Partially Running"
 msgstr "Parcialmente n'execución"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:606
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:606
 msgid "Running"
 msgstr "Executándose"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:610
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:610
 #, c-format
 msgid "Unknown (%d)"
 msgstr "Desconocíu (%d)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:667
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:966
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:667
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:966
 msgid "Name:"
 msgstr "Nome:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:671
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:671
 msgid "Extent Size:"
 msgstr "Tamañu d'estensión:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:675
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:675
 msgid "Physical Volumes:"
 msgstr "Volúmenes fí­sicos:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:687
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:687
 msgid "Unallocated:"
 msgstr "Ensin asignar:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:706
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:706
 msgid "St_art Volume Group"
 msgstr "A_niciar grupu de volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:707
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:707
 msgid "Activate all LVs in the VG"
 msgstr "Activar tolos volúmenes lóxicos nel grupu de volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:716
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:716
 msgid "St_op Volume Group"
 msgstr "_Parar grupu de volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:717
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:717
 msgid "Deactivate all LVs in the VG"
 msgstr "Desactivar tolos volúmenes lóxicos nel grupu de volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:727
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:727
 msgid "Edit _Name"
 msgstr "Editar _nome"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:728
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:728
 msgid "Change the Volume Group name"
 msgstr "Camudar el nome del grupu de volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:737
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:737
 msgid "Edit _Physical Volumes"
 msgstr "Editar _volúmenes fí­sicos"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:738
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:738
 msgid "Create and remove PVs"
 msgstr "Crear y desaniciar volúmenes fí­sicos"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:84
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:84
 msgctxt "RAID status"
 msgid "Not running, partially assembled"
 msgstr "Nun se puede entamar, parcialmente amachambráu"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:92
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:92
 msgctxt "RAID status"
 msgid "Not running"
 msgstr "Nun ta n'execución"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:94
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:94
 msgctxt "RAID status"
 msgid "Not running, can only start degraded"
 msgstr "Nun ta n'execución, namái se puede entamar en mou dilíu"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:96
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:96
 msgctxt "RAID status"
 msgid "Not running, not enough components to start"
 msgstr "Nun ta n'execución, nun hai abondos componentes pa entamar"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:114
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:114
 msgctxt "RAID status"
 msgid "DEGRADED"
 msgstr "DEGRADÁU"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:116
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:116
 msgctxt "RAID status"
 msgid "Running"
 msgstr "Executándose"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:124
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:124
 msgctxt "RAID action"
 msgid "Reshaping"
 msgstr "Reorganizando"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:126
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:126
 msgctxt "RAID action"
 msgid "Resyncing"
 msgstr "Resincronizando"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:128
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:128
 msgctxt "RAID action"
 msgid "Repairing"
 msgstr "Iguando"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:130
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:130
 msgctxt "RAID action"
 msgid "Recovering"
 msgstr "Recuperando"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:132
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:132
 msgctxt "RAID action"
 msgid "Checking"
 msgstr "Comprobando"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:137
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:137
 msgctxt "RAID action"
 msgid "Idle"
 msgstr "Inactivu"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:315
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:315
 msgid "Error stopping RAID Array"
 msgstr "Fallu al parar el conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:360
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:360
 msgid "Error starting RAID Array"
 msgstr "Fallu al empecipiar el conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:390
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:393
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:390
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:393
 #, c-format
 msgid "Not enough components available to start the RAID Array"
 msgstr "Nun hai suficientes componentes p'aniciar el conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:409
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:409
 msgid "Are you sure you want the RAID Array degraded?"
 msgstr "¿Daveres que quies el conxuntu RAID degradáu?"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:410
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:410
 msgid "_Start"
 msgstr "_Entamar"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:455
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:455
 msgid "Error deleting partition for component in RAID Array"
 msgstr "Fallu al desaniciar la partición pal componente nel conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:478
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:478
 msgid "Error removing component from RAID Array"
 msgstr "Fallu al desaniciar el componente del conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:529
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:529
 msgid "Are you sure you want the remove the component?"
 msgstr "¿Daveres que quies desaniciar el componente?"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:566
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:650
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:566
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:650
 msgid "Error adding component to RAID Array"
 msgstr "Fallu al amestar el componente nel conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:683
-#: ../src/matepalimpsest/gdu-shell.c:598
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:683
+#: ../src/mate-disk/gdu-shell.c:598
 msgid "Error creating component for RAID array"
 msgstr "Fallu al criar el componente pal conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:722
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:722
 msgid "Error expanding RAID Array"
 msgstr "Fallu al espander el conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:883
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:883
 msgid "Error checking RAID Array"
 msgstr "Fallu al comprobar el conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:958
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:958
 msgid "Level:"
 msgstr "Nivel:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:962
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:962
 msgid "Metadata Version:"
 msgstr "Versión de los metadatos:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:982
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:982
 msgid "Action:"
 msgstr "Aición:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:986
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:986
 msgid "Components:"
 msgstr "Componentes:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1003
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1003
 msgid "St_art RAID Array"
 msgstr "A_niciar el conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1004
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1004
 msgid "Bring up the RAID Array"
 msgstr "Espertar el conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1013
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1013
 msgid "St_op RAID Array"
 msgstr "Pa_rar el conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1014
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1014
 msgid "Tear down the RAID Array"
 msgstr "Dormir el conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1023
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1023
 msgid "Format/Erase RAI_D Array"
 msgstr "Formatear/desaniciar el conxuntu RAI_D"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1024
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1024
 msgid "Erase or partition the array"
 msgstr "Desaniciar o particionar el conxuntu"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1033
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1033
 msgid "Chec_k Array"
 msgstr "Co_mprobar el conxuntu"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1034
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1034
 msgid "Check and repair the array"
 msgstr "Comprobar ya iguar el conxuntu"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1043
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1043
 msgid "Edit Com_ponents"
 msgstr "Editar comp_onentes"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1044
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1044
 msgid "Create and remove components"
 msgstr "Crear y desaniciar componentes"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1054
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1054
 msgid "Measure RAID array performance"
 msgstr "Midir el rendimientu del conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:115
+#: ../src/mate-disk/gdu-section-volumes.c:115
 msgid "Error unmounting volume"
 msgstr "Fallu al desmontar el volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:171
+#: ../src/mate-disk/gdu-section-volumes.c:171
 msgid "Error mounting volume"
 msgstr "Fallu al montar el volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:228
+#: ../src/mate-disk/gdu-section-volumes.c:228
 msgid "Error deleting partition"
 msgstr "FAllu al desaniciar la partición"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:263
+#: ../src/mate-disk/gdu-section-volumes.c:263
 msgid "Are you sure you want to delete the partition?"
 msgstr "¿Daveres que quies desaniciar la partición?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:264
-#: ../src/matepalimpsest/gdu-section-volumes.c:1788
+#: ../src/mate-disk/gdu-section-volumes.c:264
+#: ../src/mate-disk/gdu-section-volumes.c:1788
 msgid "_Delete"
 msgstr "_Desaniciar"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:317
+#: ../src/mate-disk/gdu-section-volumes.c:317
 msgid "Error creating filesystem"
 msgstr "Error al criar el sistema de ficheros"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:370
+#: ../src/mate-disk/gdu-section-volumes.c:370
 msgid "Are you sure you want to format the volume?"
 msgstr "¿Daveres que quies formatear el volume?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:428
+#: ../src/mate-disk/gdu-section-volumes.c:428
 msgid "Error modifying partition"
 msgstr "Fallu al camudar la partición"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:519
+#: ../src/mate-disk/gdu-section-volumes.c:519
 msgid "Are you sure you want to forget the passphrase?"
 msgstr "¿Daveres que quies escaecer la contraseña?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:520
+#: ../src/mate-disk/gdu-section-volumes.c:520
 msgid "_Forget"
 msgstr "_Escaecer"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:550
+#: ../src/mate-disk/gdu-section-volumes.c:550
 msgid "Error locking LUKS volume"
 msgstr "Fallu al bloquiar el volume LUKS"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:673
+#: ../src/mate-disk/gdu-section-volumes.c:673
 msgid "Error unlocking LUKS volume"
 msgstr "Fallu al desbloquiar el volume LUKS"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:969
+#: ../src/mate-disk/gdu-section-volumes.c:969
 msgid "Error creating partition"
 msgstr "Fallu al criar la partición"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1140
+#: ../src/mate-disk/gdu-section-volumes.c:1140
 msgid "Error changing label"
 msgstr "Fallu al camudar la etiqueta"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1195
+#: ../src/mate-disk/gdu-section-volumes.c:1195
 msgid "Choose a new filesystem label."
 msgstr "Escoyer una etiqueta nueva pal sistema de ficheros."
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1196
+#: ../src/mate-disk/gdu-section-volumes.c:1196
 msgid "_Label:"
 msgstr "_Etiqueta"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1241
+#: ../src/mate-disk/gdu-section-volumes.c:1241
 msgid "Error checking filesystem on volume"
 msgstr "Fallu al comprobar el sistema de ficheros nel volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1268
+#: ../src/mate-disk/gdu-section-volumes.c:1268
 #, c-format
 msgid "File system check on \"%s\" (%s) completed"
 msgstr "Comprobación del sistema de ficheros en \"%s\" (%s) completada"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1272
+#: ../src/mate-disk/gdu-section-volumes.c:1272
 msgid "File system is clean."
 msgstr "El sistema de ficheros ta llimpiu."
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1275
+#: ../src/mate-disk/gdu-section-volumes.c:1275
 msgid "File system is <b>NOT</b> clean."
 msgstr "El sistema de ficheros <b>NUN</b> ta llimpiu."
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1387
+#: ../src/mate-disk/gdu-section-volumes.c:1387
 #, c-format
 msgid "Error spawning caja: %s"
 msgstr "Fallu al aniciar Caja: %s"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1435
+#: ../src/mate-disk/gdu-section-volumes.c:1435
 msgid "Error creating Logical Volume"
 msgstr "Fallu al crear el volume lóxicu"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1588
+#: ../src/mate-disk/gdu-section-volumes.c:1588
 msgid "Error stopping Logical Volume"
 msgstr "Fallu al parar el volume lóxicu"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1634
+#: ../src/mate-disk/gdu-section-volumes.c:1634
 msgid "Error starting Logical Volume"
 msgstr "Fallu al aniciar el volume lóxicu"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1683
+#: ../src/mate-disk/gdu-section-volumes.c:1683
 msgid "Error setting name for Logical Volume"
 msgstr "Fallu al afitar el nome pal volume lóxicu"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1721
+#: ../src/mate-disk/gdu-section-volumes.c:1721
 msgid "Choose a new name for the Logical Volume."
 msgstr "Escoyer un nome nuevu pal volume lóxicu."
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1754
+#: ../src/mate-disk/gdu-section-volumes.c:1754
 msgid "Error deleting Logical Volume"
 msgstr "Fallu al desaniciar el volume lóxicu"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1787
+#: ../src/mate-disk/gdu-section-volumes.c:1787
 msgid "Are you sure you want to delete the logical volume?"
 msgstr "¿Daveres que quies desaniciar el volume lóxicu?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1906
+#: ../src/mate-disk/gdu-section-volumes.c:1906
 msgid "Volume Name:"
 msgstr "Nome del volume:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1912
+#: ../src/mate-disk/gdu-section-volumes.c:1912
 msgid "Usage:"
 msgstr "Usu:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1922
+#: ../src/mate-disk/gdu-section-volumes.c:1922
 msgid "Partition Type:"
 msgstr "Tipu de partición:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1928
+#: ../src/mate-disk/gdu-section-volumes.c:1928
 msgid "Partition Label:"
 msgstr "Etiqueta de la partición:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1931
+#: ../src/mate-disk/gdu-section-volumes.c:1931
 msgid "Partition Flags:"
 msgstr "Opciones de la partición:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1956
+#: ../src/mate-disk/gdu-section-volumes.c:1956
 msgid "Type:"
 msgstr "Triba:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1959
+#: ../src/mate-disk/gdu-section-volumes.c:1959
 msgid "Available:"
 msgstr "Disponible:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1962
+#: ../src/mate-disk/gdu-section-volumes.c:1962
 msgid "Label:"
 msgstr "Etiqueta:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1965
+#: ../src/mate-disk/gdu-section-volumes.c:1965
 msgid "Mount Point:"
 msgstr "Puntu de montaxe:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1986
+#: ../src/mate-disk/gdu-section-volumes.c:1986
 msgctxt "LVM2 LV State"
 msgid "Running"
 msgstr "Executándose"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1987
+#: ../src/mate-disk/gdu-section-volumes.c:1987
 msgctxt "LVM2 LV State"
 msgid "Not Running"
 msgstr "Nun ta n'execución"
 
 #. Translators: This is for the 'boot' MBR/APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2026
+#: ../src/mate-disk/gdu-section-volumes.c:2026
 msgid "Bootable"
 msgstr "Arrancable"
 
 #. Translators: This is for the 'required' GPT partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2029
+#: ../src/mate-disk/gdu-section-volumes.c:2029
 msgid "Required"
 msgstr "Requerida"
 
 #. Translators: This is for the 'allocated' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2032
+#: ../src/mate-disk/gdu-section-volumes.c:2032
 msgid "Allocated"
 msgstr "Asignada"
 
 #. Translators: This is for the 'allow_read' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2035
+#: ../src/mate-disk/gdu-section-volumes.c:2035
 msgid "Allow Read"
 msgstr "Permitir llectura"
 
 #. Translators: This is for the 'allow_write' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2038
+#: ../src/mate-disk/gdu-section-volumes.c:2038
 msgid "Allow Write"
 msgstr "Permitir escritura"
 
 #. Translators: This is for the 'boot_code_is_pic' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2041
+#: ../src/mate-disk/gdu-section-volumes.c:2041
 msgid "Boot Code PIC"
 msgstr "Códigu d'arranque PIC"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2115
+#: ../src/mate-disk/gdu-section-volumes.c:2115
 msgid "Filesystem"
 msgstr "Sistema de ficheros"
 
 #. Translators: this the mount point hyperlink tooltip for a
 #. * remote server - it uses the sftp:// protocol
 #.
-#: ../src/matepalimpsest/gdu-section-volumes.c:2148
+#: ../src/mate-disk/gdu-section-volumes.c:2148
 msgid "View files on the volume using a SFTP network share"
 msgstr "Ver los ficheros nel volume usando una compartición de rede SFTP"
 
 #. Translators: this the mount point hyperlink tooltip
-#: ../src/matepalimpsest/gdu-section-volumes.c:2155
+#: ../src/mate-disk/gdu-section-volumes.c:2155
 msgid "View files on the volume"
 msgstr "Ver los ficheros nel volume"
 
 #. Translators: this the the text for the mount point
 #. * item - %s is the mount point, e.g. '/media/disk'
 #.
-#: ../src/matepalimpsest/gdu-section-volumes.c:2162
+#: ../src/mate-disk/gdu-section-volumes.c:2162
 #, c-format
 msgid "Mounted at %s"
 msgstr "Montáu en %s"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2170
+#: ../src/mate-disk/gdu-section-volumes.c:2170
 msgid "Not Mounted"
 msgstr "Ensin montar"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2180
+#: ../src/mate-disk/gdu-section-volumes.c:2180
 msgid "Encrypted Volume (Locked)"
 msgstr "Volume cifráu (bloquiáu)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2183
+#: ../src/mate-disk/gdu-section-volumes.c:2183
 msgid "Encrypted Volume (Unlocked)"
 msgstr "Volume cifráu (desbloquiáu)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2196
+#: ../src/mate-disk/gdu-section-volumes.c:2196
 msgid "Go to array"
 msgstr "Dir al conxuntu"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2204
+#: ../src/mate-disk/gdu-section-volumes.c:2204
 msgid "Container for Logical Partitions"
 msgstr "Contenedor pa particiones lóxiques"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2321
+#: ../src/mate-disk/gdu-section-volumes.c:2321
 msgid "Logical _Volumes"
 msgstr "_Volúmenes lóxicos"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2323
+#: ../src/mate-disk/gdu-section-volumes.c:2323
 msgid "_Volumes"
 msgstr "_Volúmenes"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2387
+#: ../src/mate-disk/gdu-section-volumes.c:2387
 msgid "_Mount Volume"
 msgstr "_Montar volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2388
+#: ../src/mate-disk/gdu-section-volumes.c:2388
 msgid "Mount the volume"
 msgstr "Montar el volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2397
+#: ../src/mate-disk/gdu-section-volumes.c:2397
 msgid "Un_mount Volume"
 msgstr "_Desmontar volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2398
+#: ../src/mate-disk/gdu-section-volumes.c:2398
 msgid "Unmount the volume"
 msgstr "Desmontar el volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2407
+#: ../src/mate-disk/gdu-section-volumes.c:2407
 msgid "Fo_rmat Volume"
 msgstr "Fo_rmatear volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2408
+#: ../src/mate-disk/gdu-section-volumes.c:2408
 msgid "Erase or format the volume"
 msgstr "Desaniciar o formatear el volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2417
+#: ../src/mate-disk/gdu-section-volumes.c:2417
 msgid "_Check Filesystem"
 msgstr "Compro_bar el sistema de ficheros"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2418
+#: ../src/mate-disk/gdu-section-volumes.c:2418
 msgid "Check and repair the filesystem"
 msgstr "Comprobar ya iguar el sistema de ficheros"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2428
+#: ../src/mate-disk/gdu-section-volumes.c:2428
 msgid "Edit Filesystem _Label"
 msgstr "Editar la _etiqueta del sistema de ficheros"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2429
+#: ../src/mate-disk/gdu-section-volumes.c:2429
 msgid "Change the label of the filesystem"
 msgstr "Camudar la etiqueta del sistema de ficheros"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2438
+#: ../src/mate-disk/gdu-section-volumes.c:2438
 msgid "Ed_it Partition"
 msgstr "Ed_itar partición"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2439
+#: ../src/mate-disk/gdu-section-volumes.c:2439
 msgid "Change partition type, label and flags"
 msgstr "Camudar el tipu de partición, la etiqueta y les opciones"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2448
+#: ../src/mate-disk/gdu-section-volumes.c:2448
 msgid "D_elete Partition"
 msgstr "_Desaniciar partición"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2449
+#: ../src/mate-disk/gdu-section-volumes.c:2449
 msgid "Delete the partition"
 msgstr "Desaniciar la partición"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2458
+#: ../src/mate-disk/gdu-section-volumes.c:2458
 msgid "_Create Partition"
 msgstr "_Crear partición"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2459
+#: ../src/mate-disk/gdu-section-volumes.c:2459
 msgid "Create a new partition"
 msgstr "Crear una partición nueva"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2468
+#: ../src/mate-disk/gdu-section-volumes.c:2468
 msgid "_Lock Volume"
 msgstr "Bl_oquiar volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2469
+#: ../src/mate-disk/gdu-section-volumes.c:2469
 msgid "Make encrypted data unavailable"
 msgstr "Facer que los datos cifraos nun ten disponibles"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2478
+#: ../src/mate-disk/gdu-section-volumes.c:2478
 msgid "Un_lock Volume"
 msgstr "Desb_loquiar volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2479
+#: ../src/mate-disk/gdu-section-volumes.c:2479
 msgid "Make encrypted data available"
 msgstr "Facer que los datos cifraos tean disponibles"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2488
+#: ../src/mate-disk/gdu-section-volumes.c:2488
 msgid "Forge_t Passphrase"
 msgstr "_Escaecer contraseña"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2489
+#: ../src/mate-disk/gdu-section-volumes.c:2489
 msgid "Delete passphrase from keyring"
 msgstr "Desaniciar la contraseña del depósitu de claves"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2500
+#: ../src/mate-disk/gdu-section-volumes.c:2500
 msgid "Change passphrase"
 msgstr "Camudar la contraseña"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2509
+#: ../src/mate-disk/gdu-section-volumes.c:2509
 msgid "_Create Logical Volume"
 msgstr "_Crear volume lóxicu"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2510
+#: ../src/mate-disk/gdu-section-volumes.c:2510
 msgid "Create a new logical volume"
 msgstr "Crear un volume lóxicu nuevu"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2519
+#: ../src/mate-disk/gdu-section-volumes.c:2519
 msgid "S_tart Volume"
 msgstr "A_niciar volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2520
+#: ../src/mate-disk/gdu-section-volumes.c:2520
 msgid "Activate the Logical Volume"
 msgstr "Activar el volume lóxicu"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2530
+#: ../src/mate-disk/gdu-section-volumes.c:2530
 msgid "Edit Vol_ume Name"
 msgstr "Editar nome del vol_ume:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2531
+#: ../src/mate-disk/gdu-section-volumes.c:2531
 msgid "Change the name of the volume"
 msgstr "Camudar el nome del volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2540
+#: ../src/mate-disk/gdu-section-volumes.c:2540
 msgid "D_elete Volume"
 msgstr "_Desaniciar volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2541
+#: ../src/mate-disk/gdu-section-volumes.c:2541
 msgid "Delete the Logical Volume"
 msgstr "Desaniciar el volume lóxicu"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2550
+#: ../src/mate-disk/gdu-section-volumes.c:2550
 msgid "Sto_p Volume"
 msgstr "_Parar volume"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2551
+#: ../src/mate-disk/gdu-section-volumes.c:2551
 msgid "Deactivate the Logical Volume"
 msgstr "Desactivar el volume lóxicu"
 
 #. Translators: Window title when the item representing a remote machine is selected.
 #. * First %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:290
+#: ../src/mate-disk/gdu-shell.c:290
 #, c-format
 msgid "%s — Disk Utility"
 msgstr "%s — Utilidá de discos"
@@ -5183,7 +5183,7 @@ msgstr "%s — Utilidá de discos"
 #. * Third is the device file (e.g. '/dev/sda')
 #. * Fourth %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:300
+#: ../src/mate-disk/gdu-shell.c:300
 #, c-format
 msgid "%s (%s) [%s] @ %s — Disk Utility"
 msgstr "%s (%s) [en %s] @ %s — Utilidá de discos"
@@ -5193,7 +5193,7 @@ msgstr "%s (%s) [en %s] @ %s — Utilidá de discos"
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #. * Third %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:311
+#: ../src/mate-disk/gdu-shell.c:311
 #, c-format
 msgid "%s (%s) @ %s — Disk Utility"
 msgstr "%s (%s) @ %s — Utilidá de discos"
@@ -5203,7 +5203,7 @@ msgstr "%s (%s) @ %s — Utilidá de discos"
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #. * Third is the device file (e.g. '/dev/sda')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:329
+#: ../src/mate-disk/gdu-shell.c:329
 #, c-format
 msgid "%s (%s) [%s] — Disk Utility"
 msgstr "%s (%s) [%s] — Utilidá de discos"
@@ -5212,117 +5212,117 @@ msgstr "%s (%s) [%s] — Utilidá de discos"
 #. * First %s is the name of the item (e.g. '80 GB Solid-State Disk' or 'Saturn').
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #.
-#: ../src/matepalimpsest/gdu-shell.c:338
+#: ../src/mate-disk/gdu-shell.c:338
 #, c-format
 msgid "%s (%s) — Disk Utility"
 msgstr "%s (%s) — Utilidá de discos"
 
-#: ../src/matepalimpsest/gdu-shell.c:626
+#: ../src/mate-disk/gdu-shell.c:626
 msgid "Error creating RAID array"
 msgstr "Fallu al criar el conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-shell.c:755
+#: ../src/mate-disk/gdu-shell.c:755
 #, c-format
 msgid "Error connecting to “%s”"
 msgstr "Fallu al conectar con “%s”"
 
-#: ../src/matepalimpsest/gdu-shell.c:808
+#: ../src/mate-disk/gdu-shell.c:808
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Iñigo Varela https://launchpad.net/~malditoastur\n"
 "  Xandru Martino https://launchpad.net/~xandru-martino"
 
-#: ../src/matepalimpsest/gdu-shell.c:837
+#: ../src/mate-disk/gdu-shell.c:837
 msgid "_File"
 msgstr "_Ficheru"
 
-#: ../src/matepalimpsest/gdu-shell.c:838
+#: ../src/mate-disk/gdu-shell.c:838
 msgid "Connect to _Server..."
 msgstr "Coneutar col _sirvidor..."
 
-#: ../src/matepalimpsest/gdu-shell.c:838
+#: ../src/mate-disk/gdu-shell.c:838
 msgid "Manage storage devices on another machine"
 msgstr "Xestionar los preseos n'otra máquina"
 
-#: ../src/matepalimpsest/gdu-shell.c:839
+#: ../src/mate-disk/gdu-shell.c:839
 msgid "_Create"
 msgstr "_Crear"
 
-#: ../src/matepalimpsest/gdu-shell.c:840
+#: ../src/mate-disk/gdu-shell.c:840
 msgid "_RAID Array..."
 msgstr "Conxuntu _RAID..."
 
-#: ../src/matepalimpsest/gdu-shell.c:840
+#: ../src/mate-disk/gdu-shell.c:840
 msgid "Create a RAID array"
 msgstr "Crear un conxuntu RAID"
 
-#: ../src/matepalimpsest/gdu-shell.c:841
+#: ../src/mate-disk/gdu-shell.c:841
 msgid "_Edit"
 msgstr "_Editar"
 
-#: ../src/matepalimpsest/gdu-shell.c:842
-#: ../src/matepalimpsest/gdu-shell.c:845
+#: ../src/mate-disk/gdu-shell.c:842
+#: ../src/mate-disk/gdu-shell.c:845
 msgid "_Help"
 msgstr "Aí_da"
 
-#: ../src/matepalimpsest/gdu-shell.c:844
+#: ../src/mate-disk/gdu-shell.c:844
 msgid "_Quit"
 msgstr "_Colar"
 
-#: ../src/matepalimpsest/gdu-shell.c:844
+#: ../src/mate-disk/gdu-shell.c:844
 msgid "Quit"
 msgstr "Colar"
 
-#: ../src/matepalimpsest/gdu-shell.c:845
+#: ../src/mate-disk/gdu-shell.c:845
 msgid "Get Help on Disk Utility"
 msgstr "Algamar aida sobro la Utilidá de discos"
 
-#: ../src/matepalimpsest/gdu-shell.c:846
+#: ../src/mate-disk/gdu-shell.c:846
 msgid "_About"
 msgstr "Tocante _a"
 
-#: ../src/matepalimpsest/gdu-shell.c:925
+#: ../src/mate-disk/gdu-shell.c:925
 msgid "An error occured"
 msgstr "Hebo un fallu"
 
-#: ../src/matepalimpsest/gdu-shell.c:934
+#: ../src/mate-disk/gdu-shell.c:934
 msgid "The operation failed."
 msgstr "Falló la operación."
 
-#: ../src/matepalimpsest/gdu-shell.c:937
+#: ../src/mate-disk/gdu-shell.c:937
 msgid "The device is busy."
 msgstr "El preséu ta ocupáu."
 
-#: ../src/matepalimpsest/gdu-shell.c:940
+#: ../src/mate-disk/gdu-shell.c:940
 msgid "The operation was canceled."
 msgstr "Encaboxóse la operación."
 
-#: ../src/matepalimpsest/gdu-shell.c:943
+#: ../src/mate-disk/gdu-shell.c:943
 msgid "The daemon is being inhibited."
 msgstr "El degorriu ta inhibiéndose."
 
-#: ../src/matepalimpsest/gdu-shell.c:946
+#: ../src/mate-disk/gdu-shell.c:946
 msgid "An invalid option was passed."
 msgstr "Pasóse una operación inválida."
 
-#: ../src/matepalimpsest/gdu-shell.c:949
+#: ../src/mate-disk/gdu-shell.c:949
 msgid "The operation is not supported."
 msgstr "La operación nun se sofita"
 
-#: ../src/matepalimpsest/gdu-shell.c:952
+#: ../src/mate-disk/gdu-shell.c:952
 msgid "Getting ATA SMART data would wake up the device."
 msgstr "Obtener los datos ATA SMART despertará al preséu."
 
-#: ../src/matepalimpsest/gdu-shell.c:955
+#: ../src/mate-disk/gdu-shell.c:955
 msgid "Permission denied."
 msgstr "Permisu denegáu."
 
-#: ../src/matepalimpsest/gdu-shell.c:994
+#: ../src/mate-disk/gdu-shell.c:994
 msgid "_Details:"
 msgstr "_Detalles:"
 
-#: ../src/matepalimpsest/gdu-shell.c:1163
+#: ../src/mate-disk/gdu-shell.c:1163
 msgid "_Storage Devices"
 msgstr "Preseos d'_almacenamientu"
 

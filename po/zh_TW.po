@@ -20,13 +20,13 @@ msgstr ""
 #.
 #. Translators: Window title when the item representing the local machine is selected.
 #.
-#: ../data/matepalimpsest.desktop.in.h:1 ../src/matepalimpsest/gdu-shell.c:269
-#: ../src/matepalimpsest/gdu-shell.c:321 ../src/matepalimpsest/gdu-shell.c:803
-#: ../src/matepalimpsest/gdu-shell.c:1115
+#: ../data/mate-disk.desktop.in.h:1 ../src/mate-disk/gdu-shell.c:269
+#: ../src/mate-disk/gdu-shell.c:321 ../src/mate-disk/gdu-shell.c:803
+#: ../src/mate-disk/gdu-shell.c:1115
 msgid "Disk Utility"
 msgstr "磁碟公用程式"
 
-#: ../data/matepalimpsest.desktop.in.h:2
+#: ../data/mate-disk.desktop.in.h:2
 msgid "Manage Drives and Media"
 msgstr "管理磁碟機與媒體"
 
@@ -70,8 +70,8 @@ msgstr "執行磁碟公用程式時發生錯誤"
 msgid "Device to format"
 msgstr "準備格式化的裝置"
 
-#: ../src/format-tool/gdu-format-tool.c:133 ../src/matepalimpsest/gdu-main.c:127
-#: ../src/matepalimpsest/gdu-main.c:128
+#: ../src/format-tool/gdu-format-tool.c:133 ../src/mate-disk/gdu-main.c:127
+#: ../src/mate-disk/gdu-main.c:128
 msgid "DEVICE"
 msgstr "裝置"
 
@@ -1766,8 +1766,8 @@ msgstr "確定要開始讀取/寫入的效能評測嗎？"
 
 #. TODO: better icon
 #: ../src/gdu-gtk/gdu-drive-benchmark-dialog.c:596
-#: ../src/matepalimpsest/gdu-section-drive.c:1004
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1053
+#: ../src/mate-disk/gdu-section-drive.c:1004
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1053
 msgid "_Benchmark"
 msgstr "效能評測(_B)"
 
@@ -1900,14 +1900,14 @@ msgstr "未配置的"
 
 #: ../src/gdu-gtk/gdu-edit-linux-lvm2-dialog.c:413
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:451
-#: ../src/matepalimpsest/gdu-section-drive.c:935
+#: ../src/mate-disk/gdu-section-drive.c:935
 msgid "SMART Status:"
 msgstr "SMART 狀態："
 
 #: ../src/gdu-gtk/gdu-edit-linux-lvm2-dialog.c:417
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:463
-#: ../src/matepalimpsest/gdu-section-drive.c:911
-#: ../src/matepalimpsest/gdu-section-volumes.c:1919
+#: ../src/mate-disk/gdu-section-drive.c:911
+#: ../src/mate-disk/gdu-section-volumes.c:1919
 msgid "Device:"
 msgstr "裝置:"
 
@@ -1932,7 +1932,7 @@ msgstr "將實體儲存區從群組中移除"
 #. Translators: This string is used when SMART is not supported
 #: ../src/gdu-gtk/gdu-edit-linux-lvm2-dialog.c:943
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:847
-#: ../src/matepalimpsest/gdu-section-drive.c:329
+#: ../src/mate-disk/gdu-section-drive.c:329
 msgid "Not Supported"
 msgstr "不支援"
 
@@ -1962,9 +1962,9 @@ msgid "Position:"
 msgstr "位置："
 
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:459
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:683
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:974
-#: ../src/matepalimpsest/gdu-section-volumes.c:1908
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:683
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:974
+#: ../src/mate-disk/gdu-section-volumes.c:1908
 msgid "State:"
 msgstr "狀態："
 
@@ -2060,7 +2060,7 @@ msgstr "尚未安裝檔案系統驅動程式"
 msgid "Filesystem tools not installed"
 msgstr "尚未安裝檔案系統工具"
 
-#: ../src/gdu-gtk/gdu-error-dialog.c:249 ../src/matepalimpsest/gdu-shell.c:958
+#: ../src/gdu-gtk/gdu-error-dialog.c:249 ../src/mate-disk/gdu-shell.c:958
 msgid "Unknown error"
 msgstr "不明的錯誤"
 
@@ -2133,8 +2133,8 @@ msgstr "確定鍵按鈕的助記標籤"
 #. Translators: Format is used as a verb here
 #: ../src/gdu-gtk/gdu-format-dialog.c:238
 #: ../src/gdu-gtk/gdu-partition-dialog.c:220
-#: ../src/matepalimpsest/gdu-section-drive.c:649
-#: ../src/matepalimpsest/gdu-section-volumes.c:371
+#: ../src/mate-disk/gdu-section-drive.c:649
+#: ../src/mate-disk/gdu-section-volumes.c:371
 msgid "_Format"
 msgstr "格式化(_F)"
 
@@ -2177,8 +2177,8 @@ msgstr "已加密，相容於 Linux (FAT)"
 
 #. Translators: 'name' means 'filesystem label' here.
 #: ../src/gdu-gtk/gdu-format-dialog.c:610
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:204
-#: ../src/matepalimpsest/gdu-section-volumes.c:1722
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:204
+#: ../src/mate-disk/gdu-section-volumes.c:1722
 msgid "_Name:"
 msgstr "名稱(_N):"
 
@@ -2312,7 +2312,7 @@ msgstr "密語不能空白"
 msgid "Cr_eate"
 msgstr "建立(_E)"
 
-#: ../src/gdu-gtk/gdu-gtk.c:592 ../src/matepalimpsest/gdu-section-volumes.c:2499
+#: ../src/gdu-gtk/gdu-gtk.c:592 ../src/mate-disk/gdu-section-volumes.c:2499
 msgid "Change _Passphrase"
 msgstr "更改密語(_P)"
 
@@ -2402,16 +2402,16 @@ msgstr "空白"
 msgid "Extended Partition"
 msgstr "延伸分割區"
 
-#: ../src/gdu-gtk/gdu-gtk.c:1556 ../src/matepalimpsest/gdu-section-drive.c:291
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:254
+#: ../src/gdu-gtk/gdu-gtk.c:1556 ../src/mate-disk/gdu-section-drive.c:291
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:254
 msgid "Master Boot Record"
 msgstr "Master Boot Record"
 
 #. Translators: This string is used for conveying the partition table format
 #: ../src/gdu-gtk/gdu-gtk.c:1561 ../src/gdu/gdu-drive.c:833
 #: ../src/gdu/gdu-linux-md-drive.c:572
-#: ../src/matepalimpsest/gdu-section-drive.c:293
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:256
+#: ../src/mate-disk/gdu-section-drive.c:293
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:256
 msgid "GUID Partition Table"
 msgstr "GUID 分割表"
 
@@ -2420,8 +2420,8 @@ msgid "Don't partition"
 msgstr "不要分割"
 
 #: ../src/gdu-gtk/gdu-gtk.c:1571 ../src/gdu/gdu-util.c:495
-#: ../src/matepalimpsest/gdu-section-drive.c:289
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:252
+#: ../src/mate-disk/gdu-section-drive.c:289
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:252
 msgid "Apple Partition Map"
 msgstr "Apple 分割區圖"
 
@@ -2510,7 +2510,7 @@ msgstr[0] "%d 小時前"
 msgstr[1] "%d 小時前"
 
 #: ../src/gdu-gtk/gdu-volume-grid.c:504
-#: ../src/matepalimpsest/gdu-section-drive.c:150
+#: ../src/mate-disk/gdu-section-drive.c:150
 msgid "Drive"
 msgstr "磁碟機"
 
@@ -2528,7 +2528,7 @@ msgstr "RAID 陣列尚未執行"
 #. * been detected for a drive
 #.
 #: ../src/gdu-gtk/gdu-volume-grid.c:1198 ../src/gdu/gdu-drive.c:819
-#: ../src/matepalimpsest/gdu-section-drive.c:343
+#: ../src/mate-disk/gdu-section-drive.c:343
 #, c-format
 msgid "No Media Detected"
 msgstr "沒有偵測到媒體"
@@ -2545,7 +2545,7 @@ msgstr "已加密"
 
 #. Translators: shown in the grid for an RAID Component
 #: ../src/gdu-gtk/gdu-volume-grid.c:1305 ../src/gdu/gdu-util.c:344
-#: ../src/matepalimpsest/gdu-section-volumes.c:2195
+#: ../src/mate-disk/gdu-section-volumes.c:2195
 #, c-format
 msgid "RAID Component"
 msgstr "RAID 元件"
@@ -2718,8 +2718,8 @@ msgstr "已分割"
 
 #. Translators: This string is used for conveying a device is not partitioned.
 #.
-#: ../src/gdu/gdu-drive.c:846 ../src/matepalimpsest/gdu-section-drive.c:302
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:265
+#: ../src/gdu/gdu-drive.c:846 ../src/mate-disk/gdu-section-drive.c:302
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:265
 msgid "Not Partitioned"
 msgstr "未分割"
 
@@ -2765,7 +2765,7 @@ msgstr "LVM2 邏輯儲存區"
 #. Translators: Description
 #: ../src/gdu/gdu-linux-lvm2-volume-group.c:382
 #: ../src/gdu/gdu-linux-lvm2-volume-group.c:386
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:653
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:653
 msgid "Volume Group"
 msgstr "儲存區群組"
 
@@ -2795,8 +2795,8 @@ msgstr "%s 可用"
 #. Translators: Description
 #: ../src/gdu/gdu-linux-lvm2-volume-hole.c:205
 #: ../src/gdu/gdu-volume-hole.c:161
-#: ../src/matepalimpsest/gdu-section-volumes.c:2209
-#: ../src/matepalimpsest/gdu-section-volumes.c:2217
+#: ../src/mate-disk/gdu-section-volumes.c:2209
+#: ../src/mate-disk/gdu-section-volumes.c:2217
 msgid "Unallocated Space"
 msgstr "未配置的空間"
 
@@ -2840,7 +2840,7 @@ msgid "RAID"
 msgstr "RAID"
 
 #: ../src/gdu/gdu-linux-md-drive.c:617
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:944
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:944
 msgid "RAID Array"
 msgstr "RAID 陣列"
 
@@ -3202,7 +3202,7 @@ msgstr "通用磁碟格式"
 msgid "udf"
 msgstr "udf"
 
-#: ../src/gdu/gdu-util.c:323 ../src/matepalimpsest/gdu-section-volumes.c:2191
+#: ../src/gdu/gdu-util.c:323 ../src/mate-disk/gdu-section-volumes.c:2191
 msgid "Swap Space"
 msgstr "置換空間"
 
@@ -3867,12 +3867,12 @@ msgid "PATA"
 msgstr "PATA"
 
 #. Translators: interface name for ATA disks
-#: ../src/gdu/gdu-util.c:919 ../src/matepalimpsest/gdu-section-hub.c:141
+#: ../src/gdu/gdu-util.c:919 ../src/mate-disk/gdu-section-hub.c:141
 msgid "ATA"
 msgstr "ATA"
 
 #. Translators: interface name for SCSI disks
-#: ../src/gdu/gdu-util.c:922 ../src/matepalimpsest/gdu-section-hub.c:145
+#: ../src/gdu/gdu-util.c:922 ../src/mate-disk/gdu-section-hub.c:145
 msgid "SCSI"
 msgstr "SCSI"
 
@@ -4402,15 +4402,15 @@ msgid ""
 "information."
 msgstr "一或多個硬碟回報健康問題。請按此圖示以取得更多資訊。"
 
-#: ../src/matepalimpsest/gdu-main.c:127
+#: ../src/mate-disk/gdu-main.c:127
 msgid "Volume to show"
 msgstr "要顯示的儲存區"
 
-#: ../src/matepalimpsest/gdu-main.c:128
+#: ../src/mate-disk/gdu-main.c:128
 msgid "Drive to show"
 msgstr "要顯示的磁碟機"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:148
+#: ../src/mate-disk/gdu-section-drive.c:148
 msgid "Multipath Drive"
 msgstr "多路徑磁碟機"
 
@@ -4419,7 +4419,7 @@ msgstr "多路徑磁碟機"
 #. * PHY number (starts at 1) and the %s is the Adapter/Expander
 #. * name (e.g. "SAS Host Adapter").
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:189
+#: ../src/mate-disk/gdu-section-drive.c:189
 #, c-format
 msgid "PHY %d of %s"
 msgstr "%2$s 的 PHY %1$d"
@@ -4429,17 +4429,17 @@ msgstr "%2$s 的 PHY %1$d"
 #. * PHY number (starts at 1) and the %s is the Adapter/Expander
 #. * name (e.g. "SATA Host Adapter").
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:196
+#: ../src/mate-disk/gdu-section-drive.c:196
 #, c-format
 msgid "Port %d of %s"
 msgstr "連接埠 %2$s %1$d"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:261
+#: ../src/mate-disk/gdu-section-drive.c:261
 msgctxt "Write Cache"
 msgid "Enabled"
 msgstr "已啟用"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:263
+#: ../src/mate-disk/gdu-section-drive.c:263
 msgctxt "Write Cache"
 msgid "Disabled"
 msgstr "已停用"
@@ -4447,50 +4447,50 @@ msgstr "已停用"
 #. Translators: This is for the rotation rate of a hard
 #. * disk - RPM means rounds per minute
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:273
+#: ../src/mate-disk/gdu-section-drive.c:273
 #, c-format
 msgctxt "Rotation Rate"
 msgid "%d RPM"
 msgstr "%d RPM"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:281
+#: ../src/mate-disk/gdu-section-drive.c:281
 msgctxt "Rotation Rate"
 msgid "Solid-State Disk"
 msgstr "固態硬碟"
 
 #. Translators: 'scheme' refers to a partition table format here, like 'mbr' or 'gpt'
-#: ../src/matepalimpsest/gdu-section-drive.c:296
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:259
+#: ../src/mate-disk/gdu-section-drive.c:296
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:259
 #, c-format
 msgid "Unknown Scheme: %s"
 msgstr "不明的架構：%s"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:439
-#: ../src/matepalimpsest/gdu-section-drive.c:459
+#: ../src/mate-disk/gdu-section-drive.c:439
+#: ../src/mate-disk/gdu-section-drive.c:459
 msgid "Error launching Brasero"
 msgstr "執行 Brasero 時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:440
+#: ../src/mate-disk/gdu-section-drive.c:440
 msgid "The application is not installed"
 msgstr "尚未安裝此應用程式"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:521
+#: ../src/mate-disk/gdu-section-drive.c:521
 msgid "Error ejecting medium"
 msgstr "退出媒體時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:565
+#: ../src/mate-disk/gdu-section-drive.c:565
 msgid "Error detaching drive"
 msgstr "分離磁碟機時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:610
+#: ../src/mate-disk/gdu-section-drive.c:610
 msgid "Error formatting drive"
 msgstr "格式化磁碟機時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:648
+#: ../src/mate-disk/gdu-section-drive.c:648
 msgid "Are you sure you want to format the drive?"
 msgstr "確定要格式化這個磁碟機？"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:835
+#: ../src/mate-disk/gdu-section-drive.c:835
 msgid ""
 "<b>WARNING:</b> Several paths to this drive has been detected but no "
 "corresponding multipath device was found. Your OS may be misconfigured."
@@ -4498,11 +4498,11 @@ msgstr ""
 "<b>警告：</b>偵測到有多條路徑到這個磁碟機，但是找不到對應的多路徑裝置。您的 "
 "OS 可能設定錯誤了。"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:850
+#: ../src/mate-disk/gdu-section-drive.c:850
 msgid "Go to Multipath Device"
 msgstr "移至多路徑裝置"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:861
+#: ../src/mate-disk/gdu-section-drive.c:861
 msgid ""
 "<b>NOTE:</b> This object represents one of several paths to the drive. To "
 "perform operations on the drive, use the corresponding multipath object."
@@ -4510,795 +4510,795 @@ msgstr ""
 "<b>注意：</b>這個物件代表多個到磁碟機的路徑之一。要進行磁碟機的操作，請使用對"
 "應的多路徑物件。"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:890
-#: ../src/matepalimpsest/gdu-section-hub.c:225
+#: ../src/mate-disk/gdu-section-drive.c:890
+#: ../src/mate-disk/gdu-section-hub.c:225
 msgid "Model:"
 msgstr "型號："
 
-#: ../src/matepalimpsest/gdu-section-drive.c:894
+#: ../src/mate-disk/gdu-section-drive.c:894
 msgid "Serial Number:"
 msgstr "序號："
 
-#: ../src/matepalimpsest/gdu-section-drive.c:898
+#: ../src/mate-disk/gdu-section-drive.c:898
 msgid "Firmware Version:"
 msgstr "韌體版本："
 
 #. Translators: if you translate "World Wide Name", please include the abbreviation "WWN"
-#: ../src/matepalimpsest/gdu-section-drive.c:903
+#: ../src/mate-disk/gdu-section-drive.c:903
 msgid "World Wide Name:"
 msgstr "世界性名稱(WWN):"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:907
+#: ../src/mate-disk/gdu-section-drive.c:907
 msgid "Location:"
 msgstr "位置："
 
-#: ../src/matepalimpsest/gdu-section-drive.c:915
+#: ../src/mate-disk/gdu-section-drive.c:915
 msgid "Write Cache:"
 msgstr "寫入快取："
 
-#: ../src/matepalimpsest/gdu-section-drive.c:919
+#: ../src/mate-disk/gdu-section-drive.c:919
 msgid "Rotation Rate:"
 msgstr "旋轉率："
 
-#: ../src/matepalimpsest/gdu-section-drive.c:923
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:679
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:978
-#: ../src/matepalimpsest/gdu-section-volumes.c:1952
+#: ../src/mate-disk/gdu-section-drive.c:923
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:679
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:978
+#: ../src/mate-disk/gdu-section-volumes.c:1952
 msgid "Capacity:"
 msgstr "容量："
 
-#: ../src/matepalimpsest/gdu-section-drive.c:927
+#: ../src/mate-disk/gdu-section-drive.c:927
 msgid "Connection:"
 msgstr "連線："
 
-#: ../src/matepalimpsest/gdu-section-drive.c:931
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:970
+#: ../src/mate-disk/gdu-section-drive.c:931
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:970
 msgid "Partitioning:"
 msgstr "分割區："
 
-#: ../src/matepalimpsest/gdu-section-drive.c:954
+#: ../src/mate-disk/gdu-section-drive.c:954
 msgid "Open CD/_DVD Application"
 msgstr "開啟 CD/_DVD 應用程式"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:955
+#: ../src/mate-disk/gdu-section-drive.c:955
 msgid "Create and copy CDs and DVDs"
 msgstr "建立與複製 CD 和 DVD"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:964
+#: ../src/mate-disk/gdu-section-drive.c:964
 msgid "Format _Drive"
 msgstr "格式化磁碟機(_D)"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:965
+#: ../src/mate-disk/gdu-section-drive.c:965
 msgid "Erase or partition the drive"
 msgstr "抹除或分割這個磁碟機"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:974
+#: ../src/mate-disk/gdu-section-drive.c:974
 msgid "SM_ART Data"
 msgstr "SM_ART 資料"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:975
+#: ../src/mate-disk/gdu-section-drive.c:975
 msgid "View SMART data and run self-tests"
 msgstr "檢視 SMART 資料並執行自我測試"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:984
+#: ../src/mate-disk/gdu-section-drive.c:984
 msgid "_Eject"
 msgstr "退出(_E)"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:985
+#: ../src/mate-disk/gdu-section-drive.c:985
 msgid "Eject medium from the drive"
 msgstr "從裝置退出媒體"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:994
+#: ../src/mate-disk/gdu-section-drive.c:994
 msgid "Safe Rem_oval"
 msgstr "安全移除(_O)"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:995
+#: ../src/mate-disk/gdu-section-drive.c:995
 msgid "Power down the drive so it can be removed"
 msgstr "當裝置可以移除時關閉其電源"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:1005
+#: ../src/mate-disk/gdu-section-drive.c:1005
 msgid "Measure drive performance"
 msgstr "測量磁碟機效能"
 
 #. Translators: Used for SAS to convey the number of PHYs in the
 #. * "Number of Ports" element. You should probably not translate PHY.
 #.
-#: ../src/matepalimpsest/gdu-section-hub.c:106
-#: ../src/matepalimpsest/gdu-section-hub.c:161
+#: ../src/mate-disk/gdu-section-hub.c:106
+#: ../src/mate-disk/gdu-section-hub.c:161
 #, c-format
 msgid "%d PHYs"
 msgstr "%d PHYs"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:137
+#: ../src/mate-disk/gdu-section-hub.c:137
 msgid "Parallel ATA"
 msgstr "並列式 ATA"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:139
+#: ../src/mate-disk/gdu-section-hub.c:139
 msgid "Serial ATA"
 msgstr "序列式 ATA"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:143
+#: ../src/mate-disk/gdu-section-hub.c:143
 msgid "Serial Attached SCSI"
 msgstr "序列附加式 SCSI"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:221
+#: ../src/mate-disk/gdu-section-hub.c:221
 msgid "Vendor:"
 msgstr "廠商："
 
-#: ../src/matepalimpsest/gdu-section-hub.c:229
+#: ../src/mate-disk/gdu-section-hub.c:229
 msgid "Revision:"
 msgstr "修訂版："
 
-#: ../src/matepalimpsest/gdu-section-hub.c:233
+#: ../src/mate-disk/gdu-section-hub.c:233
 msgid "Driver:"
 msgstr "磁碟機："
 
-#: ../src/matepalimpsest/gdu-section-hub.c:237
+#: ../src/mate-disk/gdu-section-hub.c:237
 msgid "Fabric:"
 msgstr "結構："
 
-#: ../src/matepalimpsest/gdu-section-hub.c:241
+#: ../src/mate-disk/gdu-section-hub.c:241
 msgid "Number of Ports:"
 msgstr "連接埠數目："
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:77
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:77
 msgid "Error starting Volume Group"
 msgstr "啟動儲存區群組時出現錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:123
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:123
 msgid "Error stopping Volume Group"
 msgstr "停止儲存區群組時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:169
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:169
 msgid "Error setting name for Volume Group"
 msgstr "設定儲存區群組名稱時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:203
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:203
 msgid "Choose a new Volume Group name."
 msgstr "請選擇一個新的儲存區群組名稱。"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:255
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:255
 msgid "Error adding Physical Volume to Volume Group"
 msgstr "將實體儲存區加入儲存區群組時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:285
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:285
 msgid "Error creating PV for VG"
 msgstr "在群組建立實體儲存區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:380
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:380
 msgid "Error deleting partition for Physical Volume in Volume Group"
 msgstr "刪除儲存區群組中實體群組的分割區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:403
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:403
 msgid "Error removing Physical Volume from Volume Group"
 msgstr "移除儲存區群組中實體群組的分割區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:476
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:476
 msgid "Are you sure you want the remove the Physical Volume?"
 msgstr "是否確定移除實體儲存區？"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:477
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:530
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:477
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:530
 msgid "_Remove"
 msgstr "移除(_R)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:597
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:597
 msgid "Not Running"
 msgstr "尚未運作"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:601
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:601
 msgid "Partially Running"
 msgstr "部分執行"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:606
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:606
 msgid "Running"
 msgstr "運作中"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:610
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:610
 #, c-format
 msgid "Unknown (%d)"
 msgstr "不明的 (%d)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:667
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:966
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:667
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:966
 msgid "Name:"
 msgstr "名稱："
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:671
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:671
 msgid "Extent Size:"
 msgstr "延伸大小："
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:675
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:675
 msgid "Physical Volumes:"
 msgstr "實體儲存區："
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:687
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:687
 msgid "Unallocated:"
 msgstr "未配置的："
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:706
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:706
 msgid "St_art Volume Group"
 msgstr "啟動儲存區群組(_A)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:707
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:707
 msgid "Activate all LVs in the VG"
 msgstr "使用群組中的所有實體儲存區"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:716
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:716
 msgid "St_op Volume Group"
 msgstr "停止儲存區群組(_O)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:717
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:717
 msgid "Deactivate all LVs in the VG"
 msgstr "不要使用群組中的所有實體儲存區"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:727
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:727
 msgid "Edit _Name"
 msgstr "編輯名稱(_N)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:728
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:728
 msgid "Change the Volume Group name"
 msgstr "改變此儲存區群組的名稱"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:737
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:737
 msgid "Edit _Physical Volumes"
 msgstr "編輯實體儲存區(_P)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:738
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:738
 msgid "Create and remove PVs"
 msgstr "建立和移除實體儲存區"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:84
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:84
 msgctxt "RAID status"
 msgid "Not running, partially assembled"
 msgstr "尚未執行，部分已組合"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:92
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:92
 msgctxt "RAID status"
 msgid "Not running"
 msgstr "尚未運作"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:94
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:94
 msgctxt "RAID status"
 msgid "Not running, can only start degraded"
 msgstr "尚未執行，只能以降級方式啟動"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:96
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:96
 msgctxt "RAID status"
 msgid "Not running, not enough components to start"
 msgstr "尚未運作，沒有足夠的元件可啟動"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:114
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:114
 msgctxt "RAID status"
 msgid "DEGRADED"
 msgstr "降級的"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:116
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:116
 msgctxt "RAID status"
 msgid "Running"
 msgstr "運作中"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:124
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:124
 msgctxt "RAID action"
 msgid "Reshaping"
 msgstr "正在重塑"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:126
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:126
 msgctxt "RAID action"
 msgid "Resyncing"
 msgstr "正在同步"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:128
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:128
 msgctxt "RAID action"
 msgid "Repairing"
 msgstr "正在修復"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:130
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:130
 msgctxt "RAID action"
 msgid "Recovering"
 msgstr "正在還原"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:132
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:132
 msgctxt "RAID action"
 msgid "Checking"
 msgstr "正在檢查"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:137
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:137
 msgctxt "RAID action"
 msgid "Idle"
 msgstr "閒置"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:315
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:315
 msgid "Error stopping RAID Array"
 msgstr "停止 RAID 陣列時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:360
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:360
 msgid "Error starting RAID Array"
 msgstr "啟動 RAID 陣列時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:390
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:393
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:390
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:393
 #, c-format
 msgid "Not enough components available to start the RAID Array"
 msgstr "沒有足夠的元件可啟動此 RAID 陣列"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:409
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:409
 msgid "Are you sure you want the RAID Array degraded?"
 msgstr "是否確定將此 RAID 陣列降級？"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:410
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:410
 msgid "_Start"
 msgstr "啟動(_S)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:455
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:455
 msgid "Error deleting partition for component in RAID Array"
 msgstr "刪除 RAID 陣列元件的分割區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:478
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:478
 msgid "Error removing component from RAID Array"
 msgstr "移除 RAID 陣列元件時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:529
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:529
 msgid "Are you sure you want the remove the component?"
 msgstr "是否確定移除這個元件？"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:566
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:650
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:566
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:650
 msgid "Error adding component to RAID Array"
 msgstr "將元件加入 RAID 陣列時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:683
-#: ../src/matepalimpsest/gdu-shell.c:598
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:683
+#: ../src/mate-disk/gdu-shell.c:598
 msgid "Error creating component for RAID array"
 msgstr "建立 RAID 陣列元件時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:722
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:722
 msgid "Error expanding RAID Array"
 msgstr "擴張 RAID 陣列時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:883
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:883
 msgid "Error checking RAID Array"
 msgstr "檢查 RAID 陣列時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:958
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:958
 msgid "Level:"
 msgstr "級數："
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:962
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:962
 msgid "Metadata Version:"
 msgstr "中繼資料版本："
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:982
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:982
 msgid "Action:"
 msgstr "動作："
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:986
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:986
 msgid "Components:"
 msgstr "元件："
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1003
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1003
 msgid "St_art RAID Array"
 msgstr "啟動 R_AID 陣列"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1004
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1004
 msgid "Bring up the RAID Array"
 msgstr "正在喚醒 RAID 陣列"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1013
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1013
 msgid "St_op RAID Array"
 msgstr "停止 RAID 陣列(_O)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1014
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1014
 msgid "Tear down the RAID Array"
 msgstr "解除 RAID 陣列"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1023
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1023
 msgid "Format/Erase RAI_D Array"
 msgstr "格式化/抹除 RAI_D 陣列"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1024
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1024
 msgid "Erase or partition the array"
 msgstr "抹除或分割此陣列"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1033
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1033
 msgid "Chec_k Array"
 msgstr "檢查陣列(_K)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1034
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1034
 msgid "Check and repair the array"
 msgstr "檢查並修復此陣列"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1043
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1043
 msgid "Edit Com_ponents"
 msgstr "編輯元件(_P)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1044
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1044
 msgid "Create and remove components"
 msgstr "建立和移除元件"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1054
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1054
 msgid "Measure RAID array performance"
 msgstr "測量 RAID 陣列效能"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:115
+#: ../src/mate-disk/gdu-section-volumes.c:115
 msgid "Error unmounting volume"
 msgstr "卸載儲存區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:171
+#: ../src/mate-disk/gdu-section-volumes.c:171
 msgid "Error mounting volume"
 msgstr "掛載儲存區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:228
+#: ../src/mate-disk/gdu-section-volumes.c:228
 msgid "Error deleting partition"
 msgstr "刪除分割區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:263
+#: ../src/mate-disk/gdu-section-volumes.c:263
 msgid "Are you sure you want to delete the partition?"
 msgstr "確定要刪除此分割區？"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:264
-#: ../src/matepalimpsest/gdu-section-volumes.c:1788
+#: ../src/mate-disk/gdu-section-volumes.c:264
+#: ../src/mate-disk/gdu-section-volumes.c:1788
 msgid "_Delete"
 msgstr "刪除(_D)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:317
+#: ../src/mate-disk/gdu-section-volumes.c:317
 msgid "Error creating filesystem"
 msgstr "建立檔案系統時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:370
+#: ../src/mate-disk/gdu-section-volumes.c:370
 msgid "Are you sure you want to format the volume?"
 msgstr "確定要格式化此儲存區？"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:428
+#: ../src/mate-disk/gdu-section-volumes.c:428
 msgid "Error modifying partition"
 msgstr "編輯分割區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:519
+#: ../src/mate-disk/gdu-section-volumes.c:519
 msgid "Are you sure you want to forget the passphrase?"
 msgstr "確定要遺忘所有通關密語？"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:520
+#: ../src/mate-disk/gdu-section-volumes.c:520
 msgid "_Forget"
 msgstr "遺忘(_F)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:550
+#: ../src/mate-disk/gdu-section-volumes.c:550
 msgid "Error locking LUKS volume"
 msgstr "鎖定 LUKS 裝置儲存區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:673
+#: ../src/mate-disk/gdu-section-volumes.c:673
 msgid "Error unlocking LUKS volume"
 msgstr "解除 LUKS 儲存區鎖定發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:969
+#: ../src/mate-disk/gdu-section-volumes.c:969
 msgid "Error creating partition"
 msgstr "建立分割區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1140
+#: ../src/mate-disk/gdu-section-volumes.c:1140
 msgid "Error changing label"
 msgstr "改變標籤時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1195
+#: ../src/mate-disk/gdu-section-volumes.c:1195
 msgid "Choose a new filesystem label."
 msgstr "請選擇新的檔案系統標籤。"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1196
+#: ../src/mate-disk/gdu-section-volumes.c:1196
 msgid "_Label:"
 msgstr "標籤(_L):"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1241
+#: ../src/mate-disk/gdu-section-volumes.c:1241
 msgid "Error checking filesystem on volume"
 msgstr "檢查儲存區上的檔案系統時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1268
+#: ../src/mate-disk/gdu-section-volumes.c:1268
 #, c-format
 msgid "File system check on \"%s\" (%s) completed"
 msgstr "在「%s」(%s) 上的檔案系統檢查完成"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1272
+#: ../src/mate-disk/gdu-section-volumes.c:1272
 msgid "File system is clean."
 msgstr "檔案系統是完整的。"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1275
+#: ../src/mate-disk/gdu-section-volumes.c:1275
 msgid "File system is <b>NOT</b> clean."
 msgstr "檔案系統<b>不</b>完整。"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1387
+#: ../src/mate-disk/gdu-section-volumes.c:1387
 #, c-format
 msgid "Error spawning caja: %s"
 msgstr "執行 caja 時發生錯誤：%s"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1435
+#: ../src/mate-disk/gdu-section-volumes.c:1435
 msgid "Error creating Logical Volume"
 msgstr "建立邏輯儲存區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1588
+#: ../src/mate-disk/gdu-section-volumes.c:1588
 msgid "Error stopping Logical Volume"
 msgstr "停止邏輯儲存區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1634
+#: ../src/mate-disk/gdu-section-volumes.c:1634
 msgid "Error starting Logical Volume"
 msgstr "啟動邏輯儲存區時出現錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1683
+#: ../src/mate-disk/gdu-section-volumes.c:1683
 msgid "Error setting name for Logical Volume"
 msgstr "設定邏輯儲存區的名稱時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1721
+#: ../src/mate-disk/gdu-section-volumes.c:1721
 msgid "Choose a new name for the Logical Volume."
 msgstr "選擇邏輯儲存區的新名稱。"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1754
+#: ../src/mate-disk/gdu-section-volumes.c:1754
 msgid "Error deleting Logical Volume"
 msgstr "刪除邏輯儲存區時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1787
+#: ../src/mate-disk/gdu-section-volumes.c:1787
 msgid "Are you sure you want to delete the logical volume?"
 msgstr "確定要刪除邏輯儲存區？"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1906
+#: ../src/mate-disk/gdu-section-volumes.c:1906
 msgid "Volume Name:"
 msgstr "儲存區名稱："
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1912
+#: ../src/mate-disk/gdu-section-volumes.c:1912
 msgid "Usage:"
 msgstr "用法："
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1922
+#: ../src/mate-disk/gdu-section-volumes.c:1922
 msgid "Partition Type:"
 msgstr "分割區類型："
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1928
+#: ../src/mate-disk/gdu-section-volumes.c:1928
 msgid "Partition Label:"
 msgstr "分割區標籤："
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1931
+#: ../src/mate-disk/gdu-section-volumes.c:1931
 msgid "Partition Flags:"
 msgstr "分割區旗標："
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1956
+#: ../src/mate-disk/gdu-section-volumes.c:1956
 msgid "Type:"
 msgstr "類型："
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1959
+#: ../src/mate-disk/gdu-section-volumes.c:1959
 msgid "Available:"
 msgstr "剩餘："
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1962
+#: ../src/mate-disk/gdu-section-volumes.c:1962
 msgid "Label:"
 msgstr "標籤："
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1965
+#: ../src/mate-disk/gdu-section-volumes.c:1965
 msgid "Mount Point:"
 msgstr "掛載點："
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1986
+#: ../src/mate-disk/gdu-section-volumes.c:1986
 msgctxt "LVM2 LV State"
 msgid "Running"
 msgstr "運作中"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1987
+#: ../src/mate-disk/gdu-section-volumes.c:1987
 msgctxt "LVM2 LV State"
 msgid "Not Running"
 msgstr "尚未運作"
 
 #. Translators: This is for the 'boot' MBR/APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2026
+#: ../src/mate-disk/gdu-section-volumes.c:2026
 msgid "Bootable"
 msgstr "可開機"
 
 #. Translators: This is for the 'required' GPT partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2029
+#: ../src/mate-disk/gdu-section-volumes.c:2029
 msgid "Required"
 msgstr "必要的"
 
 #. Translators: This is for the 'allocated' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2032
+#: ../src/mate-disk/gdu-section-volumes.c:2032
 msgid "Allocated"
 msgstr "已配置"
 
 #. Translators: This is for the 'allow_read' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2035
+#: ../src/mate-disk/gdu-section-volumes.c:2035
 msgid "Allow Read"
 msgstr "允許讀取"
 
 #. Translators: This is for the 'allow_write' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2038
+#: ../src/mate-disk/gdu-section-volumes.c:2038
 msgid "Allow Write"
 msgstr "允許寫入"
 
 #. Translators: This is for the 'boot_code_is_pic' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2041
+#: ../src/mate-disk/gdu-section-volumes.c:2041
 msgid "Boot Code PIC"
 msgstr "開機代碼 PIC"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2115
+#: ../src/mate-disk/gdu-section-volumes.c:2115
 msgid "Filesystem"
 msgstr "檔案系統"
 
 #. Translators: this the mount point hyperlink tooltip for a
 #. * remote server - it uses the sftp:// protocol
 #.
-#: ../src/matepalimpsest/gdu-section-volumes.c:2148
+#: ../src/mate-disk/gdu-section-volumes.c:2148
 msgid "View files on the volume using a SFTP network share"
 msgstr "使用 SFTP 網路分享檢視儲存區的檔案"
 
 #. Translators: this the mount point hyperlink tooltip
-#: ../src/matepalimpsest/gdu-section-volumes.c:2155
+#: ../src/mate-disk/gdu-section-volumes.c:2155
 msgid "View files on the volume"
 msgstr "檢視儲存區上的檔案"
 
 #. Translators: this the the text for the mount point
 #. * item - %s is the mount point, e.g. '/media/disk'
 #.
-#: ../src/matepalimpsest/gdu-section-volumes.c:2162
+#: ../src/mate-disk/gdu-section-volumes.c:2162
 #, c-format
 msgid "Mounted at %s"
 msgstr "已掛載於 %s"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2170
+#: ../src/mate-disk/gdu-section-volumes.c:2170
 msgid "Not Mounted"
 msgstr "未掛載"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2180
+#: ../src/mate-disk/gdu-section-volumes.c:2180
 msgid "Encrypted Volume (Locked)"
 msgstr "已加密的儲存區（已鎖定）"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2183
+#: ../src/mate-disk/gdu-section-volumes.c:2183
 msgid "Encrypted Volume (Unlocked)"
 msgstr "已加密的儲存區（未鎖定）"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2196
+#: ../src/mate-disk/gdu-section-volumes.c:2196
 msgid "Go to array"
 msgstr "移至陣列"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2204
+#: ../src/mate-disk/gdu-section-volumes.c:2204
 msgid "Container for Logical Partitions"
 msgstr "邏輯分割區的容器"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2321
+#: ../src/mate-disk/gdu-section-volumes.c:2321
 msgid "Logical _Volumes"
 msgstr "邏輯儲存區(_V)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2323
+#: ../src/mate-disk/gdu-section-volumes.c:2323
 msgid "_Volumes"
 msgstr "儲存區(_V)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2387
+#: ../src/mate-disk/gdu-section-volumes.c:2387
 msgid "_Mount Volume"
 msgstr "掛載儲存區(_M)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2388
+#: ../src/mate-disk/gdu-section-volumes.c:2388
 msgid "Mount the volume"
 msgstr "掛載這個儲存區"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2397
+#: ../src/mate-disk/gdu-section-volumes.c:2397
 msgid "Un_mount Volume"
 msgstr "卸載儲存區(_M)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2398
+#: ../src/mate-disk/gdu-section-volumes.c:2398
 msgid "Unmount the volume"
 msgstr "卸載這個儲存區"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2407
+#: ../src/mate-disk/gdu-section-volumes.c:2407
 msgid "Fo_rmat Volume"
 msgstr "格式化儲存區(_R)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2408
+#: ../src/mate-disk/gdu-section-volumes.c:2408
 msgid "Erase or format the volume"
 msgstr "抹除或格式化這個儲存區"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2417
+#: ../src/mate-disk/gdu-section-volumes.c:2417
 msgid "_Check Filesystem"
 msgstr "檢查檔案系統(_C)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2418
+#: ../src/mate-disk/gdu-section-volumes.c:2418
 msgid "Check and repair the filesystem"
 msgstr "檢查並修復此檔案系統"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2428
+#: ../src/mate-disk/gdu-section-volumes.c:2428
 msgid "Edit Filesystem _Label"
 msgstr "編輯檔案系統標籤(_L)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2429
+#: ../src/mate-disk/gdu-section-volumes.c:2429
 msgid "Change the label of the filesystem"
 msgstr "改變這個檔案系統的標籤"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2438
+#: ../src/mate-disk/gdu-section-volumes.c:2438
 msgid "Ed_it Partition"
 msgstr "編輯分割區(_I)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2439
+#: ../src/mate-disk/gdu-section-volumes.c:2439
 msgid "Change partition type, label and flags"
 msgstr "改變分割區類型、標籤和旗標"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2448
+#: ../src/mate-disk/gdu-section-volumes.c:2448
 msgid "D_elete Partition"
 msgstr "刪除分割區(_E)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2449
+#: ../src/mate-disk/gdu-section-volumes.c:2449
 msgid "Delete the partition"
 msgstr "刪除此分割區"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2458
+#: ../src/mate-disk/gdu-section-volumes.c:2458
 msgid "_Create Partition"
 msgstr "建立分割區(_C)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2459
+#: ../src/mate-disk/gdu-section-volumes.c:2459
 msgid "Create a new partition"
 msgstr "建立新的分割區"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2468
+#: ../src/mate-disk/gdu-section-volumes.c:2468
 msgid "_Lock Volume"
 msgstr "鎖定儲存區(_L)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2469
+#: ../src/mate-disk/gdu-section-volumes.c:2469
 msgid "Make encrypted data unavailable"
 msgstr "讓已加密的資料無法使用"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2478
+#: ../src/mate-disk/gdu-section-volumes.c:2478
 msgid "Un_lock Volume"
 msgstr "解鎖儲存區(_L)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2479
+#: ../src/mate-disk/gdu-section-volumes.c:2479
 msgid "Make encrypted data available"
 msgstr "讓已加密的資料可以使用"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2488
+#: ../src/mate-disk/gdu-section-volumes.c:2488
 msgid "Forge_t Passphrase"
 msgstr "遺忘密語(_T)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2489
+#: ../src/mate-disk/gdu-section-volumes.c:2489
 msgid "Delete passphrase from keyring"
 msgstr "從鑰匙圈中刪除密語"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2500
+#: ../src/mate-disk/gdu-section-volumes.c:2500
 msgid "Change passphrase"
 msgstr "更改密語"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2509
+#: ../src/mate-disk/gdu-section-volumes.c:2509
 msgid "_Create Logical Volume"
 msgstr "建立邏輯儲存區(_C)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2510
+#: ../src/mate-disk/gdu-section-volumes.c:2510
 msgid "Create a new logical volume"
 msgstr "建立新的邏輯儲存區"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2519
+#: ../src/mate-disk/gdu-section-volumes.c:2519
 msgid "S_tart Volume"
 msgstr "啟動儲存區(_T)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2520
+#: ../src/mate-disk/gdu-section-volumes.c:2520
 msgid "Activate the Logical Volume"
 msgstr "使用邏輯儲存區"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2530
+#: ../src/mate-disk/gdu-section-volumes.c:2530
 msgid "Edit Vol_ume Name"
 msgstr "編輯儲存區名稱(_U)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2531
+#: ../src/mate-disk/gdu-section-volumes.c:2531
 msgid "Change the name of the volume"
 msgstr "更改儲存區的名稱"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2540
+#: ../src/mate-disk/gdu-section-volumes.c:2540
 msgid "D_elete Volume"
 msgstr "刪除儲存區(_E)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2541
+#: ../src/mate-disk/gdu-section-volumes.c:2541
 msgid "Delete the Logical Volume"
 msgstr "刪除邏輯儲存區"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2550
+#: ../src/mate-disk/gdu-section-volumes.c:2550
 msgid "Sto_p Volume"
 msgstr "停止儲存區(_P)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2551
+#: ../src/mate-disk/gdu-section-volumes.c:2551
 msgid "Deactivate the Logical Volume"
 msgstr "停止使用邏輯儲存區"
 
 #. Translators: Window title when the item representing a remote machine is selected.
 #. * First %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:290
+#: ../src/mate-disk/gdu-shell.c:290
 #, c-format
 msgid "%s — Disk Utility"
 msgstr "%s — 磁碟公用程式"
@@ -5309,7 +5309,7 @@ msgstr "%s — 磁碟公用程式"
 #. * Third is the device file (e.g. '/dev/sda')
 #. * Fourth %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:300
+#: ../src/mate-disk/gdu-shell.c:300
 #, c-format
 msgid "%s (%s) [%s] @ %s — Disk Utility"
 msgstr "%s (%s) [%s] @ %s — 磁碟公用程式"
@@ -5319,7 +5319,7 @@ msgstr "%s (%s) [%s] @ %s — 磁碟公用程式"
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #. * Third %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:311
+#: ../src/mate-disk/gdu-shell.c:311
 #, c-format
 msgid "%s (%s) @ %s — Disk Utility"
 msgstr "%s (%s) @ %s — 磁碟公用程式"
@@ -5329,7 +5329,7 @@ msgstr "%s (%s) @ %s — 磁碟公用程式"
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #. * Third is the device file (e.g. '/dev/sda')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:329
+#: ../src/mate-disk/gdu-shell.c:329
 #, c-format
 msgid "%s (%s) [%s] — Disk Utility"
 msgstr "%s (%s) [%s] — 磁碟公用程式"
@@ -5338,115 +5338,115 @@ msgstr "%s (%s) [%s] — 磁碟公用程式"
 #. * First %s is the name of the item (e.g. '80 GB Solid-State Disk' or 'Saturn').
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #.
-#: ../src/matepalimpsest/gdu-shell.c:338
+#: ../src/mate-disk/gdu-shell.c:338
 #, c-format
 msgid "%s (%s) — Disk Utility"
 msgstr "%s (%s) — 磁碟公用程式"
 
-#: ../src/matepalimpsest/gdu-shell.c:626
+#: ../src/mate-disk/gdu-shell.c:626
 msgid "Error creating RAID array"
 msgstr "建立 RAID 陣列時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-shell.c:755
+#: ../src/mate-disk/gdu-shell.c:755
 #, c-format
 msgid "Error connecting to “%s”"
 msgstr "連線至“%s”時發生錯誤"
 
-#: ../src/matepalimpsest/gdu-shell.c:808
+#: ../src/mate-disk/gdu-shell.c:808
 msgid "translator-credits"
 msgstr ""
 "如對翻譯有任何意見，請送一封電子郵件給\n"
 "以下地址，MATE 翻譯團隊會盡快回覆您：\n"
 "zh-l10n@lists.linux.org.tw"
 
-#: ../src/matepalimpsest/gdu-shell.c:837
+#: ../src/mate-disk/gdu-shell.c:837
 msgid "_File"
 msgstr "檔案(_F)"
 
-#: ../src/matepalimpsest/gdu-shell.c:838
+#: ../src/mate-disk/gdu-shell.c:838
 msgid "Connect to _Server..."
 msgstr "連接伺服器(_S)..."
 
-#: ../src/matepalimpsest/gdu-shell.c:838
+#: ../src/mate-disk/gdu-shell.c:838
 msgid "Manage storage devices on another machine"
 msgstr "管理另一台機器上的儲存裝置"
 
-#: ../src/matepalimpsest/gdu-shell.c:839
+#: ../src/mate-disk/gdu-shell.c:839
 msgid "_Create"
 msgstr "建立(_C)"
 
-#: ../src/matepalimpsest/gdu-shell.c:840
+#: ../src/mate-disk/gdu-shell.c:840
 msgid "_RAID Array..."
 msgstr "_RAID 陣列..."
 
-#: ../src/matepalimpsest/gdu-shell.c:840
+#: ../src/mate-disk/gdu-shell.c:840
 msgid "Create a RAID array"
 msgstr "建立 RAID 陣列"
 
-#: ../src/matepalimpsest/gdu-shell.c:841
+#: ../src/mate-disk/gdu-shell.c:841
 msgid "_Edit"
 msgstr "編輯(_E)"
 
-#: ../src/matepalimpsest/gdu-shell.c:842 ../src/matepalimpsest/gdu-shell.c:845
+#: ../src/mate-disk/gdu-shell.c:842 ../src/mate-disk/gdu-shell.c:845
 msgid "_Help"
 msgstr "求助(_H)"
 
-#: ../src/matepalimpsest/gdu-shell.c:844
+#: ../src/mate-disk/gdu-shell.c:844
 msgid "_Quit"
 msgstr "結束(_Q)"
 
-#: ../src/matepalimpsest/gdu-shell.c:844
+#: ../src/mate-disk/gdu-shell.c:844
 msgid "Quit"
 msgstr "結束"
 
-#: ../src/matepalimpsest/gdu-shell.c:845
+#: ../src/mate-disk/gdu-shell.c:845
 msgid "Get Help on Disk Utility"
 msgstr "取得磁碟公用程式的說明"
 
-#: ../src/matepalimpsest/gdu-shell.c:846
+#: ../src/mate-disk/gdu-shell.c:846
 msgid "_About"
 msgstr "關於(_A)"
 
-#: ../src/matepalimpsest/gdu-shell.c:925
+#: ../src/mate-disk/gdu-shell.c:925
 msgid "An error occured"
 msgstr "發生錯誤"
 
-#: ../src/matepalimpsest/gdu-shell.c:934
+#: ../src/mate-disk/gdu-shell.c:934
 msgid "The operation failed."
 msgstr "操作已失敗。"
 
-#: ../src/matepalimpsest/gdu-shell.c:937
+#: ../src/mate-disk/gdu-shell.c:937
 msgid "The device is busy."
 msgstr "該裝置忙碌中。"
 
-#: ../src/matepalimpsest/gdu-shell.c:940
+#: ../src/mate-disk/gdu-shell.c:940
 msgid "The operation was canceled."
 msgstr "操作已被取消。"
 
-#: ../src/matepalimpsest/gdu-shell.c:943
+#: ../src/mate-disk/gdu-shell.c:943
 msgid "The daemon is being inhibited."
 msgstr "伺服程式已被抑制。"
 
-#: ../src/matepalimpsest/gdu-shell.c:946
+#: ../src/mate-disk/gdu-shell.c:946
 msgid "An invalid option was passed."
 msgstr "傳送了無效的選項。"
 
-#: ../src/matepalimpsest/gdu-shell.c:949
+#: ../src/mate-disk/gdu-shell.c:949
 msgid "The operation is not supported."
 msgstr "這個操作是不支援的。"
 
-#: ../src/matepalimpsest/gdu-shell.c:952
+#: ../src/mate-disk/gdu-shell.c:952
 msgid "Getting ATA SMART data would wake up the device."
 msgstr "取得 ATA SMART 資料會喚醒該裝置。"
 
-#: ../src/matepalimpsest/gdu-shell.c:955
+#: ../src/mate-disk/gdu-shell.c:955
 msgid "Permission denied."
 msgstr "權限被拒絕。"
 
-#: ../src/matepalimpsest/gdu-shell.c:994
+#: ../src/mate-disk/gdu-shell.c:994
 msgid "_Details:"
 msgstr "詳細資料(_D):"
 
-#: ../src/matepalimpsest/gdu-shell.c:1168
+#: ../src/mate-disk/gdu-shell.c:1168
 msgid "_Storage Devices"
 msgstr "儲存裝置(_S)"

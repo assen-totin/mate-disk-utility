@@ -21,13 +21,13 @@ msgstr ""
 #.
 #. Translators: Window title when the item representing the local machine is selected.
 #.
-#: ../data/matepalimpsest.desktop.in.h:1 ../src/matepalimpsest/gdu-shell.c:269
-#: ../src/matepalimpsest/gdu-shell.c:321 ../src/matepalimpsest/gdu-shell.c:803
-#: ../src/matepalimpsest/gdu-shell.c:1114
+#: ../data/mate-disk.desktop.in.h:1 ../src/mate-disk/gdu-shell.c:269
+#: ../src/mate-disk/gdu-shell.c:321 ../src/mate-disk/gdu-shell.c:803
+#: ../src/mate-disk/gdu-shell.c:1114
 msgid "Disk Utility"
 msgstr "ਡਿਸਕ ਸਹੂਲਤ"
 
-#: ../data/matepalimpsest.desktop.in.h:2
+#: ../data/mate-disk.desktop.in.h:2
 msgid "Manage Drives and Media"
 msgstr "ਡਰਾਇਵ ਅਤੇ ਮੀਡਿਆ ਪਰਬੰਧ"
 
@@ -73,8 +73,8 @@ msgstr "ਡਿਸਕ ਸਹੂਲਤ ਚਲਾਉਣ ਦੌਰਾਨ ਗਲਤ�
 msgid "Device to format"
 msgstr "ਫਾਰਮੈਟ ਕਰਨ ਲਈ ਜੰਤਰ"
 
-#: ../src/format-tool/gdu-format-tool.c:130 ../src/matepalimpsest/gdu-main.c:127
-#: ../src/matepalimpsest/gdu-main.c:128
+#: ../src/format-tool/gdu-format-tool.c:130 ../src/mate-disk/gdu-main.c:127
+#: ../src/mate-disk/gdu-main.c:128
 msgid "DEVICE"
 msgstr "ਜੰਤਰ"
 
@@ -1810,8 +1810,8 @@ msgstr "ਕੀ ਤੁਸੀਂ ਪੜ੍ਹਨ/ਲਿਖਣ ਬੈਂਚਮਾ�
 
 #. TODO: better icon
 #: ../src/gdu-gtk/gdu-drive-benchmark-dialog.c:594
-#: ../src/matepalimpsest/gdu-section-drive.c:1004
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1053
+#: ../src/mate-disk/gdu-section-drive.c:1004
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1053
 msgid "_Benchmark"
 msgstr "ਬੈਂਚਮਾਰਕ(_B)"
 
@@ -1944,14 +1944,14 @@ msgstr "ਨਾ-ਜਾਰੀ"
 
 #: ../src/gdu-gtk/gdu-edit-linux-lvm2-dialog.c:411
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:449
-#: ../src/matepalimpsest/gdu-section-drive.c:935
+#: ../src/mate-disk/gdu-section-drive.c:935
 msgid "SMART Status:"
 msgstr "SMART ਹਾਲਤ:"
 
 #: ../src/gdu-gtk/gdu-edit-linux-lvm2-dialog.c:415
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:461
-#: ../src/matepalimpsest/gdu-section-drive.c:911
-#: ../src/matepalimpsest/gdu-section-volumes.c:1919
+#: ../src/mate-disk/gdu-section-drive.c:911
+#: ../src/mate-disk/gdu-section-volumes.c:1919
 msgid "Device:"
 msgstr "ਜੰਤਰ:"
 
@@ -1976,7 +1976,7 @@ msgstr "VG ਤੋਂ PV ਹਟਾਓ"
 #. Translators: This string is used when SMART is not supported
 #: ../src/gdu-gtk/gdu-edit-linux-lvm2-dialog.c:941
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:845
-#: ../src/matepalimpsest/gdu-section-drive.c:329
+#: ../src/mate-disk/gdu-section-drive.c:329
 msgid "Not Supported"
 msgstr "ਸਹਾਇਕ ਨਹੀਂ ਹੈ"
 
@@ -2006,9 +2006,9 @@ msgid "Position:"
 msgstr "ਸਥਿਤੀ:"
 
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:457
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:683
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:974
-#: ../src/matepalimpsest/gdu-section-volumes.c:1908
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:683
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:974
+#: ../src/mate-disk/gdu-section-volumes.c:1908
 msgid "State:"
 msgstr "ਹਾਲਤ:"
 
@@ -2104,7 +2104,7 @@ msgstr "ਫਾਇਲਸਿਸਟਮ ਡਰਾਇਵ ਇੰਸਟਾਲ ਨਹੀ
 msgid "Filesystem tools not installed"
 msgstr "ਫਾਇਲ ਸਿਸਟਮ ਟੂਲ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ"
 
-#: ../src/gdu-gtk/gdu-error-dialog.c:249 ../src/matepalimpsest/gdu-shell.c:958
+#: ../src/gdu-gtk/gdu-error-dialog.c:249 ../src/mate-disk/gdu-shell.c:958
 msgid "Unknown error"
 msgstr "ਅਣਜਾਣ ਗਲਤੀ"
 
@@ -2177,8 +2177,8 @@ msgstr "ਅੱਫਿਰਮੇਟਿਵ ਬਟਨ ਲਈ ਅੰਕੀ ਲੇਬ�
 #. Translators: Format is used as a verb here
 #: ../src/gdu-gtk/gdu-format-dialog.c:238
 #: ../src/gdu-gtk/gdu-partition-dialog.c:216
-#: ../src/matepalimpsest/gdu-section-drive.c:649
-#: ../src/matepalimpsest/gdu-section-volumes.c:371
+#: ../src/mate-disk/gdu-section-drive.c:649
+#: ../src/mate-disk/gdu-section-volumes.c:371
 msgid "_Format"
 msgstr "ਫਾਰਮੈਟ(_F)"
 
@@ -2221,8 +2221,8 @@ msgstr "ਇੰਕ੍ਰਿਪਟਡ, ਲੀਨਕਸ ਨਾਲ ਅਨੁਕੂ�
 
 #. Translators: 'name' means 'filesystem label' here.
 #: ../src/gdu-gtk/gdu-format-dialog.c:607
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:204
-#: ../src/matepalimpsest/gdu-section-volumes.c:1722
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:204
+#: ../src/mate-disk/gdu-section-volumes.c:1722
 msgid "_Name:"
 msgstr "ਨਾਂ(_N):"
 
@@ -2359,7 +2359,7 @@ msgstr "ਸ਼ਬਦ ਖਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦਾ ਹੈ"
 msgid "Cr_eate"
 msgstr "ਬਣਾਓ(_e)"
 
-#: ../src/gdu-gtk/gdu-gtk.c:586 ../src/matepalimpsest/gdu-section-volumes.c:2499
+#: ../src/gdu-gtk/gdu-gtk.c:586 ../src/mate-disk/gdu-section-volumes.c:2499
 msgid "Change _Passphrase"
 msgstr "ਸ਼ਬਦ ਬਦਲੋ(_P)"
 
@@ -2448,16 +2448,16 @@ msgstr "ਖਾਲੀ"
 msgid "Extended Partition"
 msgstr "ਐਕਸੈਂਡ ਪਾਰਟੀਸ਼ਨ"
 
-#: ../src/gdu-gtk/gdu-gtk.c:1543 ../src/matepalimpsest/gdu-section-drive.c:291
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:254
+#: ../src/gdu-gtk/gdu-gtk.c:1543 ../src/mate-disk/gdu-section-drive.c:291
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:254
 msgid "Master Boot Record"
 msgstr "ਮਾਸਟਰ ਬੂਟ ਰਿਕਾਰਡ"
 
 #. Translators: This string is used for conveying the partition table format
 #: ../src/gdu-gtk/gdu-gtk.c:1548 ../src/gdu/gdu-drive.c:833
 #: ../src/gdu/gdu-linux-md-drive.c:572
-#: ../src/matepalimpsest/gdu-section-drive.c:293
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:256
+#: ../src/mate-disk/gdu-section-drive.c:293
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:256
 msgid "GUID Partition Table"
 msgstr "GUID ਪਾਰਟੀਸ਼ਨ ਟੇਬਲ"
 
@@ -2466,8 +2466,8 @@ msgid "Don't partition"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਨਾ ਕਰੋ"
 
 #: ../src/gdu-gtk/gdu-gtk.c:1558 ../src/gdu/gdu-util.c:495
-#: ../src/matepalimpsest/gdu-section-drive.c:289
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:252
+#: ../src/mate-disk/gdu-section-drive.c:289
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:252
 msgid "Apple Partition Map"
 msgstr "Apple ਪਾਰਟੀਸ਼ਨ ਮੈਪ"
 
@@ -2556,7 +2556,7 @@ msgstr[0] "%d ਘੰਟਾ ਪਹਿਲਾਂ"
 msgstr[1] "%d ਘੰਟੇ ਪਹਿਲਾਂ"
 
 #: ../src/gdu-gtk/gdu-volume-grid.c:498
-#: ../src/matepalimpsest/gdu-section-drive.c:150
+#: ../src/mate-disk/gdu-section-drive.c:150
 msgid "Drive"
 msgstr "ਡਰਾਇਵ"
 
@@ -2574,7 +2574,7 @@ msgstr "RAID ਅਰੇ ਨਹੀਂ ਚੱਲ ਰਹੀ"
 #. * been detected for a drive
 #.
 #: ../src/gdu-gtk/gdu-volume-grid.c:1190 ../src/gdu/gdu-drive.c:819
-#: ../src/matepalimpsest/gdu-section-drive.c:343
+#: ../src/mate-disk/gdu-section-drive.c:343
 #, c-format
 msgid "No Media Detected"
 msgstr "ਕੋਈ ਮੀਡਿਆ ਨਹੀਂ ਮਿਲਿਆ"
@@ -2591,7 +2591,7 @@ msgstr "ਇੰਕ੍ਰਿਪਟ ਕੀਤਾ"
 
 #. Translators: shown in the grid for an RAID Component
 #: ../src/gdu-gtk/gdu-volume-grid.c:1296 ../src/gdu/gdu-util.c:344
-#: ../src/matepalimpsest/gdu-section-volumes.c:2195
+#: ../src/mate-disk/gdu-section-volumes.c:2195
 #, c-format
 msgid "RAID Component"
 msgstr "RAID ਭਾਗ"
@@ -2765,8 +2765,8 @@ msgstr "ਪਾਰਟੀਸ਼ਨ ਕੀਤੇ"
 
 #. Translators: This string is used for conveying a device is not partitioned.
 #.
-#: ../src/gdu/gdu-drive.c:846 ../src/matepalimpsest/gdu-section-drive.c:302
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:265
+#: ../src/gdu/gdu-drive.c:846 ../src/mate-disk/gdu-section-drive.c:302
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:265
 msgid "Not Partitioned"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਨਹੀਂ"
 
@@ -2812,7 +2812,7 @@ msgstr "LVM2 ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ"
 #. Translators: Description
 #: ../src/gdu/gdu-linux-lvm2-volume-group.c:382
 #: ../src/gdu/gdu-linux-lvm2-volume-group.c:386
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:653
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:653
 msgid "Volume Group"
 msgstr "ਵਾਲੀਅਮ ਗਰੁੱਪ"
 
@@ -2842,8 +2842,8 @@ msgstr "%s ਖਾਲੀ"
 #. Translators: Description
 #: ../src/gdu/gdu-linux-lvm2-volume-hole.c:205
 #: ../src/gdu/gdu-volume-hole.c:161
-#: ../src/matepalimpsest/gdu-section-volumes.c:2209
-#: ../src/matepalimpsest/gdu-section-volumes.c:2217
+#: ../src/mate-disk/gdu-section-volumes.c:2209
+#: ../src/mate-disk/gdu-section-volumes.c:2217
 msgid "Unallocated Space"
 msgstr "ਨਾ-ਵਰਤੀ ਖਾਲੀ ਥਾਂ"
 
@@ -2887,7 +2887,7 @@ msgid "RAID"
 msgstr "RAID"
 
 #: ../src/gdu/gdu-linux-md-drive.c:617
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:944
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:944
 msgid "RAID Array"
 msgstr "ਰੇਡ ਅਰੇ"
 
@@ -3254,7 +3254,7 @@ msgstr "ਯੂਨੀਵਰਸਲ ਡਿਸਕ ਫਾਰਮੈਟ"
 msgid "udf"
 msgstr "udf"
 
-#: ../src/gdu/gdu-util.c:323 ../src/matepalimpsest/gdu-section-volumes.c:2191
+#: ../src/gdu/gdu-util.c:323 ../src/mate-disk/gdu-section-volumes.c:2191
 msgid "Swap Space"
 msgstr "ਸਵੈਪ ਥਾਂ"
 
@@ -3931,12 +3931,12 @@ msgid "PATA"
 msgstr "PATA"
 
 #. Translators: interface name for ATA disks
-#: ../src/gdu/gdu-util.c:919 ../src/matepalimpsest/gdu-section-hub.c:141
+#: ../src/gdu/gdu-util.c:919 ../src/mate-disk/gdu-section-hub.c:141
 msgid "ATA"
 msgstr "ATA"
 
 #. Translators: interface name for SCSI disks
-#: ../src/gdu/gdu-util.c:922 ../src/matepalimpsest/gdu-section-hub.c:145
+#: ../src/gdu/gdu-util.c:922 ../src/mate-disk/gdu-section-hub.c:145
 msgid "SCSI"
 msgstr "SCSI"
 
@@ -4471,15 +4471,15 @@ msgstr ""
 "ਇੱਕ ਜਾਂ ਵੱਧ ਹਾਰਡ ਡਿਸਕਾਂ ਨੇ ਸਿਹਤ ਸਮੱਸਿਆ ਬਾਰੇ ਰਿਪੋਰਟ ਦਿੱਤੀ ਹੈ। ਹੋਰ ਜਾਣਕਾਰੀ ਲੈਣ ਲਈ ਆਈਕਾਨ ਉੱਤੇ "
 "ਕਲਿੱਕ ਕਰੋ।"
 
-#: ../src/matepalimpsest/gdu-main.c:127
+#: ../src/mate-disk/gdu-main.c:127
 msgid "Volume to show"
 msgstr "ਵੇਖਾਉਣ ਲਈ ਵਾਲੀਅਮ"
 
-#: ../src/matepalimpsest/gdu-main.c:128
+#: ../src/mate-disk/gdu-main.c:128
 msgid "Drive to show"
 msgstr "ਵੇਖਾਉਣ ਲਈ ਡਰਾਇਵ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:148
+#: ../src/mate-disk/gdu-section-drive.c:148
 msgid "Multipath Drive"
 msgstr "ਮਲਟੀਪਾਥ ਡਰਾਇਵ"
 
@@ -4488,7 +4488,7 @@ msgstr "ਮਲਟੀਪਾਥ ਡਰਾਇਵ"
 #. * PHY number (starts at 1) and the %s is the Adapter/Expander
 #. * name (e.g. "SAS Host Adapter").
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:189
+#: ../src/mate-disk/gdu-section-drive.c:189
 #, c-format
 msgid "PHY %d of %s"
 msgstr "%2$s ਉੱਤੇ %1$d PHY"
@@ -4498,17 +4498,17 @@ msgstr "%2$s ਉੱਤੇ %1$d PHY"
 #. * PHY number (starts at 1) and the %s is the Adapter/Expander
 #. * name (e.g. "SATA Host Adapter").
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:196
+#: ../src/mate-disk/gdu-section-drive.c:196
 #, c-format
 msgid "Port %d of %s"
 msgstr "%2$s ਉੱਤੇ %1$d ਪੋਰਟ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:261
+#: ../src/mate-disk/gdu-section-drive.c:261
 msgctxt "Write Cache"
 msgid "Enabled"
 msgstr "ਚਾਲੂ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:263
+#: ../src/mate-disk/gdu-section-drive.c:263
 msgctxt "Write Cache"
 msgid "Disabled"
 msgstr "ਬੰਦ"
@@ -4516,50 +4516,50 @@ msgstr "ਬੰਦ"
 #. Translators: This is for the rotation rate of a hard
 #. * disk - RPM means rounds per minute
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:273
+#: ../src/mate-disk/gdu-section-drive.c:273
 #, c-format
 msgctxt "Rotation Rate"
 msgid "%d RPM"
 msgstr "%d RPM"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:281
+#: ../src/mate-disk/gdu-section-drive.c:281
 msgctxt "Rotation Rate"
 msgid "Solid-State Disk"
 msgstr "ਸਾਲਡ ਸਟੇਟ ਡਿਸਕ"
 
 #. Translators: 'scheme' refers to a partition table format here, like 'mbr' or 'gpt'
-#: ../src/matepalimpsest/gdu-section-drive.c:296
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:259
+#: ../src/mate-disk/gdu-section-drive.c:296
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:259
 #, c-format
 msgid "Unknown Scheme: %s"
 msgstr "ਅਣਜਾਣ ਸਕੀਮ: %s"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:439
-#: ../src/matepalimpsest/gdu-section-drive.c:459
+#: ../src/mate-disk/gdu-section-drive.c:439
+#: ../src/mate-disk/gdu-section-drive.c:459
 msgid "Error launching Brasero"
 msgstr "ਬਰਾਸ਼ੀਰੋ ਚਲਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:440
+#: ../src/mate-disk/gdu-section-drive.c:440
 msgid "The application is not installed"
 msgstr "ਐਪਲੀਕੇਸ਼ਨ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:521
+#: ../src/mate-disk/gdu-section-drive.c:521
 msgid "Error ejecting medium"
 msgstr "ਮੀਡਿਅਮ ਬਾਹਰ ਕੱਢਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:565
+#: ../src/mate-disk/gdu-section-drive.c:565
 msgid "Error detaching drive"
 msgstr "ਜੰਤਰ ਵੱਖ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:610
+#: ../src/mate-disk/gdu-section-drive.c:610
 msgid "Error formatting drive"
 msgstr "ਡਰਾਇਵ ਫਾਰਮੈਟ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:648
+#: ../src/mate-disk/gdu-section-drive.c:648
 msgid "Are you sure you want to format the drive?"
 msgstr "ਕੀ ਤੁਸੀਂ ਡਰਾਇਵ ਨੂੰ ਫਾਰਮੈਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:835
+#: ../src/mate-disk/gdu-section-drive.c:835
 msgid ""
 "<b>WARNING:</b> Several paths to this drive has been detected but no "
 "corresponding multipath device was found. Your OS may be misconfigured."
@@ -4567,11 +4567,11 @@ msgstr ""
 "<b>ਚੇਤਾਵਨੀ:</b> ਇਹ ਡਰਾਇਵ ਨਾਲ ਕਈ ਪਾਥ ਖੋਜੇ ਗਏ ਹਨ, ਪਰ ਕੋਈ ਵੀ ਸਬੰਧਿਤ ਮਲਟੀਪਾਥ ਜੰਤਰ "
 "ਨਹੀਂ ਲੱਭਿਆ। ਤੁਹਾਡਾ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ ਸ਼ਾਇਦ ਗਲਤ ਸੰਰਚਿਤ ਕੀਤਾ ਹੈ।"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:850
+#: ../src/mate-disk/gdu-section-drive.c:850
 msgid "Go to Multipath Device"
 msgstr "ਮਲਟੀਪਾਥ ਜੰਤਰ ਉੱਤੇ ਜਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:861
+#: ../src/mate-disk/gdu-section-drive.c:861
 msgid ""
 "<b>NOTE:</b> This object represents one of several paths to the drive. To "
 "perform operations on the drive, use the corresponding multipath object."
@@ -4579,812 +4579,812 @@ msgstr ""
 "<b>ਨੋਟ:</b> ਇਹ ਆਬਜੈਕਟ ਡਰਾਇਵ ਲਈ ਕਈ ਪਾਥ ਦਰਸਾਉਂਦਾ ਹੈ। ਡਰਾਇਵ ਉੱਤੇ ਕੋਈ ਕਾਰਵਾਈ "
 "ਕਰਨ ਲਈ, ਸਬੰਧਿਤ ਮਲਟੀ-ਪਾਥ ਆਬਜੈਕਟ ਵਰਤੋਂ।"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:890
-#: ../src/matepalimpsest/gdu-section-hub.c:225
+#: ../src/mate-disk/gdu-section-drive.c:890
+#: ../src/mate-disk/gdu-section-hub.c:225
 msgid "Model:"
 msgstr "ਮਾਡਲ:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:894
+#: ../src/mate-disk/gdu-section-drive.c:894
 msgid "Serial Number:"
 msgstr "ਸੀਰਿਅਲ ਨੰਬਰ:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:898
+#: ../src/mate-disk/gdu-section-drive.c:898
 msgid "Firmware Version:"
 msgstr "ਫਿਰਮਵੇਅਰ ਵਰਜਨ:"
 
 #. Translators: if you translate "World Wide Name", please include the abbreviation "WWN"
-#: ../src/matepalimpsest/gdu-section-drive.c:903
+#: ../src/mate-disk/gdu-section-drive.c:903
 msgid "World Wide Name:"
 msgstr "ਵਰਲਡ ਵਾਇਡ ਨਾਂ:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:907
+#: ../src/mate-disk/gdu-section-drive.c:907
 msgid "Location:"
 msgstr "ਟਿਕਾਣਾ:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:915
+#: ../src/mate-disk/gdu-section-drive.c:915
 msgid "Write Cache:"
 msgstr "ਲਿਖਣ ਕੈਸ਼:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:919
+#: ../src/mate-disk/gdu-section-drive.c:919
 msgid "Rotation Rate:"
 msgstr "ਘੁੰਮਣ ਰੇਟ:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:923
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:679
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:978
-#: ../src/matepalimpsest/gdu-section-volumes.c:1952
+#: ../src/mate-disk/gdu-section-drive.c:923
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:679
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:978
+#: ../src/mate-disk/gdu-section-volumes.c:1952
 msgid "Capacity:"
 msgstr "ਸਮਰੱਥਾ:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:927
+#: ../src/mate-disk/gdu-section-drive.c:927
 msgid "Connection:"
 msgstr "ਕੁਨੈਕਸ਼ਨ:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:931
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:970
+#: ../src/mate-disk/gdu-section-drive.c:931
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:970
 msgid "Partitioning:"
 msgstr "ਪਾਰਟੀਸ਼ਨ:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:954
+#: ../src/mate-disk/gdu-section-drive.c:954
 msgid "Open CD/_DVD Application"
 msgstr "CD/_DVD ਐਪਲੀਕੇਸ਼ਨ ਖੋਲ੍ਹੋ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:955
+#: ../src/mate-disk/gdu-section-drive.c:955
 msgid "Create and copy CDs and DVDs"
 msgstr "CD ਅਤੇ DVD ਬਣਾਓ ਤੇ ਕਾਪੀ ਕਰੋ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:964
+#: ../src/mate-disk/gdu-section-drive.c:964
 msgid "Format _Drive"
 msgstr "ਡਰਾਇਵ ਫਾਰਮੈਟ ਕਰੋ(_D)"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:965
+#: ../src/mate-disk/gdu-section-drive.c:965
 msgid "Erase or partition the drive"
 msgstr "ਡਾਇਵਰ ਸਾਫ਼ ਕਰੋ ਜਾਂ ਪਾਰਟੀਸ਼ਨ ਬਣਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:974
+#: ../src/mate-disk/gdu-section-drive.c:974
 msgid "SM_ART Data"
 msgstr "SM_ART ਡਾਟਾ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:975
+#: ../src/mate-disk/gdu-section-drive.c:975
 msgid "View SMART data and run self-tests"
 msgstr "SMART ਡਾਟਾ ਵੇਖੋ ਅਤੇ ਸੈਲਫ਼-ਟੈਸਟ ਚਲਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:984
+#: ../src/mate-disk/gdu-section-drive.c:984
 msgid "_Eject"
 msgstr "ਬਾਹਰ ਕੱਢੋ(_E)"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:985
+#: ../src/mate-disk/gdu-section-drive.c:985
 msgid "Eject medium from the drive"
 msgstr "ਡਰਾਇਵ 'ਚੋਂ ਮੀਡਿਆ ਬਾਹਰ ਕੱਢੋ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:994
+#: ../src/mate-disk/gdu-section-drive.c:994
 msgid "Safe Rem_oval"
 msgstr "ਸੁਰੱਖਿਅਤ ਹਟਾਓ(_o)"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:995
+#: ../src/mate-disk/gdu-section-drive.c:995
 msgid "Power down the drive so it can be removed"
 msgstr "ਡਰਾਇਵ ਬੰਦ ਕਰੋ ਤਾਂ ਕਿ ਇਸ ਨੂੰ ਹਟਾਇਆ ਜਾ ਸਕੇ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:1005
+#: ../src/mate-disk/gdu-section-drive.c:1005
 msgid "Measure drive performance"
 msgstr "ਡਰਾਇਵ ਕਾਰਗੁਜ਼ਾਰੀ ਮਾਪੋ"
 
 #. Translators: Used for SAS to convey the number of PHYs in the
 #. * "Number of Ports" element. You should probably not translate PHY.
 #.
-#: ../src/matepalimpsest/gdu-section-hub.c:106
-#: ../src/matepalimpsest/gdu-section-hub.c:161
+#: ../src/mate-disk/gdu-section-hub.c:106
+#: ../src/mate-disk/gdu-section-hub.c:161
 #, c-format
 msgid "%d PHYs"
 msgstr "%d PHYs"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:137
+#: ../src/mate-disk/gdu-section-hub.c:137
 msgid "Parallel ATA"
 msgstr "ਪੈਰਲੱਲ ATA"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:139
+#: ../src/mate-disk/gdu-section-hub.c:139
 msgid "Serial ATA"
 msgstr "ਸੀਰੀਅਲ ATA"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:143
+#: ../src/mate-disk/gdu-section-hub.c:143
 msgid "Serial Attached SCSI"
 msgstr "ਸੀਰੀਅਲ ਜੁੜੀ SCSI"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:221
+#: ../src/mate-disk/gdu-section-hub.c:221
 msgid "Vendor:"
 msgstr "ਵੇਂਡਰ:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:229
+#: ../src/mate-disk/gdu-section-hub.c:229
 msgid "Revision:"
 msgstr "ਰੀਵਿਜ਼ਨ:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:233
+#: ../src/mate-disk/gdu-section-hub.c:233
 msgid "Driver:"
 msgstr "ਡਰਾਇਵਰ:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:237
+#: ../src/mate-disk/gdu-section-hub.c:237
 msgid "Fabric:"
 msgstr "ਫਾਇਬਰਕ:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:241
+#: ../src/mate-disk/gdu-section-hub.c:241
 msgid "Number of Ports:"
 msgstr "ਪੋਰਟਾਂ ਦੀ ਗਿਣਤੀ:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:77
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:77
 msgid "Error starting Volume Group"
 msgstr "ਵਾਲੀਅਮ ਫਾਰਮੈਟ ਸ਼ੁਰੂ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:123
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:123
 msgid "Error stopping Volume Group"
 msgstr "ਵਾਲੀਅਮ ਫਾਰਮੈਟ ਰੋਕਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:169
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:169
 msgid "Error setting name for Volume Group"
 msgstr "ਵਾਲੀਅਮ ਗਰੁੱਪ ਲਈ ਨਾਂ ਸੈੱਟ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:203
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:203
 msgid "Choose a new Volume Group name."
 msgstr "ਨਵਾਂ ਵਾਲੀਅਮ ਗਰੁੱਪ ਨਾਂ ਚੁਣੋ।"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:255
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:255
 msgid "Error adding Physical Volume to Volume Group"
 msgstr "ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ ਨੂੰ ਵਾਲੀਅਮ ਗਰੁੱਪ ਵਿੱਚ ਜੋੜਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:285
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:285
 msgid "Error creating PV for VG"
 msgstr "VG ਲਈ PV ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:380
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:380
 msgid "Error deleting partition for Physical Volume in Volume Group"
 msgstr "ਵਾਲੀਅਮ ਗਰੁੱਪ ਵਿੱਚ ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ ਲਈ ਪਾਰਟੀਸ਼ਨ ਹਟਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:403
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:403
 msgid "Error removing Physical Volume from Volume Group"
 msgstr "ਵਾਲੀਅਮ ਗਰੁੱਪ ਤੋਂ ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ ਹਟਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:476
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:476
 msgid "Are you sure you want the remove the Physical Volume?"
 msgstr "ਕੀ ਤੁਸੀਂ ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ ਹਟਾਉਣਾ ਚਾਹੰਦੇ ਹੋ?"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:477
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:530
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:477
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:530
 msgid "_Remove"
 msgstr "ਹਟਾਓ(_R)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:597
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:597
 msgid "Not Running"
 msgstr "ਚੱਲ ਨਹੀਂ ਰਿਹਾ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:601
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:601
 msgid "Partially Running"
 msgstr "ਅਧੂਰਾ ਚੱਲ ਰਿਹਾ ਹੈ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:606
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:606
 msgid "Running"
 msgstr "ਚੱਲ ਰਿਹਾ ਹੈ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:610
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:610
 #, c-format
 msgid "Unknown (%d)"
 msgstr "ਅਣਜਾਣ (%d)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:667
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:966
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:667
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:966
 msgid "Name:"
 msgstr "ਨਾਂ:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:671
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:671
 msgid "Extent Size:"
 msgstr "ਐਕਟੈਂਟ ਆਕਾਰ:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:675
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:675
 msgid "Physical Volumes:"
 msgstr "ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:687
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:687
 msgid "Unallocated:"
 msgstr "ਨਾ-ਜਾਰੀ:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:706
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:706
 msgid "St_art Volume Group"
 msgstr "ਵਾਲੀਅਮ ਗਰੁੱਪ ਸ਼ੁਰੂ(_a)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:707
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:707
 msgid "Activate all LVs in the VG"
 msgstr "VG ਵਿੱਚ ਸਭ LV ਐਕਟੀਵੇਟ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:716
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:716
 msgid "St_op Volume Group"
 msgstr "ਵਾਲੀਅਮ ਗਰੁੱਪ ਰੋਕੋ(_o)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:717
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:717
 msgid "Deactivate all LVs in the VG"
 msgstr "VG ਵਿੱਚ ਸਭ LV ਡੀਐਕਟੀਵੇਟ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:727
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:727
 msgid "Edit _Name"
 msgstr "ਨਾਂ ਸੋਧੋ(_N)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:728
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:728
 msgid "Change the Volume Group name"
 msgstr "ਵਾਲੀਅਮ ਗਰੁੱਪ ਨਾਂ ਬਦਲੋ"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:737
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:737
 msgid "Edit _Physical Volumes"
 msgstr "ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ ਸੋਧੋ(_P)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:738
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:738
 msgid "Create and remove PVs"
 msgstr "PV ਬਣਾਓ ਅਤੇ ਹਟਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:84
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:84
 msgctxt "RAID status"
 msgid "Not running, partially assembled"
 msgstr "ਚੱਲ ਨਹੀਂ ਰਿਹਾ, ਅਧੂਰਾ ਤਿਆਰ ਕੀਤਾ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:92
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:92
 msgctxt "RAID status"
 msgid "Not running"
 msgstr "ਨਹੀਂ ਚੱਲ ਰਿਹਾ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:94
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:94
 msgctxt "RAID status"
 msgid "Not running, can only start degraded"
 msgstr "ਚੱਲ ਨਹੀਂ ਰਿਹਾ ਹੈ, ਕੇਵਲ ਡੀਗਰੇਟ ਸ਼ੁਰੂ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:96
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:96
 msgctxt "RAID status"
 msgid "Not running, not enough components to start"
 msgstr "ਚੱਲ ਨਹੀਂ ਰਿਹਾ, ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਲੋੜੀਦੇ ਭਾਗ ਨਹੀਂ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:114
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:114
 msgctxt "RAID status"
 msgid "DEGRADED"
 msgstr "ਡੀਗਰੇਟ ਕੀਤਾ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:116
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:116
 msgctxt "RAID status"
 msgid "Running"
 msgstr "ਚੱਲ ਰਿਹਾ ਹੈ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:124
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:124
 msgctxt "RAID action"
 msgid "Reshaping"
 msgstr "ਰੀ-ਸੇਪਿੰਗ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:126
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:126
 msgctxt "RAID action"
 msgid "Resyncing"
 msgstr "ਮੁੜ-ਸੈਕਰੋਨਾਈਜ਼"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:128
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:128
 msgctxt "RAID action"
 msgid "Repairing"
 msgstr "ਰਿਪੇਅਰ ਜਾਰੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:130
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:130
 msgctxt "RAID action"
 msgid "Recovering"
 msgstr "ਰਿਕਵਰੀ ਜਾਰੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:132
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:132
 msgctxt "RAID action"
 msgid "Checking"
 msgstr "ਚੈੱਕ ਕੀਤਾ ਜਾ ਰਿਹਾ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:137
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:137
 msgctxt "RAID action"
 msgid "Idle"
 msgstr "ਵੇਹਲਾ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:315
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:315
 #| msgid "Stopping RAID Array"
 msgid "Error stopping RAID Array"
 msgstr "ਰੇਡ ਅਰੇ ਰੋਕਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:360
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:360
 #| msgid "Error creating RAID array"
 msgid "Error starting RAID Array"
 msgstr "ਰੇਡ ਅਰੇ ਸ਼ੁਰੂ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:390
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:393
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:390
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:393
 #, c-format
 #| msgctxt "RAID status"
 #| msgid "Not running, not enough components to start"
 msgid "Not enough components available to start the RAID Array"
 msgstr "ਰੇਡ ਅਰੇ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਲੋੜੀਦੀ ਭਾਗ ਉਪਲੱਬਧ ਨਹੀਂ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:409
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:409
 #| msgid "Are you sure you want to erase the device ?"
 msgid "Are you sure you want the RAID Array degraded?"
 msgstr "ਕੀ ਤੁਸੀਂ ਰੇਡ ਅਰੇ ਡੀਗਰੇਡ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:410
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:410
 msgid "_Start"
 msgstr "ਸ਼ੁਰੂ(_S)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:455
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:455
 #| msgid "Error creating partition table for component for RAID array"
 msgid "Error deleting partition for component in RAID Array"
 msgstr "ਰੇਡ ਅਰੇ ਲਈ ਭਾਗ ਵਾਸਤੇ ਪਾਰਟੀਸ਼ਨ ਹਟਾਉਣ ਲਈ ਗਲਤੀ ਹੈ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:478
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:478
 #| msgid "Removing Component from RAID Array"
 msgid "Error removing component from RAID Array"
 msgstr "RAID ਅਰੇ ਲਈ ਭਾਗ ਹਟਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:529
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:529
 #| msgid "Are you sure you want to remove the component from the array ?"
 msgid "Are you sure you want the remove the component?"
 msgstr "ਕੀ ਤੁਸੀਂ ਭਾਗ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:566
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:650
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:566
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:650
 #| msgid "Error creating component for RAID array"
 msgid "Error adding component to RAID Array"
 msgstr "RAID ਅਰੇ ਲਈ ਭਾਗ ਸ਼ਾਮਲ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:683
-#: ../src/matepalimpsest/gdu-shell.c:598
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:683
+#: ../src/mate-disk/gdu-shell.c:598
 msgid "Error creating component for RAID array"
 msgstr "RAID ਅਰੇ ਲਈ ਭਾਗ ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:722
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:722
 #| msgid "Error creating RAID array"
 msgid "Error expanding RAID Array"
 msgstr "ਰੇਡ ਅਰੇ ਫੈਲਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:883
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:883
 #| msgid "Error creating RAID array"
 msgid "Error checking RAID Array"
 msgstr "ਰੇਡ ਅਰੇ ਚੈੱਕ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:958
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:958
 msgid "Level:"
 msgstr "ਲੈਵਲ:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:962
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:962
 msgid "Metadata Version:"
 msgstr "ਮੇਟਾ ਡਾਟਾ ਵਰਜਨ:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:982
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:982
 msgid "Action:"
 msgstr "ਕਾਰਵਾਈ:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:986
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:986
 msgid "Components:"
 msgstr "ਭਾਗ:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1003
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1003
 msgid "St_art RAID Array"
 msgstr "ਰੇਡ ਅਰੇ ਸ਼ੁਰੂ(_a)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1004
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1004
 #| msgid "Starting RAID Array"
 msgid "Bring up the RAID Array"
 msgstr "ਰੇਡ ਅਰੇ ਤਿਆਰ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1013
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1013
 #| msgid "Stopping RAID Array"
 msgid "St_op RAID Array"
 msgstr "ਰੇਡ ਅਰੇ ਰੋਕੋ(_o)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1014
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1014
 #| msgid "Create RAID Array"
 msgid "Tear down the RAID Array"
 msgstr "ਰੇਡ ਅਰੇ ਵੱਖ ਵੱਖ ਕਰੋ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1023
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1023
 msgid "Format/Erase RAI_D Array"
 msgstr "ਰੇਡ ਅਰੇ ਫਾਰਮੈਟ/ਸਾਫ਼ ਕਰੋ(_D)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1024
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1024
 #| msgid "Starts repairing the RAID array"
 msgid "Erase or partition the array"
 msgstr "ਅਰੇ ਸਾਫ਼ ਕਰੋ ਜਾਂ ਪਾਰਟੀਸ਼ਨ ਬਣਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1033
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1033
 msgid "Chec_k Array"
 msgstr "ਅਰੇ ਚੈੱਕ ਕਰੋ(_k)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1034
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1034
 msgid "Check and repair the array"
 msgstr "ਅਰੇ ਚੈੱਕ ਤੇ ਰਿਪੇਅਰ ਕਰੋ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1043
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1043
 msgid "Edit Com_ponents"
 msgstr "ਭਾਗ ਸੋਧੋ(_p)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1044
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1044
 msgid "Create and remove components"
 msgstr "ਭਾਗ ਬਣਾਓ ਅਤੇ ਹਟਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1054
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1054
 msgid "Measure RAID array performance"
 msgstr "ਰੇਡ ਅਰੇ ਕਾਰਗੁਜ਼ਾਰੀ ਮਾਪ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:115
+#: ../src/mate-disk/gdu-section-volumes.c:115
 msgid "Error unmounting volume"
 msgstr "ਵਾਲੀਅਮ ਅਣ-ਮਾਊਂਟ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:171
+#: ../src/mate-disk/gdu-section-volumes.c:171
 msgid "Error mounting volume"
 msgstr "ਵਾਲੀਅਮ ਮਾਊਂਟ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:228
+#: ../src/mate-disk/gdu-section-volumes.c:228
 msgid "Error deleting partition"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਹਟਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:263
+#: ../src/mate-disk/gdu-section-volumes.c:263
 msgid "Are you sure you want to delete the partition?"
 msgstr "ਕੀ ਤੁਸੀਂ ਪਾਰਟੀਸ਼ਨ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:264
-#: ../src/matepalimpsest/gdu-section-volumes.c:1788
+#: ../src/mate-disk/gdu-section-volumes.c:264
+#: ../src/mate-disk/gdu-section-volumes.c:1788
 msgid "_Delete"
 msgstr "ਹਟਾਓ(_D)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:317
+#: ../src/mate-disk/gdu-section-volumes.c:317
 msgid "Error creating filesystem"
 msgstr "ਫਾਇਲ ਸਿਸਟਮ ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:370
+#: ../src/mate-disk/gdu-section-volumes.c:370
 msgid "Are you sure you want to format the volume?"
 msgstr "ਕੀ ਤੁਸੀਂ ਵਾਲੀਅਮ ਨੂੰ ਫਾਰਮੈਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:428
+#: ../src/mate-disk/gdu-section-volumes.c:428
 msgid "Error modifying partition"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਸੋਧਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:519
+#: ../src/mate-disk/gdu-section-volumes.c:519
 msgid "Are you sure you want to forget the passphrase?"
 msgstr "ਕੀ ਤੁਸੀਂ ਸ਼ਬਦ ਨੂੰ ਭੁੱਲਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:520
+#: ../src/mate-disk/gdu-section-volumes.c:520
 msgid "_Forget"
 msgstr "ਭੁੱਲ ਜਾਓ(_F)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:550
+#: ../src/mate-disk/gdu-section-volumes.c:550
 #| msgid "Error formatting volume"
 msgid "Error locking LUKS volume"
 msgstr "LUKS ਵਾਲੀਅਮ ਲਾਕ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:673
+#: ../src/mate-disk/gdu-section-volumes.c:673
 #| msgid "Error unlocking device"
 msgid "Error unlocking LUKS volume"
 msgstr "LUKS ਵਾਲੀਅਮ ਅਣ-ਲਾਕ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:969
+#: ../src/mate-disk/gdu-section-volumes.c:969
 msgid "Error creating partition"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1140
+#: ../src/mate-disk/gdu-section-volumes.c:1140
 msgid "Error changing label"
 msgstr "ਲੇਬਲ ਬਦਲਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1195
+#: ../src/mate-disk/gdu-section-volumes.c:1195
 msgid "Choose a new filesystem label."
 msgstr "ਨਵਾਂ ਫਾਇਲ-ਸਿਸਟਮ ਲੇਬਲ ਚੁਣੋ।"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1196
+#: ../src/mate-disk/gdu-section-volumes.c:1196
 msgid "_Label:"
 msgstr "ਲੇਬਲ(_L):"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1241
+#: ../src/mate-disk/gdu-section-volumes.c:1241
 msgid "Error checking filesystem on volume"
 msgstr "ਵਾਲੀਅਮ ਉੱਤੇ ਫਾਇਲ ਸਿਸਟਮ ਚੈੱਕ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1268
+#: ../src/mate-disk/gdu-section-volumes.c:1268
 #, c-format
 msgid "File system check on \"%s\" (%s) completed"
 msgstr "\"%s\" (%s) ਉੱਤੇ ਫਾਇਲ ਸਿਸਟਮ ਚੈੱਕ ਕਰਨਾ ਪੂਰਾ ਹੋਇਆ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1272
+#: ../src/mate-disk/gdu-section-volumes.c:1272
 msgid "File system is clean."
 msgstr "ਫਾਇਲ ਸਿਸਟਮ ਸਾਫ਼ ਹੈ।"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1275
+#: ../src/mate-disk/gdu-section-volumes.c:1275
 msgid "File system is <b>NOT</b> clean."
 msgstr "ਫਾਇਲ ਸਿਸਟਮ ਸਾਫ਼ <b>ਨਹੀਂ</b> ਹੈ।"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1387
+#: ../src/mate-disk/gdu-section-volumes.c:1387
 #, c-format
 msgid "Error spawning caja: %s"
 msgstr "ਨਟੀਲਸ ਸਵੈਪ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ: %s"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1435
+#: ../src/mate-disk/gdu-section-volumes.c:1435
 msgid "Error creating Logical Volume"
 msgstr "ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1588
+#: ../src/mate-disk/gdu-section-volumes.c:1588
 msgid "Error stopping Logical Volume"
 msgstr "ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਰੋਕਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1634
+#: ../src/mate-disk/gdu-section-volumes.c:1634
 msgid "Error starting Logical Volume"
 msgstr "ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਸ਼ੁਰੂ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1683
+#: ../src/mate-disk/gdu-section-volumes.c:1683
 msgid "Error setting name for Logical Volume"
 msgstr "ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਲਈ ਨਾਂ ਸੈੱਟ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1721
+#: ../src/mate-disk/gdu-section-volumes.c:1721
 msgid "Choose a new name for the Logical Volume."
 msgstr "ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਲਈ ਨਵਾਂ ਨਾਂ ਚੁਣੋ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1754
+#: ../src/mate-disk/gdu-section-volumes.c:1754
 msgid "Error deleting Logical Volume"
 msgstr "ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਹਟਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1787
+#: ../src/mate-disk/gdu-section-volumes.c:1787
 msgid "Are you sure you want to delete the logical volume?"
 msgstr "ਕੀ ਤੁਸੀਂ ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1906
+#: ../src/mate-disk/gdu-section-volumes.c:1906
 msgid "Volume Name:"
 msgstr "ਵਾਲੀਅਮ ਨਾਂ:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1912
+#: ../src/mate-disk/gdu-section-volumes.c:1912
 msgid "Usage:"
 msgstr "ਵਰਤੋਂ:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1922
+#: ../src/mate-disk/gdu-section-volumes.c:1922
 msgid "Partition Type:"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਕਿਸਮ:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1928
+#: ../src/mate-disk/gdu-section-volumes.c:1928
 msgid "Partition Label:"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਲੇਬਲ:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1931
+#: ../src/mate-disk/gdu-section-volumes.c:1931
 msgid "Partition Flags:"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਫਲੈਗ:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1956
+#: ../src/mate-disk/gdu-section-volumes.c:1956
 msgid "Type:"
 msgstr "ਟਾਈਪ:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1959
+#: ../src/mate-disk/gdu-section-volumes.c:1959
 msgid "Available:"
 msgstr "ਉਪਲੱਬਧ:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1962
+#: ../src/mate-disk/gdu-section-volumes.c:1962
 msgid "Label:"
 msgstr "ਲੇਬਲ:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1965
+#: ../src/mate-disk/gdu-section-volumes.c:1965
 msgid "Mount Point:"
 msgstr "ਮਾਊਂਟ ਪੁਆਇੰਟ:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1986
+#: ../src/mate-disk/gdu-section-volumes.c:1986
 msgctxt "LVM2 LV State"
 msgid "Running"
 msgstr "ਚੱਲ ਰਿਹਾ ਹੈ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1987
+#: ../src/mate-disk/gdu-section-volumes.c:1987
 msgctxt "LVM2 LV State"
 msgid "Not Running"
 msgstr "ਚੱਲ ਨਹੀਂ ਰਿਹਾ"
 
 #. Translators: This is for the 'boot' MBR/APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2026
+#: ../src/mate-disk/gdu-section-volumes.c:2026
 msgid "Bootable"
 msgstr "ਬੂਟਹੋਣ-ਯੋਗ"
 
 #. Translators: This is for the 'required' GPT partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2029
+#: ../src/mate-disk/gdu-section-volumes.c:2029
 msgid "Required"
 msgstr "ਲੋੜੀਦਾ"
 
 #. Translators: This is for the 'allocated' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2032
+#: ../src/mate-disk/gdu-section-volumes.c:2032
 msgid "Allocated"
 msgstr "ਜਾਰੀ ਕੀਤੇ"
 
 #. Translators: This is for the 'allow_read' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2035
+#: ../src/mate-disk/gdu-section-volumes.c:2035
 msgid "Allow Read"
 msgstr "ਪੜ੍ਹਨ ਮਨਜ਼ੂਰ"
 
 #. Translators: This is for the 'allow_write' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2038
+#: ../src/mate-disk/gdu-section-volumes.c:2038
 msgid "Allow Write"
 msgstr "ਲਿਖਣ ਮਨਜ਼ੂਰ"
 
 #. Translators: This is for the 'boot_code_is_pic' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2041
+#: ../src/mate-disk/gdu-section-volumes.c:2041
 msgid "Boot Code PIC"
 msgstr "ਬੂਟ ਕੋਡ PIC"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2115
+#: ../src/mate-disk/gdu-section-volumes.c:2115
 msgid "Filesystem"
 msgstr "ਫਾਇਲ ਸਿਸਟਮ"
 
 #. Translators: this the mount point hyperlink tooltip for a
 #. * remote server - it uses the sftp:// protocol
 #.
-#: ../src/matepalimpsest/gdu-section-volumes.c:2148
+#: ../src/mate-disk/gdu-section-volumes.c:2148
 msgid "View files on the volume using a SFTP network share"
 msgstr "SFTP ਨੈੱਟਵਰਕ ਸਾਂਝ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਵਾਲੀਅਮ ਉੱਤੇ ਫਾਇਲਾਂ ਵੇਖੋ"
 
 #. Translators: this the mount point hyperlink tooltip
-#: ../src/matepalimpsest/gdu-section-volumes.c:2155
+#: ../src/mate-disk/gdu-section-volumes.c:2155
 msgid "View files on the volume"
 msgstr "ਵਾਲੀਅਮ ਉੱਤੇ ਫਾਇਲਾਂ ਵੇਖੋ"
 
 #. Translators: this the the text for the mount point
 #. * item - %s is the mount point, e.g. '/media/disk'
 #.
-#: ../src/matepalimpsest/gdu-section-volumes.c:2162
+#: ../src/mate-disk/gdu-section-volumes.c:2162
 #, c-format
 msgid "Mounted at %s"
 msgstr "%s ਉੱਤੇ ਮਾਊਂਟ ਹੈ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2170
+#: ../src/mate-disk/gdu-section-volumes.c:2170
 msgid "Not Mounted"
 msgstr "ਮਾਊਂਟ ਨਹੀਂ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2180
+#: ../src/mate-disk/gdu-section-volumes.c:2180
 msgid "Encrypted Volume (Locked)"
 msgstr "ਇੰਕ੍ਰਿਪਟ ਕੀਤਾ ਵਾਲੀਅਮ (ਲਾਕ ਕੀਤਾ)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2183
+#: ../src/mate-disk/gdu-section-volumes.c:2183
 msgid "Encrypted Volume (Unlocked)"
 msgstr "ਇੰਕ੍ਰਿਪਟ ਕੀਤਾ ਵਾਲੀਅਮ (ਅਣ-ਲਾਕ)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2196
+#: ../src/mate-disk/gdu-section-volumes.c:2196
 msgid "Go to array"
 msgstr "ਅਰੇ ਉੱਤੇ ਜਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2204
+#: ../src/mate-disk/gdu-section-volumes.c:2204
 msgid "Container for Logical Partitions"
 msgstr "ਲਾਜ਼ੀਕਲ ਪਾਰਟੀਸ਼ਨ ਲਈ ਕਨਟੇਨਰ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2321
+#: ../src/mate-disk/gdu-section-volumes.c:2321
 msgid "Logical _Volumes"
 msgstr "ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ(_V)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2323
+#: ../src/mate-disk/gdu-section-volumes.c:2323
 msgid "_Volumes"
 msgstr "ਵਾਲੀਅਮ(_V)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2387
+#: ../src/mate-disk/gdu-section-volumes.c:2387
 msgid "_Mount Volume"
 msgstr "ਵਾਲੀਅਮ ਮਾਊਂਟ ਕਰੋ(_M)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2388
+#: ../src/mate-disk/gdu-section-volumes.c:2388
 msgid "Mount the volume"
 msgstr "ਵਾਲੀਅਮ ਮਾਊਂਟ ਕਰੋ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2397
+#: ../src/mate-disk/gdu-section-volumes.c:2397
 msgid "Un_mount Volume"
 msgstr "ਵਾਲੀਅਮ ਅਣ-ਮਾਊਂਟ ਕਰੋ(_m)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2398
+#: ../src/mate-disk/gdu-section-volumes.c:2398
 msgid "Unmount the volume"
 msgstr "ਵਾਲੀਅਮ ਅਣ-ਮਾਊਂਟ ਕਰੋ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2407
+#: ../src/mate-disk/gdu-section-volumes.c:2407
 msgid "Fo_rmat Volume"
 msgstr "ਵਾਲੀਅਮ ਫਾਰਮੈਟ ਕਰੋ(_r)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2408
+#: ../src/mate-disk/gdu-section-volumes.c:2408
 msgid "Erase or format the volume"
 msgstr "ਵਾਲੀਅਮ ਸਾਫ਼ ਕਰੋ ਜਾਂ ਫਾਰਮੈਟ ਕਰੋ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2417
+#: ../src/mate-disk/gdu-section-volumes.c:2417
 msgid "_Check Filesystem"
 msgstr "ਫਾਇਲ ਸਿਸਟਮ ਚੈੱਕ ਕਰੋ(_C)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2418
+#: ../src/mate-disk/gdu-section-volumes.c:2418
 msgid "Check and repair the filesystem"
 msgstr "ਫਾਇਲ ਸਿਸਟਮ ਚੈੱਕ ਕਰੋ ਤੇ ਰਿਪੇਅਰ ਕਰੋ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2428
+#: ../src/mate-disk/gdu-section-volumes.c:2428
 msgid "Edit Filesystem _Label"
 msgstr "ਫਾਇਲ ਸਿਸਟਮ ਲੇਬਲ ਸੋਧ(_E)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2429
+#: ../src/mate-disk/gdu-section-volumes.c:2429
 msgid "Change the label of the filesystem"
 msgstr "ਫਾਇਲ ਸਿਸਟਮ ਲਈ ਲੇਬਲ ਬਦਲੋ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2438
+#: ../src/mate-disk/gdu-section-volumes.c:2438
 msgid "Ed_it Partition"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਸੋਧ(_i)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2439
+#: ../src/mate-disk/gdu-section-volumes.c:2439
 msgid "Change partition type, label and flags"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਕਿਸਮ, ਲੇਬਲ ਤੇ ਫਲੈਗ ਬਦਲੋ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2448
+#: ../src/mate-disk/gdu-section-volumes.c:2448
 msgid "D_elete Partition"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਹਟਾਓ(_e)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2449
+#: ../src/mate-disk/gdu-section-volumes.c:2449
 msgid "Delete the partition"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਹਟਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2458
+#: ../src/mate-disk/gdu-section-volumes.c:2458
 msgid "_Create Partition"
 msgstr "ਪਾਰਟੀਸ਼ਨ ਬਣਾਓ(_C)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2459
+#: ../src/mate-disk/gdu-section-volumes.c:2459
 msgid "Create a new partition"
 msgstr "ਨਵਾਂ ਪਾਰਟੀਸ਼ਨ ਬਣਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2468
+#: ../src/mate-disk/gdu-section-volumes.c:2468
 msgid "_Lock Volume"
 msgstr "ਵਾਲੀਅਮ ਲਾਕ ਕਰੋ(_L)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2469
+#: ../src/mate-disk/gdu-section-volumes.c:2469
 msgid "Make encrypted data unavailable"
 msgstr "ਇੰਕ੍ਰਿਪਟ ਕੀਤਾ ਡਾਟਾ ਅਣ-ਉਪਲੱਬਧ ਕਰੋ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2478
+#: ../src/mate-disk/gdu-section-volumes.c:2478
 msgid "Un_lock Volume"
 msgstr "ਵਾਲੀਅਮ ਅਣ-ਲਾਕ(_l)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2479
+#: ../src/mate-disk/gdu-section-volumes.c:2479
 msgid "Make encrypted data available"
 msgstr "ਇੰਕ੍ਰਿਪਟ ਕੀਤਾ ਡਾਟਾ ਉਪਲੱਬਧ ਬਣਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2488
+#: ../src/mate-disk/gdu-section-volumes.c:2488
 msgid "Forge_t Passphrase"
 msgstr "ਸ਼ਬਦ ਭੁੱਲ ਜਾਓ(_t)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2489
+#: ../src/mate-disk/gdu-section-volumes.c:2489
 msgid "Delete passphrase from keyring"
 msgstr "ਕੀਰਿੰਗ ਵਿੱਚ ਸਟੋਰ ਕੀਤਾ ਸ਼ਬਦ ਹਟਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2500
+#: ../src/mate-disk/gdu-section-volumes.c:2500
 msgid "Change passphrase"
 msgstr "ਸ਼ਬਦ ਬਦਲੋ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2509
+#: ../src/mate-disk/gdu-section-volumes.c:2509
 msgid "_Create Logical Volume"
 msgstr "ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਬਣਾਓ(_C)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2510
+#: ../src/mate-disk/gdu-section-volumes.c:2510
 msgid "Create a new logical volume"
 msgstr "ਨਵਾਂ ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਬਣਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2519
+#: ../src/mate-disk/gdu-section-volumes.c:2519
 msgid "S_tart Volume"
 msgstr "ਵਾਲੀਅਮ ਸ਼ੁਰੂ(_t)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2520
+#: ../src/mate-disk/gdu-section-volumes.c:2520
 msgid "Activate the Logical Volume"
 msgstr "ਲਾਜੀਕਲ ਵਾਲੀਅਮ ਐਕਟੀਵੇਟ ਕਰੋ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2530
+#: ../src/mate-disk/gdu-section-volumes.c:2530
 msgid "Edit Vol_ume Name"
 msgstr "ਵਾਲੀਅਮ ਨਾਂ ਸੋਧੋ(_u)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2531
+#: ../src/mate-disk/gdu-section-volumes.c:2531
 msgid "Change the name of the volume"
 msgstr "ਵਾਲੀਅਮ ਦਾ ਨਾਂ ਬਦਲੋ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2540
+#: ../src/mate-disk/gdu-section-volumes.c:2540
 msgid "D_elete Volume"
 msgstr "ਵਾਲੀਅਮ ਹਟਾਓ(_e)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2541
+#: ../src/mate-disk/gdu-section-volumes.c:2541
 msgid "Delete the Logical Volume"
 msgstr "ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਹਟਾਓ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2550
+#: ../src/mate-disk/gdu-section-volumes.c:2550
 msgid "Sto_p Volume"
 msgstr "ਵਾਲੀਅਮ ਰੋਕੋ(_p)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2551
+#: ../src/mate-disk/gdu-section-volumes.c:2551
 msgid "Deactivate the Logical Volume"
 msgstr "ਲਾਜ਼ੀਕਲ ਵਾਲੀਅਮ ਡੀ-ਐਕਟੀਵੇਟ"
 
 #. Translators: Window title when the item representing a remote machine is selected.
 #. * First %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:290
+#: ../src/mate-disk/gdu-shell.c:290
 #, c-format
 msgid "%s — Disk Utility"
 msgstr "%s — ਡਿਸਕ ਸਹੂਲਤ"
@@ -5395,7 +5395,7 @@ msgstr "%s — ਡਿਸਕ ਸਹੂਲਤ"
 #. * Third is the device file (e.g. '/dev/sda')
 #. * Fourth %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:300
+#: ../src/mate-disk/gdu-shell.c:300
 #, c-format
 msgid "%s (%s) [%s] @ %s — Disk Utility"
 msgstr "%s (%s) [%s] @ %s — ਡਿਸਕ ਸਹੂਲਤ"
@@ -5405,7 +5405,7 @@ msgstr "%s (%s) [%s] @ %s — ਡਿਸਕ ਸਹੂਲਤ"
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #. * Third %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:311
+#: ../src/mate-disk/gdu-shell.c:311
 #, c-format
 msgid "%s (%s) @ %s — Disk Utility"
 msgstr "%s (%s) @ %s — ਡਿਸਕ ਸਹੂਲਤ"
@@ -5415,7 +5415,7 @@ msgstr "%s (%s) @ %s — ਡਿਸਕ ਸਹੂਲਤ"
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #. * Third is the device file (e.g. '/dev/sda')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:329
+#: ../src/mate-disk/gdu-shell.c:329
 #, c-format
 msgid "%s (%s) [%s] — Disk Utility"
 msgstr "%s (%s) [%s] — ਡਿਸਕ ਸਹੂਲਤ"
@@ -5424,115 +5424,115 @@ msgstr "%s (%s) [%s] — ਡਿਸਕ ਸਹੂਲਤ"
 #. * First %s is the name of the item (e.g. '80 GB Solid-State Disk' or 'Saturn').
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #.
-#: ../src/matepalimpsest/gdu-shell.c:338
+#: ../src/mate-disk/gdu-shell.c:338
 #, c-format
 msgid "%s (%s) — Disk Utility"
 msgstr "%s (%s) — ਡਿਸਕ ਸਹੂਲਤ"
 
-#: ../src/matepalimpsest/gdu-shell.c:626
+#: ../src/mate-disk/gdu-shell.c:626
 msgid "Error creating RAID array"
 msgstr "ਰੇਡ ਅਰੇ ਬਣਾਉਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-shell.c:755
+#: ../src/mate-disk/gdu-shell.c:755
 #, c-format
 msgid "Error connecting to “%s”"
 msgstr "“%s” ਨਾਲ ਕੁਨੈਕਟ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../src/matepalimpsest/gdu-shell.c:808
+#: ../src/mate-disk/gdu-shell.c:808
 msgid "translator-credits"
 msgstr ""
 "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ, ੨੦੦੯\n"
 "http://www.satluj.com"
 
-#: ../src/matepalimpsest/gdu-shell.c:837
+#: ../src/mate-disk/gdu-shell.c:837
 msgid "_File"
 msgstr "ਫਾਇਲ(_F)"
 
-#: ../src/matepalimpsest/gdu-shell.c:838
+#: ../src/mate-disk/gdu-shell.c:838
 msgid "Connect to _Server..."
 msgstr "ਸਰਵਰ ਨਾਲ ਕੁਨੈਕਟ ਕਰੋ(_S)..."
 
-#: ../src/matepalimpsest/gdu-shell.c:838
+#: ../src/mate-disk/gdu-shell.c:838
 msgid "Manage storage devices on another machine"
 msgstr "ਹੋਰ ਮਸ਼ੀਨ ਉੱਤੇ ਸਟੋਰੇਜ਼ ਜੰਤਰ ਦਾ ਪਰਬੰਧ ਕਰੋ"
 
-#: ../src/matepalimpsest/gdu-shell.c:839
+#: ../src/mate-disk/gdu-shell.c:839
 msgid "_Create"
 msgstr "ਬਣਾਓ(_C)"
 
-#: ../src/matepalimpsest/gdu-shell.c:840
+#: ../src/mate-disk/gdu-shell.c:840
 msgid "_RAID Array..."
 msgstr "ਰੇਡ ਅਰੇ(_R)..."
 
-#: ../src/matepalimpsest/gdu-shell.c:840
+#: ../src/mate-disk/gdu-shell.c:840
 msgid "Create a RAID array"
 msgstr "ਰੇਡ ਅਰੇ ਬਣਾਓ"
 
-#: ../src/matepalimpsest/gdu-shell.c:841
+#: ../src/mate-disk/gdu-shell.c:841
 msgid "_Edit"
 msgstr "ਸੋਧ(_E)"
 
-#: ../src/matepalimpsest/gdu-shell.c:842 ../src/matepalimpsest/gdu-shell.c:845
+#: ../src/mate-disk/gdu-shell.c:842 ../src/mate-disk/gdu-shell.c:845
 msgid "_Help"
 msgstr "ਮੱਦਦ(_H)"
 
-#: ../src/matepalimpsest/gdu-shell.c:844
+#: ../src/mate-disk/gdu-shell.c:844
 msgid "_Quit"
 msgstr "ਬਾਹਰ(_Q)"
 
-#: ../src/matepalimpsest/gdu-shell.c:844
+#: ../src/mate-disk/gdu-shell.c:844
 msgid "Quit"
 msgstr "ਬਾਹਰ ਜਾਓ"
 
-#: ../src/matepalimpsest/gdu-shell.c:845
+#: ../src/mate-disk/gdu-shell.c:845
 msgid "Get Help on Disk Utility"
 msgstr "ਡਿਸਕ ਸਹੂਲਤ ਲਈ ਮੱਦਦ ਲਵੋ"
 
-#: ../src/matepalimpsest/gdu-shell.c:846
+#: ../src/mate-disk/gdu-shell.c:846
 msgid "_About"
 msgstr "ਇਸ ਬਾਰੇ(_A)"
 
-#: ../src/matepalimpsest/gdu-shell.c:925
+#: ../src/mate-disk/gdu-shell.c:925
 msgid "An error occured"
 msgstr "ਗਲਤੀ ਆਈ ਹੈ"
 
-#: ../src/matepalimpsest/gdu-shell.c:934
+#: ../src/mate-disk/gdu-shell.c:934
 msgid "The operation failed."
 msgstr "ਓਪਰੇਸ਼ਨ ਫੇਲ੍ਹ ਹੋਇਆ।"
 
-#: ../src/matepalimpsest/gdu-shell.c:937
+#: ../src/mate-disk/gdu-shell.c:937
 msgid "The device is busy."
 msgstr "ਜੰਤਰ ਰੁੱਝਿਆ ਹੈ।"
 
-#: ../src/matepalimpsest/gdu-shell.c:940
+#: ../src/mate-disk/gdu-shell.c:940
 msgid "The operation was canceled."
 msgstr "ਓਪਰੇਸ਼ਨ ਰੱਦ ਕੀਤਾ।"
 
-#: ../src/matepalimpsest/gdu-shell.c:943
+#: ../src/mate-disk/gdu-shell.c:943
 msgid "The daemon is being inhibited."
 msgstr "ਡੈਮਨ ਇੰਹਿਬਿਟ ਹੈ।"
 
-#: ../src/matepalimpsest/gdu-shell.c:946
+#: ../src/mate-disk/gdu-shell.c:946
 msgid "An invalid option was passed."
 msgstr "ਅਢੁੱਕਵੀਂ ਚੋਣ ਦਿੱਤੀ ਗਈ।"
 
-#: ../src/matepalimpsest/gdu-shell.c:949
+#: ../src/mate-disk/gdu-shell.c:949
 msgid "The operation is not supported."
 msgstr "ਓਪਰੇਸ਼ਨ ਸਹਾਇਕ ਨਹੀਂ ਹੈ।"
 
-#: ../src/matepalimpsest/gdu-shell.c:952
+#: ../src/mate-disk/gdu-shell.c:952
 msgid "Getting ATA SMART data would wake up the device."
 msgstr "ATA SMART ਡਾਟਾ ਲੈਣ ਨਾਲ ਜੰਤਰ ਜਾਗ ਪਵੇਗਾ।"
 
-#: ../src/matepalimpsest/gdu-shell.c:955
+#: ../src/mate-disk/gdu-shell.c:955
 msgid "Permission denied."
 msgstr "ਅਧਿਕਾਰ ਪਾਬੰਦੀ ਹੈ।"
 
-#: ../src/matepalimpsest/gdu-shell.c:994
+#: ../src/mate-disk/gdu-shell.c:994
 msgid "_Details:"
 msgstr "ਵੇਰਵਾ(_D):"
 
-#: ../src/matepalimpsest/gdu-shell.c:1163
+#: ../src/mate-disk/gdu-shell.c:1163
 msgid "_Storage Devices"
 msgstr "ਸਟੋਰੇਜ਼ ਜੰਤਰ(_S)"
 
@@ -6011,7 +6011,7 @@ msgstr "ਸਟੋਰੇਜ਼ ਜੰਤਰ(_S)"
 #~ msgid "_Erase"
 #~ msgstr "ਸਾਫ਼ ਕਰੋ(_E)"
 
-#~ msgid "MatePalimpsest Disk Utility"
+#~ msgid "Mate Disk Utility"
 #~ msgstr "ਪਾਲੀਮਪਸਿਸਟ ਡਿਸਕ ਸਹੂਲਤ"
 
 #~ msgid "_New"
@@ -6210,7 +6210,7 @@ msgstr "ਸਟੋਰੇਜ਼ ਜੰਤਰ(_S)"
 #~ msgid "%d Components (%s each)"
 #~ msgstr "%d ਭਾਗ (%s ਹਰੇਕ)"
 
-#~ msgid "Open volume in MatePalimpsest Disk Utility"
+#~ msgid "Open volume in Mate Disk Utility"
 #~ msgstr "ਪਾਲੀਮਪਸਿਸਟ ਡਿਸਕ ਸਹੂਲਤ ਵਿੱਚ ਵਾਲੀਅਮ ਖੋਲ੍ਹੋ"
 
 #~ msgid "Operations should go here"

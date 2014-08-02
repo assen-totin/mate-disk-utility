@@ -22,13 +22,13 @@ msgstr ""
 #.
 #. Translators: Window title when the item representing the local machine is selected.
 #.
-#: ../data/matepalimpsest.desktop.in.h:1 ../src/matepalimpsest/gdu-shell.c:269
-#: ../src/matepalimpsest/gdu-shell.c:321 ../src/matepalimpsest/gdu-shell.c:804
-#: ../src/matepalimpsest/gdu-shell.c:1111
+#: ../data/mate-disk.desktop.in.h:1 ../src/mate-disk/gdu-shell.c:269
+#: ../src/mate-disk/gdu-shell.c:321 ../src/mate-disk/gdu-shell.c:804
+#: ../src/mate-disk/gdu-shell.c:1111
 msgid "Disk Utility"
 msgstr "ディスク・ユーティリティ"
 
-#: ../data/matepalimpsest.desktop.in.h:2
+#: ../data/mate-disk.desktop.in.h:2
 msgid "Manage Drives and Media"
 msgstr "ドライブとメディアの管理"
 
@@ -74,8 +74,8 @@ msgstr "ディスク・ユーティリティを起動する際にエラーが発
 msgid "Device to format"
 msgstr "フォーマットするデバイス"
 
-#: ../src/format-tool/gdu-format-tool.c:130 ../src/matepalimpsest/gdu-main.c:127
-#: ../src/matepalimpsest/gdu-main.c:128
+#: ../src/format-tool/gdu-format-tool.c:130 ../src/mate-disk/gdu-main.c:127
+#: ../src/mate-disk/gdu-main.c:128
 msgid "DEVICE"
 msgstr "DEVICE"
 
@@ -1789,8 +1789,8 @@ msgstr "本当に読み込み/書き込みベンチマークを開始します�
 
 #. TODO: better icon
 #: ../src/gdu-gtk/gdu-drive-benchmark-dialog.c:594
-#: ../src/matepalimpsest/gdu-section-drive.c:1004
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1053
+#: ../src/mate-disk/gdu-section-drive.c:1004
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1053
 msgid "_Benchmark"
 msgstr "ベンチマーク(_B)"
 
@@ -1923,14 +1923,14 @@ msgstr "未割り当て"
 
 #: ../src/gdu-gtk/gdu-edit-linux-lvm2-dialog.c:427
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:465
-#: ../src/matepalimpsest/gdu-section-drive.c:935
+#: ../src/mate-disk/gdu-section-drive.c:935
 msgid "SMART Status:"
 msgstr "SMART 状態:"
 
 #: ../src/gdu-gtk/gdu-edit-linux-lvm2-dialog.c:431
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:477
-#: ../src/matepalimpsest/gdu-section-drive.c:911
-#: ../src/matepalimpsest/gdu-section-volumes.c:1916
+#: ../src/mate-disk/gdu-section-drive.c:911
+#: ../src/mate-disk/gdu-section-volumes.c:1916
 msgid "Device:"
 msgstr "デバイス:"
 
@@ -1955,7 +1955,7 @@ msgstr "ボリュームグループから物理ボリュームを削除"
 #. Translators: This string is used when SMART is not supported
 #: ../src/gdu-gtk/gdu-edit-linux-lvm2-dialog.c:953
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:857
-#: ../src/matepalimpsest/gdu-section-drive.c:329
+#: ../src/mate-disk/gdu-section-drive.c:329
 msgid "Not Supported"
 msgstr "サポートされていません"
 
@@ -1985,9 +1985,9 @@ msgid "Position:"
 msgstr "位置:"
 
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:473
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:683
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:974
-#: ../src/matepalimpsest/gdu-section-volumes.c:1905
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:683
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:974
+#: ../src/mate-disk/gdu-section-volumes.c:1905
 msgid "State:"
 msgstr "状態:"
 
@@ -2083,7 +2083,7 @@ msgstr "ファイルシステムのドライバがインストールされてい
 msgid "Filesystem tools not installed"
 msgstr "ファイルシステムのツールがインストールされていません"
 
-#: ../src/gdu-gtk/gdu-error-dialog.c:249 ../src/matepalimpsest/gdu-shell.c:955
+#: ../src/gdu-gtk/gdu-error-dialog.c:249 ../src/mate-disk/gdu-shell.c:955
 msgid "Unknown error"
 msgstr "不明なエラー"
 
@@ -2158,8 +2158,8 @@ msgstr "確認ボタンのニーモニックラベル"
 #. Translators: Format is used as a verb here
 #: ../src/gdu-gtk/gdu-format-dialog.c:238
 #: ../src/gdu-gtk/gdu-partition-dialog.c:216
-#: ../src/matepalimpsest/gdu-section-drive.c:649
-#: ../src/matepalimpsest/gdu-section-volumes.c:368
+#: ../src/mate-disk/gdu-section-drive.c:649
+#: ../src/mate-disk/gdu-section-volumes.c:368
 msgid "_Format"
 msgstr "フォーマット(_F)"
 
@@ -2202,8 +2202,8 @@ msgstr "暗号化/Linux互換 (FAT)"
 
 #. Translators: 'name' means 'filesystem label' here.
 #: ../src/gdu-gtk/gdu-format-dialog.c:607
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:204
-#: ../src/matepalimpsest/gdu-section-volumes.c:1720
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:204
+#: ../src/mate-disk/gdu-section-volumes.c:1720
 msgid "_Name:"
 msgstr "名前(_N):"
 
@@ -2340,7 +2340,7 @@ msgstr "パスフレーズは空にできません"
 msgid "Cr_eate"
 msgstr "作成(_E)"
 
-#: ../src/gdu-gtk/gdu-gtk.c:586 ../src/matepalimpsest/gdu-section-volumes.c:2447
+#: ../src/gdu-gtk/gdu-gtk.c:586 ../src/mate-disk/gdu-section-volumes.c:2447
 msgid "Change _Passphrase"
 msgstr "パスフレーズの変更(_P)"
 
@@ -2439,16 +2439,16 @@ msgstr "空"
 msgid "Extended Partition"
 msgstr "拡張パーティション"
 
-#: ../src/gdu-gtk/gdu-gtk.c:1541 ../src/matepalimpsest/gdu-section-drive.c:291
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:254
+#: ../src/gdu-gtk/gdu-gtk.c:1541 ../src/mate-disk/gdu-section-drive.c:291
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:254
 msgid "Master Boot Record"
 msgstr "マスターブートレコード"
 
 #. Translators: This string is used for conveying the partition table format
 #: ../src/gdu-gtk/gdu-gtk.c:1546 ../src/gdu/gdu-drive.c:823
 #: ../src/gdu/gdu-linux-md-drive.c:568
-#: ../src/matepalimpsest/gdu-section-drive.c:293
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:256
+#: ../src/mate-disk/gdu-section-drive.c:293
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:256
 msgid "GUID Partition Table"
 msgstr "GUID パーティションテーブル"
 
@@ -2457,8 +2457,8 @@ msgid "Don't partition"
 msgstr "パーティション分割しない"
 
 #: ../src/gdu-gtk/gdu-gtk.c:1556 ../src/gdu/gdu-util.c:495
-#: ../src/matepalimpsest/gdu-section-drive.c:289
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:252
+#: ../src/mate-disk/gdu-section-drive.c:289
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:252
 msgid "Apple Partition Map"
 msgstr "Apple パーティションマップ"
 
@@ -2545,7 +2545,7 @@ msgid_plural "%d hours ago"
 msgstr[0] "%d 時間前"
 
 #: ../src/gdu-gtk/gdu-volume-grid.c:498
-#: ../src/matepalimpsest/gdu-section-drive.c:150
+#: ../src/mate-disk/gdu-section-drive.c:150
 msgid "Drive"
 msgstr "ドライブ"
 
@@ -2563,7 +2563,7 @@ msgstr "RAID アレイは停止中です"
 #. * been detected for a drive
 #.
 #: ../src/gdu-gtk/gdu-volume-grid.c:1184 ../src/gdu/gdu-drive.c:809
-#: ../src/matepalimpsest/gdu-section-drive.c:343
+#: ../src/mate-disk/gdu-section-drive.c:343
 #, c-format
 msgid "No Media Detected"
 msgstr "メディアは検出されていません"
@@ -2580,7 +2580,7 @@ msgstr "暗号化済み"
 
 #. Translators: shown in the grid for an RAID Component
 #: ../src/gdu-gtk/gdu-volume-grid.c:1290 ../src/gdu/gdu-util.c:344
-#: ../src/matepalimpsest/gdu-section-volumes.c:2173
+#: ../src/mate-disk/gdu-section-volumes.c:2173
 #, c-format
 msgid "RAID Component"
 msgstr "RAID コンポーネント"
@@ -2743,8 +2743,8 @@ msgstr "パーティション分けされています"
 
 #. Translators: This string is used for conveying a device is not partitioned.
 #.
-#: ../src/gdu/gdu-drive.c:836 ../src/matepalimpsest/gdu-section-drive.c:302
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:265
+#: ../src/gdu/gdu-drive.c:836 ../src/mate-disk/gdu-section-drive.c:302
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:265
 msgid "Not Partitioned"
 msgstr "パーティション分けされていません"
 
@@ -2790,7 +2790,7 @@ msgstr "LVM2 論理ボリューム"
 #. Translators: Description
 #: ../src/gdu/gdu-linux-lvm2-volume-group.c:372
 #: ../src/gdu/gdu-linux-lvm2-volume-group.c:376
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:653
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:653
 msgid "Volume Group"
 msgstr "ボリュームグループ"
 
@@ -2820,8 +2820,8 @@ msgstr "%s 未使用"
 #. Translators: Description
 #: ../src/gdu/gdu-linux-lvm2-volume-hole.c:205
 #: ../src/gdu/gdu-volume-hole.c:161
-#: ../src/matepalimpsest/gdu-section-volumes.c:2187
-#: ../src/matepalimpsest/gdu-section-volumes.c:2195
+#: ../src/mate-disk/gdu-section-volumes.c:2187
+#: ../src/mate-disk/gdu-section-volumes.c:2195
 msgid "Unallocated Space"
 msgstr "未割り当て領域"
 
@@ -2865,7 +2865,7 @@ msgid "RAID"
 msgstr "RAID"
 
 #: ../src/gdu/gdu-linux-md-drive.c:613
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:944
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:944
 msgid "RAID Array"
 msgstr "RAID アレイ"
 
@@ -3229,7 +3229,7 @@ msgstr "Universal Disk Format"
 msgid "udf"
 msgstr "udf"
 
-#: ../src/gdu/gdu-util.c:323 ../src/matepalimpsest/gdu-section-volumes.c:2169
+#: ../src/gdu/gdu-util.c:323 ../src/mate-disk/gdu-section-volumes.c:2169
 msgid "Swap Space"
 msgstr "スワップ領域"
 
@@ -3905,12 +3905,12 @@ msgid "PATA"
 msgstr "PATA"
 
 #. Translators: interface name for ATA disks
-#: ../src/gdu/gdu-util.c:919 ../src/matepalimpsest/gdu-section-hub.c:141
+#: ../src/gdu/gdu-util.c:919 ../src/mate-disk/gdu-section-hub.c:141
 msgid "ATA"
 msgstr "ATA"
 
 #. Translators: interface name for SCSI disks
-#: ../src/gdu/gdu-util.c:922 ../src/matepalimpsest/gdu-section-hub.c:145
+#: ../src/gdu/gdu-util.c:922 ../src/mate-disk/gdu-section-hub.c:145
 msgid "SCSI"
 msgstr "SCSI"
 
@@ -4446,15 +4446,15 @@ msgstr ""
 "1つまたはそれ以上のハードディスクの状態に問題ありという報告があります。詳細な"
 "情報を知るにはアイコンをクリックしてください。"
 
-#: ../src/matepalimpsest/gdu-main.c:127
+#: ../src/mate-disk/gdu-main.c:127
 msgid "Volume to show"
 msgstr "表示するボリューム"
 
-#: ../src/matepalimpsest/gdu-main.c:128
+#: ../src/mate-disk/gdu-main.c:128
 msgid "Drive to show"
 msgstr "表示するドライブ"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:148
+#: ../src/mate-disk/gdu-section-drive.c:148
 msgid "Multipath Drive"
 msgstr "マルチパスドライブ"
 
@@ -4463,7 +4463,7 @@ msgstr "マルチパスドライブ"
 #. * PHY number (starts at 1) and the %s is the Adapter/Expander
 #. * name (e.g. "SAS Host Adapter").
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:189
+#: ../src/mate-disk/gdu-section-drive.c:189
 #, c-format
 msgid "PHY %d of %s"
 msgstr "%2$s の PHY %1$d"
@@ -4473,17 +4473,17 @@ msgstr "%2$s の PHY %1$d"
 #. * PHY number (starts at 1) and the %s is the Adapter/Expander
 #. * name (e.g. "SATA Host Adapter").
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:196
+#: ../src/mate-disk/gdu-section-drive.c:196
 #, c-format
 msgid "Port %d of %s"
 msgstr "%2$s の ポート %1$d"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:261
+#: ../src/mate-disk/gdu-section-drive.c:261
 msgctxt "Write Cache"
 msgid "Enabled"
 msgstr "有効"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:263
+#: ../src/mate-disk/gdu-section-drive.c:263
 msgctxt "Write Cache"
 msgid "Disabled"
 msgstr "無効"
@@ -4491,50 +4491,50 @@ msgstr "無効"
 #. Translators: This is for the rotation rate of a hard
 #. * disk - RPM means rounds per minute
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:273
+#: ../src/mate-disk/gdu-section-drive.c:273
 #, c-format
 msgctxt "Rotation Rate"
 msgid "%d RPM"
 msgstr "%d RPM"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:281
+#: ../src/mate-disk/gdu-section-drive.c:281
 msgctxt "Rotation Rate"
 msgid "Solid-State Disk"
 msgstr "SSD"
 
 #. Translators: 'scheme' refers to a partition table format here, like 'mbr' or 'gpt'
-#: ../src/matepalimpsest/gdu-section-drive.c:296
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:259
+#: ../src/mate-disk/gdu-section-drive.c:296
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:259
 #, c-format
 msgid "Unknown Scheme: %s"
 msgstr "不明なスキーム: %s"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:439
-#: ../src/matepalimpsest/gdu-section-drive.c:459
+#: ../src/mate-disk/gdu-section-drive.c:439
+#: ../src/mate-disk/gdu-section-drive.c:459
 msgid "Error launching Brasero"
 msgstr "Brasero の起動時にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:440
+#: ../src/mate-disk/gdu-section-drive.c:440
 msgid "The application is not installed"
 msgstr "アプリケーションがインストールされていません"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:521
+#: ../src/mate-disk/gdu-section-drive.c:521
 msgid "Error ejecting media"
 msgstr "メディアの取り出し中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:565
+#: ../src/mate-disk/gdu-section-drive.c:565
 msgid "Error detaching drive"
 msgstr "ドライブの取り外し中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:610
+#: ../src/mate-disk/gdu-section-drive.c:610
 msgid "Error formatting drive"
 msgstr "ドライブのフォーマット中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:648
+#: ../src/mate-disk/gdu-section-drive.c:648
 msgid "Are you sure you want to format the drive?"
 msgstr "本当にドライブをフォーマットしますか?"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:835
+#: ../src/mate-disk/gdu-section-drive.c:835
 msgid ""
 "<b>WARNING:</b> Several paths to this drive has been detected but no "
 "corresponding multipath device was found. Your OS may be misconfigured."
@@ -4542,11 +4542,11 @@ msgstr ""
 "<b>警告:</b> このドライブに対するいくつかのパスが検知されましたが、該当するマ"
 "ルチパスデバイスが見つかりません。OS の設定が間違っている可能性があります。"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:850
+#: ../src/mate-disk/gdu-section-drive.c:850
 msgid "Go to Multipath Device"
 msgstr "マルチパスドライブに移動"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:861
+#: ../src/mate-disk/gdu-section-drive.c:861
 msgid ""
 "<b>NOTE:</b> This object represents one of several paths to the drive. To "
 "perform operations on the drive, use the corresponding multipath object."
@@ -4555,799 +4555,799 @@ msgstr ""
 "イブに対して操作を実行するには、該当するマルチパスオブジェクトを利用してくだ"
 "さい。"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:890
-#: ../src/matepalimpsest/gdu-section-hub.c:225
+#: ../src/mate-disk/gdu-section-drive.c:890
+#: ../src/mate-disk/gdu-section-hub.c:225
 msgid "Model:"
 msgstr "モデル名:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:894
+#: ../src/mate-disk/gdu-section-drive.c:894
 msgid "Serial Number:"
 msgstr "シリアルナンバー:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:898
+#: ../src/mate-disk/gdu-section-drive.c:898
 msgid "Firmware Version:"
 msgstr "ファームウェアバージョン:"
 
 #. Translators: if you translate "World Wide Name", please include the abbreviation "WWN"
-#: ../src/matepalimpsest/gdu-section-drive.c:903
+#: ../src/mate-disk/gdu-section-drive.c:903
 msgid "World Wide Name:"
 msgstr "World Wide Name:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:907
+#: ../src/mate-disk/gdu-section-drive.c:907
 msgid "Location:"
 msgstr "位置:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:915
+#: ../src/mate-disk/gdu-section-drive.c:915
 msgid "Write Cache:"
 msgstr "書き込みキャッシュ:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:919
+#: ../src/mate-disk/gdu-section-drive.c:919
 msgid "Rotation Rate:"
 msgstr "回転速度:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:923
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:679
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:978
-#: ../src/matepalimpsest/gdu-section-volumes.c:1930
+#: ../src/mate-disk/gdu-section-drive.c:923
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:679
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:978
+#: ../src/mate-disk/gdu-section-volumes.c:1930
 msgid "Capacity:"
 msgstr "容量:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:927
+#: ../src/mate-disk/gdu-section-drive.c:927
 msgid "Connection:"
 msgstr "接続:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:931
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:970
+#: ../src/mate-disk/gdu-section-drive.c:931
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:970
 msgid "Partitioning:"
 msgstr "パーティション:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:954
+#: ../src/mate-disk/gdu-section-drive.c:954
 msgid "Open CD/_DVD Application"
 msgstr "CD/DVD アプリケーションを開く(_D)"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:955
+#: ../src/mate-disk/gdu-section-drive.c:955
 msgid "Create and copy CDs and DVDs"
 msgstr "CDやDVDを作成しコピーする"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:964
+#: ../src/mate-disk/gdu-section-drive.c:964
 msgid "Format _Drive"
 msgstr "ドライブをフォーマット(_D)"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:965
+#: ../src/mate-disk/gdu-section-drive.c:965
 msgid "Erase or partition the drive"
 msgstr "ドライブを消去するかパーティション分けする"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:974
+#: ../src/mate-disk/gdu-section-drive.c:974
 msgid "SM_ART Data"
 msgstr "SMART データ(_A)"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:975
+#: ../src/mate-disk/gdu-section-drive.c:975
 msgid "View SMART data and run self-tests"
 msgstr "SMART データの表示とセルフテストを実行"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:984
+#: ../src/mate-disk/gdu-section-drive.c:984
 msgid "_Eject"
 msgstr "取り出し(_E)"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:985
+#: ../src/mate-disk/gdu-section-drive.c:985
 msgid "Eject media from the drive"
 msgstr "ドライブからメディアを取り出す"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:994
+#: ../src/mate-disk/gdu-section-drive.c:994
 msgid "Safe Rem_oval"
 msgstr "安全に削除する(_O)"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:995
+#: ../src/mate-disk/gdu-section-drive.c:995
 msgid "Power down the drive so it can be removed"
 msgstr "ドライブの電源を切ったので取り外せます"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:1005
+#: ../src/mate-disk/gdu-section-drive.c:1005
 msgid "Measure drive performance"
 msgstr "ドライブのパフォーマンスを計測"
 
 #. Translators: Used for SAS to convey the number of PHYs in the
 #. * "Number of Ports" element. You should probably not translate PHY.
 #.
-#: ../src/matepalimpsest/gdu-section-hub.c:106
-#: ../src/matepalimpsest/gdu-section-hub.c:161
+#: ../src/mate-disk/gdu-section-hub.c:106
+#: ../src/mate-disk/gdu-section-hub.c:161
 #, c-format
 msgid "%d PHYs"
 msgstr "%d PHY"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:137
+#: ../src/mate-disk/gdu-section-hub.c:137
 msgid "Parallel ATA"
 msgstr "パラレル ATA"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:139
+#: ../src/mate-disk/gdu-section-hub.c:139
 msgid "Serial ATA"
 msgstr "シリアル ATA"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:143
+#: ../src/mate-disk/gdu-section-hub.c:143
 msgid "Serial Attached SCSI"
 msgstr "シリアルアタッチド SCSI (SAS)"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:221
+#: ../src/mate-disk/gdu-section-hub.c:221
 msgid "Vendor:"
 msgstr "ベンダ:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:229
+#: ../src/mate-disk/gdu-section-hub.c:229
 msgid "Revision:"
 msgstr "リビジョン:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:233
+#: ../src/mate-disk/gdu-section-hub.c:233
 msgid "Driver:"
 msgstr "ドライバ:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:237
+#: ../src/mate-disk/gdu-section-hub.c:237
 #, fuzzy
 msgid "Fabric:"
 msgstr "Fabric:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:241
+#: ../src/mate-disk/gdu-section-hub.c:241
 msgid "Number of Ports:"
 msgstr "ポート数:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:77
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:77
 msgid "Error starting Volume Group"
 msgstr "ボリュームグループの開始中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:123
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:123
 msgid "Error stopping Volume Group"
 msgstr "ボリュームグループの停止中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:169
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:169
 msgid "Error setting name for Volume Group"
 msgstr "ボリュームグループ名の設定中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:203
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:203
 msgid "Choose a new Volume Group name."
 msgstr "新規ボリュームグループ名を入力してください。"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:255
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:255
 msgid "Error adding Physical Volume to Volume Group"
 msgstr "論理グループに物理ボリュームを追加する際にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:285
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:285
 msgid "Error creating PV for VG"
 msgstr "ボリュームグループで物理ボリュームの作成中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:380
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:380
 msgid "Error deleting partition for Physical Volume in Volume Group"
 msgstr ""
 "ボリュームグループにある物理ボリュームのパーティションの削除中にエラーが発生"
 "しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:403
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:403
 msgid "Error removing Physical Volume from Volume Group"
 msgstr "ボリュームグループから物理ボリュームを削除する際にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:476
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:476
 msgid "Are you sure you want the remove the Physical Volume?"
 msgstr "本当に物理ボリュームを削除しますか?"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:477
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:530
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:477
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:530
 msgid "_Remove"
 msgstr "削除(_R)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:597
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:597
 msgid "Not Running"
 msgstr "停止中"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:601
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:601
 msgid "Partially Running"
 msgstr "部分的に実行中"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:606
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:606
 msgid "Running"
 msgstr "実行中"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:610
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:610
 #, c-format
 msgid "Unknown (%d)"
 msgstr "不明 (%d)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:667
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:966
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:667
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:966
 msgid "Name:"
 msgstr "名前:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:671
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:671
 msgid "Extent Size:"
 msgstr "拡張領域のサイズ:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:675
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:675
 msgid "Physical Volumes:"
 msgstr "物理ボリューム:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:687
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:687
 msgid "Unallocated:"
 msgstr "未割り当て:"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:706
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:706
 msgid "St_art Volume Group"
 msgstr "ボリュームグループを開始(_A)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:707
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:707
 msgid "Activate all LVs in the VG"
 msgstr "ボリュームグループにあるすべての論理ボリュームを開始"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:716
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:716
 msgid "St_op Volume Group"
 msgstr "ボリュームグループを呈し(_O)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:717
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:717
 msgid "Deactivate all LVs in the VG"
 msgstr "ボリュームグループにあるすべての論理ボリュームを停止"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:727
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:727
 msgid "Edit _Name"
 msgstr "名前を編集(_N)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:728
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:728
 msgid "Change the Volume Group name"
 msgstr "ボリュームグループ名を変更"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:737
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:737
 msgid "Edit Ph_ysical Volumes"
 msgstr "物理ボリュームを編集(_Y)"
 
-#: ../src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c:738
+#: ../src/mate-disk/gdu-section-linux-lvm2-volume-group.c:738
 msgid "Create and remove PVs"
 msgstr "物理ボリュームの作成と削除"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:84
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:84
 msgctxt "RAID status"
 msgid "Not running, partially assembled"
 msgstr "停止中です。部分的に構築されています。"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:92
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:92
 msgctxt "RAID status"
 msgid "Not running"
 msgstr "停止中"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:94
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:94
 msgctxt "RAID status"
 msgid "Not running, can only start degraded"
 msgstr "停止中です。デグレード状態でなら始めることができます。"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:96
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:96
 msgctxt "RAID status"
 msgid "Not running, not enough components to start"
 msgstr "停止中です。起動するにはコンポーネントが足りません"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:114
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:114
 msgctxt "RAID status"
 msgid "DEGRADED"
 msgstr "デグレード状態"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:116
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:116
 msgctxt "RAID status"
 msgid "Running"
 msgstr "実行中"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:124
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:124
 msgctxt "RAID action"
 msgid "Reshaping"
 msgstr "再構築中"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:126
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:126
 msgctxt "RAID action"
 msgid "Resyncing"
 msgstr "リシンク中"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:128
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:128
 msgctxt "RAID action"
 msgid "Repairing"
 msgstr "修復中"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:130
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:130
 msgctxt "RAID action"
 msgid "Recovering"
 msgstr "リカバリ中"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:132
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:132
 msgctxt "RAID action"
 msgid "Checking"
 msgstr "チェック中"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:137
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:137
 msgctxt "RAID action"
 msgid "Idle"
 msgstr "アイドル"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:315
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:315
 msgid "Error stopping RAID Array"
 msgstr "RAID アレイの停止中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:360
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:360
 msgid "Error starting RAID Array"
 msgstr "RAID アレイの開始中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:390
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:393
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:390
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:393
 #, c-format
 msgid "Not enough components available to start the RAID Array"
 msgstr "RAID アレイを開始するには利用可能なコンポーネントが足りません"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:409
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:409
 msgid "Are you sure you want the RAID Array degraded?"
 msgstr "本当に RAID アレイをデグレードモードにしますか?"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:410
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:410
 msgid "_Start"
 msgstr "開始(_S)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:455
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:455
 msgid "Error deleting partition for component in RAID Array"
 msgstr ""
 "RAID アレイのコンポーネントでパーティションを削除中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:478
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:478
 msgid "Error removing component from RAID Array"
 msgstr "RAID アレイからコンポーネントを取り外す際にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:529
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:529
 msgid "Are you sure you want the remove the component?"
 msgstr "本当にアレイからコンポーネントを取り外しますか?"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:566
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:650
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:566
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:650
 msgid "Error adding component to RAID Array"
 msgstr "RAID アレイにコンポーネントの追加中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:683
-#: ../src/matepalimpsest/gdu-shell.c:599
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:683
+#: ../src/mate-disk/gdu-shell.c:599
 msgid "Error creating component for RAID array"
 msgstr "RAID アレイでコンポーネントの作成中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:722
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:722
 msgid "Error expanding RAID Array"
 msgstr "RAID アレイの拡張中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:883
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:883
 msgid "Error checking RAID Array"
 msgstr "RAID アレイのチェック中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:958
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:958
 msgid "Level:"
 msgstr "レベル:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:962
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:962
 msgid "Metadata Version:"
 msgstr "メタデータのバージョン:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:982
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:982
 msgid "Action:"
 msgstr "アクション:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:986
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:986
 msgid "Components:"
 msgstr "コンポーネント:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1003
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1003
 msgid "St_art RAID Array"
 msgstr "RAID アレイを開始(_A)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1004
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1004
 msgid "Bring up the RAID Array"
 msgstr "RAID アレイを開始"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1013
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1013
 msgid "St_op RAID Array"
 msgstr "RAID アレイを停止(_O)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1014
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1014
 msgid "Tear down the RAID Array"
 msgstr "Tear down the RAID Array"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1023
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1023
 msgid "Format/Erase RAI_D Array"
 msgstr "RAID アレイをフォーマット/消去(_D)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1024
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1024
 msgid "Erase or partition the array"
 msgstr "RAID アレイの削除またはパーティション分け"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1033
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1033
 msgid "Chec_k Array"
 msgstr "アレイのチェック(_K)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1034
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1034
 msgid "Check and repair the array"
 msgstr "アレイのチェックと修復"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1043
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1043
 msgid "Edit Com_ponents"
 msgstr "%d 個のコンポーネントを編集(_P)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1044
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1044
 msgid "Create and remove components"
 msgstr "コンポーネントの作成と削除"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1054
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1054
 msgid "Measure RAID array performance"
 msgstr "RAID アレイのパフォーマンスを測定"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:112
+#: ../src/mate-disk/gdu-section-volumes.c:112
 msgid "Error unmounting volume"
 msgstr "ボリュームのアンマウント中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:168
+#: ../src/mate-disk/gdu-section-volumes.c:168
 msgid "Error mounting volume"
 msgstr "ボリュームのマウント中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:225
+#: ../src/mate-disk/gdu-section-volumes.c:225
 msgid "Error deleting partition"
 msgstr "パーティションの削除中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:260
+#: ../src/mate-disk/gdu-section-volumes.c:260
 msgid "Are you sure you want to delete the partition?"
 msgstr "本当にパーティションを削除しますか?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:261
-#: ../src/matepalimpsest/gdu-section-volumes.c:1787
+#: ../src/mate-disk/gdu-section-volumes.c:261
+#: ../src/mate-disk/gdu-section-volumes.c:1787
 msgid "_Delete"
 msgstr "削除(_D)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:314
+#: ../src/mate-disk/gdu-section-volumes.c:314
 msgid "Error creating filesystem"
 msgstr "ファイルシステムの作成中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:367
+#: ../src/mate-disk/gdu-section-volumes.c:367
 msgid "Are you sure you want to format the volume?"
 msgstr "本当にボリュームをフォーマットしますか?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:425
+#: ../src/mate-disk/gdu-section-volumes.c:425
 msgid "Error modifying partition"
 msgstr "パーティションの変更中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:516
+#: ../src/mate-disk/gdu-section-volumes.c:516
 msgid "Are you sure you want to forget the passphrase?"
 msgstr "本当にパスフレーズを忘れさせますか?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:517
+#: ../src/mate-disk/gdu-section-volumes.c:517
 msgid "_Forget"
 msgstr "忘れる(_F)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:547
+#: ../src/mate-disk/gdu-section-volumes.c:547
 msgid "Error locking LUKS volume"
 msgstr "LUKS ボリュームのロック中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:670
+#: ../src/mate-disk/gdu-section-volumes.c:670
 msgid "Error unlocking LUKS volume"
 msgstr "LUKS ボリュームのロック解除中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:966
+#: ../src/mate-disk/gdu-section-volumes.c:966
 msgid "Error creating partition"
 msgstr "パーティションの作成中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1137
+#: ../src/mate-disk/gdu-section-volumes.c:1137
 msgid "Error changing label"
 msgstr "ラベルの変更中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1192
+#: ../src/mate-disk/gdu-section-volumes.c:1192
 msgid "Choose a new filesystem label."
 msgstr "新しいファイルシステムのラベルを入力してください。"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1193
+#: ../src/mate-disk/gdu-section-volumes.c:1193
 msgid "_Label:"
 msgstr "ラベル(_L):"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1238
+#: ../src/mate-disk/gdu-section-volumes.c:1238
 msgid "Error checking filesystem on volume"
 msgstr "ボリュームにあるファイルシステムのチェック中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1265
+#: ../src/mate-disk/gdu-section-volumes.c:1265
 #, c-format
 msgid "File system check on \"%s\" (%s) completed"
 msgstr "\"%s\" (%s) のファイルシステムのチェックが完了しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1269
+#: ../src/mate-disk/gdu-section-volumes.c:1269
 msgid "File system is clean."
 msgstr "ファイルシステムは正常です。"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1272
+#: ../src/mate-disk/gdu-section-volumes.c:1272
 msgid "File system is <b>NOT</b> clean."
 msgstr "ファイルシステムは正常では<b>ありません</b>。"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1384
+#: ../src/mate-disk/gdu-section-volumes.c:1384
 #, c-format
 msgid "Error spawning caja: %s"
 msgstr "Caja の起動中にエラー: %s"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1432
+#: ../src/mate-disk/gdu-section-volumes.c:1432
 msgid "Error creating Logical Volume"
 msgstr "論理ボリュームの作成中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1585
+#: ../src/mate-disk/gdu-section-volumes.c:1585
 msgid "Error stopping Logical Volume"
 msgstr "論理ボリュームの停止中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1631
+#: ../src/mate-disk/gdu-section-volumes.c:1631
 msgid "Error starting Logical Volume"
 msgstr "論理ボリュームの開始中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1680
+#: ../src/mate-disk/gdu-section-volumes.c:1680
 msgid "Error setting name for Logical Volume"
 msgstr "論理ボリューム名の設定中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1719
+#: ../src/mate-disk/gdu-section-volumes.c:1719
 msgid "Choose a new name for the Logical Volume."
 msgstr "新しい論理ボリューム名を入力してください。"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1753
+#: ../src/mate-disk/gdu-section-volumes.c:1753
 msgid "Error deleting Logical Volume"
 msgstr "論理ボリュームの削除中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1786
+#: ../src/mate-disk/gdu-section-volumes.c:1786
 msgid "Are you sure you want to delete the logical volume?"
 msgstr "本当に論理ボリュームを削除しますか?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1903
+#: ../src/mate-disk/gdu-section-volumes.c:1903
 msgid "Volume Name:"
 msgstr "ボリューム名:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1909
+#: ../src/mate-disk/gdu-section-volumes.c:1909
 msgid "Usage:"
 msgstr "利用方法:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1919
+#: ../src/mate-disk/gdu-section-volumes.c:1919
 msgid "Partition Type:"
 msgstr "パーティション・タイプ:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1923
+#: ../src/mate-disk/gdu-section-volumes.c:1923
 msgid "Partition Label:"
 msgstr "パーティション・ラベル:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1926
+#: ../src/mate-disk/gdu-section-volumes.c:1926
 msgid "Partition Flags:"
 msgstr "パーティション・フラグ:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1934
+#: ../src/mate-disk/gdu-section-volumes.c:1934
 msgid "Type:"
 msgstr "タイプ:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1937
+#: ../src/mate-disk/gdu-section-volumes.c:1937
 msgid "Available:"
 msgstr "利用可能:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1940
+#: ../src/mate-disk/gdu-section-volumes.c:1940
 msgid "Label:"
 msgstr "ラベル:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1943
+#: ../src/mate-disk/gdu-section-volumes.c:1943
 msgid "Mount Point:"
 msgstr "マウントポイント:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1964
+#: ../src/mate-disk/gdu-section-volumes.c:1964
 msgctxt "LVM2 LV State"
 msgid "Running"
 msgstr "実行中"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1965
+#: ../src/mate-disk/gdu-section-volumes.c:1965
 msgctxt "LVM2 LV State"
 msgid "Not Running"
 msgstr "停止中"
 
 #. Translators: This is for the 'boot' MBR/APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2004
+#: ../src/mate-disk/gdu-section-volumes.c:2004
 msgid "Bootable"
 msgstr "ブート可能"
 
 #. Translators: This is for the 'required' GPT partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2007
+#: ../src/mate-disk/gdu-section-volumes.c:2007
 msgid "Required"
 msgstr "必要"
 
 #. Translators: This is for the 'allocated' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2010
+#: ../src/mate-disk/gdu-section-volumes.c:2010
 msgid "Allocated"
 msgstr "割り当て済"
 
 #. Translators: This is for the 'allow_read' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2013
+#: ../src/mate-disk/gdu-section-volumes.c:2013
 msgid "Allow Read"
 msgstr "読み込み許可"
 
 #. Translators: This is for the 'allow_write' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2016
+#: ../src/mate-disk/gdu-section-volumes.c:2016
 msgid "Allow Write"
 msgstr "書き込み許可"
 
 #. Translators: This is for the 'boot_code_is_pic' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:2019
+#: ../src/mate-disk/gdu-section-volumes.c:2019
 msgid "Boot Code PIC"
 msgstr "ブートコード PIC"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2093
+#: ../src/mate-disk/gdu-section-volumes.c:2093
 msgid "Filesystem"
 msgstr "ファイルシステム"
 
 #. Translators: this the mount point hyperlink tooltip for a
 #. * remote server - it uses the sftp:// protocol
 #.
-#: ../src/matepalimpsest/gdu-section-volumes.c:2126
+#: ../src/mate-disk/gdu-section-volumes.c:2126
 msgid "View files on the volume using a SFTP network share"
 msgstr "SFTPネットワーク共有を利用してボリュームにあるファイルを表示"
 
 #. Translators: this the mount point hyperlink tooltip
-#: ../src/matepalimpsest/gdu-section-volumes.c:2133
+#: ../src/mate-disk/gdu-section-volumes.c:2133
 msgid "View files on the volume"
 msgstr "ボリュームにあるファイルを表示"
 
 #. Translators: this the the text for the mount point
 #. * item - %s is the mount point, e.g. '/media/disk'
 #.
-#: ../src/matepalimpsest/gdu-section-volumes.c:2140
+#: ../src/mate-disk/gdu-section-volumes.c:2140
 #, c-format
 msgid "Mounted at %s"
 msgstr "%s は以下でマウント"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2148
+#: ../src/mate-disk/gdu-section-volumes.c:2148
 msgid "Not Mounted"
 msgstr "マウントされていません"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2158
+#: ../src/mate-disk/gdu-section-volumes.c:2158
 msgid "Encrypted Volume (Locked)"
 msgstr "暗号化ボリューム(ロック)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2161
+#: ../src/mate-disk/gdu-section-volumes.c:2161
 msgid "Encrypted Volume (Unlocked)"
 msgstr "暗号化ボリューム(ロック解除)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2174
+#: ../src/mate-disk/gdu-section-volumes.c:2174
 msgid "Go to array"
 msgstr "アレイに移動"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2182
+#: ../src/mate-disk/gdu-section-volumes.c:2182
 msgid "Container for Logical Partitions"
 msgstr "論理パーティションのコンテナ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2290
+#: ../src/mate-disk/gdu-section-volumes.c:2290
 msgid "Logical _Volumes"
 msgstr "論理ボリューム(_V)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2292
+#: ../src/mate-disk/gdu-section-volumes.c:2292
 msgid "_Volumes"
 msgstr "ボリューム(_V)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2335
+#: ../src/mate-disk/gdu-section-volumes.c:2335
 msgid "_Mount Volume"
 msgstr "ボリュームをマウント(_M)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2336
+#: ../src/mate-disk/gdu-section-volumes.c:2336
 msgid "Mount the volume"
 msgstr "ボリュームをマウント"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2345
+#: ../src/mate-disk/gdu-section-volumes.c:2345
 msgid "Un_mount Volume"
 msgstr "ボリュームをアンマウント(_M)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2346
+#: ../src/mate-disk/gdu-section-volumes.c:2346
 msgid "Unmount the volume"
 msgstr "ボリュームをアンマウント"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2355
+#: ../src/mate-disk/gdu-section-volumes.c:2355
 msgid "Fo_rmat Volume"
 msgstr "ボリュームをフォーマット(_R)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2356
+#: ../src/mate-disk/gdu-section-volumes.c:2356
 msgid "Erase or format the volume"
 msgstr "ボリュームの消去またはフォーマット"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2365
+#: ../src/mate-disk/gdu-section-volumes.c:2365
 msgid "_Check Filesystem"
 msgstr "ファイルシステムをチェック(_C)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2366
+#: ../src/mate-disk/gdu-section-volumes.c:2366
 msgid "Check and repair the filesystem"
 msgstr "ファイルシステムのチェックと修復"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2376
+#: ../src/mate-disk/gdu-section-volumes.c:2376
 msgid "Edit Filesystem _Label"
 msgstr "ファイルシステムのラベルを編集(_L)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2377
+#: ../src/mate-disk/gdu-section-volumes.c:2377
 msgid "Change the label of the filesystem"
 msgstr "ファイルシステムのラベルを変更"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2386
+#: ../src/mate-disk/gdu-section-volumes.c:2386
 msgid "Ed_it Partition"
 msgstr "パーティションを編集(_I)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2387
+#: ../src/mate-disk/gdu-section-volumes.c:2387
 msgid "Change partition type, label and flags"
 msgstr "パーティション・タイプやラベルやフラグを変更"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2396
+#: ../src/mate-disk/gdu-section-volumes.c:2396
 msgid "D_elete Partition"
 msgstr "パーティションを削除(_E)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2397
+#: ../src/mate-disk/gdu-section-volumes.c:2397
 msgid "Delete the partition"
 msgstr "パーティションを削除"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2406
+#: ../src/mate-disk/gdu-section-volumes.c:2406
 msgid "_Create Partition"
 msgstr "パーティションを作成(_C)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2407
+#: ../src/mate-disk/gdu-section-volumes.c:2407
 msgid "Create a new partition"
 msgstr "新規パーティションを作成"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2416
+#: ../src/mate-disk/gdu-section-volumes.c:2416
 msgid "_Lock Volume"
 msgstr "ボリュームをロック(_L)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2417
+#: ../src/mate-disk/gdu-section-volumes.c:2417
 msgid "Make encrypted data unavailable"
 msgstr "暗号化データを利用不可にする"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2426
+#: ../src/mate-disk/gdu-section-volumes.c:2426
 msgid "Un_lock Volume"
 msgstr "ボリュームのロック解除(_L)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2427
+#: ../src/mate-disk/gdu-section-volumes.c:2427
 msgid "Make encrypted data available"
 msgstr "暗号化データを利用可能にする"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2436
+#: ../src/mate-disk/gdu-section-volumes.c:2436
 msgid "Forge_t Passphrase"
 msgstr "パスフレーズを忘れる(_T)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2437
+#: ../src/mate-disk/gdu-section-volumes.c:2437
 msgid "Delete passphrase from keyring"
 msgstr "キーリングからパスフレーズを削除"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2448
+#: ../src/mate-disk/gdu-section-volumes.c:2448
 msgid "Change passphrase"
 msgstr "パスフレーズを変更"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2457
+#: ../src/mate-disk/gdu-section-volumes.c:2457
 msgid "_Create Logical Volume"
 msgstr "論理ボリュームを作成(_C)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2458
+#: ../src/mate-disk/gdu-section-volumes.c:2458
 msgid "Create a new logical volume"
 msgstr "新規論理ボリュームを作成"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2467
+#: ../src/mate-disk/gdu-section-volumes.c:2467
 msgid "S_tart Volume"
 msgstr "ボリュームを開始(_T)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2468
+#: ../src/mate-disk/gdu-section-volumes.c:2468
 msgid "Activate the Logical Volume"
 msgstr "論理ボリュームを開始"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2478
+#: ../src/mate-disk/gdu-section-volumes.c:2478
 msgid "Edit Vol_ume Name"
 msgstr "ボリューム名を編集(_U)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2479
+#: ../src/mate-disk/gdu-section-volumes.c:2479
 msgid "Change the name of the volume"
 msgstr "ボリューム名を変更"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2488
+#: ../src/mate-disk/gdu-section-volumes.c:2488
 msgid "D_elete Volume"
 msgstr "ボリュームを削除(_E)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2489
+#: ../src/mate-disk/gdu-section-volumes.c:2489
 msgid "Delete the Logical Volume"
 msgstr "論理ボリュームを削除"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2498
+#: ../src/mate-disk/gdu-section-volumes.c:2498
 msgid "Sto_p Volume"
 msgstr "ボリュームを停止(_P)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:2499
+#: ../src/mate-disk/gdu-section-volumes.c:2499
 msgid "Deactivate the Logical Volume"
 msgstr "論理ボリュームを停止"
 
 #. Translators: Window title when the item representing a remote machine is selected.
 #. * First %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:290
+#: ../src/mate-disk/gdu-shell.c:290
 #, c-format
 msgid "%s — Disk Utility"
 msgstr "%s — ディスク・ユーティリティ"
@@ -5358,7 +5358,7 @@ msgstr "%s — ディスク・ユーティリティ"
 #. * Third is the device file (e.g. '/dev/sda')
 #. * Fourth %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:300
+#: ../src/mate-disk/gdu-shell.c:300
 #, c-format
 msgid "%s (%s) [%s] @ %s — Disk Utility"
 msgstr "%s (%s) [%s] @ %s — ディスク・ユーティリティ"
@@ -5368,7 +5368,7 @@ msgstr "%s (%s) [%s] @ %s — ディスク・ユーティリティ"
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #. * Third %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:311
+#: ../src/mate-disk/gdu-shell.c:311
 #, c-format
 msgid "%s (%s) @ %s — Disk Utility"
 msgstr "%s (%s) @ %s — ディスク・ユーティリティ"
@@ -5378,7 +5378,7 @@ msgstr "%s (%s) @ %s — ディスク・ユーティリティ"
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #. * Third is the device file (e.g. '/dev/sda')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:329
+#: ../src/mate-disk/gdu-shell.c:329
 #, c-format
 msgid "%s (%s) [%s] — Disk Utility"
 msgstr "%s (%s) [%s] — ディスク・ユーティリティ"
@@ -5387,21 +5387,21 @@ msgstr "%s (%s) [%s] — ディスク・ユーティリティ"
 #. * First %s is the name of the item (e.g. '80 GB Solid-State Disk' or 'Saturn').
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #.
-#: ../src/matepalimpsest/gdu-shell.c:338
+#: ../src/mate-disk/gdu-shell.c:338
 #, c-format
 msgid "%s (%s) — Disk Utility"
 msgstr "%s (%s) — ディスク・ユーティリティ"
 
-#: ../src/matepalimpsest/gdu-shell.c:627
+#: ../src/mate-disk/gdu-shell.c:627
 msgid "Error creating RAID array"
 msgstr "RAID アレイの作成中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-shell.c:756
+#: ../src/mate-disk/gdu-shell.c:756
 #, c-format
 msgid "Error connecting to “%s”"
 msgstr "“%s” に接続中にエラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-shell.c:809
+#: ../src/mate-disk/gdu-shell.c:809
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
@@ -5410,95 +5410,95 @@ msgstr ""
 "  Mitsuya Shibata https://launchpad.net/~cosmos-door\n"
 "  Shushi Kurose https://launchpad.net/~kurokuro"
 
-#: ../src/matepalimpsest/gdu-shell.c:834
+#: ../src/mate-disk/gdu-shell.c:834
 msgid "_File"
 msgstr "ファイル(_F)"
 
-#: ../src/matepalimpsest/gdu-shell.c:835
+#: ../src/mate-disk/gdu-shell.c:835
 msgid "Connect to _Server..."
 msgstr "サーバに接続(_S)..."
 
-#: ../src/matepalimpsest/gdu-shell.c:835
+#: ../src/mate-disk/gdu-shell.c:835
 msgid "Manage storage devices on another machine"
 msgstr "他のマシンにあるストレージデバイスを管理"
 
-#: ../src/matepalimpsest/gdu-shell.c:836
+#: ../src/mate-disk/gdu-shell.c:836
 msgid "_Create"
 msgstr "作成(_C)"
 
-#: ../src/matepalimpsest/gdu-shell.c:837
+#: ../src/mate-disk/gdu-shell.c:837
 msgid "_RAID Array..."
 msgstr "RAID アレイ(_R)..."
 
-#: ../src/matepalimpsest/gdu-shell.c:837
+#: ../src/mate-disk/gdu-shell.c:837
 msgid "Create a RAID array"
 msgstr "RAID アレイを作成"
 
-#: ../src/matepalimpsest/gdu-shell.c:838
+#: ../src/mate-disk/gdu-shell.c:838
 msgid "_Edit"
 msgstr "編集(_E)"
 
-#: ../src/matepalimpsest/gdu-shell.c:839 ../src/matepalimpsest/gdu-shell.c:842
+#: ../src/mate-disk/gdu-shell.c:839 ../src/mate-disk/gdu-shell.c:842
 msgid "_Help"
 msgstr "ヘルプ(_H)"
 
-#: ../src/matepalimpsest/gdu-shell.c:841
+#: ../src/mate-disk/gdu-shell.c:841
 msgid "_Quit"
 msgstr "終了(_Q)"
 
-#: ../src/matepalimpsest/gdu-shell.c:841
+#: ../src/mate-disk/gdu-shell.c:841
 msgid "Quit"
 msgstr "終了"
 
-#: ../src/matepalimpsest/gdu-shell.c:842
+#: ../src/mate-disk/gdu-shell.c:842
 msgid "Get Help on Disk Utility"
 msgstr "ディスク・ユーティリティのヘルプを参照"
 
-#: ../src/matepalimpsest/gdu-shell.c:843
+#: ../src/mate-disk/gdu-shell.c:843
 msgid "_About"
 msgstr "情報(_A)"
 
-#: ../src/matepalimpsest/gdu-shell.c:922
+#: ../src/mate-disk/gdu-shell.c:922
 msgid "An error occured"
 msgstr "エラーが発生しました"
 
-#: ../src/matepalimpsest/gdu-shell.c:931
+#: ../src/mate-disk/gdu-shell.c:931
 msgid "The operation failed."
 msgstr "操作に失敗しました。"
 
-#: ../src/matepalimpsest/gdu-shell.c:934
+#: ../src/mate-disk/gdu-shell.c:934
 msgid "The device is busy."
 msgstr "デバイスがビジー状態です。"
 
-#: ../src/matepalimpsest/gdu-shell.c:937
+#: ../src/mate-disk/gdu-shell.c:937
 msgid "The operation was canceled."
 msgstr "操作をキャンセルしました。"
 
-#: ../src/matepalimpsest/gdu-shell.c:940
+#: ../src/mate-disk/gdu-shell.c:940
 msgid "The daemon is being inhibited."
 msgstr "デーモンとして動作できません。"
 
-#: ../src/matepalimpsest/gdu-shell.c:943
+#: ../src/mate-disk/gdu-shell.c:943
 msgid "An invalid option was passed."
 msgstr "無効なオプションが渡されました。"
 
-#: ../src/matepalimpsest/gdu-shell.c:946
+#: ../src/mate-disk/gdu-shell.c:946
 msgid "The operation is not supported."
 msgstr "その操作はサポートされていません。"
 
-#: ../src/matepalimpsest/gdu-shell.c:949
+#: ../src/mate-disk/gdu-shell.c:949
 msgid "Getting ATA SMART data would wake up the device."
 msgstr "ATA SMART データを取得するとデバイスをウェイクアップします。"
 
-#: ../src/matepalimpsest/gdu-shell.c:952
+#: ../src/mate-disk/gdu-shell.c:952
 msgid "Permission denied."
 msgstr "アクセス許可がありません。"
 
-#: ../src/matepalimpsest/gdu-shell.c:991
+#: ../src/mate-disk/gdu-shell.c:991
 msgid "_Details:"
 msgstr "詳細(_D):"
 
-#: ../src/matepalimpsest/gdu-shell.c:1160
+#: ../src/mate-disk/gdu-shell.c:1160
 msgid "_Storage Devices"
 msgstr "ストレージ・デバイス(_S)"
 
@@ -5760,8 +5760,8 @@ msgstr "ストレージ・デバイス(_S)"
 #~ msgid "_Erase"
 #~ msgstr "消去(_E)"
 
-#~ msgid "MatePalimpsest Disk Utility"
-#~ msgstr "MatePalimpsest ディスク・ユーティリティ"
+#~ msgid "Mate Disk Utility"
+#~ msgstr "Mate ディスク・ユーティリティ"
 
 #~ msgid "_New"
 #~ msgstr "新規(_N)"

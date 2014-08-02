@@ -19,11 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ../data/matepalimpsest.desktop.in.h:1
+#: ../data/mate-disk.desktop.in.h:1
 msgid "Disk Utility"
 msgstr "ഡിസ്ക് യൂട്ടിലിറ്റി"
 
-#: ../data/matepalimpsest.desktop.in.h:2
+#: ../data/mate-disk.desktop.in.h:2
 msgid "Manage Drives and Media"
 msgstr "ഡ്രൈവുകളും മീഡിയയും കൈകാര്യം ചെയ്യുന്നു"
 
@@ -60,7 +60,7 @@ msgid "The requested filesystem label"
 msgstr "ആവശ്യപ്പെട്ട ഫയല്‍സിസ്റ്റം ലേബല്‍"
 
 #: ../src/format-tool/gdu-format-dialog.c:170
-#: ../src/matepalimpsest/gdu-section-encrypted.c:240
+#: ../src/mate-disk/gdu-section-encrypted.c:240
 msgid "Encryption"
 msgstr "എന്‍ക്രിപ്ഷന്‍"
 
@@ -83,8 +83,8 @@ msgstr "വോള്യം ഫോര്‍മാറ്റ് ചെയ്യു�
 
 #. Translators: 'type' means 'filesystem type' here.
 #: ../src/format-tool/gdu-format-dialog.c:365
-#: ../src/matepalimpsest/gdu-section-unallocated.c:678
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:441
+#: ../src/mate-disk/gdu-section-unallocated.c:678
+#: ../src/mate-disk/gdu-section-unrecognized.c:441
 msgid "_Type:"
 msgstr "_തരം:"
 
@@ -152,8 +152,8 @@ msgstr "ഡിസ്ക് യൂട്ടിലിറ്റി ലഭ്യമ�
 msgid "Device to format"
 msgstr "ഫോര്‍മാറ്റ് ചെയ്യുന്നതിനുള്ള ഡിവൈസ്"
 
-#: ../src/format-tool/gdu-format-tool.c:131 ../src/matepalimpsest/gdu-main.c:121
-#: ../src/matepalimpsest/gdu-main.c:122
+#: ../src/format-tool/gdu-format-tool.c:131 ../src/mate-disk/gdu-main.c:121
+#: ../src/mate-disk/gdu-main.c:122
 msgid "DEVICE"
 msgstr "DEVICE"
 
@@ -235,7 +235,7 @@ msgstr "വോള്യം ഫോര്‍മാറ്റ് ചെയ്യു�
 msgid "Mounting volume..."
 msgstr "വോള്യം മൌണ്ട് ചെയ്യുന്നു..."
 
-#: ../src/format-tool/gdu-format-tool.c:517 ../src/matepalimpsest/gdu-shell.c:995
+#: ../src/format-tool/gdu-format-tool.c:517 ../src/mate-disk/gdu-shell.c:995
 msgid "Error mounting device"
 msgstr "ഡിവൈസ് മൌണ്ട് ചെയ്യുന്നതില്‍ പിശക്"
 
@@ -374,8 +374,8 @@ msgstr "%s മീഡിയാ"
 #. Translators: This string is used as a description text when no media has
 #. * been detected for a drive
 #.
-#: ../src/gdu/gdu-drive.c:692 ../src/matepalimpsest/gdu-section-no-media.c:113
-#: ../src/matepalimpsest/gdu-shell.c:239 ../src/matepalimpsest/gdu-shell.c:263
+#: ../src/gdu/gdu-drive.c:692 ../src/mate-disk/gdu-section-no-media.c:113
+#: ../src/mate-disk/gdu-shell.c:239 ../src/mate-disk/gdu-shell.c:263
 #, c-format
 msgid "No Media Detected"
 msgstr "മീഡിയാ ലഭ്യമല്ല"
@@ -387,8 +387,8 @@ msgstr "MBR പാര്‍ട്ടീഷന്‍ ടേബിള്‍"
 
 #. Translators: This string is used for conveying the partition table format
 #: ../src/gdu/gdu-drive.c:706 ../src/gdu/gdu-linux-md-drive.c:545
-#: ../src/gdu-gtk/gdu-gtk.c:1534 ../src/matepalimpsest/gdu-shell.c:223
-#: ../src/matepalimpsest/gdu-shell.c:253
+#: ../src/gdu-gtk/gdu-gtk.c:1534 ../src/mate-disk/gdu-shell.c:223
+#: ../src/mate-disk/gdu-shell.c:253
 msgid "GUID Partition Table"
 msgstr "GUID പാര്‍ട്ടീഷന്‍ ടേബിള്‍"
 
@@ -406,8 +406,8 @@ msgstr "പാര്‍ട്ടീഷന്‍ ചെയ്തിരിക്�
 
 #. Translators: This string is used for conveying a device is not partitioned.
 #.
-#: ../src/gdu/gdu-drive.c:719 ../src/matepalimpsest/gdu-shell.c:260
-#: ../src/matepalimpsest/gdu-shell.c:380
+#: ../src/gdu/gdu-drive.c:719 ../src/mate-disk/gdu-shell.c:260
+#: ../src/mate-disk/gdu-shell.c:380
 #, c-format
 msgid "Not Partitioned"
 msgstr "പാര്‍ട്ടീഷന്‍ ചെയ്തിട്ടില്ല"
@@ -607,8 +607,8 @@ msgstr "യൂണിവേഴ്സല്‍ ഡിസ്ക് മാതൃക"
 msgid "udf"
 msgstr "udf"
 
-#: ../src/gdu/gdu-util.c:285 ../src/matepalimpsest/gdu-section-swapspace.c:82
-#: ../src/matepalimpsest/gdu-shell.c:356
+#: ../src/gdu/gdu-util.c:285 ../src/mate-disk/gdu-section-swapspace.c:82
+#: ../src/mate-disk/gdu-shell.c:356
 msgid "Swap Space"
 msgstr "സ്വാപ്പ് സ്പെയിസ്"
 
@@ -638,7 +638,7 @@ msgid "RAID Component (version %s)"
 msgstr "RAID കോംപൊണന്റ് (%s പതിപ്പു്)"
 
 #: ../src/gdu/gdu-util.c:306
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1114
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1114
 #, c-format
 msgid "RAID Component"
 msgstr "RAID കോംപൊണന്റ്"
@@ -813,7 +813,7 @@ msgid "Apple RAID Partition"
 msgstr "ആപ്പിള്‍ RAID പാര്‍ട്ടീഷന്‍"
 
 #: ../src/gdu/gdu-util.c:411 ../src/gdu-gtk/gdu-gtk.c:1544
-#: ../src/matepalimpsest/gdu-shell.c:219 ../src/matepalimpsest/gdu-shell.c:249
+#: ../src/mate-disk/gdu-shell.c:219 ../src/mate-disk/gdu-shell.c:249
 msgid "Apple Partition Map"
 msgstr "ആപ്പിള്‍ പാര്‍ട്ടീഷന്‍ മാപ്പ്"
 
@@ -1658,7 +1658,7 @@ msgstr "പൂര്‍ണ്ണ ഡിസ്ക് വോള്യം"
 msgid "%s Free"
 msgstr "%s ഉപയോഗത്തിലില്ല"
 
-#: ../src/gdu/gdu-volume-hole.c:159 ../src/matepalimpsest/gdu-shell.c:418
+#: ../src/gdu/gdu-volume-hole.c:159 ../src/mate-disk/gdu-shell.c:418
 msgid "Unallocated Space"
 msgstr "ലഭ്യമാക്കിയിട്ടില്ലാത്ത സ്ഥലം"
 
@@ -2361,7 +2361,7 @@ msgstr "SMART പ്രവര്‍ത്തന സജ്ജമല്ല"
 
 #. Translators: Used in the drive combo-box to indicate SMART is not available
 #: ../src/gdu-gtk/gdu-ata-smart-dialog.c:1351
-#: ../src/matepalimpsest/gdu-shell.c:310
+#: ../src/mate-disk/gdu-shell.c:310
 msgid "SMART is not available"
 msgstr "SMART ലഭ്യമല്ല"
 
@@ -2911,8 +2911,8 @@ msgid "Create RAID Array"
 msgstr "RAID അറേ ഉണ്ടാക്കുക"
 
 #: ../src/gdu-gtk/gdu-create-linux-md-dialog.c:899
-#: ../src/matepalimpsest/gdu-section-create-partition-table.c:103
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:267
+#: ../src/mate-disk/gdu-section-create-partition-table.c:103
+#: ../src/mate-disk/gdu-section-unrecognized.c:267
 msgid "C_reate"
 msgstr "ഉ_ണ്ടാക്കുക"
 
@@ -3105,7 +3105,7 @@ msgstr ""
 "ഒന്നോ അതിലധികമോ പ്രയോഗങ്ങള്‍ വോള്യമുപയോഗിക്കുന്നു. പ്രയോഗങ്ങളില്‍ നിന്നും പുറത്തു് കടന്നു്, വീണ്ടും "
 "അണ്‍മൌണ്ട് ചെയ്യുവാന്‍ ശ്രമിക്കുക."
 
-#: ../src/gdu-gtk/gdu-gtk.c:418 ../src/matepalimpsest/gdu-shell.c:1939
+#: ../src/gdu-gtk/gdu-gtk.c:418 ../src/mate-disk/gdu-shell.c:1939
 msgid "_Unmount"
 msgstr "_അണ്‍മൌണ്ട് ചെയ്യുക"
 
@@ -3129,7 +3129,7 @@ msgstr "ഉ_ണ്ടാക്കുക"
 msgid "Change _Passphrase"
 msgstr "_പാസ്ഫ്രെയിസ് മാറ്റുക"
 
-#: ../src/gdu-gtk/gdu-gtk.c:584 ../src/matepalimpsest/gdu-shell.c:1942
+#: ../src/gdu-gtk/gdu-gtk.c:584 ../src/mate-disk/gdu-shell.c:1942
 msgid "_Unlock"
 msgstr "_പൂട്ട് തുറക്കുക"
 
@@ -3207,8 +3207,8 @@ msgstr "ശൂന്യം"
 msgid "Extended Partition"
 msgstr "എകസ്റ്റെന്‍ഡഡ് പാര്‍ട്ടീഷന്‍"
 
-#: ../src/gdu-gtk/gdu-gtk.c:1529 ../src/matepalimpsest/gdu-shell.c:221
-#: ../src/matepalimpsest/gdu-shell.c:251
+#: ../src/gdu-gtk/gdu-gtk.c:1529 ../src/mate-disk/gdu-shell.c:221
+#: ../src/mate-disk/gdu-shell.c:251
 msgid "Master Boot Record"
 msgstr "മാസ്റ്റര്‍ ബൂട്ട് റിക്കോര്‍ഡ്"
 
@@ -3303,25 +3303,25 @@ msgstr ""
 "ഒന്നോ അതിലധികമോ ഹാര്‍ഡ് ഡിസ്കുകളുടെ അവസ്ഥ തൃപ്തികരമല്ല. കൂടുതല്‍ വിവരങ്ങള്‍ക്കായി ചിഹ്നത്തില്‍ "
 "ക്ലിക്ക് ചെയ്യുക."
 
-#: ../src/matepalimpsest/gdu-main.c:121
+#: ../src/mate-disk/gdu-main.c:121
 msgid "Volume to show"
 msgstr "കാണിക്കുന്നതിനുള്ള വോള്യം"
 
-#: ../src/matepalimpsest/gdu-main.c:122
+#: ../src/mate-disk/gdu-main.c:122
 msgid "Drive to show"
 msgstr "കാണിക്കുന്നതിനുള്ള ഡ്രൈവ്"
 
-#: ../src/matepalimpsest/gdu-section-create-partition-table.c:56
+#: ../src/mate-disk/gdu-section-create-partition-table.c:56
 msgid "Error creating partition table"
 msgstr "പാര്‍ട്ടീഷന്‍ ടേബിള്‍ ഉണ്ടാക്കുന്നതില്‍ പിശകു്"
 
-#: ../src/matepalimpsest/gdu-section-create-partition-table.c:85
+#: ../src/mate-disk/gdu-section-create-partition-table.c:85
 msgid "Are you sure you want to format the disk, deleting existing data ?"
 msgstr "നിലവിലുള്ള ഡേറ്റ നീക്കം ചെയ്തു് നിങ്ങള്‍ക്കു് ഡിസ്ക് ഫോര്‍മാറ്റ് ചെയ്യണമെന്നുറപ്പാണോ?"
 
-#: ../src/matepalimpsest/gdu-section-create-partition-table.c:88
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:251
-#: ../src/matepalimpsest/gdu-shell.c:1535
+#: ../src/mate-disk/gdu-section-create-partition-table.c:88
+#: ../src/mate-disk/gdu-section-unrecognized.c:251
+#: ../src/mate-disk/gdu-shell.c:1535
 #, c-format
 msgid ""
 "All data on the media in \"%s\" will be irrecovably erased. Make sure "
@@ -3330,9 +3330,9 @@ msgstr ""
 "\"%s\"-ലുള്ള മീഡിയയിലുള്ള എല്ലാ ഡേറ്റയും എന്നേക്കുമായി നഷ്ടമാകുന്നു. പ്രധാനമായ ഡേറ്റാ "
 "ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക. ഈ പ്രവര്‍ത്തി തിരിച്ചെടുക്കുവാന്‍ സാധ്യമല്ല."
 
-#: ../src/matepalimpsest/gdu-section-create-partition-table.c:93
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:256
-#: ../src/matepalimpsest/gdu-shell.c:1540
+#: ../src/mate-disk/gdu-section-create-partition-table.c:93
+#: ../src/mate-disk/gdu-section-unrecognized.c:256
+#: ../src/mate-disk/gdu-shell.c:1540
 #, c-format
 msgid ""
 "All data on the drive \"%s\" will be irrecovably erased. Make sure important "
@@ -3341,11 +3341,11 @@ msgstr ""
 "\"%s\"ഡ്രൈവിലുള്ള എല്ലാ ഡേറ്റയും എന്നേക്കുമായി നഷ്ടമാകുന്നു. പ്രധാനമായ ഡേറ്റാ "
 "ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക."
 
-#: ../src/matepalimpsest/gdu-section-create-partition-table.c:181
+#: ../src/mate-disk/gdu-section-create-partition-table.c:181
 msgid "Create Partition Table"
 msgstr "പാര്‍ട്ടീഷന്‍ ടേബിള്‍ ഉണ്ടാക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-create-partition-table.c:194
+#: ../src/mate-disk/gdu-section-create-partition-table.c:194
 msgid ""
 "To create a new partition table, select the partition table type and then "
 "press \"Create\". All existing data will be lost."
@@ -3354,17 +3354,17 @@ msgstr ""
 "\"ഉണ്ടാക്കുക\" അമര്‍ത്തുക. നിലവിലുള്ള ഡേറ്റാ എല്ലാം നഷ്ടപ്പെടുന്നു."
 
 #. Translators: 'Type' means partition type here
-#: ../src/matepalimpsest/gdu-section-create-partition-table.c:210
-#: ../src/matepalimpsest/gdu-section-partition.c:573
+#: ../src/mate-disk/gdu-section-create-partition-table.c:210
+#: ../src/mate-disk/gdu-section-partition.c:573
 msgid "Ty_pe:"
 msgstr "ഏതു് _തരം:"
 
-#: ../src/matepalimpsest/gdu-section-create-partition-table.c:238
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:498
+#: ../src/mate-disk/gdu-section-create-partition-table.c:238
+#: ../src/mate-disk/gdu-section-unrecognized.c:498
 msgid "Create"
 msgstr "ഉണ്ടാക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-encrypted.c:253
+#: ../src/mate-disk/gdu-section-encrypted.c:253
 msgid ""
 "The volume contains encrypted data that can be unlocked with a passphrase. "
 "The passphrase can optionally be stored in the keyring."
@@ -3372,47 +3372,47 @@ msgstr ""
 "വോള്യത്തില്‍ ഒരു പാസ്ഫ്രെയിസ് ഉപയോഗിച്ചു് പൂട്ടു തുറക്കുവാന്‍ സാധിക്കുന്ന എന്‍ക്രിപ്റ്റ് ചെയ്ത "
 "ഡേറ്റാ ലഭ്യമാണു്. പാസ്ഫ്രെയിസ് ആവശ്യമെങ്കില്‍ ഒരു കീറിങില്‍ സൂക്ഷിക്കാം."
 
-#: ../src/matepalimpsest/gdu-section-encrypted.c:266
+#: ../src/mate-disk/gdu-section-encrypted.c:266
 msgid "Change Pa_ssphrase..."
 msgstr "പാ_സ്ഫ്രെയിസ് മാറ്റുക..."
 
-#: ../src/matepalimpsest/gdu-section-encrypted.c:272
+#: ../src/mate-disk/gdu-section-encrypted.c:272
 msgid "F_orget Passphrase"
 msgstr "പാസ്ഫ്രെയിസ മ_റക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-filesystem.c:135
+#: ../src/mate-disk/gdu-section-filesystem.c:135
 msgid "Error setting file system label"
 msgstr "ഫയല്‍ സിസ്റ്റം ലേബല്‍ ക്രമീകരിക്കുന്നതില്‍ പിശകു്"
 
-#: ../src/matepalimpsest/gdu-section-filesystem.c:207
+#: ../src/mate-disk/gdu-section-filesystem.c:207
 msgid "Mountable Filesystem"
 msgstr "മൌണ്ട് ചെയ്യുവാനുള്ള ഫയല്‍സിസ്റ്റം"
 
-#: ../src/matepalimpsest/gdu-section-filesystem.c:220
+#: ../src/mate-disk/gdu-section-filesystem.c:220
 msgid "The volume contains a mountable filesystem."
 msgstr "മൌണ്ട് ചെയ്യുവാനുള്ള ഒരു ഫയല്‍സിസ്റ്റം വോള്യമിലുണ്ടു്."
 
 #. Translators: 'label' means filesystem label here
-#: ../src/matepalimpsest/gdu-section-filesystem.c:236
-#: ../src/matepalimpsest/gdu-section-unallocated.c:663
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:427
+#: ../src/mate-disk/gdu-section-filesystem.c:236
+#: ../src/mate-disk/gdu-section-unallocated.c:663
+#: ../src/mate-disk/gdu-section-unrecognized.c:427
 msgid "_Label:"
 msgstr "_ലേബല്‍:"
 
-#: ../src/matepalimpsest/gdu-section-filesystem.c:246
+#: ../src/mate-disk/gdu-section-filesystem.c:246
 msgid "Change"
 msgstr "മാറ്റുക"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:75
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:75
 msgid "Error adding component"
 msgstr "ഘടകം ചേര്‍ക്കുന്നതില്‍ പിശകു്"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:153
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:153
 #, c-format
 msgid "Select a volume to use as component in the array \"%s\""
 msgstr "\"%s\" അറേയില്‍ ഘടകമായി ഉപയോഗിക്കുന്നതിനുള്ള വോള്യം തെരഞ്ഞെടുക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:158
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:158
 msgid ""
 "Only volumes of acceptable sizes can be selected. You may need to manually "
 "create new volumes of acceptable sizes."
@@ -3420,20 +3420,20 @@ msgstr ""
 "സ്വീകാര്യമായ വ്യാപ്തികളുള്ള വോള്യമുകള്‍ മാത്രം തെരഞ്ഞെടുക്കാം. സ്വീകാര്യമായ വ്യാപ്തികളുള്ള "
 "പുതിയ വോള്യമുകള്‍ നിങ്ങള്‍ സ്വയം ഉണ്ടാക്കേണ്ടിവരും."
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:182
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:182
 msgid "Add _Volume"
 msgstr "_വോള്യം ചേര്‍ക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:313
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:313
 msgid "Error removing component"
 msgstr "ഘടകം നീക്കം ചെയ്യുന്നതില്‍ പിശകു്"
 
 #. confirmation dialog
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:398
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:398
 msgid "Are you sure you want to remove the component from the array ?"
 msgstr "അറേയില്‍ നിന്നും ഘടകം നീക്കം ചെയ്യണമെന്നു് നിങ്ങള്‍ക്കുറപ്പാണോ?"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:400
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:400
 #, c-format
 msgid ""
 "The data on component \"%s\" of the RAID Array \"%s\" will be irrecovably "
@@ -3444,42 +3444,42 @@ msgstr ""
 "RAID അറേ ഡീഗ്രേഡഡ് ആകുന്നു . പ്രധാനമായ ഡേറ്റാ "
 "ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക."
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:411
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:411
 msgid "_Remove Component"
 msgstr "ഘടകം _നീക്കം ചെയ്യുക"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:695
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:695
 msgctxt "RAID component type"
 msgid "Striped (RAID-0)"
 msgstr "സ്ട്രൈപ്ഡ് (RAID-0)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:697
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:697
 msgctxt "RAID component type"
 msgid "Mirrored (RAID-1)"
 msgstr "മിറര്‍ഡ് (RAID-1)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:699
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:699
 msgctxt "RAID component type"
 msgid "RAID-4"
 msgstr "RAID-4"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:701
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:701
 msgctxt "RAID component type"
 msgid "RAID-5"
 msgstr "RAID-5"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:703
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:703
 msgctxt "RAID component type"
 msgid "RAID-6"
 msgstr "RAID-6"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:705
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:705
 msgctxt "RAID component type"
 msgid "Linear (Just a Bunch Of Disks)"
 msgstr "ലീനിയര്‍ (കുറച്ചു് ‍ഡിസ്കുകള്‍)"
 
 #. Translators: %d is the number of components in the RAID
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:713
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:713
 #, c-format
 msgid "%d Component"
 msgid_plural "%d Components"
@@ -3489,64 +3489,64 @@ msgstr[1] "%d ഘടകങ്ങള്‍"
 #. Translators: %d is the number of components in the RAID,
 #. * %s is the size of each component, formatted like '45 GB'
 #.
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:718
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:718
 #, c-format
 msgid "%d Component (%s)"
 msgid_plural "%d Components (%s each)"
 msgstr[0] "%d ഘടകം (%s)"
 msgstr[1] "%d ഘടകങ്ങള്‍ (%s വീതം)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:730
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:730
 msgctxt "RAID status"
 msgid "Not running, partially assembled"
 msgstr "പ്രവര്‍ത്തനത്തിലില്ല, ഭാഗികമായി കൂട്ടിചേര്‍ത്തിരിക്കുന്നു"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:738
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:738
 msgctxt "RAID status"
 msgid "Not running"
 msgstr "പ്രവര്‍ത്തനത്തിലില്ല"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:740
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:740
 msgctxt "RAID status"
 msgid "Not running, can only start degraded"
 msgstr "പ്രവര്‍ത്തനത്തിലില്ല. ഡീഗ്രേഡഡ് മാത്രം ആരംഭിക്കുവാന്‍ സാധിക്കുന്നു"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:742
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:742
 msgctxt "RAID status"
 msgid "Not running, not enough components to start"
 msgstr "പ്രവര്‍ത്തനത്തിലില്ല, ആരംഭിക്കുന്നതിനാവശ്യമുള്ള ഘടകങ്ങള്‍ ലഭ്യമല്ല"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:761
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:761
 msgctxt "RAID status"
 msgid "Degraded"
 msgstr "ഡീഗ്രേഡഡ്"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:765
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:765
 msgctxt "RAID status"
 msgid "Running"
 msgstr "പ്രവര്‍ത്തിക്കുന്നു"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:770
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:770
 msgctxt "RAID status"
 msgid "Reshaping"
 msgstr "വീണ്ടും രൂപംനല്‍കുന്നു"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:773
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:773
 msgctxt "RAID status"
 msgid "Resyncing"
 msgstr "വീണ്ടും സിന്‍ക് ചെയ്യുന്നു"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:776
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:776
 msgctxt "RAID status"
 msgid "Repairing"
 msgstr "നന്നാക്കുന്നു"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:779
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:779
 msgctxt "RAID status"
 msgid "Recovering"
 msgstr "വീണ്ടെടുക്കുന്നു"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:782
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:782
 msgctxt "RAID status"
 msgid "Checking"
 msgstr "പരിശോധിക്കുന്നു"
@@ -3555,66 +3555,66 @@ msgstr "പരിശോധിക്കുന്നു"
 #. * %3.01f is replaced by the percentage of completion
 #. * %s is replaced by the speed of the operation
 #.
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:790
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:790
 #, c-format
 msgctxt "RAID status"
 msgid " @ %3.01f%% (%s)"
 msgstr " @ %3.01f%% (%s)"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:856
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:856
 msgctxt "Linux MD slave state"
 msgid "Faulty"
 msgstr "തകരാറുള്ള"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:861
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:861
 msgctxt "Linux MD slave state"
 msgid "In Sync"
 msgstr "സിന്‍ക് ചെയ്തു്"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:863
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:863
 msgctxt "Linux MD slave state"
 msgid "Writemostly"
 msgstr "മിക്കപ്പോഴും എഴുതുക"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:865
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:865
 msgctxt "Linux MD slave state"
 msgid "Blocked"
 msgstr "ബ്ലോക്ക് ചെയ്തിരിക്കുന്നു"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:867
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:867
 msgctxt "Linux MD slave state"
 msgid "Spare"
 msgstr "സ്പെയര്‍"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:958
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:958
 msgid "Array Name:"
 msgstr "അറേ നാമം:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:974
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:974
 msgid "Home Host:"
 msgstr "ഹോം ഹോസ്റ്റ്:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:990
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:990
 msgid "Array Size:"
 msgstr "അറെയുടെ വ്യാപ്തി:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1006
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1006
 msgid "RAID Type:"
 msgstr "RAID തരം:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1022
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1022
 msgid "Components:"
 msgstr "ഘടകങ്ങള്‍:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1038
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1038
 msgid "State:"
 msgstr "അവസ്ഥ:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1069
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1069
 msgid "A_ttach"
 msgstr "ചേര്‍_ക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1075
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1075
 msgid ""
 "Attaches the stale component to the RAID array. After attachment, data from "
 "the array will be synchronized on the component."
@@ -3622,12 +3622,12 @@ msgstr ""
 "RAID അറേയിലേക്ക് പഴയ ഘടകം ചേര്‍ക്കുന്നു. അതിനു് ശേഷം, അറേയില്‍ നിന്നുള്ള ഡേറ്റാ "
 "ഘടത്തിലേക്ക് സിന്‍ക്രൊണൈസ് ചെയ്യുന്നു."
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1079
-#: ../src/matepalimpsest/gdu-shell.c:1941
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1079
+#: ../src/mate-disk/gdu-shell.c:1941
 msgid "_Detach"
 msgstr "_വേര്‍പെടുത്തുക"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1085
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1085
 msgid ""
 "Detaches the running component from the RAID array. Data on the component "
 "will be erased and the component will be ready for other use."
@@ -3635,11 +3635,11 @@ msgstr ""
 "RAID അറേയില്‍ നിന്നും പ്രവര്‍ത്തനത്തിലുള്ള ഘടകം വേര്‍പെടുത്തുന്നു. ഘടകത്തിലുള്ള "
 "ഡേറ്റാ മായിക്കുകയും ഘടകം മറ്റുപയോഗത്തിനായി ലഭ്യമാകുകയും ചെയ്യുന്നു."
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1089
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1089
 msgid "_Add..."
 msgstr "_ചേര്‍ക്കുക..."
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1095
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1095
 msgid ""
 "Adds a new component to the running RAID array. Use this when replacing a "
 "failed component or adding a hot spare."
@@ -3648,46 +3648,46 @@ msgstr ""
 "ഘടകം മാറ്റുമ്പോള്‍ അല്ലെങ്കില്‍ പുതിയൊരെണ്ണം ചേര്‍ക്കുമ്പോള്‍ ഇതുപയോഗിക്കുക."
 
 #. Translators: this is a verb, as in 'check for consistency'
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1099
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1099
 msgid "Chec_k"
 msgstr "പരിശോ_ധിക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1103
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1103
 msgid "Starts checking the RAID array for redundancy"
 msgstr "RAID അറേ ഡേറ്റാ ആവര്‍ത്തിക്കുന്നതിനുള്ള പരിശോധന ആരംഭിക്കുന്നു"
 
 #. Translators: this is a verb, as in 'repair this RAID array'
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1106
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1106
 msgid "_Repair"
 msgstr "_നന്നാക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1110
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1110
 msgid "Starts repairing the RAID array"
 msgstr "RAID അറേ നന്നാക്കുവാന്‍ ആരംഭിക്കുന്നു"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1128
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1128
 msgid "State"
 msgstr "അവസ്ഥ"
 
-#: ../src/matepalimpsest/gdu-section-no-media.c:126
+#: ../src/mate-disk/gdu-section-no-media.c:126
 msgid "To format or edit media, insert it into the drive and wait a few seconds."
 msgstr ""
 "ഫോര്‍മാറ്റ് ചെയ്യുന്നതിനു് അല്ലെങ്കില്‍ ചിട്ടപ്പെടുത്തുന്നതിനായി, മീഡിയാ ഡ്രൈവില്‍ ഇട്ടശേഷം കുറച്ചു് "
 "സമയം കാത്തിരിക്കുക."
 
-#: ../src/matepalimpsest/gdu-section-no-media.c:137
+#: ../src/mate-disk/gdu-section-no-media.c:137
 msgid "_Detect Media"
 msgstr "മീഡിയാ _ലഭ്യമാക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-partition.c:60
+#: ../src/mate-disk/gdu-section-partition.c:60
 msgid "Error deleting partition"
 msgstr "പാര്‍ട്ടീഷന്‍ വെട്ടി നീക്കുന്നതില്‍ പിശകു്"
 
-#: ../src/matepalimpsest/gdu-section-partition.c:112
+#: ../src/mate-disk/gdu-section-partition.c:112
 msgid "Are you sure you want to remove the partition, deleting existing data ?"
 msgstr "നിലവിലുള്ള ഡേറ്റാ വെട്ടി നീക്കി, നിങ്ങള്‍ക്കു് പാര്‍ട്ടീഷന്‍ നീക്കം ചെയ്യണമെന്നുറപ്പാണോ ?"
 
-#: ../src/matepalimpsest/gdu-section-partition.c:117
+#: ../src/mate-disk/gdu-section-partition.c:117
 #, c-format
 msgid ""
 "All data on partition %d with name \"%s\" on the media in \"%s\" and all "
@@ -3700,7 +3700,7 @@ msgstr ""
 "\n"
 "പ്രധാനപ്പെട്ട ഡേറ്റയുടെ ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക. ഈ പ്രവര്‍ത്തി തിരിച്ചെടുക്കുവാന്‍ സാധ്യമല്ല."
 
-#: ../src/matepalimpsest/gdu-section-partition.c:127
+#: ../src/mate-disk/gdu-section-partition.c:127
 #, c-format
 msgid ""
 "All data on partition %d with name \"%s\" on the media in \"%s\" will be "
@@ -3713,7 +3713,7 @@ msgstr ""
 "\n"
 "പ്രധാനപ്പെട്ട ഡേറ്റയുടെ ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക. ഈ പ്രവര്‍ത്തി തിരിച്ചെടുക്കുവാന്‍ സാധ്യമല്ല."
 
-#: ../src/matepalimpsest/gdu-section-partition.c:137
+#: ../src/mate-disk/gdu-section-partition.c:137
 #, c-format
 msgid ""
 "All data on partition %d on the media in \"%s\" and all partitions contained "
@@ -3726,7 +3726,7 @@ msgstr ""
 "\n"
 "പ്രധാനപ്പെട്ട ഡേറ്റയുടെ ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക. ഈ പ്രവര്‍ത്തി തിരിച്ചെടുക്കുവാന്‍ സാധ്യമല്ല."
 
-#: ../src/matepalimpsest/gdu-section-partition.c:146
+#: ../src/mate-disk/gdu-section-partition.c:146
 #, c-format
 msgid ""
 "All data on partition %d on the media in \"%s\" will be irrecovably erased.\n"
@@ -3737,7 +3737,7 @@ msgstr ""
 "\n"
 "പ്രധാനപ്പെട്ട ഡേറ്റയുടെ ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക. ഈ പ്രവര്‍ത്തി തിരിച്ചെടുക്കുവാന്‍ സാധ്യമല്ല."
 
-#: ../src/matepalimpsest/gdu-section-partition.c:157
+#: ../src/mate-disk/gdu-section-partition.c:157
 #, c-format
 msgid ""
 "All data on partition %d with name \"%s\" of \"%s\" and all partitions "
@@ -3750,7 +3750,7 @@ msgstr ""
 "\n"
 "പ്രധാനപ്പെട്ട ഡേറ്റയുടെ ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക. ഈ പ്രവര്‍ത്തി തിരിച്ചെടുക്കുവാന്‍ സാധ്യമല്ല."
 
-#: ../src/matepalimpsest/gdu-section-partition.c:167
+#: ../src/mate-disk/gdu-section-partition.c:167
 #, c-format
 msgid ""
 "All data on partition %d with name \"%s\" of \"%s\" will be irrecovably "
@@ -3763,7 +3763,7 @@ msgstr ""
 "\n"
 "പ്രധാനപ്പെട്ട ഡേറ്റയുടെ ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക. ഈ പ്രവര്‍ത്തി തിരിച്ചെടുക്കുവാന്‍ സാധ്യമല്ല."
 
-#: ../src/matepalimpsest/gdu-section-partition.c:177
+#: ../src/mate-disk/gdu-section-partition.c:177
 #, c-format
 msgid ""
 "All data on partition %d of \"%s\" and all partitions contained in this "
@@ -3776,7 +3776,7 @@ msgstr ""
 "\n"
 "പ്രധാനപ്പെട്ട ഡേറ്റയുടെ ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക. ഈ പ്രവര്‍ത്തി തിരിച്ചെടുക്കുവാന്‍ സാധ്യമല്ല."
 
-#: ../src/matepalimpsest/gdu-section-partition.c:186
+#: ../src/mate-disk/gdu-section-partition.c:186
 #, c-format
 msgid ""
 "All data on partition %d of \"%s\" will be irrecovably erased.\n"
@@ -3787,19 +3787,19 @@ msgstr ""
 "\n"
 "പ്രധാനപ്പെട്ട ഡേറ്റയുടെ ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക. ഈ പ്രവര്‍ത്തി തിരിച്ചെടുക്കുവാന്‍ സാധ്യമല്ല."
 
-#: ../src/matepalimpsest/gdu-section-partition.c:200
+#: ../src/mate-disk/gdu-section-partition.c:200
 msgid "_Delete Partition"
 msgstr "പാര്‍ട്ടീഷന്‍ _വെട്ടി നീക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-partition.c:407
+#: ../src/mate-disk/gdu-section-partition.c:407
 msgid "Error modifying partition"
 msgstr "പാര്‍ട്ടീഷനില്‍ മാറ്റം വരുത്തുന്നതില്‍ പിശകു്"
 
-#: ../src/matepalimpsest/gdu-section-partition.c:528
+#: ../src/mate-disk/gdu-section-partition.c:528
 msgid "Partition"
 msgstr "പാര്‍ട്ടീഷന്‍"
 
-#: ../src/matepalimpsest/gdu-section-partition.c:541
+#: ../src/mate-disk/gdu-section-partition.c:541
 msgid ""
 "The attributes of the partition can be edited. The partition can also be "
 "deleted to make room for other data."
@@ -3807,43 +3807,43 @@ msgstr ""
 "പാര്‍ട്ടീഷനുള്ള വിശേഷതകള്‍ മാറ്റുവാന്‍ സാധ്യമാണു്. മറ്റുള്ള ഡേറ്റയ്ക്കു് വേണ്ടി പാര്‍ട്ടീഷന്‍ വെട്ടി "
 "നീക്കുവാനും സാധിക്കുന്നു."
 
-#: ../src/matepalimpsest/gdu-section-partition.c:558
+#: ../src/mate-disk/gdu-section-partition.c:558
 msgid "Part_ition Label:"
 msgstr "_പാര്‍ട്ടീഷന്‍ ലേബല്‍:"
 
 #. flags
 #. used by mbr, apm
-#: ../src/matepalimpsest/gdu-section-partition.c:587
+#: ../src/mate-disk/gdu-section-partition.c:587
 msgid "_Bootable"
 msgstr "_ബൂട്ടബിള്‍"
 
 #. used by gpt
-#: ../src/matepalimpsest/gdu-section-partition.c:595
+#: ../src/mate-disk/gdu-section-partition.c:595
 msgid "Required / Firm_ware"
 msgstr "ആവശ്യമുള്ള / ഫേം_വെയര്‍"
 
-#: ../src/matepalimpsest/gdu-section-partition.c:607
+#: ../src/mate-disk/gdu-section-partition.c:607
 msgid "Delete the partition"
 msgstr "പാര്‍ട്ടീഷന്‍ വെട്ടി നീക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-partition.c:611
+#: ../src/mate-disk/gdu-section-partition.c:611
 msgid "_Revert"
 msgstr "_തിരികെ"
 
-#: ../src/matepalimpsest/gdu-section-partition.c:616
+#: ../src/mate-disk/gdu-section-partition.c:616
 msgid "Apply the changes made"
 msgstr "വരുത്തിയ മാറ്റങ്ങള്‍ സൂക്ഷിക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-swapspace.c:95
+#: ../src/mate-disk/gdu-section-swapspace.c:95
 msgid "The volume contains swap space."
 msgstr "വോള്യമില്‍ swap-നുള്ള സ്ഥലമുണ്ടു്."
 
-#: ../src/matepalimpsest/gdu-section-unallocated.c:91
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:148
+#: ../src/mate-disk/gdu-section-unallocated.c:91
+#: ../src/mate-disk/gdu-section-unrecognized.c:148
 msgid "Error creating partition"
 msgstr "പാര്‍ട്ടീഷന്‍ ഉണ്ടാക്കുന്നതില്‍ പിശകു്"
 
-#: ../src/matepalimpsest/gdu-section-unallocated.c:407
+#: ../src/mate-disk/gdu-section-unallocated.c:407
 msgid ""
 "This is the last primary partition that can be created. If you need more "
 "partitions, you can create an Extended Partition."
@@ -3851,7 +3851,7 @@ msgstr ""
 "ഇതു് അവസാനമായി ഉണ്ടാക്കുവാന്‍ സാധിക്കുന്ന പ്രൈമറി പാര്‍ട്ടീഷനാണു്. കൂടുതല്‍ പാര്‍ട്ടീഷനുകള്‍ "
 "ആവശ്യമെങ്കില്‍, നിങ്ങള്‍ക്കു് ഒരു എക്സ്റ്റെന്‍ഡഡ് പാര്‍ട്ടീഷന്‍ ഉണ്ടാക്കുവാന്‍ സാധിക്കുന്നു."
 
-#: ../src/matepalimpsest/gdu-section-unallocated.c:416
+#: ../src/mate-disk/gdu-section-unallocated.c:416
 msgid ""
 "No more partitions can be created. You may want to delete an existing "
 "partition and then create an Extended Partition."
@@ -3859,11 +3859,11 @@ msgstr ""
 "ഇനി പാര്‍ട്ടീഷനുകള്‍ ഉണ്ടാക്കുവാന്‍ സാധ്യമല്ല. നിലവിലുള്ള ഏതെങ്കിലും ഒരു പാര്‍ട്ടീഷന്‍ നീക്കം ചെയ്ത "
 "ശേഷം ഒരു എക്സ്റ്റെന്‍ഡഡ് പാര്‍ട്ടീഷന്‍ ഉണ്ടാക്കുക."
 
-#: ../src/matepalimpsest/gdu-section-unallocated.c:601
+#: ../src/mate-disk/gdu-section-unallocated.c:601
 msgid "Create Partition"
 msgstr "പാര്‍ട്ടീഷന്‍ ഉണ്ടാക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-unallocated.c:614
+#: ../src/mate-disk/gdu-section-unallocated.c:614
 msgid ""
 "To create a new partition, select the size and whether to create a file "
 "system. The partition type, label and flags can be changed after creation."
@@ -3872,23 +3872,23 @@ msgstr ""
 "മുതലായവ തെരഞ്ഞെടുക്കുക. ഇതുണ്ടാക്കിയതിനു് ശേഷം ഏതു തരം പാര്‍ട്ടീഷന്‍, ലേബല്‍, ഫ്ലാഗുകള്‍ എന്നിവ "
 "മാറ്റുവാന്‍ സാധിക്കുന്നു."
 
-#: ../src/matepalimpsest/gdu-section-unallocated.c:629
+#: ../src/mate-disk/gdu-section-unallocated.c:629
 msgid "_Size:"
 msgstr "_വ്യാപ്തി:"
 
 #. Translators: unit label for a control that determines partition size in megabytes
-#: ../src/matepalimpsest/gdu-section-unallocated.c:651
+#: ../src/mate-disk/gdu-section-unallocated.c:651
 msgid "MB"
 msgstr "MB"
 
 #. whether to chown fs root for user
-#: ../src/matepalimpsest/gdu-section-unallocated.c:702
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:464
+#: ../src/mate-disk/gdu-section-unallocated.c:702
+#: ../src/mate-disk/gdu-section-unrecognized.c:464
 msgid "T_ake ownership of file system"
 msgstr "ഫയല്‍ സിസ്റ്റത്തില്‍ ഉടമസ്ഥാവകാശം _ഏറ്റെടുക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-unallocated.c:705
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:467
+#: ../src/mate-disk/gdu-section-unallocated.c:705
+#: ../src/mate-disk/gdu-section-unrecognized.c:467
 msgid ""
 "The selected file system has a concept of file ownership. If checked, the "
 "created file system will be owned by you. If not checked, only the super "
@@ -3899,13 +3899,13 @@ msgstr ""
 "ഫയല്‍സിസ്റ്റത്തില്‍ സൂപ്പര്‍ യൂസറിനു് മാത്രമേ അവകാശമുള്ളൂ."
 
 #. whether to encrypt underlying device
-#: ../src/matepalimpsest/gdu-section-unallocated.c:715
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:477
+#: ../src/mate-disk/gdu-section-unallocated.c:715
+#: ../src/mate-disk/gdu-section-unrecognized.c:477
 msgid "Encr_ypt underlying device"
 msgstr "ഡിവൈസിനെ എന്‍ക്രിപ്റ്റ് _ചെയ്യുക"
 
-#: ../src/matepalimpsest/gdu-section-unallocated.c:717
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:479
+#: ../src/mate-disk/gdu-section-unallocated.c:717
+#: ../src/mate-disk/gdu-section-unrecognized.c:479
 msgid ""
 "Encryption protects your data, requiring a passphrase to be entered before "
 "the file system can be used. May decrease performance and may not be "
@@ -3915,16 +3915,16 @@ msgstr ""
 "മുമ്പായി ഒരു പാസ്ഫ്രെയിസ് നല്‍കേണ്ടതാണു്. മറ്റ് ഓപ്പറേറ്റിങ് സിസ്റ്റത്തിലുള്ള "
 "മീഡിയയില്‍ ഉപയോഗിച്ചാല്‍ ഒരു പക്ഷേ പ്രവര്‍ത്തനത്തെ ബാധിക്കാം."
 
-#: ../src/matepalimpsest/gdu-section-unallocated.c:734
+#: ../src/mate-disk/gdu-section-unallocated.c:734
 msgid "Create partition"
 msgstr "പാര്‍ട്ടീഷന്‍ ഉണ്ടാക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:231
+#: ../src/mate-disk/gdu-section-unrecognized.c:231
 msgid "Are you sure you want to create a new file system, deleting existing data ?"
 msgstr "നിലവിലുള്ള ഡേറ്റാ നീക്കം ചെയ്തു്, നിങ്ങള്‍ക്കു് പുതിയ ഫയല്‍ സിസ്റ്റമുണ്ടാക്കണമോ?"
 
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:235
-#: ../src/matepalimpsest/gdu-shell.c:1519
+#: ../src/mate-disk/gdu-section-unrecognized.c:235
+#: ../src/mate-disk/gdu-shell.c:1519
 #, c-format
 msgid ""
 "All data on partition %d on the media in \"%s\" will be irrecovably erased. "
@@ -3933,8 +3933,8 @@ msgstr ""
 "%d പാര്‍ട്ടീഷനിലുള്ള (\"%s\"-ലുള്ള മീഡിയയിലുള്ള) എല്ലാ ഡേറ്റായും എന്നേക്കുമായി മായ്ക്കുന്നു.  പ്രധാനപ്പെട്ട "
 "ഡേറ്റയുടെ ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക. ഈ പ്രവര്‍ത്തി തിരിച്ചെടുക്കുവാന്‍ സാധ്യമല്ല."
 
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:242
-#: ../src/matepalimpsest/gdu-shell.c:1526
+#: ../src/mate-disk/gdu-section-unrecognized.c:242
+#: ../src/mate-disk/gdu-shell.c:1526
 #, c-format
 msgid ""
 "All data on partition %d of \"%s\" will be irrecovably erased. Make sure "
@@ -3943,11 +3943,11 @@ msgstr ""
 "%d പാര്‍ട്ടീഷനിലുള്ള (\"%s\"-ല്‍) എല്ലാ ഡേറ്റായും എന്നേക്കുമായി മായ്ക്കുന്നു.  പ്രധാനപ്പെട്ട "
 "ഡേറ്റയുടെ ബാക്കപ്പെടുത്തെന്നുറപ്പാക്കുക. ഈ പ്രവര്‍ത്തി തിരിച്ചെടുക്കുവാന്‍ സാധ്യമല്ല."
 
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:397
+#: ../src/mate-disk/gdu-section-unrecognized.c:397
 msgid "Create File System"
 msgstr "ഫയല്‍ സിസ്റ്റം ഉണ്ടാക്കുക"
 
-#: ../src/matepalimpsest/gdu-section-unrecognized.c:410
+#: ../src/mate-disk/gdu-section-unrecognized.c:410
 msgid ""
 "To create a new file system on the device, select the type and label and "
 "then press \"Create\". All existing data will be lost."
@@ -3955,131 +3955,131 @@ msgstr ""
 "ഡിവൈസില്‍ ഒരു പുതിയ ഫയല്‍ സിസ്റ്റമുണ്ടാക്കുന്നതിനായി, ഏതു് തരം, ലേബല്‍ എന്നിവ "
 "തെരഞ്ഞെടുത്തു് \"ഉണ്ടാക്കുക\" അമര്‍ത്തുക. നിലവിലുള്ള എല്ലാ ഡേറ്റായും നഷ്ടമാകുന്നു."
 
-#: ../src/matepalimpsest/gdu-shell.c:203
+#: ../src/mate-disk/gdu-shell.c:203
 msgid "Unknown Size"
 msgstr "അപരിചിതമായ വ്യാപ്തി"
 
 #. Translators: 'scheme' refers to a partition table format here, like 'mbr' or 'gpt'
-#: ../src/matepalimpsest/gdu-shell.c:226 ../src/matepalimpsest/gdu-shell.c:255
+#: ../src/mate-disk/gdu-shell.c:226 ../src/mate-disk/gdu-shell.c:255
 #, c-format
 msgid "Unknown Scheme: %s"
 msgstr "അപരിചിതമായ സ്കീം: %s"
 
 #. Translators: %s is the name of the partition table format, like 'Master Boot Record'
-#: ../src/matepalimpsest/gdu-shell.c:231
+#: ../src/mate-disk/gdu-shell.c:231
 #, c-format
 msgid "Partitioned Media (%s)"
 msgstr "പാര്‍ട്ടീഷന്‍ ചെയ്ത മീഡിയ (%s)"
 
-#: ../src/matepalimpsest/gdu-shell.c:236
+#: ../src/mate-disk/gdu-shell.c:236
 msgid "Unpartitioned Media"
 msgstr "പാര്‍ട്ടീഷന്‍ ചെയ്തിട്ടില്ലാത്ത മീഡിയ"
 
-#: ../src/matepalimpsest/gdu-shell.c:242 ../src/matepalimpsest/gdu-shell.c:266
-#: ../src/matepalimpsest/gdu-shell.c:363
+#: ../src/mate-disk/gdu-shell.c:242 ../src/mate-disk/gdu-shell.c:266
+#: ../src/mate-disk/gdu-shell.c:363
 #, c-format
 msgid "Unrecognized"
 msgstr "അപരിചിതമായ"
 
-#: ../src/matepalimpsest/gdu-shell.c:273
+#: ../src/mate-disk/gdu-shell.c:273
 msgid "Linux Software RAID"
 msgstr "ലിനക്സ് സോഫ്റ്റ്‌വെയര്‍ RAID"
 
-#: ../src/matepalimpsest/gdu-shell.c:294
+#: ../src/mate-disk/gdu-shell.c:294
 #, c-format
 msgid "SMART status: %s"
 msgstr "SMART അവസ്ഥ: %s"
 
 #. Translators: this the SMART hyperlink tooltip
-#: ../src/matepalimpsest/gdu-shell.c:302
+#: ../src/mate-disk/gdu-shell.c:302
 msgid "View details about SMART for this disk"
 msgstr "ഈ ഡിസ്കിനുള്ള SMART സംബന്ധമായ വിശദാംശങ്ങള്‍ കാണുക"
 
 #. Translators: this is the text for the SMART hyperlink
-#: ../src/matepalimpsest/gdu-shell.c:304
+#: ../src/mate-disk/gdu-shell.c:304
 msgid "More Information"
 msgstr "കൂടുതല്‍ വിവരങ്ങള്‍"
 
-#: ../src/matepalimpsest/gdu-shell.c:318 ../src/matepalimpsest/gdu-shell.c:387
-#: ../src/matepalimpsest/gdu-shell.c:422
+#: ../src/mate-disk/gdu-shell.c:318 ../src/mate-disk/gdu-shell.c:387
+#: ../src/mate-disk/gdu-shell.c:422
 #, c-format
 msgid "%s (Read Only)"
 msgstr "%s (റീഡ് ഒണ്‍ലി)"
 
-#: ../src/matepalimpsest/gdu-shell.c:325
+#: ../src/mate-disk/gdu-shell.c:325
 msgid "Not running"
 msgstr "പ്രവര്‍ത്തിക്കുന്നില്ല"
 
-#: ../src/matepalimpsest/gdu-shell.c:341
+#: ../src/mate-disk/gdu-shell.c:341
 #, c-format
 msgid "%s File System"
 msgstr "%s ഫയല്‍ സിസ്റ്റം"
 
-#: ../src/matepalimpsest/gdu-shell.c:352
+#: ../src/mate-disk/gdu-shell.c:352
 msgid "Encrypted LUKS Device"
 msgstr "എന്‍ക്രിപ്റ്റ് ചെയ്തിരിക്കുന്ന LUKS ഡിവൈസ്"
 
-#: ../src/matepalimpsest/gdu-shell.c:359
+#: ../src/mate-disk/gdu-shell.c:359
 msgid "Data"
 msgstr "ഡേറ്റാ"
 
-#: ../src/matepalimpsest/gdu-shell.c:368
+#: ../src/mate-disk/gdu-shell.c:368
 msgid "Cleartext LUKS Device"
 msgstr "ക്ലിയര്‍ടെക്സ്റ്റ് ലുക്ക്സ് ഡിവൈസ്"
 
-#: ../src/matepalimpsest/gdu-shell.c:375
+#: ../src/mate-disk/gdu-shell.c:375
 #, c-format
 msgid "Partition %d (%s)"
 msgstr "പാര്‍ട്ടീഷന്‍ %d (%s)"
 
-#: ../src/matepalimpsest/gdu-shell.c:928
+#: ../src/mate-disk/gdu-shell.c:928
 msgid "Error checking file system on device"
 msgstr "ഡിവൈസിലുള്ള ഫയല്‍ സിസ്റ്റം പരിശോധനയില്‍ പിശകു്"
 
-#: ../src/matepalimpsest/gdu-shell.c:943
+#: ../src/mate-disk/gdu-shell.c:943
 #, c-format
 msgid "File system check on \"%s\" completed"
 msgstr "\"%s\"-ലുള്ള ഫയല്‍ സിസ്റ്റം പരിശോധന പൂര്‍ണ്ണമായിരിക്കുന്നു"
 
-#: ../src/matepalimpsest/gdu-shell.c:947
+#: ../src/mate-disk/gdu-shell.c:947
 msgid "File system is clean."
 msgstr "ഫയല്‍ സിസ്റ്റം വെടിപ്പാണു്."
 
-#: ../src/matepalimpsest/gdu-shell.c:950
+#: ../src/mate-disk/gdu-shell.c:950
 msgid "File system is <b>NOT</b> clean."
 msgstr "ഫയല്‍ സിസ്റ്റം <b>വെടിപ്പല്ല</b>."
 
-#: ../src/matepalimpsest/gdu-shell.c:1036
+#: ../src/mate-disk/gdu-shell.c:1036
 msgid "Error unmounting device"
 msgstr "ഡിവൈസ് അണ്‍മൌണ്ട് ചെയ്യുന്നതില്‍ പിശക്"
 
-#: ../src/matepalimpsest/gdu-shell.c:1090
+#: ../src/mate-disk/gdu-shell.c:1090
 msgid "Error ejecting device"
 msgstr "ഡിവൈസ് പുറത്തെടുക്കുന്നതില്‍ പിശക്"
 
-#: ../src/matepalimpsest/gdu-shell.c:1121
+#: ../src/mate-disk/gdu-shell.c:1121
 msgid "Error detaching device"
 msgstr "ഡിവൈസ് വേര്‍പെടുത്തുന്നതില്‍ പിശക്"
 
-#: ../src/matepalimpsest/gdu-shell.c:1218
+#: ../src/mate-disk/gdu-shell.c:1218
 msgid "Error unlocking device"
 msgstr "ഡിവൈസ് അണ്‍ലോക്ക് ചെയ്യുന്നതില്‍ പിശകു്"
 
-#: ../src/matepalimpsest/gdu-shell.c:1283
+#: ../src/mate-disk/gdu-shell.c:1283
 msgid "Error locking encrypted device"
 msgstr "എന്‍ക്രിപ്റ്റഡ് ഡിവൈസ് പൂട്ടുന്നതില്‍ പിശകു്"
 
-#: ../src/matepalimpsest/gdu-shell.c:1320
+#: ../src/mate-disk/gdu-shell.c:1320
 #, c-format
 msgid "There was an error starting the drive \"%s\"."
 msgstr "\"%s\" ഡ്രൈവ് ആരംഭിക്കുന്നതില്‍ പിശകു്."
 
-#: ../src/matepalimpsest/gdu-shell.c:1374
+#: ../src/mate-disk/gdu-shell.c:1374
 #, c-format
 msgid "Are you sure you want to start the drive \"%s\" in degraded mode ?"
 msgstr "നിങ്ങള്‍ക്കു് \"%s\" ഡ്രൈവ് ഡീഗ്രേഡഡ് മോഡില്‍ ആരംഭിക്കണമെന്നുറപ്പാണോ ?"
 
-#: ../src/matepalimpsest/gdu-shell.c:1378
+#: ../src/mate-disk/gdu-shell.c:1378
 msgid ""
 "Starting a RAID array in degraded mode means that the RAID volume is no "
 "longer tolerant to drive failures. Data on the volume may be irrevocably "
@@ -4089,196 +4089,196 @@ msgstr ""
 "RAID വോള്യത്തിനു് നേരിടുവാന്‍ സാധ്യമല്ല. ഒരു ഡ്രൈവില്‍ തകരാറണ്ടായാല്‍, "
 "വോള്യത്തിലുള്ള ഡേറ്റാ എന്നേക്കുമായി നഷ്ടമാകുന്നു."
 
-#: ../src/matepalimpsest/gdu-shell.c:1383
+#: ../src/mate-disk/gdu-shell.c:1383
 msgid "_Start Array"
 msgstr "അറേ _ആരംഭിക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1411
+#: ../src/mate-disk/gdu-shell.c:1411
 #, c-format
 msgid "There was an error stopping the drive \"%s\"."
 msgstr "\"%s\" ഡ്രൈവ് നിര്‍ത്തുന്നതില്‍ പിശകു്."
 
-#: ../src/matepalimpsest/gdu-shell.c:1463
+#: ../src/mate-disk/gdu-shell.c:1463
 msgid "Error erasing data"
 msgstr "ഡേറ്റാ മായിക്കുന്നതില്‍ പിശക്"
 
-#: ../src/matepalimpsest/gdu-shell.c:1515
+#: ../src/mate-disk/gdu-shell.c:1515
 msgid "Are you sure you want to erase the device ?"
 msgstr "നിങ്ങള്‍ക്കു് ഡിവൈസ് ഇല്ലാതാക്കണമെന്നുറപ്പാണോ?"
 
-#: ../src/matepalimpsest/gdu-shell.c:1551 ../src/matepalimpsest/gdu-shell.c:1946
+#: ../src/mate-disk/gdu-shell.c:1551 ../src/mate-disk/gdu-shell.c:1946
 msgid "_Erase"
 msgstr "_മായിക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1626
+#: ../src/mate-disk/gdu-shell.c:1626
 msgid "Error creating component for RAID array"
 msgstr "RAID അറേയ്ക്കുള്ള ഘടകമുണ്ടാക്കുന്നതില്‍ പിശക്"
 
-#: ../src/matepalimpsest/gdu-shell.c:1653
+#: ../src/mate-disk/gdu-shell.c:1653
 msgid "Error creating partition table for component for RAID array"
 msgstr "RAID അറേയ്ക്കുള്ള ഘടകത്തിനുള്ള പാര്‍ട്ടീഷന്‍ ടേബിളുണ്ടാക്കുന്നതില്‍ പിശക്"
 
-#: ../src/matepalimpsest/gdu-shell.c:1679
+#: ../src/mate-disk/gdu-shell.c:1679
 msgid "Error creating RAID array"
 msgstr "RAID അറേ ഉണ്ടാക്കുന്നതില്‍ പിശക്"
 
-#: ../src/matepalimpsest/gdu-shell.c:1870 ../src/matepalimpsest/gdu-shell.c:2198
-msgid "MatePalimpsest Disk Utility"
+#: ../src/mate-disk/gdu-shell.c:1870 ../src/mate-disk/gdu-shell.c:2198
+msgid "Mate Disk Utility"
 msgstr "പാലിംസെസ്റ്റ് ഡിസ്ക് യൂട്ടിലിറ്റി"
 
-#: ../src/matepalimpsest/gdu-shell.c:1875
+#: ../src/mate-disk/gdu-shell.c:1875
 msgid "translator-credits"
 msgstr "അനി പീറ്റര്‍ <apeter@redhat.com>"
 
-#: ../src/matepalimpsest/gdu-shell.c:1931
+#: ../src/mate-disk/gdu-shell.c:1931
 msgid "_File"
 msgstr "_ഫയല്‍"
 
-#: ../src/matepalimpsest/gdu-shell.c:1932
+#: ../src/mate-disk/gdu-shell.c:1932
 msgid "_New"
 msgstr "_പുതിയ"
 
-#: ../src/matepalimpsest/gdu-shell.c:1933
+#: ../src/mate-disk/gdu-shell.c:1933
 msgid "Software _RAID Array"
 msgstr "സോഫ്റ്റ്‌വെയര്‍ _RAID അറേ"
 
-#: ../src/matepalimpsest/gdu-shell.c:1933
+#: ../src/mate-disk/gdu-shell.c:1933
 msgid "Create a new Software RAID array"
 msgstr "ഒരു പുതിയ സോഫ്റ്റ്‌വെയര്‍ RAID അറേ ഉണ്ടാക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1934
+#: ../src/mate-disk/gdu-shell.c:1934
 msgid "_Edit"
 msgstr "_ചിട്ടപ്പെടുത്തുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1935 ../src/matepalimpsest/gdu-shell.c:1950
+#: ../src/mate-disk/gdu-shell.c:1935 ../src/mate-disk/gdu-shell.c:1950
 msgid "_Help"
 msgstr "_സഹായം"
 
-#: ../src/matepalimpsest/gdu-shell.c:1937
+#: ../src/mate-disk/gdu-shell.c:1937
 msgid "_Check File System"
 msgstr "ഫയല്‍ സിസ്റ്റം _പരിശോധിക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1937
+#: ../src/mate-disk/gdu-shell.c:1937
 msgid "Check the file system"
 msgstr "ഫയല്‍ സിസ്റ്റം പരിശോധിക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1938
+#: ../src/mate-disk/gdu-shell.c:1938
 msgid "_Mount"
 msgstr "_മൌണ്ട് ചെയ്യുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1938
+#: ../src/mate-disk/gdu-shell.c:1938
 msgid "Mount the filesystem on device"
 msgstr "ഡിവൈസില്‍ ഫയല്‍സിസ്റ്റം മൌണ്ട് ചെയ്യുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1939
+#: ../src/mate-disk/gdu-shell.c:1939
 msgid "Unmount the filesystem"
 msgstr "ഫയല്‍സിസ്റ്റം അണ്‍മൌണ്ട് ചെയ്യുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1940
+#: ../src/mate-disk/gdu-shell.c:1940
 msgid "_Eject"
 msgstr "_പുറത്തെടുക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1940
+#: ../src/mate-disk/gdu-shell.c:1940
 msgid "Eject media from the device"
 msgstr "ഡിവൈസില്‍ നിന്നും മീഡിയ പുറത്തെടുക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1941
+#: ../src/mate-disk/gdu-shell.c:1941
 msgid "Detach the device from the system, powering it off"
 msgstr "സിസ്റ്റത്തില്‍ നിന്നും ഡിവൈസ് വേര്‍പെടുത്തുക, പവര്‍ ഓഫ് ചെയ്യുന്നു."
 
-#: ../src/matepalimpsest/gdu-shell.c:1942
+#: ../src/mate-disk/gdu-shell.c:1942
 msgid "Unlock the encrypted device, making the data available in cleartext"
 msgstr "ക്ലിയര്‍ടെക്സ്റ്റ് ഡേറ്റാ ലഭ്യമല്ലെന്നടയാളപ്പെടുത്തി, എന്‍ക്രിപ്റ്റ് ചെയ്ത ഡിവൈസിന്റെ പൂട്ട് തുറക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1943
+#: ../src/mate-disk/gdu-shell.c:1943
 msgid "_Lock"
 msgstr "_പൂട്ടുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1943
+#: ../src/mate-disk/gdu-shell.c:1943
 msgid "Lock the encrypted device, making the cleartext data unavailable"
 msgstr "ക്ലിയര്‍ടെക്സ്റ്റ് ഡേറ്റാ ലഭ്യമല്ലെന്നടയാളപ്പെടുത്തി, എന്‍ക്രിപ്റ്റ് ചെയ്ത ഡിവൈസ് പൂട്ടുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1944
+#: ../src/mate-disk/gdu-shell.c:1944
 msgid "_Start"
 msgstr "_ആരംഭിക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1944
+#: ../src/mate-disk/gdu-shell.c:1944
 msgid "Start the array"
 msgstr "അറേ ആരംഭിക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1945
+#: ../src/mate-disk/gdu-shell.c:1945
 msgid "_Stop"
 msgstr "_നിര്‍ത്തുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1945
+#: ../src/mate-disk/gdu-shell.c:1945
 msgid "Stop the array"
 msgstr "അറേ നിര്‍ത്തുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1946
+#: ../src/mate-disk/gdu-shell.c:1946
 msgid "Erase the contents of the device"
 msgstr "ഡിവൈസിലുള്ളവ മായിക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1949
+#: ../src/mate-disk/gdu-shell.c:1949
 msgid "_Quit"
 msgstr "_പുറത്തു് കടക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1949
+#: ../src/mate-disk/gdu-shell.c:1949
 msgid "Quit"
 msgstr "പുറത്തു് കടക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1950
-msgid "Get Help on MatePalimpsest Disk Utility"
+#: ../src/mate-disk/gdu-shell.c:1950
+msgid "Get Help on Mate Disk Utility"
 msgstr "പാലിംസെസ്റ്റ് ഡിസ്ക് യൂട്ടിലിറ്റിയില്‍ സഹായം ലഭിക്കുക"
 
-#: ../src/matepalimpsest/gdu-shell.c:1951
+#: ../src/mate-disk/gdu-shell.c:1951
 msgid "_About"
 msgstr "_സംബന്ധിച്ചു്"
 
-#: ../src/matepalimpsest/gdu-shell.c:2030
+#: ../src/mate-disk/gdu-shell.c:2030
 msgid "An error occured"
 msgstr "പിശക് സംഭവിച്ചിരിക്കുന്നു"
 
-#: ../src/matepalimpsest/gdu-shell.c:2039
+#: ../src/mate-disk/gdu-shell.c:2039
 msgid "The operation failed."
 msgstr "പ്രക്രിയ പരാജയപ്പെട്ടു."
 
-#: ../src/matepalimpsest/gdu-shell.c:2042
+#: ../src/mate-disk/gdu-shell.c:2042
 msgid "The device is busy."
 msgstr "ഡിവൈസ് തിരക്കിലാണു്."
 
-#: ../src/matepalimpsest/gdu-shell.c:2045
+#: ../src/mate-disk/gdu-shell.c:2045
 msgid "The operation was canceled."
 msgstr "പ്രക്രിയ റദ്ദാക്കിയിരിക്കുന്നു."
 
-#: ../src/matepalimpsest/gdu-shell.c:2048
+#: ../src/mate-disk/gdu-shell.c:2048
 msgid "The daemon is being inhibited."
 msgstr "ഡെമണനിനു് തടസ്സമുണ്ടാകുന്നു."
 
-#: ../src/matepalimpsest/gdu-shell.c:2051
+#: ../src/mate-disk/gdu-shell.c:2051
 msgid "An invalid option was passed."
 msgstr "തെറ്റായ ഉപാധി നല്‍കിയിരിക്കുന്നു."
 
-#: ../src/matepalimpsest/gdu-shell.c:2054
+#: ../src/mate-disk/gdu-shell.c:2054
 msgid "The operation is not supported."
 msgstr "പ്രക്രിയ പിന്തുണയ്ക്കുന്നില്ല."
 
-#: ../src/matepalimpsest/gdu-shell.c:2057
+#: ../src/mate-disk/gdu-shell.c:2057
 msgid "Getting ATA SMART data would wake up the device."
 msgstr "എടിഎ സ്മാര്‍ട്ട് കാര്‍ഡ് ലഭ്യമാക്കുന്നതു് ഡിവൈസിനെ പ്രവര്‍ത്തിപ്പിക്കുന്നു."
 
-#: ../src/matepalimpsest/gdu-shell.c:2060
+#: ../src/mate-disk/gdu-shell.c:2060
 msgid "Permission denied."
 msgstr "അനുവാദം നിഷേധിച്ചിരിക്കുന്നു."
 
-#: ../src/matepalimpsest/gdu-shell.c:2063
+#: ../src/mate-disk/gdu-shell.c:2063
 msgid "Unknown error"
 msgstr "അപരിചിതമായ പിശക്"
 
-#: ../src/matepalimpsest/gdu-shell.c:2099
+#: ../src/mate-disk/gdu-shell.c:2099
 msgid "_Details:"
 msgstr "_വിശദാംശങ്ങള്‍:"
 
-#: ../src/matepalimpsest/gdu-shell.c:2236
+#: ../src/mate-disk/gdu-shell.c:2236
 msgid "<small>_Cancel</small>"
 msgstr "<small>_റദ്ദാക്കുക</small>"
 

@@ -22,13 +22,13 @@ msgstr ""
 #.
 #. Translators: Window title when the item representing the local machine is selected.
 #.
-#: ../data/matepalimpsest.desktop.in.h:1 ../src/matepalimpsest/gdu-shell.c:264
-#: ../src/matepalimpsest/gdu-shell.c:316 ../src/matepalimpsest/gdu-shell.c:891
-#: ../src/matepalimpsest/gdu-shell.c:1198
+#: ../data/mate-disk.desktop.in.h:1 ../src/mate-disk/gdu-shell.c:264
+#: ../src/mate-disk/gdu-shell.c:316 ../src/mate-disk/gdu-shell.c:891
+#: ../src/mate-disk/gdu-shell.c:1198
 msgid "Disk Utility"
 msgstr "Дискова утиліта"
 
-#: ../data/matepalimpsest.desktop.in.h:2
+#: ../data/mate-disk.desktop.in.h:2
 msgid "Manage Drives and Media"
 msgstr "Керування дисками та змінними носіями"
 
@@ -74,8 +74,8 @@ msgstr "При запуску дискової утиліти виникла п�
 msgid "Device to format"
 msgstr "Пристрій для форматування"
 
-#: ../src/format-tool/gdu-format-tool.c:130 ../src/matepalimpsest/gdu-main.c:127
-#: ../src/matepalimpsest/gdu-main.c:128
+#: ../src/format-tool/gdu-format-tool.c:130 ../src/mate-disk/gdu-main.c:127
+#: ../src/mate-disk/gdu-main.c:128
 msgid "DEVICE"
 msgstr "ПРИСТРІЙ"
 
@@ -1708,8 +1708,8 @@ msgstr "Ви певні, що хочете запустити вимір шви�
 
 #. TODO: better icon
 #: ../src/gdu-gtk/gdu-drive-benchmark-dialog.c:594
-#: ../src/matepalimpsest/gdu-section-drive.c:762
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1189
+#: ../src/mate-disk/gdu-section-drive.c:762
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1189
 msgid "_Benchmark"
 msgstr "_Вимір швидкодії"
 
@@ -1807,7 +1807,7 @@ msgid "Edit Filesystem on %s"
 msgstr "Редагувати файлову систему на %s"
 
 #: ../src/gdu-gtk/gdu-edit-filesystem-dialog.c:186
-#: ../src/matepalimpsest/gdu-section-volumes.c:1470
+#: ../src/mate-disk/gdu-section-volumes.c:1470
 msgid "Label:"
 msgstr "Мітка:"
 
@@ -1833,7 +1833,7 @@ msgid "State"
 msgstr "Стан"
 
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:444
-#: ../src/matepalimpsest/gdu-section-drive.c:693
+#: ../src/mate-disk/gdu-section-drive.c:693
 msgid "SMART Status:"
 msgstr "Статус SMART:"
 
@@ -1842,13 +1842,13 @@ msgid "Position:"
 msgstr "Позиція:"
 
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:452
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1096
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1096
 msgid "State:"
 msgstr "Стан:"
 
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:456
-#: ../src/matepalimpsest/gdu-section-drive.c:669
-#: ../src/matepalimpsest/gdu-section-volumes.c:1446
+#: ../src/mate-disk/gdu-section-drive.c:669
+#: ../src/mate-disk/gdu-section-volumes.c:1446
 msgid "Device:"
 msgstr "Пристрій:"
 
@@ -1879,7 +1879,7 @@ msgstr "Видалити складову з масиву"
 #. Translators: Used when SMART is not supported on the RAID component
 #. Translators: This string is used when SMART is not supported
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:826
-#: ../src/matepalimpsest/gdu-section-drive.c:300
+#: ../src/mate-disk/gdu-section-drive.c:300
 msgid "Not Supported"
 msgstr "Не підтримується"
 
@@ -1951,7 +1951,7 @@ msgstr "Драйвер файлової системи не встановлен
 msgid "Filesystem tools not installed"
 msgstr "Утиліти файлової системи не встановлено"
 
-#: ../src/gdu-gtk/gdu-error-dialog.c:249 ../src/matepalimpsest/gdu-shell.c:1042
+#: ../src/gdu-gtk/gdu-error-dialog.c:249 ../src/mate-disk/gdu-shell.c:1042
 msgid "Unknown error"
 msgstr "Невідома помилка"
 
@@ -2024,8 +2024,8 @@ msgstr "Мнемонічна позначка для стверджувальн�
 #. Translators: Format is used as a verb here
 #: ../src/gdu-gtk/gdu-format-dialog.c:238
 #: ../src/gdu-gtk/gdu-partition-dialog.c:216
-#: ../src/matepalimpsest/gdu-section-drive.c:588
-#: ../src/matepalimpsest/gdu-section-volumes.c:356
+#: ../src/mate-disk/gdu-section-drive.c:588
+#: ../src/mate-disk/gdu-section-volumes.c:356
 msgid "_Format"
 msgstr "Форм_aтувати"
 
@@ -2204,7 +2204,7 @@ msgstr "Пароль не може бути порожнім"
 msgid "Cr_eate"
 msgstr "_Створити"
 
-#: ../src/gdu-gtk/gdu-gtk.c:583 ../src/matepalimpsest/gdu-section-volumes.c:1924
+#: ../src/gdu-gtk/gdu-gtk.c:583 ../src/mate-disk/gdu-section-volumes.c:1924
 msgid "Change _Passphrase"
 msgstr "Змінити _пароль"
 
@@ -2298,16 +2298,16 @@ msgstr "Порожньо"
 msgid "Extended Partition"
 msgstr "Розширений розділ"
 
-#: ../src/gdu-gtk/gdu-gtk.c:1530 ../src/matepalimpsest/gdu-section-drive.c:262
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:353
+#: ../src/gdu-gtk/gdu-gtk.c:1530 ../src/mate-disk/gdu-section-drive.c:262
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:353
 msgid "Master Boot Record"
 msgstr "Головний запис завантаження (MBR)"
 
 #. Translators: This string is used for conveying the partition table format
 #: ../src/gdu-gtk/gdu-gtk.c:1535 ../src/gdu/gdu-drive.c:811
 #: ../src/gdu/gdu-linux-md-drive.c:568
-#: ../src/matepalimpsest/gdu-section-drive.c:264
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:355
+#: ../src/mate-disk/gdu-section-drive.c:264
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:355
 msgid "GUID Partition Table"
 msgstr "Таблиця розділів GUID"
 
@@ -2316,8 +2316,8 @@ msgid "Don't partition"
 msgstr "Не розбивати"
 
 #: ../src/gdu-gtk/gdu-gtk.c:1545 ../src/gdu/gdu-util.c:492
-#: ../src/matepalimpsest/gdu-section-drive.c:260
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:351
+#: ../src/mate-disk/gdu-section-drive.c:260
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:351
 msgid "Apple Partition Map"
 msgstr "Мапа розділу Apple"
 
@@ -2376,7 +2376,7 @@ msgstr[1] "%d години тому"
 msgstr[2] "%d годин тому"
 
 #: ../src/gdu-gtk/gdu-volume-grid.c:498
-#: ../src/matepalimpsest/gdu-section-drive.c:634
+#: ../src/mate-disk/gdu-section-drive.c:634
 msgid "Drive"
 msgstr "Пристрій"
 
@@ -2394,7 +2394,7 @@ msgstr "Пристрій RAID не запущено"
 #. * been detected for a drive
 #.
 #: ../src/gdu-gtk/gdu-volume-grid.c:1184 ../src/gdu/gdu-drive.c:797
-#: ../src/matepalimpsest/gdu-section-drive.c:314
+#: ../src/mate-disk/gdu-section-drive.c:314
 #, c-format
 msgid "No Media Detected"
 msgstr "Носіїв не виявлено"
@@ -2567,8 +2567,8 @@ msgstr "Диск із розподілом"
 
 #. Translators: This string is used for conveying a device is not partitioned.
 #.
-#: ../src/gdu/gdu-drive.c:824 ../src/matepalimpsest/gdu-section-drive.c:273
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:364
+#: ../src/gdu/gdu-drive.c:824 ../src/mate-disk/gdu-section-drive.c:273
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:364
 msgid "Not Partitioned"
 msgstr "Без розділів"
 
@@ -2635,7 +2635,7 @@ msgid "RAID"
 msgstr "RAID"
 
 #: ../src/gdu/gdu-linux-md-drive.c:614
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1066
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1066
 msgid "RAID Array"
 msgstr "Масив RAID"
 
@@ -2969,7 +2969,7 @@ msgstr "Універсальний дисковий формат (UDF)"
 msgid "udf"
 msgstr "udf"
 
-#: ../src/gdu/gdu-util.c:320 ../src/matepalimpsest/gdu-section-volumes.c:1677
+#: ../src/gdu/gdu-util.c:320 ../src/mate-disk/gdu-section-volumes.c:1677
 msgid "Swap Space"
 msgstr "Розділ підкачки"
 
@@ -2998,7 +2998,7 @@ msgstr "lvm2_pv"
 msgid "RAID Component (version %s)"
 msgstr "RAID-компонент (версія %s)"
 
-#: ../src/gdu/gdu-util.c:341 ../src/matepalimpsest/gdu-section-volumes.c:1681
+#: ../src/gdu/gdu-util.c:341 ../src/mate-disk/gdu-section-volumes.c:1681
 #, c-format
 msgid "RAID Component"
 msgstr "RAID-компонент"
@@ -3651,12 +3651,12 @@ msgid "PATA"
 msgstr "PATA"
 
 #. Translators: interface name for ATA disks
-#: ../src/gdu/gdu-util.c:884 ../src/matepalimpsest/gdu-section-hub.c:136
+#: ../src/gdu/gdu-util.c:884 ../src/mate-disk/gdu-section-hub.c:136
 msgid "ATA"
 msgstr "ATA"
 
 #. Translators: interface name for SCSI disks
-#: ../src/gdu/gdu-util.c:887 ../src/matepalimpsest/gdu-section-hub.c:140
+#: ../src/gdu/gdu-util.c:887 ../src/mate-disk/gdu-section-hub.c:140
 msgid "SCSI"
 msgstr "SCSI"
 
@@ -4164,7 +4164,7 @@ msgid "%s Free"
 msgstr "%s вільно"
 
 #: ../src/gdu/gdu-volume-hole.c:160
-#: ../src/matepalimpsest/gdu-section-volumes.c:1695
+#: ../src/mate-disk/gdu-section-volumes.c:1695
 msgid "Unallocated Space"
 msgstr "Незайнятий простір"
 
@@ -4206,11 +4206,11 @@ msgstr ""
 "Один або кілька вінчестерів повідомили про можливі проблеми. Клацніть на "
 "значку, щоб отримати детальнішу інформацію."
 
-#: ../src/matepalimpsest/gdu-main.c:127
+#: ../src/mate-disk/gdu-main.c:127
 msgid "Volume to show"
 msgstr "Показати том"
 
-#: ../src/matepalimpsest/gdu-main.c:128
+#: ../src/mate-disk/gdu-main.c:128
 msgid "Drive to show"
 msgstr "Показати пристрій"
 
@@ -4219,7 +4219,7 @@ msgstr "Показати пристрій"
 #. * PHY number (starts at 1) and the %s is the Adapter/Expander
 #. * name (e.g. "SAS Host Adapter").
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:167
+#: ../src/mate-disk/gdu-section-drive.c:167
 #, c-format
 msgid "PHY %d of %s"
 msgstr "PHY %d на %s"
@@ -4229,17 +4229,17 @@ msgstr "PHY %d на %s"
 #. * PHY number (starts at 1) and the %s is the Adapter/Expander
 #. * name (e.g. "SATA Host Adapter").
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:174
+#: ../src/mate-disk/gdu-section-drive.c:174
 #, c-format
 msgid "Port %d of %s"
 msgstr "Порт %d на %s"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:232
+#: ../src/mate-disk/gdu-section-drive.c:232
 msgctxt "Write Cache"
 msgid "Enabled"
 msgstr "Увімкнено"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:234
+#: ../src/mate-disk/gdu-section-drive.c:234
 msgctxt "Write Cache"
 msgid "Disabled"
 msgstr "Вимкнено"
@@ -4247,241 +4247,241 @@ msgstr "Вимкнено"
 #. Translators: This is for the rotation rate of a hard
 #. * disk - RPM means rounds per minute
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:244
+#: ../src/mate-disk/gdu-section-drive.c:244
 #, c-format
 msgctxt "Rotation Rate"
 msgid "%d RPM"
 msgstr "%d об/хв"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:252
+#: ../src/mate-disk/gdu-section-drive.c:252
 msgctxt "Rotation Rate"
 msgid "Solid-State Disk"
 msgstr "Solid-State Disk"
 
 #. Translators: 'scheme' refers to a partition table format here, like 'mbr' or 'gpt'
-#: ../src/matepalimpsest/gdu-section-drive.c:267
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:358
+#: ../src/mate-disk/gdu-section-drive.c:267
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:358
 #, c-format
 msgid "Unknown Scheme: %s"
 msgstr "Невідома схема: %s"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:378
-#: ../src/matepalimpsest/gdu-section-drive.c:398
+#: ../src/mate-disk/gdu-section-drive.c:378
+#: ../src/mate-disk/gdu-section-drive.c:398
 msgid "Error launching Brasero"
 msgstr "Помилка під час запуску Brasero"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:379
+#: ../src/mate-disk/gdu-section-drive.c:379
 msgid "The application is not installed"
 msgstr "Програму не встановлено"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:460
+#: ../src/mate-disk/gdu-section-drive.c:460
 msgid "Error ejecting media"
 msgstr "Помилка при витягуванні носія"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:504
+#: ../src/mate-disk/gdu-section-drive.c:504
 msgid "Error detaching drive"
 msgstr "Помилка при від'єднанні пристрою"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:549
+#: ../src/mate-disk/gdu-section-drive.c:549
 msgid "Error formatting drive"
 msgstr "Помилка при форматуванні пристрою"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:587
+#: ../src/mate-disk/gdu-section-drive.c:587
 msgid "Are you sure you want to format the drive?"
 msgstr "Справді форматувати пристрій?"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:648
-#: ../src/matepalimpsest/gdu-section-hub.c:221
+#: ../src/mate-disk/gdu-section-drive.c:648
+#: ../src/mate-disk/gdu-section-hub.c:221
 msgid "Model:"
 msgstr "Модель:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:652
+#: ../src/mate-disk/gdu-section-drive.c:652
 msgid "Serial Number:"
 msgstr "Серійний номер:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:656
+#: ../src/mate-disk/gdu-section-drive.c:656
 msgid "Firmware Version:"
 msgstr "Версія мікропрограм:"
 
 #. Translators: if you translate "World Wide Name", please include the abbreviation "WWN"
-#: ../src/matepalimpsest/gdu-section-drive.c:661
+#: ../src/mate-disk/gdu-section-drive.c:661
 msgid "World Wide Name:"
 msgstr "World Wide Name:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:665
+#: ../src/mate-disk/gdu-section-drive.c:665
 msgid "Location:"
 msgstr "Адреса:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:673
+#: ../src/mate-disk/gdu-section-drive.c:673
 msgid "Write Cache:"
 msgstr "Кеш запису:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:677
+#: ../src/mate-disk/gdu-section-drive.c:677
 msgid "Rotation Rate:"
 msgstr "Швидкість обертання:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:681
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1100
-#: ../src/matepalimpsest/gdu-section-volumes.c:1460
+#: ../src/mate-disk/gdu-section-drive.c:681
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1100
+#: ../src/mate-disk/gdu-section-volumes.c:1460
 msgid "Capacity:"
 msgstr "Ємкість:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:685
+#: ../src/mate-disk/gdu-section-drive.c:685
 msgid "Connection:"
 msgstr "З'єднання:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:689
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1092
+#: ../src/mate-disk/gdu-section-drive.c:689
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1092
 msgid "Partitioning:"
 msgstr "Розподіл:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:712
+#: ../src/mate-disk/gdu-section-drive.c:712
 msgid "Open CD/_DVD Application"
 msgstr "Відкрити програму CD/_DVD"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:713
+#: ../src/mate-disk/gdu-section-drive.c:713
 msgid "Create and copy CDs and DVDs"
 msgstr "Створити копію CD та DVD"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:722
+#: ../src/mate-disk/gdu-section-drive.c:722
 msgid "Format _Drive"
 msgstr "Форм_aтувати пристрій"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:723
+#: ../src/mate-disk/gdu-section-drive.c:723
 msgid "Erase or partition the drive"
 msgstr "Стерти зміст розділу на пристрої"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:732
+#: ../src/mate-disk/gdu-section-drive.c:732
 msgid "SM_ART Data"
 msgstr "Дані SM_ART"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:733
+#: ../src/mate-disk/gdu-section-drive.c:733
 msgid "View SMART data and run self-tests"
 msgstr "Переглянути дані SMART та запустити самоперевірку"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:742
+#: ../src/mate-disk/gdu-section-drive.c:742
 msgid "_Eject"
 msgstr "Ви_тягнути"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:743
+#: ../src/mate-disk/gdu-section-drive.c:743
 msgid "Eject media from the drive"
 msgstr "Витягнути носій з пристрою"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:752
+#: ../src/mate-disk/gdu-section-drive.c:752
 msgid "Safe Rem_oval"
 msgstr "Безпечне ви_тягування"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:753
+#: ../src/mate-disk/gdu-section-drive.c:753
 msgid "Power down the drive so it can be removed"
 msgstr "Вимкнути пристрій, щоб його можна було видалити"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:763
+#: ../src/mate-disk/gdu-section-drive.c:763
 msgid "Measure drive performance"
 msgstr "Виміряти швидкодію пристрою"
 
 #. Translators: Used for SAS to convey the number of PHYs in the
 #. * "Number of Ports" element. You should probably not translate PHY.
 #.
-#: ../src/matepalimpsest/gdu-section-hub.c:117
-#: ../src/matepalimpsest/gdu-section-hub.c:156
+#: ../src/mate-disk/gdu-section-hub.c:117
+#: ../src/mate-disk/gdu-section-hub.c:156
 #, c-format
 msgid "%d PHYs"
 msgstr "%d PHY"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:132
+#: ../src/mate-disk/gdu-section-hub.c:132
 msgid "Parallel ATA"
 msgstr "Parallel ATA"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:134
+#: ../src/mate-disk/gdu-section-hub.c:134
 msgid "Serial ATA"
 msgstr "Serial ATA"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:138
+#: ../src/mate-disk/gdu-section-hub.c:138
 msgid "Serial Attached SCSI"
 msgstr "Serial Attached SCSI"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:217
+#: ../src/mate-disk/gdu-section-hub.c:217
 msgid "Vendor:"
 msgstr "Виробник:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:225
+#: ../src/mate-disk/gdu-section-hub.c:225
 msgid "Revision:"
 msgstr "Версія:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:229
+#: ../src/mate-disk/gdu-section-hub.c:229
 msgid "Driver:"
 msgstr "Пристрій:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:233
+#: ../src/mate-disk/gdu-section-hub.c:233
 msgid "Fabric:"
 msgstr "Завод:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:237
+#: ../src/mate-disk/gdu-section-hub.c:237
 msgid "Number of Ports:"
 msgstr "Кількість портів:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:86
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:86
 msgctxt "RAID status"
 msgid "Not running, partially assembled"
 msgstr "Не працює, часткова готовність"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:94
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:94
 msgctxt "RAID status"
 msgid "Not running"
 msgstr "Не працює"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:96
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:96
 msgctxt "RAID status"
 msgid "Not running, can only start degraded"
 msgstr "Не працює, може працювати з пониженими характеристиками"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:98
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:98
 msgctxt "RAID status"
 msgid "Not running, not enough components to start"
 msgstr "Не працює, не достатньо складових для запуску"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:116
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:116
 msgctxt "RAID status"
 msgid "DEGRADED"
 msgstr "ДЕГРАДОВАНИЙ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:118
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:118
 msgctxt "RAID status"
 msgid "Running"
 msgstr "Працює"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:126
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:126
 msgctxt "RAID action"
 msgid "Reshaping"
 msgstr "Відновлення форми"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:128
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:128
 msgctxt "RAID action"
 msgid "Resyncing"
 msgstr "Повторна синхронізація"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:130
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:130
 msgctxt "RAID action"
 msgid "Repairing"
 msgstr "Виправлення"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:132
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:132
 msgctxt "RAID action"
 msgid "Recovering"
 msgstr "Відновлення"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:134
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:134
 msgctxt "RAID action"
 msgid "Checking"
 msgstr "Перевірка"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:139
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:139
 msgctxt "RAID action"
 msgid "Idle"
 msgstr "Простоює"
 
 #. Translators: The text for the hyperlink of the component
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:241
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:241
 msgid "Go to volume"
 msgstr "Перейти до тому"
 
@@ -4490,7 +4490,7 @@ msgstr "Перейти до тому"
 #. * Second %s is the state of the component.
 #. * Third %s is the "Go to volume" link.
 #.
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:251
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:251
 #, c-format
 msgctxt "RAID component label"
 msgid "%s (%s) – %s"
@@ -4500,416 +4500,416 @@ msgstr "%s (%s) – %s"
 #. * First %s is the VPD name.
 #. * Second %s is the "Go to volume" link.
 #.
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:260
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:260
 #, c-format
 msgctxt "RAID component label"
 msgid "%s – %s"
 msgstr "%s – %s"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:415
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:415
 msgid "Error stopping RAID Array"
 msgstr "Помилка при зупинці масиву RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:460
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:460
 msgid "Error starting RAID Array"
 msgstr "Помилка під час запуску масиву RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:490
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:493
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:490
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:493
 #, c-format
 msgid "Not enough components available to start the RAID Array"
 msgstr "Недостатньо складових для запуску масиву RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:509
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:509
 msgid "Are you sure you want the RAID Array degraded?"
 msgstr "Дійсно перевести масив RAID до деградованого стану?"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:510
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:510
 msgid "_Start"
 msgstr "З_апустити"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:555
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:555
 msgid "Error deleting partition for component in RAID Array"
 msgstr "Помилка при видаленні розділу для складової з масиву RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:578
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:578
 msgid "Error removing component from RAID Array"
 msgstr "Помилка при видаленні складової з RAID масиву"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:629
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:629
 msgid "Are you sure you want the remove the component?"
 msgstr "Справді видалити складову з масиву?"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:630
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:630
 msgid "_Remove"
 msgstr "В_идалити"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:666
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:739
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:666
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:739
 msgid "Error adding component to RAID Array"
 msgstr "Помилка при додаванні компоненту для масиву RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:762
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:762
 msgid "Error creating partition for RAID component"
 msgstr "Помилка при створенні складової RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:797
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:797
 msgid "Error creating partition table for RAID component"
 msgstr "Помилка при створенні таблиці складових RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1004
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1004
 msgid "Error checking RAID Array"
 msgstr "Помилка при перевірці масиву RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1080
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1080
 msgid "Level:"
 msgstr "Рівень:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1084
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1084
 msgid "Metadata Version:"
 msgstr "Розділ метаданих:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1088
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1088
 msgid "Name:"
 msgstr "Назва:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1104
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1104
 msgid "Action:"
 msgstr "Дія:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1108
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1108
 msgid "Active Components:"
 msgstr "Активна складова:"
 
 #. Ensure this is in the last row and the first column
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1113
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1113
 msgid "Components:"
 msgstr "Складові:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1139
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1139
 msgid "St_art RAID Array"
 msgstr "_Запустити масив RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1140
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1140
 msgid "Bring up the RAID Array"
 msgstr "Запуск RAID масиву"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1149
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1149
 msgid "St_op RAID Array"
 msgstr "З_упинити масив RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1150
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1150
 msgid "Tear down the RAID Array"
 msgstr "Розірвати масив RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1159
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1159
 msgid "Format/Erase RAI_D Array"
 msgstr "Створення/стирання _масиву RAID"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1160
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1160
 msgid "Erase or partition the array"
 msgstr "Розпочати виправлення RAID масиву"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1169
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1169
 msgid "Chec_k Array"
 msgstr "_Перевірити масив"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1170
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1170
 msgid "Check and repair the array"
 msgstr "Перевірити та виправити масив"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1179
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1179
 msgid "Edit Com_ponents"
 msgstr "Редагування _складових"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1180
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1180
 msgid "Create and remove components"
 msgstr "Помилка при видаленні складової"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1190
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1190
 msgid "Measure RAID array performance"
 msgstr "Виміряти швидкодію масиву RAID"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:100
+#: ../src/mate-disk/gdu-section-volumes.c:100
 msgid "Error unmounting volume"
 msgstr "Помилка при відключенні тому"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:156
+#: ../src/mate-disk/gdu-section-volumes.c:156
 msgid "Error mounting volume"
 msgstr "Помилка при підключенні тому"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:213
+#: ../src/mate-disk/gdu-section-volumes.c:213
 msgid "Error deleting partition"
 msgstr "При знищенні розділу трапилася помилка"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:248
+#: ../src/mate-disk/gdu-section-volumes.c:248
 msgid "Are you sure you want to delete the partition?"
 msgstr "Дійсно видалити пристрій?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:249
+#: ../src/mate-disk/gdu-section-volumes.c:249
 msgid "_Delete"
 msgstr "В_идалити"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:302
+#: ../src/mate-disk/gdu-section-volumes.c:302
 msgid "Error creating filesystem"
 msgstr "Помилка при видаленні файлової системи"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:355
+#: ../src/mate-disk/gdu-section-volumes.c:355
 msgid "Are you sure you want to format the volume?"
 msgstr "Дійсно форматувати том?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:413
+#: ../src/mate-disk/gdu-section-volumes.c:413
 msgid "Error modifying partition"
 msgstr "При зміні розділу виникла помилка"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:504
+#: ../src/mate-disk/gdu-section-volumes.c:504
 msgid "Are you sure you want to forget the passphrase?"
 msgstr "Дійсно забути парольну фразу?"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:505
+#: ../src/mate-disk/gdu-section-volumes.c:505
 msgid "_Forget"
 msgstr "_Забути"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:535
+#: ../src/mate-disk/gdu-section-volumes.c:535
 msgid "Error locking LUKS volume"
 msgstr "Помилка при блокуванні тому LUKS"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:658
+#: ../src/mate-disk/gdu-section-volumes.c:658
 msgid "Error unlocking LUKS volume"
 msgstr "Помилка при розблокуванні тому LUKS"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:954
+#: ../src/mate-disk/gdu-section-volumes.c:954
 msgid "Error creating partition"
 msgstr "При створенні розділу виникла помилка"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1125
+#: ../src/mate-disk/gdu-section-volumes.c:1125
 msgid "Error changing label"
 msgstr "Помилка при зміні позначку диску"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1199
+#: ../src/mate-disk/gdu-section-volumes.c:1199
 msgid "Error checking filesystem on volume"
 msgstr "Помилка при перевірці файлової системи"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1226
+#: ../src/mate-disk/gdu-section-volumes.c:1226
 #, c-format
 msgid "File system check on \"%s\" (%s) completed"
 msgstr "Перевірку файлової системи \"%s\" (%s) завершено"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1230
+#: ../src/mate-disk/gdu-section-volumes.c:1230
 msgid "File system is clean."
 msgstr "Файлова систем чиста."
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1233
+#: ../src/mate-disk/gdu-section-volumes.c:1233
 msgid "File system is <b>NOT</b> clean."
 msgstr "Файлова система <b>МІСТИТЬ</b> помилки."
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1345
+#: ../src/mate-disk/gdu-section-volumes.c:1345
 #, c-format
 msgid "Error spawning caja: %s"
 msgstr "Помилка запуску caja: %s"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1439
+#: ../src/mate-disk/gdu-section-volumes.c:1439
 msgid "Usage:"
 msgstr "Використання:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1449
+#: ../src/mate-disk/gdu-section-volumes.c:1449
 msgid "Partition Type:"
 msgstr "Тип розділу:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1453
+#: ../src/mate-disk/gdu-section-volumes.c:1453
 msgid "Partition Label:"
 msgstr "Мітка розділу:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1456
+#: ../src/mate-disk/gdu-section-volumes.c:1456
 msgid "Partition Flags:"
 msgstr "Ознаки розділу:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1464
+#: ../src/mate-disk/gdu-section-volumes.c:1464
 msgid "Type:"
 msgstr "Тип:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1467
+#: ../src/mate-disk/gdu-section-volumes.c:1467
 msgid "Available:"
 msgstr "Доступно:"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1473
+#: ../src/mate-disk/gdu-section-volumes.c:1473
 msgid "Mount Point:"
 msgstr "Точка підключення:"
 
 #. Translators: This is for the 'boot' MBR/APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:1517
+#: ../src/mate-disk/gdu-section-volumes.c:1517
 msgid "Bootable"
 msgstr "Завантажувальний"
 
 #. Translators: This is for the 'required' GPT partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:1520
+#: ../src/mate-disk/gdu-section-volumes.c:1520
 msgid "Required"
 msgstr "Обов'язковий"
 
 #. Translators: This is for the 'allocated' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:1523
+#: ../src/mate-disk/gdu-section-volumes.c:1523
 msgid "Allocated"
 msgstr "Виділено"
 
 #. Translators: This is for the 'allow_read' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:1526
+#: ../src/mate-disk/gdu-section-volumes.c:1526
 msgid "Allow Read"
 msgstr "Дозволити читання"
 
 #. Translators: This is for the 'allow_write' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:1529
+#: ../src/mate-disk/gdu-section-volumes.c:1529
 msgid "Allow Write"
 msgstr "Дозволити запис"
 
 #. Translators: This is for the 'boot_code_is_pic' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:1532
+#: ../src/mate-disk/gdu-section-volumes.c:1532
 msgid "Boot Code PIC"
 msgstr "Boot Code PIC"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1601
+#: ../src/mate-disk/gdu-section-volumes.c:1601
 msgid "Filesystem"
 msgstr "Файлова система"
 
 #. Translators: this the mount point hyperlink tooltip for a
 #. * remote server - it uses the sftp:// protocol
 #.
-#: ../src/matepalimpsest/gdu-section-volumes.c:1634
+#: ../src/mate-disk/gdu-section-volumes.c:1634
 msgid "View files on the volume using a SFTP network share"
 msgstr "Переглянути файли на томі користуючись мережним ресурсом SFTP"
 
 #. Translators: this the mount point hyperlink tooltip
-#: ../src/matepalimpsest/gdu-section-volumes.c:1641
+#: ../src/mate-disk/gdu-section-volumes.c:1641
 msgid "View files on the volume"
 msgstr "Переглянути файли на томі"
 
 #. Translators: this the the text for the mount point
 #. * item - %s is the mount point, e.g. '/media/disk'
 #.
-#: ../src/matepalimpsest/gdu-section-volumes.c:1648
+#: ../src/mate-disk/gdu-section-volumes.c:1648
 #, c-format
 msgid "Mounted at %s"
 msgstr "Підключено на %s"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1656
+#: ../src/mate-disk/gdu-section-volumes.c:1656
 msgid "Not Mounted"
 msgstr "Не підключено"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1666
+#: ../src/mate-disk/gdu-section-volumes.c:1666
 msgid "Encrypted Volume (Locked)"
 msgstr "Шифрований том (Блоковано)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1669
+#: ../src/mate-disk/gdu-section-volumes.c:1669
 msgid "Encrypted Volume (Unlocked)"
 msgstr "Шифрований том (Розблоковано)"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1682
+#: ../src/mate-disk/gdu-section-volumes.c:1682
 msgid "Go to array"
 msgstr "Перейти до масиву"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1690
+#: ../src/mate-disk/gdu-section-volumes.c:1690
 msgid "Container for Logical Partitions"
 msgstr "Контейнер для логічних розділів"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1772
+#: ../src/mate-disk/gdu-section-volumes.c:1772
 msgid "_Volumes"
 msgstr "_Томи"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1812
+#: ../src/mate-disk/gdu-section-volumes.c:1812
 msgid "_Mount Volume"
 msgstr "_Приєднати том"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1813
+#: ../src/mate-disk/gdu-section-volumes.c:1813
 msgid "Mount the volume"
 msgstr "Приєднати том"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1822
+#: ../src/mate-disk/gdu-section-volumes.c:1822
 msgid "_Unmount Volume"
 msgstr "_Від'єднати том"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1823
+#: ../src/mate-disk/gdu-section-volumes.c:1823
 msgid "Unmount the volume"
 msgstr "Від'єднати том"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1832
+#: ../src/mate-disk/gdu-section-volumes.c:1832
 msgid "Fo_rmat Volume"
 msgstr "_Форматувати том"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1833
+#: ../src/mate-disk/gdu-section-volumes.c:1833
 msgid "Erase or format the volume"
 msgstr "Стерти або форматувати том"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1842
+#: ../src/mate-disk/gdu-section-volumes.c:1842
 msgid "_Check Filesystem"
 msgstr "_Перевірити файлову систему"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1843
+#: ../src/mate-disk/gdu-section-volumes.c:1843
 msgid "Check and repair the filesystem"
 msgstr "Перевірити та віновити файлову систему"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1853
+#: ../src/mate-disk/gdu-section-volumes.c:1853
 msgid "Edit _Label"
 msgstr "Змінити _мітку"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1854
+#: ../src/mate-disk/gdu-section-volumes.c:1854
 msgid "Change the label of the volume"
 msgstr "Змінити мітку тому"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1863
+#: ../src/mate-disk/gdu-section-volumes.c:1863
 msgid "Ed_it Partition"
 msgstr "_Редагувати розділ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1864
+#: ../src/mate-disk/gdu-section-volumes.c:1864
 msgid "Change partition type, label and flags"
 msgstr "Змінити тип розділу, позначку або ознаки"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1873
+#: ../src/mate-disk/gdu-section-volumes.c:1873
 msgid "D_elete Partition"
 msgstr "В_идалити розділ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1874
+#: ../src/mate-disk/gdu-section-volumes.c:1874
 msgid "Delete the partition"
 msgstr "Видалити розділ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1883
+#: ../src/mate-disk/gdu-section-volumes.c:1883
 msgid "_Create Partition"
 msgstr "_Створити розділ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1884
+#: ../src/mate-disk/gdu-section-volumes.c:1884
 msgid "Create a new partition"
 msgstr "Створити новий розділ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1893
+#: ../src/mate-disk/gdu-section-volumes.c:1893
 msgid "_Lock Volume"
 msgstr "_Блокувати том"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1894
+#: ../src/mate-disk/gdu-section-volumes.c:1894
 msgid "Make encrypted data unavailable"
 msgstr "Зробити шифровані дані недоступними"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1903
+#: ../src/mate-disk/gdu-section-volumes.c:1903
 msgid "_Unlock Volume"
 msgstr "_Розблокувати том"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1904
+#: ../src/mate-disk/gdu-section-volumes.c:1904
 msgid "Make encrypted data available"
 msgstr "Зробити шифровані дані доступними"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1913
+#: ../src/mate-disk/gdu-section-volumes.c:1913
 msgid "Forge_t Passphrase"
 msgstr "_Забути пароль"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1914
+#: ../src/mate-disk/gdu-section-volumes.c:1914
 msgid "Delete passphrase from keyring"
 msgstr "Видалити пароль з в'язки ключів"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1925
+#: ../src/mate-disk/gdu-section-volumes.c:1925
 msgid "Change passphrase"
 msgstr "Змінити пароль"
 
 #. Translators: Window title when the item representing a remote machine is selected.
 #. * First %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:285
+#: ../src/mate-disk/gdu-shell.c:285
 #, c-format
 msgid "%s — Disk Utility"
 msgstr "%s — дискова утиліта"
@@ -4920,7 +4920,7 @@ msgstr "%s — дискова утиліта"
 #. * Third is the device file (e.g. '/dev/sda')
 #. * Fourth %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:295
+#: ../src/mate-disk/gdu-shell.c:295
 #, c-format
 msgid "%s (%s) [%s] @ %s — Disk Utility"
 msgstr "%s (%s) [%s] @ %s — дискова утиліта"
@@ -4930,7 +4930,7 @@ msgstr "%s (%s) [%s] @ %s — дискова утиліта"
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #. * Third %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:306
+#: ../src/mate-disk/gdu-shell.c:306
 #, c-format
 msgid "%s (%s) @ %s — Disk Utility"
 msgstr "%s (%s) @ %s — дискова утиліта"
@@ -4940,7 +4940,7 @@ msgstr "%s (%s) @ %s — дискова утиліта"
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #. * Third is the device file (e.g. '/dev/sda')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:324
+#: ../src/mate-disk/gdu-shell.c:324
 #, c-format
 msgid "%s (%s) [%s] — Disk Utility"
 msgstr "%s (%s) [%s] — дискова утиліта"
@@ -4949,123 +4949,123 @@ msgstr "%s (%s) [%s] — дискова утиліта"
 #. * First %s is the name of the item (e.g. '80 GB Solid-State Disk' or 'Saturn').
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #.
-#: ../src/matepalimpsest/gdu-shell.c:333
+#: ../src/mate-disk/gdu-shell.c:333
 #, c-format
 msgid "%s (%s) — Disk Utility"
 msgstr "%s (%s) — дискова утиліта"
 
-#: ../src/matepalimpsest/gdu-shell.c:589
+#: ../src/mate-disk/gdu-shell.c:589
 msgid "Error creating component for RAID array"
 msgstr "Помилка при створенні компоненту для масиву RAID"
 
-#: ../src/matepalimpsest/gdu-shell.c:622
+#: ../src/mate-disk/gdu-shell.c:622
 msgid "Error creating partition table for component for RAID array"
 msgstr "Помилка при створенні таблиці розділів для компонентів масиву RAID"
 
-#: ../src/matepalimpsest/gdu-shell.c:648
+#: ../src/mate-disk/gdu-shell.c:648
 msgid "Error creating RAID array"
 msgstr "Помилка при створенні масиву RAID"
 
-#: ../src/matepalimpsest/gdu-shell.c:843
+#: ../src/mate-disk/gdu-shell.c:843
 #, c-format
 msgid "Error connecting to “%s”"
 msgstr "Помилка при з'єднанні з “%s”"
 
-#: ../src/matepalimpsest/gdu-shell.c:896
+#: ../src/mate-disk/gdu-shell.c:896
 msgid "translator-credits"
 msgstr ""
 "wanderlust <wanderlust@ukr.net>\n"
 "Максим Дзюманенко"
 
-#: ../src/matepalimpsest/gdu-shell.c:921
+#: ../src/mate-disk/gdu-shell.c:921
 msgid "_File"
 msgstr "_Файл"
 
-#: ../src/matepalimpsest/gdu-shell.c:922
+#: ../src/mate-disk/gdu-shell.c:922
 msgid "Connect to _Server..."
 msgstr "З'яєдання з _сервером..."
 
-#: ../src/matepalimpsest/gdu-shell.c:922
+#: ../src/mate-disk/gdu-shell.c:922
 msgid "Manage storage devices on another machine"
 msgstr "Керування пристроями зберігання на іншому комп'ютері"
 
-#: ../src/matepalimpsest/gdu-shell.c:923
+#: ../src/mate-disk/gdu-shell.c:923
 msgid "_Create"
 msgstr "_Створити"
 
-#: ../src/matepalimpsest/gdu-shell.c:924
+#: ../src/mate-disk/gdu-shell.c:924
 msgid "_RAID Array..."
 msgstr "_Масив RAID..."
 
-#: ../src/matepalimpsest/gdu-shell.c:924
+#: ../src/mate-disk/gdu-shell.c:924
 msgid "Create a RAID array"
 msgstr "Створення масиву RAID"
 
-#: ../src/matepalimpsest/gdu-shell.c:925
+#: ../src/mate-disk/gdu-shell.c:925
 msgid "_Edit"
 msgstr "_Правка"
 
-#: ../src/matepalimpsest/gdu-shell.c:926 ../src/matepalimpsest/gdu-shell.c:929
+#: ../src/mate-disk/gdu-shell.c:926 ../src/mate-disk/gdu-shell.c:929
 msgid "_Help"
 msgstr "_Довідка"
 
-#: ../src/matepalimpsest/gdu-shell.c:928
+#: ../src/mate-disk/gdu-shell.c:928
 msgid "_Quit"
 msgstr "Ви_йти"
 
-#: ../src/matepalimpsest/gdu-shell.c:928
+#: ../src/mate-disk/gdu-shell.c:928
 msgid "Quit"
 msgstr "Вийти"
 
-#: ../src/matepalimpsest/gdu-shell.c:929
+#: ../src/mate-disk/gdu-shell.c:929
 msgid "Get Help on Disk Utility"
 msgstr "Отримати довідку про дискову утиліту"
 
-#: ../src/matepalimpsest/gdu-shell.c:930
+#: ../src/mate-disk/gdu-shell.c:930
 msgid "_About"
 msgstr "_Про програму"
 
-#: ../src/matepalimpsest/gdu-shell.c:1009
+#: ../src/mate-disk/gdu-shell.c:1009
 msgid "An error occured"
 msgstr "Виникла помилка"
 
-#: ../src/matepalimpsest/gdu-shell.c:1018
+#: ../src/mate-disk/gdu-shell.c:1018
 msgid "The operation failed."
 msgstr "Операція зазнала невдачі."
 
-#: ../src/matepalimpsest/gdu-shell.c:1021
+#: ../src/mate-disk/gdu-shell.c:1021
 msgid "The device is busy."
 msgstr "Пристрій зайнятий."
 
-#: ../src/matepalimpsest/gdu-shell.c:1024
+#: ../src/mate-disk/gdu-shell.c:1024
 msgid "The operation was canceled."
 msgstr "Операцію скасовано."
 
-#: ../src/matepalimpsest/gdu-shell.c:1027
+#: ../src/mate-disk/gdu-shell.c:1027
 msgid "The daemon is being inhibited."
 msgstr "Роботу демона заборонено."
 
-#: ../src/matepalimpsest/gdu-shell.c:1030
+#: ../src/mate-disk/gdu-shell.c:1030
 msgid "An invalid option was passed."
 msgstr "Передано неправильний параметр."
 
-#: ../src/matepalimpsest/gdu-shell.c:1033
+#: ../src/mate-disk/gdu-shell.c:1033
 msgid "The operation is not supported."
 msgstr "Операція не підтримується."
 
-#: ../src/matepalimpsest/gdu-shell.c:1036
+#: ../src/mate-disk/gdu-shell.c:1036
 msgid "Getting ATA SMART data would wake up the device."
 msgstr "Отримання даних ATA SMART виведе пристрій з сплячого режиму."
 
-#: ../src/matepalimpsest/gdu-shell.c:1039
+#: ../src/mate-disk/gdu-shell.c:1039
 msgid "Permission denied."
 msgstr "Доступ заборонено."
 
-#: ../src/matepalimpsest/gdu-shell.c:1078
+#: ../src/mate-disk/gdu-shell.c:1078
 msgid "_Details:"
 msgstr "_Докладніше:"
 
-#: ../src/matepalimpsest/gdu-shell.c:1247
+#: ../src/mate-disk/gdu-shell.c:1247
 msgid "_Storage Devices"
 msgstr "_Пристрої накопичення"
 

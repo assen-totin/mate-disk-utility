@@ -20,13 +20,13 @@ msgstr ""
 #.
 #. Translators: Window title when the item representing the local machine is selected.
 #.
-#: ../data/matepalimpsest.desktop.in.h:1 ../src/matepalimpsest/gdu-shell.c:264
-#: ../src/matepalimpsest/gdu-shell.c:316 ../src/matepalimpsest/gdu-shell.c:891
-#: ../src/matepalimpsest/gdu-shell.c:1198
+#: ../data/mate-disk.desktop.in.h:1 ../src/mate-disk/gdu-shell.c:264
+#: ../src/mate-disk/gdu-shell.c:316 ../src/mate-disk/gdu-shell.c:891
+#: ../src/mate-disk/gdu-shell.c:1198
 msgid "Disk Utility"
 msgstr "Tiện ích đĩa"
 
-#: ../data/matepalimpsest.desktop.in.h:2
+#: ../data/mate-disk.desktop.in.h:2
 msgid "Manage Drives and Media"
 msgstr "Quản lý đĩa và các loại vật chứa"
 
@@ -70,8 +70,8 @@ msgstr "Lỗi chạy Tiện ích Đĩa"
 msgid "Device to format"
 msgstr "Địa cần định dạng"
 
-#: ../src/format-tool/gdu-format-tool.c:130 ../src/matepalimpsest/gdu-main.c:127
-#: ../src/matepalimpsest/gdu-main.c:128
+#: ../src/format-tool/gdu-format-tool.c:130 ../src/mate-disk/gdu-main.c:127
+#: ../src/mate-disk/gdu-main.c:128
 msgid "DEVICE"
 msgstr "THIẾT BỊ"
 
@@ -1655,8 +1655,8 @@ msgstr ""
 
 #. TODO: better icon
 #: ../src/gdu-gtk/gdu-drive-benchmark-dialog.c:594
-#: ../src/matepalimpsest/gdu-section-drive.c:762
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1189
+#: ../src/mate-disk/gdu-section-drive.c:762
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1189
 msgid "_Benchmark"
 msgstr ""
 
@@ -1754,7 +1754,7 @@ msgid "Edit Filesystem on %s"
 msgstr ""
 
 #: ../src/gdu-gtk/gdu-edit-filesystem-dialog.c:186
-#: ../src/matepalimpsest/gdu-section-volumes.c:1470
+#: ../src/mate-disk/gdu-section-volumes.c:1470
 msgid "Label:"
 msgstr ""
 
@@ -1780,7 +1780,7 @@ msgid "State"
 msgstr ""
 
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:444
-#: ../src/matepalimpsest/gdu-section-drive.c:693
+#: ../src/mate-disk/gdu-section-drive.c:693
 msgid "SMART Status:"
 msgstr ""
 
@@ -1789,13 +1789,13 @@ msgid "Position:"
 msgstr ""
 
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:452
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1096
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1096
 msgid "State:"
 msgstr ""
 
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:456
-#: ../src/matepalimpsest/gdu-section-drive.c:669
-#: ../src/matepalimpsest/gdu-section-volumes.c:1446
+#: ../src/mate-disk/gdu-section-drive.c:669
+#: ../src/mate-disk/gdu-section-volumes.c:1446
 msgid "Device:"
 msgstr ""
 
@@ -1826,7 +1826,7 @@ msgstr ""
 #. Translators: Used when SMART is not supported on the RAID component
 #. Translators: This string is used when SMART is not supported
 #: ../src/gdu-gtk/gdu-edit-linux-md-dialog.c:826
-#: ../src/matepalimpsest/gdu-section-drive.c:300
+#: ../src/mate-disk/gdu-section-drive.c:300
 msgid "Not Supported"
 msgstr ""
 
@@ -1898,7 +1898,7 @@ msgstr ""
 msgid "Filesystem tools not installed"
 msgstr ""
 
-#: ../src/gdu-gtk/gdu-error-dialog.c:249 ../src/matepalimpsest/gdu-shell.c:1042
+#: ../src/gdu-gtk/gdu-error-dialog.c:249 ../src/mate-disk/gdu-shell.c:1042
 msgid "Unknown error"
 msgstr ""
 
@@ -1971,8 +1971,8 @@ msgstr ""
 #. Translators: Format is used as a verb here
 #: ../src/gdu-gtk/gdu-format-dialog.c:238
 #: ../src/gdu-gtk/gdu-partition-dialog.c:216
-#: ../src/matepalimpsest/gdu-section-drive.c:588
-#: ../src/matepalimpsest/gdu-section-volumes.c:356
+#: ../src/mate-disk/gdu-section-drive.c:588
+#: ../src/mate-disk/gdu-section-volumes.c:356
 msgid "_Format"
 msgstr ""
 
@@ -2143,7 +2143,7 @@ msgstr "Mật mã không thể không có gì"
 msgid "Cr_eate"
 msgstr "_Tạo"
 
-#: ../src/gdu-gtk/gdu-gtk.c:583 ../src/matepalimpsest/gdu-section-volumes.c:1924
+#: ../src/gdu-gtk/gdu-gtk.c:583 ../src/mate-disk/gdu-section-volumes.c:1924
 msgid "Change _Passphrase"
 msgstr "Đổi _mật mã"
 
@@ -2233,16 +2233,16 @@ msgstr "Trống"
 msgid "Extended Partition"
 msgstr "Phân vùng mở rộng"
 
-#: ../src/gdu-gtk/gdu-gtk.c:1530 ../src/matepalimpsest/gdu-section-drive.c:262
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:353
+#: ../src/gdu-gtk/gdu-gtk.c:1530 ../src/mate-disk/gdu-section-drive.c:262
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:353
 msgid "Master Boot Record"
 msgstr "Bản ghi khởi động chính (MBR)"
 
 #. Translators: This string is used for conveying the partition table format
 #: ../src/gdu-gtk/gdu-gtk.c:1535 ../src/gdu/gdu-drive.c:811
 #: ../src/gdu/gdu-linux-md-drive.c:568
-#: ../src/matepalimpsest/gdu-section-drive.c:264
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:355
+#: ../src/mate-disk/gdu-section-drive.c:264
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:355
 msgid "GUID Partition Table"
 msgstr "Bảng phân vùng GUID"
 
@@ -2251,8 +2251,8 @@ msgid "Don't partition"
 msgstr "Không phân vùng"
 
 #: ../src/gdu-gtk/gdu-gtk.c:1545 ../src/gdu/gdu-util.c:492
-#: ../src/matepalimpsest/gdu-section-drive.c:260
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:351
+#: ../src/mate-disk/gdu-section-drive.c:260
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:351
 msgid "Apple Partition Map"
 msgstr "Bảng phân vùng Apple"
 
@@ -2307,7 +2307,7 @@ msgid_plural "%d hours ago"
 msgstr[0] "%d giờ trước"
 
 #: ../src/gdu-gtk/gdu-volume-grid.c:498
-#: ../src/matepalimpsest/gdu-section-drive.c:634
+#: ../src/mate-disk/gdu-section-drive.c:634
 msgid "Drive"
 msgstr "Ổ đĩa"
 
@@ -2325,7 +2325,7 @@ msgstr "Mảng RAID chưa chạy"
 #. * been detected for a drive
 #.
 #: ../src/gdu-gtk/gdu-volume-grid.c:1184 ../src/gdu/gdu-drive.c:797
-#: ../src/matepalimpsest/gdu-section-drive.c:314
+#: ../src/mate-disk/gdu-section-drive.c:314
 #, c-format
 msgid "No Media Detected"
 msgstr "Không tìm ra vật chứa"
@@ -2498,8 +2498,8 @@ msgstr "Đã phân vùng"
 
 #. Translators: This string is used for conveying a device is not partitioned.
 #.
-#: ../src/gdu/gdu-drive.c:824 ../src/matepalimpsest/gdu-section-drive.c:273
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:364
+#: ../src/gdu/gdu-drive.c:824 ../src/mate-disk/gdu-section-drive.c:273
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:364
 msgid "Not Partitioned"
 msgstr "Chưa phân vùng"
 
@@ -2566,7 +2566,7 @@ msgid "RAID"
 msgstr "RAID"
 
 #: ../src/gdu/gdu-linux-md-drive.c:614
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1066
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1066
 msgid "RAID Array"
 msgstr "Mảng RAID"
 
@@ -2894,7 +2894,7 @@ msgstr ""
 msgid "udf"
 msgstr "udf"
 
-#: ../src/gdu/gdu-util.c:320 ../src/matepalimpsest/gdu-section-volumes.c:1677
+#: ../src/gdu/gdu-util.c:320 ../src/mate-disk/gdu-section-volumes.c:1677
 msgid "Swap Space"
 msgstr "Vùng tráo đổi"
 
@@ -2923,7 +2923,7 @@ msgstr "lvm2_pv"
 msgid "RAID Component (version %s)"
 msgstr ""
 
-#: ../src/gdu/gdu-util.c:341 ../src/matepalimpsest/gdu-section-volumes.c:1681
+#: ../src/gdu/gdu-util.c:341 ../src/mate-disk/gdu-section-volumes.c:1681
 #, c-format
 msgid "RAID Component"
 msgstr ""
@@ -3554,12 +3554,12 @@ msgid "PATA"
 msgstr "PATA"
 
 #. Translators: interface name for ATA disks
-#: ../src/gdu/gdu-util.c:884 ../src/matepalimpsest/gdu-section-hub.c:136
+#: ../src/gdu/gdu-util.c:884 ../src/mate-disk/gdu-section-hub.c:136
 msgid "ATA"
 msgstr "ATA"
 
 #. Translators: interface name for SCSI disks
-#: ../src/gdu/gdu-util.c:887 ../src/matepalimpsest/gdu-section-hub.c:140
+#: ../src/gdu/gdu-util.c:887 ../src/mate-disk/gdu-section-hub.c:140
 msgid "SCSI"
 msgstr "SCSI"
 
@@ -4052,7 +4052,7 @@ msgid "%s Free"
 msgstr ""
 
 #: ../src/gdu/gdu-volume-hole.c:160
-#: ../src/matepalimpsest/gdu-section-volumes.c:1695
+#: ../src/mate-disk/gdu-section-volumes.c:1695
 msgid "Unallocated Space"
 msgstr "Vùng chưa cấp phát"
 
@@ -4090,11 +4090,11 @@ msgid ""
 "information."
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-main.c:127
+#: ../src/mate-disk/gdu-main.c:127
 msgid "Volume to show"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-main.c:128
+#: ../src/mate-disk/gdu-main.c:128
 msgid "Drive to show"
 msgstr ""
 
@@ -4103,7 +4103,7 @@ msgstr ""
 #. * PHY number (starts at 1) and the %s is the Adapter/Expander
 #. * name (e.g. "SAS Host Adapter").
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:167
+#: ../src/mate-disk/gdu-section-drive.c:167
 #, c-format
 msgid "PHY %d of %s"
 msgstr ""
@@ -4113,17 +4113,17 @@ msgstr ""
 #. * PHY number (starts at 1) and the %s is the Adapter/Expander
 #. * name (e.g. "SATA Host Adapter").
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:174
+#: ../src/mate-disk/gdu-section-drive.c:174
 #, c-format
 msgid "Port %d of %s"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:232
+#: ../src/mate-disk/gdu-section-drive.c:232
 msgctxt "Write Cache"
 msgid "Enabled"
 msgstr "Bật"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:234
+#: ../src/mate-disk/gdu-section-drive.c:234
 msgctxt "Write Cache"
 msgid "Disabled"
 msgstr "Tắt"
@@ -4131,241 +4131,241 @@ msgstr "Tắt"
 #. Translators: This is for the rotation rate of a hard
 #. * disk - RPM means rounds per minute
 #.
-#: ../src/matepalimpsest/gdu-section-drive.c:244
+#: ../src/mate-disk/gdu-section-drive.c:244
 #, c-format
 msgctxt "Rotation Rate"
 msgid "%d RPM"
 msgstr "%d RPM"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:252
+#: ../src/mate-disk/gdu-section-drive.c:252
 msgctxt "Rotation Rate"
 msgid "Solid-State Disk"
 msgstr ""
 
 #. Translators: 'scheme' refers to a partition table format here, like 'mbr' or 'gpt'
-#: ../src/matepalimpsest/gdu-section-drive.c:267
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:358
+#: ../src/mate-disk/gdu-section-drive.c:267
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:358
 #, c-format
 msgid "Unknown Scheme: %s"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:378
-#: ../src/matepalimpsest/gdu-section-drive.c:398
+#: ../src/mate-disk/gdu-section-drive.c:378
+#: ../src/mate-disk/gdu-section-drive.c:398
 msgid "Error launching Brasero"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:379
+#: ../src/mate-disk/gdu-section-drive.c:379
 msgid "The application is not installed"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:460
+#: ../src/mate-disk/gdu-section-drive.c:460
 msgid "Error ejecting media"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:504
+#: ../src/mate-disk/gdu-section-drive.c:504
 msgid "Error detaching drive"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:549
+#: ../src/mate-disk/gdu-section-drive.c:549
 msgid "Error formatting drive"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:587
+#: ../src/mate-disk/gdu-section-drive.c:587
 msgid "Are you sure you want to format the drive?"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:648
-#: ../src/matepalimpsest/gdu-section-hub.c:221
+#: ../src/mate-disk/gdu-section-drive.c:648
+#: ../src/mate-disk/gdu-section-hub.c:221
 msgid "Model:"
 msgstr "Kiểu:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:652
+#: ../src/mate-disk/gdu-section-drive.c:652
 msgid "Serial Number:"
 msgstr "Số sê-ri:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:656
+#: ../src/mate-disk/gdu-section-drive.c:656
 msgid "Firmware Version:"
 msgstr "Phiên bản firmware:"
 
 #. Translators: if you translate "World Wide Name", please include the abbreviation "WWN"
-#: ../src/matepalimpsest/gdu-section-drive.c:661
+#: ../src/mate-disk/gdu-section-drive.c:661
 msgid "World Wide Name:"
 msgstr "Tên toàn cầu:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:665
+#: ../src/mate-disk/gdu-section-drive.c:665
 msgid "Location:"
 msgstr "Vị trí:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:673
+#: ../src/mate-disk/gdu-section-drive.c:673
 msgid "Write Cache:"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:677
+#: ../src/mate-disk/gdu-section-drive.c:677
 msgid "Rotation Rate:"
 msgstr "Tốc độ xoay:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:681
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1100
-#: ../src/matepalimpsest/gdu-section-volumes.c:1460
+#: ../src/mate-disk/gdu-section-drive.c:681
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1100
+#: ../src/mate-disk/gdu-section-volumes.c:1460
 msgid "Capacity:"
 msgstr "Dung tích:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:685
+#: ../src/mate-disk/gdu-section-drive.c:685
 msgid "Connection:"
 msgstr "Kết nối:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:689
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1092
+#: ../src/mate-disk/gdu-section-drive.c:689
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1092
 msgid "Partitioning:"
 msgstr "Phân vùng:"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:712
+#: ../src/mate-disk/gdu-section-drive.c:712
 msgid "Open CD/_DVD Application"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:713
+#: ../src/mate-disk/gdu-section-drive.c:713
 msgid "Create and copy CDs and DVDs"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:722
+#: ../src/mate-disk/gdu-section-drive.c:722
 msgid "Format _Drive"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:723
+#: ../src/mate-disk/gdu-section-drive.c:723
 msgid "Erase or partition the drive"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:732
+#: ../src/mate-disk/gdu-section-drive.c:732
 msgid "SM_ART Data"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:733
+#: ../src/mate-disk/gdu-section-drive.c:733
 msgid "View SMART data and run self-tests"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:742
+#: ../src/mate-disk/gdu-section-drive.c:742
 msgid "_Eject"
 msgstr "Đẩ_y ra"
 
-#: ../src/matepalimpsest/gdu-section-drive.c:743
+#: ../src/mate-disk/gdu-section-drive.c:743
 msgid "Eject media from the drive"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:752
+#: ../src/mate-disk/gdu-section-drive.c:752
 msgid "Safe Rem_oval"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:753
+#: ../src/mate-disk/gdu-section-drive.c:753
 msgid "Power down the drive so it can be removed"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-drive.c:763
+#: ../src/mate-disk/gdu-section-drive.c:763
 msgid "Measure drive performance"
 msgstr ""
 
 #. Translators: Used for SAS to convey the number of PHYs in the
 #. * "Number of Ports" element. You should probably not translate PHY.
 #.
-#: ../src/matepalimpsest/gdu-section-hub.c:117
-#: ../src/matepalimpsest/gdu-section-hub.c:156
+#: ../src/mate-disk/gdu-section-hub.c:117
+#: ../src/mate-disk/gdu-section-hub.c:156
 #, c-format
 msgid "%d PHYs"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-hub.c:132
+#: ../src/mate-disk/gdu-section-hub.c:132
 msgid "Parallel ATA"
 msgstr "Parallel ATA"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:134
+#: ../src/mate-disk/gdu-section-hub.c:134
 msgid "Serial ATA"
 msgstr "Serial ATA"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:138
+#: ../src/mate-disk/gdu-section-hub.c:138
 msgid "Serial Attached SCSI"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-hub.c:217
+#: ../src/mate-disk/gdu-section-hub.c:217
 msgid "Vendor:"
 msgstr "Nhà sản xuất:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:225
+#: ../src/mate-disk/gdu-section-hub.c:225
 msgid "Revision:"
 msgstr "Bản sửa đổi:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:229
+#: ../src/mate-disk/gdu-section-hub.c:229
 msgid "Driver:"
 msgstr "Trình điều khiển:"
 
-#: ../src/matepalimpsest/gdu-section-hub.c:233
+#: ../src/mate-disk/gdu-section-hub.c:233
 msgid "Fabric:"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-hub.c:237
+#: ../src/mate-disk/gdu-section-hub.c:237
 msgid "Number of Ports:"
 msgstr "Số cổng:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:86
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:86
 msgctxt "RAID status"
 msgid "Not running, partially assembled"
 msgstr "Không chạy, ráp một phần"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:94
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:94
 msgctxt "RAID status"
 msgid "Not running"
 msgstr "Không chạy"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:96
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:96
 msgctxt "RAID status"
 msgid "Not running, can only start degraded"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:98
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:98
 msgctxt "RAID status"
 msgid "Not running, not enough components to start"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:116
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:116
 msgctxt "RAID status"
 msgid "DEGRADED"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:118
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:118
 msgctxt "RAID status"
 msgid "Running"
 msgstr "Đang chạy"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:126
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:126
 msgctxt "RAID action"
 msgid "Reshaping"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:128
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:128
 msgctxt "RAID action"
 msgid "Resyncing"
 msgstr "Đang đồng bộ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:130
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:130
 msgctxt "RAID action"
 msgid "Repairing"
 msgstr "Đang sửa"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:132
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:132
 msgctxt "RAID action"
 msgid "Recovering"
 msgstr "Đang phục hồi"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:134
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:134
 msgctxt "RAID action"
 msgid "Checking"
 msgstr "Đang kiểm tra"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:139
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:139
 msgctxt "RAID action"
 msgid "Idle"
 msgstr "Rảnh"
 
 #. Translators: The text for the hyperlink of the component
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:241
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:241
 msgid "Go to volume"
 msgstr ""
 
@@ -4374,7 +4374,7 @@ msgstr ""
 #. * Second %s is the state of the component.
 #. * Third %s is the "Go to volume" link.
 #.
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:251
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:251
 #, c-format
 msgctxt "RAID component label"
 msgid "%s (%s) – %s"
@@ -4384,416 +4384,416 @@ msgstr ""
 #. * First %s is the VPD name.
 #. * Second %s is the "Go to volume" link.
 #.
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:260
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:260
 #, c-format
 msgctxt "RAID component label"
 msgid "%s – %s"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:415
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:415
 msgid "Error stopping RAID Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:460
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:460
 msgid "Error starting RAID Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:490
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:493
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:490
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:493
 #, c-format
 msgid "Not enough components available to start the RAID Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:509
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:509
 msgid "Are you sure you want the RAID Array degraded?"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:510
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:510
 msgid "_Start"
 msgstr "_Chạy"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:555
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:555
 msgid "Error deleting partition for component in RAID Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:578
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:578
 msgid "Error removing component from RAID Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:629
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:629
 msgid "Are you sure you want the remove the component?"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:630
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:630
 msgid "_Remove"
 msgstr "_Gỡ"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:666
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:739
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:666
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:739
 msgid "Error adding component to RAID Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:762
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:762
 msgid "Error creating partition for RAID component"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:797
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:797
 msgid "Error creating partition table for RAID component"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1004
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1004
 msgid "Error checking RAID Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1080
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1080
 msgid "Level:"
 msgstr "Mức:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1084
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1084
 msgid "Metadata Version:"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1088
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1088
 msgid "Name:"
 msgstr "Tên:"
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1104
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1104
 msgid "Action:"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1108
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1108
 msgid "Active Components:"
 msgstr ""
 
 #. Ensure this is in the last row and the first column
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1113
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1113
 msgid "Components:"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1139
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1139
 msgid "St_art RAID Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1140
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1140
 msgid "Bring up the RAID Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1149
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1149
 msgid "St_op RAID Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1150
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1150
 msgid "Tear down the RAID Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1159
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1159
 msgid "Format/Erase RAI_D Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1160
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1160
 msgid "Erase or partition the array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1169
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1169
 msgid "Chec_k Array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1170
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1170
 msgid "Check and repair the array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1179
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1179
 msgid "Edit Com_ponents"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1180
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1180
 msgid "Create and remove components"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-linux-md-drive.c:1190
+#: ../src/mate-disk/gdu-section-linux-md-drive.c:1190
 msgid "Measure RAID array performance"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:100
+#: ../src/mate-disk/gdu-section-volumes.c:100
 msgid "Error unmounting volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:156
+#: ../src/mate-disk/gdu-section-volumes.c:156
 msgid "Error mounting volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:213
+#: ../src/mate-disk/gdu-section-volumes.c:213
 msgid "Error deleting partition"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:248
+#: ../src/mate-disk/gdu-section-volumes.c:248
 msgid "Are you sure you want to delete the partition?"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:249
+#: ../src/mate-disk/gdu-section-volumes.c:249
 msgid "_Delete"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:302
+#: ../src/mate-disk/gdu-section-volumes.c:302
 msgid "Error creating filesystem"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:355
+#: ../src/mate-disk/gdu-section-volumes.c:355
 msgid "Are you sure you want to format the volume?"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:413
+#: ../src/mate-disk/gdu-section-volumes.c:413
 msgid "Error modifying partition"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:504
+#: ../src/mate-disk/gdu-section-volumes.c:504
 msgid "Are you sure you want to forget the passphrase?"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:505
+#: ../src/mate-disk/gdu-section-volumes.c:505
 msgid "_Forget"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:535
+#: ../src/mate-disk/gdu-section-volumes.c:535
 msgid "Error locking LUKS volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:658
+#: ../src/mate-disk/gdu-section-volumes.c:658
 msgid "Error unlocking LUKS volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:954
+#: ../src/mate-disk/gdu-section-volumes.c:954
 msgid "Error creating partition"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1125
+#: ../src/mate-disk/gdu-section-volumes.c:1125
 msgid "Error changing label"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1199
+#: ../src/mate-disk/gdu-section-volumes.c:1199
 msgid "Error checking filesystem on volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1226
+#: ../src/mate-disk/gdu-section-volumes.c:1226
 #, c-format
 msgid "File system check on \"%s\" (%s) completed"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1230
+#: ../src/mate-disk/gdu-section-volumes.c:1230
 msgid "File system is clean."
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1233
+#: ../src/mate-disk/gdu-section-volumes.c:1233
 msgid "File system is <b>NOT</b> clean."
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1345
+#: ../src/mate-disk/gdu-section-volumes.c:1345
 #, c-format
 msgid "Error spawning caja: %s"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1439
+#: ../src/mate-disk/gdu-section-volumes.c:1439
 msgid "Usage:"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1449
+#: ../src/mate-disk/gdu-section-volumes.c:1449
 msgid "Partition Type:"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1453
+#: ../src/mate-disk/gdu-section-volumes.c:1453
 msgid "Partition Label:"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1456
+#: ../src/mate-disk/gdu-section-volumes.c:1456
 msgid "Partition Flags:"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1464
+#: ../src/mate-disk/gdu-section-volumes.c:1464
 msgid "Type:"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1467
+#: ../src/mate-disk/gdu-section-volumes.c:1467
 msgid "Available:"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1473
+#: ../src/mate-disk/gdu-section-volumes.c:1473
 msgid "Mount Point:"
 msgstr "Điểm gắn kết:"
 
 #. Translators: This is for the 'boot' MBR/APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:1517
+#: ../src/mate-disk/gdu-section-volumes.c:1517
 msgid "Bootable"
 msgstr "Có thể khởi động"
 
 #. Translators: This is for the 'required' GPT partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:1520
+#: ../src/mate-disk/gdu-section-volumes.c:1520
 msgid "Required"
 msgstr "Cần thiết"
 
 #. Translators: This is for the 'allocated' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:1523
+#: ../src/mate-disk/gdu-section-volumes.c:1523
 msgid "Allocated"
 msgstr "Đã cấp phát"
 
 #. Translators: This is for the 'allow_read' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:1526
+#: ../src/mate-disk/gdu-section-volumes.c:1526
 msgid "Allow Read"
 msgstr "Cho đọc"
 
 #. Translators: This is for the 'allow_write' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:1529
+#: ../src/mate-disk/gdu-section-volumes.c:1529
 msgid "Allow Write"
 msgstr "Cho ghi"
 
 #. Translators: This is for the 'boot_code_is_pic' APM partition flag
-#: ../src/matepalimpsest/gdu-section-volumes.c:1532
+#: ../src/mate-disk/gdu-section-volumes.c:1532
 msgid "Boot Code PIC"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1601
+#: ../src/mate-disk/gdu-section-volumes.c:1601
 msgid "Filesystem"
 msgstr "Hệ tập tin"
 
 #. Translators: this the mount point hyperlink tooltip for a
 #. * remote server - it uses the sftp:// protocol
 #.
-#: ../src/matepalimpsest/gdu-section-volumes.c:1634
+#: ../src/mate-disk/gdu-section-volumes.c:1634
 msgid "View files on the volume using a SFTP network share"
 msgstr ""
 
 #. Translators: this the mount point hyperlink tooltip
-#: ../src/matepalimpsest/gdu-section-volumes.c:1641
+#: ../src/mate-disk/gdu-section-volumes.c:1641
 msgid "View files on the volume"
 msgstr ""
 
 #. Translators: this the the text for the mount point
 #. * item - %s is the mount point, e.g. '/media/disk'
 #.
-#: ../src/matepalimpsest/gdu-section-volumes.c:1648
+#: ../src/mate-disk/gdu-section-volumes.c:1648
 #, c-format
 msgid "Mounted at %s"
 msgstr "Gắn vào %s"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1656
+#: ../src/mate-disk/gdu-section-volumes.c:1656
 msgid "Not Mounted"
 msgstr "Chưa gắn"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1666
+#: ../src/mate-disk/gdu-section-volumes.c:1666
 msgid "Encrypted Volume (Locked)"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1669
+#: ../src/mate-disk/gdu-section-volumes.c:1669
 msgid "Encrypted Volume (Unlocked)"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1682
+#: ../src/mate-disk/gdu-section-volumes.c:1682
 msgid "Go to array"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1690
+#: ../src/mate-disk/gdu-section-volumes.c:1690
 msgid "Container for Logical Partitions"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1772
+#: ../src/mate-disk/gdu-section-volumes.c:1772
 msgid "_Volumes"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1812
+#: ../src/mate-disk/gdu-section-volumes.c:1812
 msgid "_Mount Volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1813
+#: ../src/mate-disk/gdu-section-volumes.c:1813
 msgid "Mount the volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1822
+#: ../src/mate-disk/gdu-section-volumes.c:1822
 msgid "_Unmount Volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1823
+#: ../src/mate-disk/gdu-section-volumes.c:1823
 msgid "Unmount the volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1832
+#: ../src/mate-disk/gdu-section-volumes.c:1832
 msgid "Fo_rmat Volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1833
+#: ../src/mate-disk/gdu-section-volumes.c:1833
 msgid "Erase or format the volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1842
+#: ../src/mate-disk/gdu-section-volumes.c:1842
 msgid "_Check Filesystem"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1843
+#: ../src/mate-disk/gdu-section-volumes.c:1843
 msgid "Check and repair the filesystem"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1853
+#: ../src/mate-disk/gdu-section-volumes.c:1853
 msgid "Edit _Label"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1854
+#: ../src/mate-disk/gdu-section-volumes.c:1854
 msgid "Change the label of the volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1863
+#: ../src/mate-disk/gdu-section-volumes.c:1863
 msgid "Ed_it Partition"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1864
+#: ../src/mate-disk/gdu-section-volumes.c:1864
 msgid "Change partition type, label and flags"
 msgstr "Thay đổi loại phân vùng, nhãn và cờ"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1873
+#: ../src/mate-disk/gdu-section-volumes.c:1873
 msgid "D_elete Partition"
 msgstr "_Xoá phân vùng"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1874
+#: ../src/mate-disk/gdu-section-volumes.c:1874
 msgid "Delete the partition"
 msgstr "Xoá phân vùng"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1883
+#: ../src/mate-disk/gdu-section-volumes.c:1883
 msgid "_Create Partition"
 msgstr "_Tạo phân vùng"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1884
+#: ../src/mate-disk/gdu-section-volumes.c:1884
 msgid "Create a new partition"
 msgstr "Tạo phân vùng mới"
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1893
+#: ../src/mate-disk/gdu-section-volumes.c:1893
 msgid "_Lock Volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1894
+#: ../src/mate-disk/gdu-section-volumes.c:1894
 msgid "Make encrypted data unavailable"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1903
+#: ../src/mate-disk/gdu-section-volumes.c:1903
 msgid "_Unlock Volume"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1904
+#: ../src/mate-disk/gdu-section-volumes.c:1904
 msgid "Make encrypted data available"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1913
+#: ../src/mate-disk/gdu-section-volumes.c:1913
 msgid "Forge_t Passphrase"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1914
+#: ../src/mate-disk/gdu-section-volumes.c:1914
 msgid "Delete passphrase from keyring"
 msgstr ""
 
-#: ../src/matepalimpsest/gdu-section-volumes.c:1925
+#: ../src/mate-disk/gdu-section-volumes.c:1925
 msgid "Change passphrase"
 msgstr ""
 
 #. Translators: Window title when the item representing a remote machine is selected.
 #. * First %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:285
+#: ../src/mate-disk/gdu-shell.c:285
 #, c-format
 msgid "%s — Disk Utility"
 msgstr "%s — Tiện ích đĩa"
@@ -4804,7 +4804,7 @@ msgstr "%s — Tiện ích đĩa"
 #. * Third is the device file (e.g. '/dev/sda')
 #. * Fourth %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:295
+#: ../src/mate-disk/gdu-shell.c:295
 #, c-format
 msgid "%s (%s) [%s] @ %s — Disk Utility"
 msgstr "%s (%s) [%s] @ %s — Tiện ích đĩa"
@@ -4814,7 +4814,7 @@ msgstr "%s (%s) [%s] @ %s — Tiện ích đĩa"
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #. * Third %s is the hostname of the remote host (e.g. 'widget.mate.org')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:306
+#: ../src/mate-disk/gdu-shell.c:306
 #, c-format
 msgid "%s (%s) @ %s — Disk Utility"
 msgstr "%s (%s) @ %s — Tiện ích đĩa"
@@ -4824,7 +4824,7 @@ msgstr "%s (%s) @ %s — Tiện ích đĩa"
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #. * Third is the device file (e.g. '/dev/sda')
 #.
-#: ../src/matepalimpsest/gdu-shell.c:324
+#: ../src/mate-disk/gdu-shell.c:324
 #, c-format
 msgid "%s (%s) [%s] — Disk Utility"
 msgstr "%s (%s) [%s] — Tiện ích đĩa"
@@ -4833,122 +4833,122 @@ msgstr "%s (%s) [%s] — Tiện ích đĩa"
 #. * First %s is the name of the item (e.g. '80 GB Solid-State Disk' or 'Saturn').
 #. * Second %s is the VPD name of the item (e.g. 'ATA INTEL SSDSA2MH080G1GC' or '6 TB RAID-6 Array').
 #.
-#: ../src/matepalimpsest/gdu-shell.c:333
+#: ../src/mate-disk/gdu-shell.c:333
 #, c-format
 msgid "%s (%s) — Disk Utility"
 msgstr "%s (%s) — Tiện ích đĩa"
 
-#: ../src/matepalimpsest/gdu-shell.c:589
+#: ../src/mate-disk/gdu-shell.c:589
 msgid "Error creating component for RAID array"
 msgstr "Lỗi tạo thành phần cho mảng RAID"
 
-#: ../src/matepalimpsest/gdu-shell.c:622
+#: ../src/mate-disk/gdu-shell.c:622
 msgid "Error creating partition table for component for RAID array"
 msgstr "Lỗi tạo bảng phân nvùng cho thành phần của mảng RAID"
 
-#: ../src/matepalimpsest/gdu-shell.c:648
+#: ../src/mate-disk/gdu-shell.c:648
 msgid "Error creating RAID array"
 msgstr "Lỗi tạo mảng RAID"
 
-#: ../src/matepalimpsest/gdu-shell.c:843
+#: ../src/mate-disk/gdu-shell.c:843
 #, c-format
 msgid "Error connecting to “%s”"
 msgstr "Lỗi kết nối đến “%s”"
 
-#: ../src/matepalimpsest/gdu-shell.c:896
+#: ../src/mate-disk/gdu-shell.c:896
 msgid "translator-credits"
 msgstr ""
 "Nhóm Việt hoá MATE\n"
 "http://live.mate.org/MateVi"
 
-#: ../src/matepalimpsest/gdu-shell.c:921
+#: ../src/mate-disk/gdu-shell.c:921
 msgid "_File"
 msgstr "_Tập tin"
 
-#: ../src/matepalimpsest/gdu-shell.c:922
+#: ../src/mate-disk/gdu-shell.c:922
 msgid "Connect to _Server..."
 msgstr "Kết nối đến _máy chủ..."
 
-#: ../src/matepalimpsest/gdu-shell.c:922
+#: ../src/mate-disk/gdu-shell.c:922
 msgid "Manage storage devices on another machine"
 msgstr "Quản lý thiết bị lưu trữ trên máy khác"
 
-#: ../src/matepalimpsest/gdu-shell.c:923
+#: ../src/mate-disk/gdu-shell.c:923
 msgid "_Create"
 msgstr "_Tạo"
 
-#: ../src/matepalimpsest/gdu-shell.c:924
+#: ../src/mate-disk/gdu-shell.c:924
 msgid "_RAID Array..."
 msgstr "Mảng _RAID..."
 
-#: ../src/matepalimpsest/gdu-shell.c:924
+#: ../src/mate-disk/gdu-shell.c:924
 msgid "Create a RAID array"
 msgstr "Tạo mảng RAID"
 
-#: ../src/matepalimpsest/gdu-shell.c:925
+#: ../src/mate-disk/gdu-shell.c:925
 msgid "_Edit"
 msgstr "_Sửa"
 
-#: ../src/matepalimpsest/gdu-shell.c:926 ../src/matepalimpsest/gdu-shell.c:929
+#: ../src/mate-disk/gdu-shell.c:926 ../src/mate-disk/gdu-shell.c:929
 msgid "_Help"
 msgstr "Trợ _giúp"
 
-#: ../src/matepalimpsest/gdu-shell.c:928
+#: ../src/mate-disk/gdu-shell.c:928
 msgid "_Quit"
 msgstr "T_hoát"
 
-#: ../src/matepalimpsest/gdu-shell.c:928
+#: ../src/mate-disk/gdu-shell.c:928
 msgid "Quit"
 msgstr "Thoát"
 
-#: ../src/matepalimpsest/gdu-shell.c:929
+#: ../src/mate-disk/gdu-shell.c:929
 msgid "Get Help on Disk Utility"
 msgstr "Tìm trợ giúp sử dụng Tiện ích đĩa"
 
-#: ../src/matepalimpsest/gdu-shell.c:930
+#: ../src/mate-disk/gdu-shell.c:930
 msgid "_About"
 msgstr "_Giới thiệu"
 
-#: ../src/matepalimpsest/gdu-shell.c:1009
+#: ../src/mate-disk/gdu-shell.c:1009
 msgid "An error occured"
 msgstr "Xảy ra lỗi"
 
-#: ../src/matepalimpsest/gdu-shell.c:1018
+#: ../src/mate-disk/gdu-shell.c:1018
 msgid "The operation failed."
 msgstr "Thao tác thất bại."
 
-#: ../src/matepalimpsest/gdu-shell.c:1021
+#: ../src/mate-disk/gdu-shell.c:1021
 msgid "The device is busy."
 msgstr "Thiết bị đang bận."
 
-#: ../src/matepalimpsest/gdu-shell.c:1024
+#: ../src/mate-disk/gdu-shell.c:1024
 msgid "The operation was canceled."
 msgstr "Thao tác bị huỷ."
 
-#: ../src/matepalimpsest/gdu-shell.c:1027
+#: ../src/mate-disk/gdu-shell.c:1027
 msgid "The daemon is being inhibited."
 msgstr "Daemon bị ngăn cản."
 
-#: ../src/matepalimpsest/gdu-shell.c:1030
+#: ../src/mate-disk/gdu-shell.c:1030
 msgid "An invalid option was passed."
 msgstr "Truyền tham số không đúng."
 
-#: ../src/matepalimpsest/gdu-shell.c:1033
+#: ../src/mate-disk/gdu-shell.c:1033
 msgid "The operation is not supported."
 msgstr "Thao tác không hỗ trợ."
 
-#: ../src/matepalimpsest/gdu-shell.c:1036
+#: ../src/mate-disk/gdu-shell.c:1036
 msgid "Getting ATA SMART data would wake up the device."
 msgstr "Lấy dữ liệu ATA SMART sẽ đánh thức thiết bị."
 
-#: ../src/matepalimpsest/gdu-shell.c:1039
+#: ../src/mate-disk/gdu-shell.c:1039
 msgid "Permission denied."
 msgstr "Không đủ quyền."
 
-#: ../src/matepalimpsest/gdu-shell.c:1078
+#: ../src/mate-disk/gdu-shell.c:1078
 msgid "_Details:"
 msgstr "_Chi tiết:"
 
-#: ../src/matepalimpsest/gdu-shell.c:1247
+#: ../src/mate-disk/gdu-shell.c:1247
 msgid "_Storage Devices"
 msgstr "Thiết bị _lưu trữ"

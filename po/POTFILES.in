@@ -1,7 +1,7 @@
 [encoding: UTF-8]
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
-data/matepalimpsest.desktop.in
+data/mate-disk.desktop.in
 data/gdu-notification-daemon.desktop.in.in.in
 src/format-tool/gdu-format-progress-dialog.c
 src/format-tool/gdu-format-tool.c
@@ -58,11 +58,11 @@ src/gdu/gdu-volume.c
 src/gdu/gdu-volume-hole.c
 src/notification/gdu-slow-unmount-dialog.c
 src/notification/notification-main.c
-src/matepalimpsest/gdu-main.c
-src/matepalimpsest/gdu-section.c
-src/matepalimpsest/gdu-section-drive.c
-src/matepalimpsest/gdu-section-hub.c
-src/matepalimpsest/gdu-section-linux-lvm2-volume-group.c
-src/matepalimpsest/gdu-section-linux-md-drive.c
-src/matepalimpsest/gdu-section-volumes.c
-src/matepalimpsest/gdu-shell.c
+src/mate-disk/gdu-main.c
+src/mate-disk/gdu-section.c
+src/mate-disk/gdu-section-drive.c
+src/mate-disk/gdu-section-hub.c
+src/mate-disk/gdu-section-linux-lvm2-volume-group.c
+src/mate-disk/gdu-section-linux-md-drive.c
+src/mate-disk/gdu-section-volumes.c
+src/mate-disk/gdu-shell.c
