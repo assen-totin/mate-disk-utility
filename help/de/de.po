@@ -50,7 +50,7 @@ msgstr "David Zeuthen"
 msgid "MATE Documentation Project"
 msgstr "MATE Dokumentationsprojekt"
 
-#: de/index.docbook:33(publishername)
+#: de/index.docbook:36(publishername)
 msgid "GNOME Documentation Project"
 msgstr "GNOME Dokumentationsprojekt"
 
@@ -62,21 +62,21 @@ msgstr "Das vorliegende Dokument kann gemäß den Bedingungen der GNU Free Docum
 msgid "This manual is part of a collection of MATE manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
 msgstr "Dieses Handbuch ist Teil einer Sammlung von MATE-Handbüchern, die unter der GFDL veröffentlicht werden. Wenn Sie dieses Handbuch getrennt von der Sammlung weiterverbreiten möchten, können Sie das tun, indem Sie eine Kopie der Lizenz zum Handbuch hinzufügen, wie es in Abschnitt 6 der Lizenz beschrieben ist."
 
-#: de/index.docbook:19(para)
+#: de/index.docbook:20(para)
 msgid "Many of the names used by companies to distinguish their products and services are claimed as trademarks. Where those names appear in any MATE documentation, and the members of the MATE Documentation Project are made aware of those trademarks, then the names are in capital letters or initial capital letters."
 msgstr "Viele der Namen, die von Unternehmen verwendet werden, um ihre Produkte und Dienstleistungen von anderen zu unterscheiden, sind eingetragene Warenzeichen. An den Stellen, an denen diese Namen in einer MATE-Dokumentation erscheinen, werden die Namen in Großbuchstaben oder mit einem großen Anfangsbuchstaben geschrieben, wenn das MATE-Dokumentationsprojekt auf diese Warenzeichen hingewiesen wird."
 
-#: de/index.docbook:35(para)
+#: de/index.docbook:36(para)
 msgid "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr "DIESES DOKUMENT WIRD »WIE VORLIEGEND« GELIEFERT, OHNE GARANTIEN IRGENDEINER ART, SOWOHL AUSDRÜCKLICH GENANNTE ALS AUCH ANGEDEUTETE. DIES BEZIEHT SICH AUCH OHNE EINSCHRÄNKUNG AUF GARANTIEN, DASS DIESES DOKUMENT ODER VERÄNDERTE FASSUNGEN DIESES DOKUMENTS FREI VON HANDELSDEFEKTEN, FÜR EINEN BESTIMMTEN ZWECK GEEIGNET IST ODER DASS ES KEINE RECHTE DRITTER VERLETZT. DAS VOLLE RISIKO WAS QUALITÄT, GENAUIGKEIT UND LEISTUNG DES DOKUMENTS ODER VERÄNDERTE FASSUNGEN DES DOKUMENTS LIEGT BEI IHNEN. SOLLTE EIN DOKUMENT ODER EINE VERÄNDERTE FASSUNG DAVON FEHLER IRGENDEINER ART BEINHALTEN, TRAGEN SIE (NICHT DER URSPRUNGSAUTOR, DER AUTOR ODER EIN MITWIRKENDER) DIE KOSTEN FÜR NOTWENDIGE DIENSTLEISTUNGEN, REPARATUREN ODER FEHLERKORREKTUREN. DIESER HAFTUNGSAUSSCHLUSS IST EIN ESSENZIELLER TEIL DIESER LIZENZ. DIE VERWENDUNG EINES DOKUMENTS ODER EINER VERÄNDERTEN VERSION DES DOKUMENTS IST NICHT GESTATTET AUßER UNTER BEACHTUNG DIESES HAFTUNGSAUSSCHLUSSES UND"
 
-#: de/index.docbook:55(para)
-msgid "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES."
-msgstr "UNTER KEINEN UMSTÄNDEN UND AUF BASIS KEINER RECHTSGRUNDLAGE, EGAL OB DURCH UNERLAUBTEN HANDLUNGEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT), VERTRAG ODER ANDERWEITIG KANN DER AUTOR, URSPRUNGSAUTOR, EIN MITWIRKENDER ODER EIN VERTRIEBSPARTNER DIESES DOKUMENTS ODER EINER VERÄNDERTEN FASSUNG DES DOKUMENTS ODER EIN ZULIEFERER EINER DIESER PARTEIEN, HAFTBAR GEMACHT WERDEN FÜR DIREKTE, INDIREKTE, SPEZIELLE, VERSEHENTLICHE ODER FOLGESCHÄDEN JEGLICHER ART, EINSCHLIEßLICH UND OHNE EINSCHRÄNKUNGEN SCHÄDEN DURCH VERLUST VON KULANZ, ARBEITSAUSFALL, COMPUTERVERSAGEN ODER COMPUTERFEHLFUNKTIONEN ODER ALLE ANDEREN SCHÄDEN ODER VERLUSTE, DIE SICH AUS ODER IN VERBINDUNG MIT DER VERWENDUNG DES DOKUMENTS UND VERÄNDERTER FASSUNGEN DES DOKUMENTS ERGEBEN, AUCH WENN DIE OBEN GENANNTEN PARTEIEN ÜBER DIE MÖGLICHKEIT SOLCHER SCHÄDEN INFORMIERT WAREN."
-
-#: de/index.docbook:28(para)
+#: de/index.docbook:30(para)
 msgid "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: <placeholder-1/>"
 msgstr "DAS DOKUMENT UND VERÄNDERTE FASSUNGEN DES DOKUMENTS WERDEN UNTER DEN BEDINGUNGEN DER GNU FREE DOCUMENTATION LICENSE ZUR VERFÜGUNG GESTELLT MIT DEM WEITERGEHENDEN VERSTÄNDNIS, DASS: <placeholder-1/>"
+
+#: de/index.docbook:56(para)
+msgid "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES."
+msgstr "UNTER KEINEN UMSTÄNDEN UND AUF BASIS KEINER RECHTSGRUNDLAGE, EGAL OB DURCH UNERLAUBTEN HANDLUNGEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT), VERTRAG ODER ANDERWEITIG KANN DER AUTOR, URSPRUNGSAUTOR, EIN MITWIRKENDER ODER EIN VERTRIEBSPARTNER DIESES DOKUMENTS ODER EINER VERÄNDERTEN FASSUNG DES DOKUMENTS ODER EIN ZULIEFERER EINER DIESER PARTEIEN, HAFTBAR GEMACHT WERDEN FÜR DIREKTE, INDIREKTE, SPEZIELLE, VERSEHENTLICHE ODER FOLGESCHÄDEN JEGLICHER ART, EINSCHLIEßLICH UND OHNE EINSCHRÄNKUNGEN SCHÄDEN DURCH VERLUST VON KULANZ, ARBEITSAUSFALL, COMPUTERVERSAGEN ODER COMPUTERFEHLFUNKTIONEN ODER ALLE ANDEREN SCHÄDEN ODER VERLUSTE, DIE SICH AUS ODER IN VERBINDUNG MIT DER VERWENDUNG DES DOKUMENTS UND VERÄNDERTER FASSUNGEN DES DOKUMENTS ERGEBEN, AUCH WENN DIE OBEN GENANNTEN PARTEIEN ÜBER DIE MÖGLICHKEIT SOLCHER SCHÄDEN INFORMIERT WAREN."
 
 #: de/index.docbook:41(firstname)
 msgid "Wolfgang"
@@ -149,6 +149,103 @@ msgstr "Mate Disk Utility"
 #: de/index.docbook:102(phrase)
 msgid "Shows <placeholder-1/> main window."
 msgstr "Zeigt das <placeholder-1/>-Hauptfenster."
+
+#: de/index.docbook:110(title)
+msgid "Checking the hard disk."
+msgstr "Überprüfen der Festplatte."
+
+#: de/index.docbook:111(para)
+msgid "Hard disks have a built-in health-check tool called <application>SMART</application> (Self-Monitoring, Analysis, and Reporting Technology), which continually checks the disk for potential problems. SMART also warns you if the disk is about to fail, helping you avoid loss of important data."
+msgstr "Festplattenlaufwerke verfügen über einen eingebautes Werkzeug zum Gesundheitstest namens <application>SMART</application> (Self-Monitoring, Analysis, and Reporting Technology), welches wiederkehrend die Festplatte auf potenzielle Probleme überprüft. SMART warnt auch, wenn die Festplatte kurz vor dem Defekt steht, so dass der Verlust wichtiger Daten vermieden werden kann."
+
+#: de/index.docbook:114(para)
+msgid "Although SMART runs automatically, you can also check your disk's health by running the <application>Drive Management</application> application:"
+msgstr "Obwohl SMART automatisch ausgeführt wird, können Sie zusätzlich mit der <application>Laufwerksverwaltung</application> die Festplattengesundheit prüfen:"
+
+#: de/index.docbook:118(title)
+msgid "Check your disk's health using the Disks application"
+msgstr "Überprüfen der Festplattengesundheit mit der Laufwerksverwaltung"
+
+#: de/index.docbook:122(para)
+#: de/index.docbook:170(para)
+msgid "Open the menu <menuchoice> <guimenu>Applications</guimenu><application>Drive Management</application> </menuchoice>."
+msgstr "Öffnen Sie im Menu <menuchoice> <guimenu>Anwendungen</guimenu><application>Laufwerksverwaltung</application> </menuchoice>."
+
+#: de/index.docbook:127(para)
+msgid "Select the disk you want to check from the <guimenu>Storage Devices List</guimenu>. Information and status of the disk will appear under <guimenu>Drive</guimenu>."
+msgstr "Wählen Sie das Gerät, das Sie überprüfen wollen, aus der <guimenu>Speichergeräte-Liste</guimenu>. Informationen über das Laufwerk und dessen Status werden unter <guimenu>Laufwerk</guimenu> angezeigt."
+
+#: de/index.docbook:131(para)
+msgid "<guimenu>SMART Status</guimenu> should say »Disk is healthy«."
+msgstr "Der <guimenu>SMART Status</guimenu> sollte »Laufwerk ist funktionstüchtig« lauten."
+
+#: de/index.docbook:136(para)
+msgid "Click the <guimenu>SMART Data</guimenu>, button to view more drive information, or to run a self-test."
+msgstr "Klicken Sie auf den Knopf <guimenu>SMART Werte</guimenu>, um mehr Informationen über das Laufwerk zu erhalten oder einen Selbsttest auszuführen."
+
+#: de/index.docbook:144(title)
+msgid "What if the disk isn't healthy?"
+msgstr "Was tun, wenn das Laufwerk nicht funktionstüchtig ist?"
+
+#: de/index.docbook:146(para)
+msgid "Even if the <guimenu>SMART Status</guimenu> indicates that the disk <emphasis>isn't</emphasis> healthy, there may be no cause for alarm. However, it's better to be prepared with a <emphasis>backup</emphasis> to prevent data loss."
+msgstr "Selbst wenn der <guimenu>SMART-Status</guimenu> anzeigt, dass das Laufwerk <emphasis>nicht</emphasis> funktionstüchtig ist, gibt es unter Umständen gar keinen Anlass zur Beunruhigung. Dennoch ist es besser, vorbereitet zu sein und mit einer <emphasis>Datensicherung</emphasis> Datenverlust zu verhindern."
+
+#: de/index.docbook:149(para)
+msgid "If the status says »Pre-fail« , the disk is still reasonably healthy but signs of wear have been detected which mean it might fail in the near future. If your hard disk (or computer) is a few years old, you are likely to see this message on at least some of the health checks. You should <emphasis>backup your important files regularly</emphasis> and check the disk status periodically to see if it gets worse."
+msgstr "Wenn der Status »Vor Versagen« lautet, ist das Laufwerk noch halbwegs funktionstüchtig, was bedeutet, dass es in naher Zukunft ausfallen könnte. Wenn Ihre Festplatte (oder Ihr Rechner) einige Jahre alt ist, sehen Sie diese Nachricht wahrscheinlich bei zumindest einigen Fehlerüberprüfungen. Sie sollten <emphasis>Ihre wichtigen Daten regelmäßig sichern</emphasis> und von Zeit zu Zeit überprüfen, ob sich der Laufwerksstatus nicht verschlechtert hat."
+
+#: de/index.docbook:154(para)
+msgid "If it gets worse, you may wish to take the computer/hard disk to a professional for further diagnosis or repair."
+msgstr "Wenn sich die Situation verschlechtert, sollten Sie den Rechner/die Festplatte eventuell für eine ausführlichere Diagnose oder Reparatur zu einem Fachmann bringen."
+
+#: de/index.docbook:162(title)
+msgid "Wipe everything off a removable disk"
+msgstr "Alles von einem Wechseldatenträger löschen"
+
+#: de/index.docbook:164(para)
+msgid "If you have a removable disk, like a USB memory stick or an external hard disk, you may sometimes wish to completely remove all of its files and folders. You can do this by <emphasis>formatting</emphasis>. the disk - this deletes all of the files on the disk and leaves it empty."
+msgstr "Auf einem Wechseldatenträger wie einem USB-Speicherstick oder einer externen Festplatte könnten Sie eventuell sämtliche Dateien und Ordner löschen wollen. Sie können dies tun, indem Sie den Datenträger <emphasis>formatieren</emphasis>. Dadurch werden alle Dateien und Ordner gelöscht, so dass der Datenträger völlig geleert wird."
+
+#: de/index.docbook:168(title)
+msgid "Format a removable disk"
+msgstr "Formatieren eines Wechseldatenträgers"
+
+#: de/index.docbook:175(para)
+msgid "Select the disk you want to wipe from the <guimenu>Storage Devices</guimenu> list."
+msgstr "Wählen Sie die vollständig zu löschende Festplatte in der Liste der <guimenu>Speichergeräte</guimenu> aus."
+
+#: de/index.docbook:180(para)
+msgid "Make sure that you have selected the correct disk! If you choose the wrong disk, all of the files on the other disk will be deleted!"
+msgstr "Stellen Sie unbedingt sicher, dass Sie das richtige Medium gewählt haben! Falls Sie das falsche gewählt haben, werden alle Dateien auf diesem Medium gelöscht!"
+
+#: de/index.docbook:186(para)
+msgid "In the Volumes section, click <guimenu>Unmount Volume</guimenu>. Then click <guimenu>Format Volume</guimenu>."
+msgstr "Klicken Sie im Abschnitt »Datenträger« auf <guimenu>Datenträger aushängen</guimenu>. Klicken Sie dann auf <guimenu>Datenträger formatieren</guimenu>."
+
+#: de/index.docbook:191(para)
+msgid "In the window that pops up, choose a filesystem <guimenu>Type</guimenu> for the disk."
+msgstr "Wählen Sie im erscheinenden Fenster einen <guimenu>Typ</guimenu> für das Dateisystem des Datenträgers aus."
+
+#: de/index.docbook:194(para)
+msgid "If you use the disk on Windows and Mac OS computers in addition to Linux computers, choose <guimenu>FAT</guimenu>. If you only use it on Windows, <guimenu>NTFS</guimenu> may be a better option. A brief description of the <guimenu>file system type</guimenu> will be presented as a label."
+msgstr "Wenn Sie das Laufwerk außer auf Linux-Systemen auch auf Rechnern mit Windows oder Mac OS verwenden, wählen Sie <guimenu>FAT</guimenu>. Wenn Sie es nur auf Windows verwenden, dürfte <guimenu>NTFS</guimenu> die bessere Wahl sein. Eine kurze Beschreibung des <guimenu>Dateisystemtyps</guimenu> wird angezeigt."
+
+#: de/index.docbook:199(para)
+msgid "Give the disk a name and click <guimenu>Format</guimenu>, to begin wiping the disk."
+msgstr "Geben Sie dem Datenträger einen Namen und klicken Sie auf <guimenu>Formatieren</guimenu>, um mit dem Löschen des Datenträgers zu beginnen."
+
+#: de/index.docbook:204(para)
+msgid "Once the formatting has finished, <guimenu>safely remove</guimenu> the disk. It should now be blank and ready to use again."
+msgstr "Sobald das Formatieren beendet ist, können Sie den Datenträger sicher entfernen. Er sollte nun leer und verwendungsbereit sein."
+
+#: de/index.docbook:211(title)
+msgid "Formatting a disk does not securely delete your files"
+msgstr "Formatieren einer Festplatte löscht Ihre Dateien nicht sicher"
+
+#: de/index.docbook:212(para)
+msgid "Formatting a disk is not a completely secure way of wiping all of its data. A formatted disk will not appear to have files on it, but it is possible that special recovery software could retrieve the files. If you need to securely delete the files, you will need to use a command-line utility, such as <application>shred</application>."
+msgstr "Das Formatieren eines Datenträgers ist keine 100-prozentig sichere Methode, alle Daten zu löschen. Ein formatierter Datenträger scheint keine Dateien zu enthalten, aber darauf spezialisierte Software könnte die Dateien wiederherzustellen. Wenn Sie die Dateien verlässlich löschen müssen, sollten Sie ein Befehlszeilenprogramm verwenden, wie etwa <application>shred</application>."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: de/index.docbook:0(None)
