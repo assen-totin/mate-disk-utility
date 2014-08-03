@@ -2,6 +2,7 @@
 
 HELP_ID = mate-disk
 HELP_FILES = index.docbook legal.xml
+DOC_INCLUDES =
 HELP_MEDIA = figures/main-app.png
 
 clean-local :

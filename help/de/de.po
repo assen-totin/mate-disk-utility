@@ -29,17 +29,30 @@ msgid "This document describes the Mate Disk Utility application."
 msgstr "Dieses Dokument beschreibt die Anwendung Mate Disk Utility."
 
 #: de/index.docbook:25(year)
-#: de/index.docbook:45(date)
+#: de/index.docbook:61(date)
+msgid "2014"
+msgstr "2014"
+
+#: de/index.docbook:29(year)
+#: de/index.docbook:70(date)
 msgid "2008"
 msgstr "2008"
 
 #: de/index.docbook:26(holder)
+msgid "Wolfgang Ulbrich"
+msgstr "Wolfgang Ulbrich"
+
+#: de/index.docbook:30(holder)
 msgid "David Zeuthen"
 msgstr "David Zeuthen"
 
-#: de/index.docbook:29(publishername)
+#: de/index.docbook:33(publishername)
 msgid "MATE Documentation Project"
-msgstr "MATE-Dokumentationsprojekt"
+msgstr "MATE Dokumentationsprojekt"
+
+#: de/index.docbook:33(publishername)
+msgid "GNOME Documentation Project"
+msgstr "GNOME Dokumentationsprojekt"
 
 #: de/index.docbook:2(para)
 msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
@@ -65,65 +78,77 @@ msgstr "UNTER KEINEN UMSTÄNDEN UND AUF BASIS KEINER RECHTSGRUNDLAGE, EGAL OB DU
 msgid "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: <placeholder-1/>"
 msgstr "DAS DOKUMENT UND VERÄNDERTE FASSUNGEN DES DOKUMENTS WERDEN UNTER DEN BEDINGUNGEN DER GNU FREE DOCUMENTATION LICENSE ZUR VERFÜGUNG GESTELLT MIT DEM WEITERGEHENDEN VERSTÄNDNIS, DASS: <placeholder-1/>"
 
-#: de/index.docbook:34(firstname)
+#: de/index.docbook:41(firstname)
+msgid "Wolfgang"
+msgstr "Wolfgang"
+
+#: de/index.docbook:34(surname)
+msgid "Ulbrich"
+msgstr "Ulbrich"
+
+#: de/index.docbook:49(firstname)
 msgid "David"
 msgstr "David"
 
-#: de/index.docbook:34(surname)
+#: de/index.docbook:49(surname)
 msgid "Zeuthen"
 msgstr "Zeuthen"
 
-#: de/index.docbook:37(email)
+#: de/index.docbook:44(email)
+msgid "chat-to-me@raveit.de"
+msgstr "chat-to-me@raveit.de"
+
+#: de/index.docbook:52(email)
 msgid "davidz@redhat.com"
 msgstr "davidz@redhat.com"
 
-#: de/index.docbook:44(revnumber)
-msgid "Mate Disk Utility Manual V 0.1"
-msgstr "»Mate Disk Utility« Handbuch V 0.1"
+#: de/index.docbook:60(revnumber)
+msgid "Mate Disk Utility Manual V 1.8"
+msgstr "»Mate Disk Utility« Handbuch V 1.8"
 
-#: de/index.docbook:47(para)
+#: de/index.docbook:69(revnumber)
+msgid "Palimpsest Disk Utility Manual Manual V 1.0"
+msgstr "»Palimpsest Disk Utility Manual Utility« Handbuch V 1.0"
+
+#: de/index.docbook:64(para)
+msgid "Wolfgang Ulbrich <email>chat-to-me@raveit.de</email>"
+msgstr "Wolfgang Ulbrich <email>chat-to-me@raveit.de</email>"
+
+#: de/index.docbook:73(para)
 msgid "David Zeuthen <email>davidz@redhat.com</email>"
 msgstr "David Zeuthen <email>davidz@redhat.com</email>"
 
-#: de/index.docbook:54(releaseinfo)
-msgid "This manual describes version 0.1 of Mate Disk Utility."
-msgstr "Dieses Handbuch beschreibt Version 0.1 von Mate Disk Utility."
+#: de/index.docbook:79(releaseinfo)
+msgid "This manual describes version 1.8 of Mate Disk Utility."
+msgstr "Dieses Handbuch beschreibt Version 1.8 von Mate Disk Utility."
 
-#: de/index.docbook:57(title)
+#: de/index.docbook:82(title)
 msgid "Feedback"
 msgstr "Rückmeldungen"
 
-#: de/index.docbook:58(para)
+#: de/index.docbook:83(para)
 msgid "To report a bug or make a suggestion regarding the <application>Mate Disk Utility</application> application or this manual, follow the directions in the <ulink url=\"help:mate-user-quide\" type=\"help\">MATE Feedback Page</ulink>."
 msgstr "Um einen Fehler zu melden oder einen Vorschlag zur Anwendung <application>Mate Disk Utility</application> oder zu diesem Handbuch zu machen, folgen Sie den Anweisungen auf der <ulink url=\"help:mate-user-quide\" type=\"help\">MATE-Seite für Rückmeldungen</ulink>."
 
-#: de/index.docbook:66(title)
+#: de/index.docbook:91(title)
 msgid "Introduction."
 msgstr "Einführung"
 
-#: de/index.docbook:67(para)
+#: de/index.docbook:92(para)
 msgid "This is the <application>Mate Disk Utility</application> user's guide."
 msgstr "Dies ist das Benutzerhandbuch von <application>Mate Disk Utility</application>."
 
-#: de/index.docbook:69(title)
+#: de/index.docbook:94(title)
 msgid "<application>Mate Disk Utility</application> Window"
-msgstr "<application>Mate Disk Utility</application>-Fenster"
+msgstr "<application>Mate Disk Utility</application> Fenster"
 
 #: de/index.docbook:0(application)
 msgid "Mate Disk Utility"
 msgstr "Mate Disk Utility"
 
-#: de/index.docbook:77(phrase)
+#: de/index.docbook:102(phrase)
 msgid "Shows <placeholder-1/> main window."
 msgstr "Zeigt das <placeholder-1/>-Hauptfenster."
-
-#: de/index.docbook:85(title)
-msgid "Advanced Mate Disk Utility."
-msgstr "Erweitertes Mate Disk Utility."
-
-#: de/index.docbook:86(para)
-msgid "Mate Disk Utility is a complex program, with many advanced features."
-msgstr "Mate Disk Utility ist ein komplexes Programm mit vielen fortgeschrittenen Funktionsmerkmalen."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: de/index.docbook:0(None)
