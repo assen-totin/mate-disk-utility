@@ -16,93 +16,93 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: de/index.docbook:73(None)
+#: C/index.docbook:73(None)
 msgid "@@image: 'figures/main-app.png'; md5=5bc3f0bd4d9ae5bb4e46e19d1d649f4b"
 msgstr "a"
 
-#: de/index.docbook:18(title)
+#: C/index.docbook:18(title)
 msgid "<application>Mate Disk Utility</application> Manual"
 msgstr "<application>Mate Disk Utility</application> Handbuch"
 
-#: de/index.docbook:20(para)
+#: C/index.docbook:20(para)
 msgid "This document describes the Mate Disk Utility application."
 msgstr "Dieses Dokument beschreibt die Anwendung Mate Disk Utility."
 
-#: de/index.docbook:25(year)
-#: de/index.docbook:61(date)
+#: C/index.docbook:25(year)
+#: C/index.docbook:61(date)
 msgid "2014"
 msgstr "2014"
 
-#: de/index.docbook:29(year)
-#: de/index.docbook:70(date)
+#: C/index.docbook:29(year)
+#: C/index.docbook:70(date)
 msgid "2008"
 msgstr "2008"
 
-#: de/index.docbook:26(holder)
+#: C/index.docbook:26(holder)
 msgid "Wolfgang Ulbrich"
 msgstr "Wolfgang Ulbrich"
 
-#: de/index.docbook:30(holder)
+#: C/index.docbook:30(holder)
 msgid "David Zeuthen"
 msgstr "David Zeuthen"
 
-#: de/index.docbook:33(publishername)
+#: C/index.docbook:33(publishername)
 msgid "MATE Documentation Project"
 msgstr "MATE Dokumentationsprojekt"
 
-#: de/index.docbook:36(publishername)
+#: C/index.docbook:36(publishername)
 msgid "GNOME Documentation Project"
 msgstr "GNOME Dokumentationsprojekt"
 
-#: de/index.docbook:41(firstname)
+#: C/index.docbook:41(firstname)
 msgid "Wolfgang"
 msgstr "Wolfgang"
 
-#: de/index.docbook:41(surname)
+#: C/index.docbook:41(surname)
 msgid "Ulbrich"
 msgstr "Ulbrich"
 
-#: de/index.docbook:44(email)
+#: C/index.docbook:44(email)
 msgid "chat-to-me@raveit.de"
 msgstr "chat-to-me@raveit.de"
 
-#: de/index.docbook:49(firstname)
+#: C/index.docbook:49(firstname)
 msgid "David"
 msgstr "David"
 
-#: de/index.docbook:49(surname)
+#: C/index.docbook:49(surname)
 msgid "Zeuthen"
 msgstr "Zeuthen"
 
-#: de/index.docbook:52(email)
+#: C/index.docbook:52(email)
 msgid "davidz@redhat.com"
 msgstr "davidz@redhat.com"
 
-#: de/index.docbook:60(revnumber)
+#: C/index.docbook:60(revnumber)
 msgid "Mate Disk Utility Manual V 0.2"
 msgstr "»Mate Disk Utility« Handbuch V 0.2"
 
-#: de/index.docbook:63(para)
+#: C/index.docbook:63(para)
 msgid "Wolfgang Ulbrich <email>chat-to-me@raveit.de</email>"
 msgstr "Wolfgang Ulbrich <email>chat-to-me@raveit.de</email>"
 
-#: de/index.docbook:69(revnumber)
+#: C/index.docbook:69(revnumber)
 msgid "Palimpsest Disk Utility Manual Manual V 0.1"
 msgstr "»Palimpsest Disk Utility Manual Utility« Handbuch V 0.1"
 
-#: de/index.docbook:72(para)
+#: C/index.docbook:72(para)
 msgid "David Zeuthen <email>davidz@redhat.com</email>"
 msgstr "David Zeuthen <email>davidz@redhat.com</email>"
 
-#: de/index.docbook:79(releaseinfo)
+#: C/index.docbook:79(releaseinfo)
 msgid "This manual describes version 0.2 of Mate Disk Utility."
 msgstr "Dieses Handbuch beschreibt Version 0.2 von Mate Disk Utility."
 
-#: de/index.docbook:82(title)
+#: C/index.docbook:82(title)
 msgid "Feedback"
 msgstr "Rückmeldungen"
 
-#: de/index.docbook:83(para)
+#: C/index.docbook:83(para)
 msgid "To report a bug or make a suggestion regarding the <application>Mate Disk "
 "Utility</application> application or this manual, follow the directions in "
 "the <ulink url=\"help:mate-user-quide\" type=\"help\">MATE Feedback Page</"
@@ -136,199 +136,199 @@ msgstr "DIESES DOKUMENT WIRD »WIE VORLIEGEND« GELIEFERT, OHNE GARANTIEN IRGEND
 msgid "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES."
 msgstr "UNTER KEINEN UMSTÄNDEN UND AUF BASIS KEINER RECHTSGRUNDLAGE, EGAL OB DURCH UNERLAUBTEN HANDLUNGEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT), VERTRAG ODER ANDERWEITIG KANN DER AUTOR, URSPRUNGSAUTOR, EIN MITWIRKENDER ODER EIN VERTRIEBSPARTNER DIESES DOKUMENTS ODER EINER VERÄNDERTEN FASSUNG DES DOKUMENTS ODER EIN ZULIEFERER EINER DIESER PARTEIEN, HAFTBAR GEMACHT WERDEN FÜR DIREKTE, INDIREKTE, SPEZIELLE, VERSEHENTLICHE ODER FOLGESCHÄDEN JEGLICHER ART, EINSCHLIEßLICH UND OHNE EINSCHRÄNKUNGEN SCHÄDEN DURCH VERLUST VON KULANZ, ARBEITSAUSFALL, COMPUTERVERSAGEN ODER COMPUTERFEHLFUNKTIONEN ODER ALLE ANDEREN SCHÄDEN ODER VERLUSTE, DIE SICH AUS ODER IN VERBINDUNG MIT DER VERWENDUNG DES DOKUMENTS UND VERÄNDERTER FASSUNGEN DES DOKUMENTS ERGEBEN, AUCH WENN DIE OBEN GENANNTEN PARTEIEN ÜBER DIE MÖGLICHKEIT SOLCHER SCHÄDEN INFORMIERT WAREN."
 
-#: de/index.docbook:91(title)
+#: C/index.docbook:91(title)
 msgid "Introduction."
 msgstr "Einführung"
 
-#: de/index.docbook:92(para)
+#: C/index.docbook:92(para)
 msgid "This is the <application>Mate Disk Utility</application> user's guide."
 msgstr "Dies ist das Benutzerhandbuch von <application>Mate Disk Utility</application>."
 
-#: de/index.docbook:94(title)
+#: C/index.docbook:94(title)
 msgid "<application>Mate Disk Utility</application> Window"
 msgstr "<application>Mate Disk Utility</application> Fenster"
 
-#: de/index.docbook:0(application)
+#: C/index.docbook:0(application)
 msgid "Mate Disk Utility"
 msgstr "Mate Disk Utility"
 
-#: de/index.docbook:102(phrase)
+#: C/index.docbook:102(phrase)
 msgid "Shows <placeholder-1/> main window."
 msgstr "Zeigt das <placeholder-1/>-Hauptfenster."
 
-#: de/index.docbook:110(title)
+#: C/index.docbook:110(title)
 msgid "Checking the hard disk."
 msgstr "Überprüfen der Festplatte."
 
-#: de/index.docbook:111(para)
+#: C/index.docbook:111(para)
 msgid "Hard disks have a built-in health-check tool called <application>SMART</application> (Self-Monitoring, Analysis, and Reporting Technology), which continually checks the disk for potential problems. SMART also warns you if the disk is about to fail, helping you avoid loss of important data."
 msgstr "Festplattenlaufwerke verfügen über einen eingebautes Werkzeug zum Gesundheitstest namens <application>SMART</application> (Self-Monitoring, Analysis, and Reporting Technology), welches wiederkehrend die Festplatte auf potenzielle Probleme überprüft. SMART warnt auch, wenn die Festplatte kurz vor dem Defekt steht, so dass der Verlust wichtiger Daten vermieden werden kann."
 
-#: de/index.docbook:114(para)
+#: C/index.docbook:114(para)
 msgid "Although SMART runs automatically, you can also check your disk's health by running the <application>Drive Management</application> application:"
 msgstr "Obwohl SMART automatisch ausgeführt wird, können Sie zusätzlich mit der <application>Laufwerksverwaltung</application> die Festplattengesundheit prüfen:"
 
-#: de/index.docbook:118(title)
+#: C/index.docbook:118(title)
 msgid "Check your disk's health using the Disks application"
 msgstr "Überprüfen der Festplattengesundheit mit der Laufwerksverwaltung"
 
-#: de/index.docbook:122(para)
-#: de/index.docbook:170(para)
-#: de/index.docbook:239(para)
-#: de/index.docbook:279(para)
+#: C/index.docbook:122(para)
+#: C/index.docbook:170(para)
+#: C/index.docbook:239(para)
+#: C/index.docbook:279(para)
 msgid "Open the menu <menuchoice> <guimenu>Applications</guimenu><application>Drive Management</application> </menuchoice>."
 msgstr "Öffnen Sie im Menu <menuchoice> <guimenu>Anwendungen</guimenu><application>Laufwerksverwaltung</application> </menuchoice>."
 
-#: de/index.docbook:127(para)
+#: C/index.docbook:127(para)
 msgid "Select the disk you want to check from the <guimenu>Storage Devices List</guimenu>. Information and status of the disk will appear under <guimenu>Drive</guimenu>."
 msgstr "Wählen Sie das Gerät, das Sie überprüfen wollen, aus der <guimenu>Speichergeräte-Liste</guimenu>. Informationen über das Laufwerk und dessen Status werden unter <guimenu>Laufwerk</guimenu> angezeigt."
 
-#: de/index.docbook:131(para)
+#: C/index.docbook:131(para)
 msgid "<guimenu>SMART Status</guimenu> should say »Disk is healthy«."
 msgstr "Der <guimenu>SMART Status</guimenu> sollte »Laufwerk ist funktionstüchtig« lauten."
 
-#: de/index.docbook:136(para)
+#: C/index.docbook:136(para)
 msgid "Click the <guimenu>SMART Data</guimenu>, button to view more drive information, or to run a self-test."
 msgstr "Klicken Sie auf den Knopf <guimenu>SMART Werte</guimenu>, um mehr Informationen über das Laufwerk zu erhalten oder einen Selbsttest auszuführen."
 
-#: de/index.docbook:144(title)
+#: C/index.docbook:144(title)
 msgid "What if the disk isn't healthy?"
 msgstr "Was tun, wenn das Laufwerk nicht funktionstüchtig ist?"
 
-#: de/index.docbook:146(para)
+#: C/index.docbook:146(para)
 msgid "Even if the <guimenu>SMART Status</guimenu> indicates that the disk <emphasis>isn't</emphasis> healthy, there may be no cause for alarm. However, it's better to be prepared with a <emphasis>backup</emphasis> to prevent data loss."
 msgstr "Selbst wenn der <guimenu>SMART-Status</guimenu> anzeigt, dass das Laufwerk <emphasis>nicht</emphasis> funktionstüchtig ist, gibt es unter Umständen gar keinen Anlass zur Beunruhigung. Dennoch ist es besser, vorbereitet zu sein und mit einer <emphasis>Datensicherung</emphasis> Datenverlust zu verhindern."
 
-#: de/index.docbook:149(para)
+#: C/index.docbook:149(para)
 msgid "If the status says »Pre-fail« , the disk is still reasonably healthy but signs of wear have been detected which mean it might fail in the near future. If your hard disk (or computer) is a few years old, you are likely to see this message on at least some of the health checks. You should <emphasis>backup your important files regularly</emphasis> and check the disk status periodically to see if it gets worse."
 msgstr "Wenn der Status »Vor Versagen« lautet, ist das Laufwerk noch halbwegs funktionstüchtig, was bedeutet, dass es in naher Zukunft ausfallen könnte. Wenn Ihre Festplatte (oder Ihr Rechner) einige Jahre alt ist, sehen Sie diese Nachricht wahrscheinlich bei zumindest einigen Fehlerüberprüfungen. Sie sollten <emphasis>Ihre wichtigen Daten regelmäßig sichern</emphasis> und von Zeit zu Zeit überprüfen, ob sich der Laufwerksstatus nicht verschlechtert hat."
 
-#: de/index.docbook:154(para)
+#: C/index.docbook:154(para)
 msgid "If it gets worse, you may wish to take the computer/hard disk to a professional for further diagnosis or repair."
 msgstr "Wenn sich die Situation verschlechtert, sollten Sie den Rechner/die Festplatte eventuell für eine ausführlichere Diagnose oder Reparatur zu einem Fachmann bringen."
 
-#: de/index.docbook:162(title)
+#: C/index.docbook:162(title)
 msgid "Wipe everything off a removable disk"
 msgstr "Alles von einem Wechseldatenträger löschen"
 
-#: de/index.docbook:164(para)
+#: C/index.docbook:164(para)
 msgid "If you have a removable disk, like a USB memory stick or an external hard disk, you may sometimes wish to completely remove all of its files and folders. You can do this by <emphasis>formatting</emphasis>. the disk - this deletes all of the files on the disk and leaves it empty."
 msgstr "Auf einem Wechseldatenträger wie einem USB-Speicherstick oder einer externen Festplatte könnten Sie eventuell sämtliche Dateien und Ordner löschen wollen. Sie können dies tun, indem Sie den Datenträger <emphasis>formatieren</emphasis>. Dadurch werden alle Dateien und Ordner gelöscht, so dass der Datenträger völlig geleert wird."
 
-#: de/index.docbook:168(title)
+#: C/index.docbook:168(title)
 msgid "Format a removable disk"
 msgstr "Formatieren eines Wechseldatenträgers"
 
-#: de/index.docbook:175(para)
+#: C/index.docbook:175(para)
 msgid "Select the disk you want to wipe from the <guimenu>Storage Devices</guimenu> list."
 msgstr "Wählen Sie die vollständig zu löschende Festplatte in der Liste der <guimenu>Speichergeräte</guimenu> aus."
 
-#: de/index.docbook:180(para)
+#: C/index.docbook:180(para)
 msgid "Make sure that you have selected the correct disk! If you choose the wrong disk, all of the files on the other disk will be deleted!"
 msgstr "Stellen Sie unbedingt sicher, dass Sie das richtige Medium gewählt haben! Falls Sie das falsche gewählt haben, werden alle Dateien auf diesem Medium gelöscht!"
 
-#: de/index.docbook:186(para)
+#: C/index.docbook:186(para)
 msgid "In the Volumes section, click <guimenu>Unmount Volume</guimenu>. Then click <guimenu>Format Volume</guimenu>."
 msgstr "Klicken Sie im Abschnitt »Datenträger« auf <guimenu>Datenträger aushängen</guimenu>. Klicken Sie dann auf <guimenu>Datenträger formatieren</guimenu>."
 
-#: de/index.docbook:191(para)
+#: C/index.docbook:191(para)
 msgid "In the window that pops up, choose a filesystem <guimenu>Type</guimenu> for the disk."
 msgstr "Wählen Sie im erscheinenden Fenster einen <guimenu>Typ</guimenu> für das Dateisystem des Datenträgers aus."
 
-#: de/index.docbook:194(para)
+#: C/index.docbook:194(para)
 msgid "If you use the disk on Windows and Mac OS computers in addition to Linux computers, choose <guimenu>FAT</guimenu>. If you only use it on Windows, <guimenu>NTFS</guimenu> may be a better option. A brief description of the <guimenu>file system type</guimenu> will be presented as a label."
 msgstr "Wenn Sie das Laufwerk außer auf Linux-Systemen auch auf Rechnern mit Windows oder Mac OS verwenden, wählen Sie <guimenu>FAT</guimenu>. Wenn Sie es nur auf Windows verwenden, dürfte <guimenu>NTFS</guimenu> die bessere Wahl sein. Eine kurze Beschreibung des <guimenu>Dateisystemtyps</guimenu> wird angezeigt."
 
-#: de/index.docbook:199(para)
+#: C/index.docbook:199(para)
 msgid "Give the disk a name and click <guimenu>Format</guimenu>, to begin wiping the disk."
 msgstr "Geben Sie dem Datenträger einen Namen und klicken Sie auf <guimenu>Formatieren</guimenu>, um mit dem Löschen des Datenträgers zu beginnen."
 
-#: de/index.docbook:204(para)
+#: C/index.docbook:204(para)
 msgid "Once the formatting has finished, <guimenu>safely remove</guimenu> the disk. It should now be blank and ready to use again."
 msgstr "Sobald das Formatieren beendet ist, können Sie den Datenträger sicher entfernen. Er sollte nun leer und verwendungsbereit sein."
 
-#: de/index.docbook:211(title)
+#: C/index.docbook:211(title)
 msgid "Formatting a disk does not securely delete your files"
 msgstr "Formatieren einer Festplatte löscht Ihre Dateien nicht sicher"
 
-#: de/index.docbook:212(para)
+#: C/index.docbook:212(para)
 msgid "Formatting a disk is not a completely secure way of wiping all of its data. A formatted disk will not appear to have files on it, but it is possible that special recovery software could retrieve the files. If you need to securely delete the files, you will need to use a command-line utility, such as <application>shred</application>."
 msgstr "Das Formatieren eines Datenträgers ist keine 100-prozentig sichere Methode, alle Daten zu löschen. Ein formatierter Datenträger scheint keine Dateien zu enthalten, aber darauf spezialisierte Software könnte die Dateien wiederherzustellen. Wenn Sie die Dateien verlässlich löschen müssen, sollten Sie ein Befehlszeilenprogramm verwenden, wie etwa <application>shred</application>."
 
-#: de/index.docbook:220(title)
+#: C/index.docbook:220(title)
 msgid "Manage volumes and partitions"
 msgstr "Datenträger und Partitionen verwalten"
 
-#: de/index.docbook:222(para)
+#: C/index.docbook:222(para)
 msgid "The word <emphasis>volume</emphasis> is used to describe a storage device, like a hard disk. It can also refer to a <emphasis>part</emphasis> of the storage on that device, because you can split the storage up into chunks. The computer makes this storage accessible via your file system in a process referred to as <emphasis>mounting</emphasis> . Mounted volumes may be hard drives, USB drives, DVD-RWs, SD cards, and other media. If a volume is currently mounted, you can read (and possibly write) files on it."
 msgstr "Das Wort <emphasis>Datenträger</emphasis> wird verwendet, um ein Speichergerät zu beschreiben, etwa eine Festplatte. Es kann sich auch auf einen <emphasis>Teil</emphasis> des Speichers auf diesem Gerät beziehen, weil Sie Speicherplatz in Blöcke aufteilen können. Der Rechner erlaubt den Zugriff auf diesen Speicher über Ihr Dateisystem durch einen Vorgang, der als <emphasis>Einhängen</emphasis> bezeichnet wird. Eingehängte Datenträger können Festplatten, USB-Laufwerke, DVD-RWs, SD-Karten und andere Medien sein. Wenn ein Datenträger gerade eingehängt ist, können Sie darauf befindliche Dateien lesen (und möglicherweise auch schreiben)."
 
-#: de/index.docbook:226(para)
+#: C/index.docbook:226(para)
 msgid "Often, a mounted volume is called a <emphasis>partition</emphasis>, though they are not necessarily the same thing. A “partition” refers to a <emphasis>physical</emphasis> area of storage on a single disk drive. Once a partition has been mounted, it can be referred to as a volume because you can access the files on it. You can think of volumes as the labeled, accessible “storefronts” to the functional “back rooms” of partitions and drives."
 msgstr "Eingehängte Datenträger werden oft als <emphasis>Partitionen</emphasis> bezeichnet, obwohl das nicht unbedingt ein und dasselbe ist. Eine »Partition« meint einen <emphasis>physischen</emphasis> Speicherbereich auf einem bestimmten Laufwerk. Sobald eine Partition eingehängt ist, kann man sie als Datenträger bezeichnen, weil man auf die Dateien darauf zugreifen kann."
 
-#: de/index.docbook:231(title)
+#: C/index.docbook:231(title)
 msgid "View and manage volumes and partitions using the disk utility"
 msgstr "Datenträger und Partitionen mit der Laufwerksverwaltung betrachten und verwalten"
 
-#: de/index.docbook:233(para)
+#: C/index.docbook:233(para)
 msgid "You can check and modify your computer's storage volumes with the disk utility."
 msgstr "Sie können die Datenträger Ihres Rechners mit der Laufwerksverwaltung überprüfen und verändern."
 
-#: de/index.docbook:244(para)
+#: C/index.docbook:244(para)
 msgid "In the pane marked <guimenu>Storage Devices</guimenu>, you will find hard disks, CD/DVD drives, and other physical devices. Click the device you want to inspect."
 msgstr "In der mit <guimenu>Speichergeräte</guimenu> beschrifteten Leiste finden Sie Festplatten, CD/DVD-Laufwerke und andere physische Geräte. Klicken Sie auf das Gerät, das Sie untersuchen wollen."
 
-#: de/index.docbook:249(para)
+#: C/index.docbook:249(para)
 msgid "In the right pane, the area labeled <guimenu>Volumes</guimenu> provides a visual breakdown of the volumes and partitions present on the selected device. It also contains a variety of tools used to manage these volumes."
 msgstr "In der rechten Leiste zeigt der mit <guimenu>Datenträger</guimenu> beschriftete Abschnitt eine bildliche Darstellung der Datenträger und Partitionen auf dem gewählten Gerät. Er enthält auch eine Reihe von Hilfsmitteln zur Verwaltung dieser Datenträger."
 
-#: de/index.docbook:252(para)
+#: C/index.docbook:252(para)
 msgid "Be careful: it is possible to completely erase the data on your disk with these utilities."
 msgstr "Vorsicht: Es ist möglich, mit diesen Hilfsprogrammen alle Daten auf Ihrer Festplatte unwiederbringlich zu löschen."
 
-#: de/index.docbook:258(para)
+#: C/index.docbook:258(para)
 msgid "Your computer most likely has at least one <emphasis>primary</emphasis> partition and a single <emphasis>swap</emphasis> partition. The swap partition is used by the operating system for memory management, and is rarely mounted. The primary partition contains your operating system, applications, settings, and personal files. These files can also be distributed among multiple partitions for security or convenience."
 msgstr "Ihr Rechner hat höchstwahrscheinlich mindestens eine <emphasis>primäre</emphasis> Partition und eine einzelne Partition für den <emphasis>Auslagerungsspeicher</emphasis>, auch als Swap-Partition bezeichnet. Der Auslagerungsspeicher wird vom Betriebssystem für die Verwaltung des Arbeitsspeichers verwendet und wird selten eingehängt. Die primäre Partition enthält Ihr Betriebssystem, Ihre Anwendungen, Einstellungen und persönlichen Dateien. Diese Dateien können auch über mehrere Partitionen verteilt sein, wenn es die Sicherheit erfordert oder anderweitig zweckmäßig ist."
 
-#: de/index.docbook:262(para)
+#: C/index.docbook:262(para)
 msgid "One primary partition must contain information that your computer uses to start up, or <emphasis>boot</emphasis>. For this reason it is sometimes called a boot partition, or boot volume. To determine if a volume is bootable, look at its <guimenu>Partition Flags</guimenu> in the disk utility. External media such as USB drives and CDs may also contain a bootable volume."
 msgstr "Eine primäre Partition muss Informationen enthalten, die Ihr Rechner zum Hochfahren oder <emphasis>Booten</emphasis> braucht. Aus diesem Grund wird Sie manchmal Bootpartition genannt. Um festzustellen, ob ein Datenträger bootfähig ist, sehen Sie bei seinen <guimenu>Partitions-Flags</guimenu> in der Laufwerksverwaltung nach. Externe Medien wie USB-Laufwerke und CDs können auch bootfähige Datenträger enthalten."
 
-#: de/index.docbook:271(title)
+#: C/index.docbook:271(title)
 msgid "Test the performance of your hard disk"
 msgstr "Testen der Leistungsfähigkeit Ihrer Festplatte"
 
-#: de/index.docbook:273(para)
+#: C/index.docbook:273(para)
 msgid "To test the speed of your hard disk:"
 msgstr "So testen Sie die Leistungsfähigkeit Ihrer Festplatte:"
 
-#: de/index.docbook:284(para)
+#: C/index.docbook:284(para)
 msgid "Choose the hard disk from the <guimenu>Disk Drives</guimenu> list."
 msgstr "Wählen Sie die Festplatte in der Liste der <guimenu>Speichergeräte</guimenu> aus."
 
-#: de/index.docbook:289(para)
+#: C/index.docbook:289(para)
 msgid "Click the <guimenu>Benchmark Drive</guimenu>."
 msgstr "Klicken Sie auf das Zahnradsymbol und wählen Sie <guimenu>Laufwerks-Leistungstest</guimenu>."
 
-#: de/index.docbook:299(para)
+#: C/index.docbook:299(para)
 msgid "Click <guimenu>Start Benchmark</guimenu> and adjust the <guimenu>Transfer Rate</guimenu> and <guimenu>Access Time</guimenu> parameters as desired."
 msgstr "Klicken Sie auf <guimenu>Leistungstest starten</guimenu> und passen Sie die Parameter für <guimenu>Übertragungsrate</guimenu> und <guimenu>Zugriffszeit</guimenu> wie gewünscht an."
 
-#: de/index.docbook:303(para)
+#: C/index.docbook:303(para)
 msgid "If <guimenu>Also perform write-benchmark</guimenu> is checked, the benchmark will test how fast data can be read from and written to the disk. This will take longer to complete."
 msgstr "Wenn <guimenu>Auch Schreib-Leistungstest ausführen</guimenu> ausgewählt ist, so wird der Test untersuchen, wie schnell Daten von der Platte gelesen und wie schnell Daten darauf geschrieben werden. Diese Möglichkeit wird mehr Zeit in Anspruch nehmen."
 
-#: de/index.docbook:310(para)
+#: C/index.docbook:310(para)
 msgid "When the test is finished, the results will appear on the graph. The green points and connecting lines indicate the samples taken; these correspond to the right axis, showing access time, plotted against the bottom axis, representing percentage time elapsed during the benchmark. The blue line represents read rates, while the red line represents write rates; these are shown as access data rates on the left axis, plotted against percentage of the disk traveled, from the outside to the spindle, along the bottom axis."
 msgstr "Wenn die Untersuchung abgeschlossen ist wird das Ergebnis im Diagramm dargestellt. Die grünen Punkte und deren verbindende Linien repräsentieren die Messwerte. Für sie gilt die rechte Achse, welche die Zugriffszeit bemisst. Die untere Achse stellt die verstrichene Testzeit prozentual dar. Die blaue Linie repräsentiert die Lesegeschwindigkeit und die rote Linie die Schreibgeschwindigkeit. Die zugehörigen Transferraten sind auf der linken Achse aufgetragen und die untere Achse zeigt prozentual den von außen zur Spindel hin überfahrenen Medienbereich."
 
-#: de/index.docbook:315(para)
+#: C/index.docbook:315(para)
 msgid "Below the graph, values are displayed for minimum, maximum and average read and write rates, average access time and time elapsed since the last benchmark test."
 msgstr "Unterhalb des Graphen werden Werte für minimale, maximale und durchschnittliche Schreib- und Leseraten angezeigt, sowie die mittlere Zugriffszeit und die seit dem letzten Leistungstest vergangene Zeit."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
-#: de/index.docbook:0(None)
+#: C/index.docbook:0(None)
 msgid "translator-credits"
 msgstr "Mario Blättermann <mariobl@gnome.org>, 2009"
 
