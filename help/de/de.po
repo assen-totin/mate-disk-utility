@@ -7,7 +7,7 @@ msgstr ""
 "POT-Creation-Date: 2009-04-21 08:39+0000\n"
 "PO-Revision-Date: 2009-05-02 19:05+0100\n"
 "Last-Translator: Mario Blättermann <mariobl@gnome.org>\n"
-"Language-Team: German <mate-de@gnome.org>\n"
+"Language-Team: German <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -54,37 +54,17 @@ msgstr "MATE Dokumentationsprojekt"
 msgid "GNOME Documentation Project"
 msgstr "GNOME Dokumentationsprojekt"
 
-#: de/index.docbook:2(para)
-msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
-msgstr "Das vorliegende Dokument kann gemäß den Bedingungen der GNU Free Documentation License (GFDL), Version 1.1 oder jeder späteren, von der Free Software Foundation veröffentlichten Version ohne unveränderbare Abschnitte sowie ohne Texte auf dem vorderen und hinteren Buchdeckel kopiert, verteilt und/oder modifiziert werden. Eine Kopie der GFDL finden Sie unter diesem <ulink type=\"help\" url=\"help:fdl\">Link</ulink> oder in der mit diesem Handbuch gelieferten Datei COPYING-DOCS."
-
-#: de/index.docbook:12(para)
-msgid "This manual is part of a collection of MATE manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
-msgstr "Dieses Handbuch ist Teil einer Sammlung von MATE-Handbüchern, die unter der GFDL veröffentlicht werden. Wenn Sie dieses Handbuch getrennt von der Sammlung weiterverbreiten möchten, können Sie das tun, indem Sie eine Kopie der Lizenz zum Handbuch hinzufügen, wie es in Abschnitt 6 der Lizenz beschrieben ist."
-
-#: de/index.docbook:20(para)
-msgid "Many of the names used by companies to distinguish their products and services are claimed as trademarks. Where those names appear in any MATE documentation, and the members of the MATE Documentation Project are made aware of those trademarks, then the names are in capital letters or initial capital letters."
-msgstr "Viele der Namen, die von Unternehmen verwendet werden, um ihre Produkte und Dienstleistungen von anderen zu unterscheiden, sind eingetragene Warenzeichen. An den Stellen, an denen diese Namen in einer MATE-Dokumentation erscheinen, werden die Namen in Großbuchstaben oder mit einem großen Anfangsbuchstaben geschrieben, wenn das MATE-Dokumentationsprojekt auf diese Warenzeichen hingewiesen wird."
-
-#: de/index.docbook:36(para)
-msgid "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
-msgstr "DIESES DOKUMENT WIRD »WIE VORLIEGEND« GELIEFERT, OHNE GARANTIEN IRGENDEINER ART, SOWOHL AUSDRÜCKLICH GENANNTE ALS AUCH ANGEDEUTETE. DIES BEZIEHT SICH AUCH OHNE EINSCHRÄNKUNG AUF GARANTIEN, DASS DIESES DOKUMENT ODER VERÄNDERTE FASSUNGEN DIESES DOKUMENTS FREI VON HANDELSDEFEKTEN, FÜR EINEN BESTIMMTEN ZWECK GEEIGNET IST ODER DASS ES KEINE RECHTE DRITTER VERLETZT. DAS VOLLE RISIKO WAS QUALITÄT, GENAUIGKEIT UND LEISTUNG DES DOKUMENTS ODER VERÄNDERTE FASSUNGEN DES DOKUMENTS LIEGT BEI IHNEN. SOLLTE EIN DOKUMENT ODER EINE VERÄNDERTE FASSUNG DAVON FEHLER IRGENDEINER ART BEINHALTEN, TRAGEN SIE (NICHT DER URSPRUNGSAUTOR, DER AUTOR ODER EIN MITWIRKENDER) DIE KOSTEN FÜR NOTWENDIGE DIENSTLEISTUNGEN, REPARATUREN ODER FEHLERKORREKTUREN. DIESER HAFTUNGSAUSSCHLUSS IST EIN ESSENZIELLER TEIL DIESER LIZENZ. DIE VERWENDUNG EINES DOKUMENTS ODER EINER VERÄNDERTEN VERSION DES DOKUMENTS IST NICHT GESTATTET AUßER UNTER BEACHTUNG DIESES HAFTUNGSAUSSCHLUSSES UND"
-
-#: de/index.docbook:30(para)
-msgid "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: <placeholder-1/>"
-msgstr "DAS DOKUMENT UND VERÄNDERTE FASSUNGEN DES DOKUMENTS WERDEN UNTER DEN BEDINGUNGEN DER GNU FREE DOCUMENTATION LICENSE ZUR VERFÜGUNG GESTELLT MIT DEM WEITERGEHENDEN VERSTÄNDNIS, DASS: <placeholder-1/>"
-
-#: de/index.docbook:56(para)
-msgid "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES."
-msgstr "UNTER KEINEN UMSTÄNDEN UND AUF BASIS KEINER RECHTSGRUNDLAGE, EGAL OB DURCH UNERLAUBTEN HANDLUNGEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT), VERTRAG ODER ANDERWEITIG KANN DER AUTOR, URSPRUNGSAUTOR, EIN MITWIRKENDER ODER EIN VERTRIEBSPARTNER DIESES DOKUMENTS ODER EINER VERÄNDERTEN FASSUNG DES DOKUMENTS ODER EIN ZULIEFERER EINER DIESER PARTEIEN, HAFTBAR GEMACHT WERDEN FÜR DIREKTE, INDIREKTE, SPEZIELLE, VERSEHENTLICHE ODER FOLGESCHÄDEN JEGLICHER ART, EINSCHLIEßLICH UND OHNE EINSCHRÄNKUNGEN SCHÄDEN DURCH VERLUST VON KULANZ, ARBEITSAUSFALL, COMPUTERVERSAGEN ODER COMPUTERFEHLFUNKTIONEN ODER ALLE ANDEREN SCHÄDEN ODER VERLUSTE, DIE SICH AUS ODER IN VERBINDUNG MIT DER VERWENDUNG DES DOKUMENTS UND VERÄNDERTER FASSUNGEN DES DOKUMENTS ERGEBEN, AUCH WENN DIE OBEN GENANNTEN PARTEIEN ÜBER DIE MÖGLICHKEIT SOLCHER SCHÄDEN INFORMIERT WAREN."
-
 #: de/index.docbook:41(firstname)
 msgid "Wolfgang"
 msgstr "Wolfgang"
 
-#: de/index.docbook:34(surname)
+#: de/index.docbook:41(surname)
 msgid "Ulbrich"
 msgstr "Ulbrich"
+
+#: de/index.docbook:44(email)
+msgid "chat-to-me@raveit.de"
+msgstr "chat-to-me@raveit.de"
 
 #: de/index.docbook:49(firstname)
 msgid "David"
@@ -94,41 +74,67 @@ msgstr "David"
 msgid "Zeuthen"
 msgstr "Zeuthen"
 
-#: de/index.docbook:44(email)
-msgid "chat-to-me@raveit.de"
-msgstr "chat-to-me@raveit.de"
-
 #: de/index.docbook:52(email)
 msgid "davidz@redhat.com"
 msgstr "davidz@redhat.com"
 
 #: de/index.docbook:60(revnumber)
-msgid "Mate Disk Utility Manual V 1.8"
-msgstr "»Mate Disk Utility« Handbuch V 1.8"
+msgid "Mate Disk Utility Manual V 0.2"
+msgstr "»Mate Disk Utility« Handbuch V 0.2"
 
-#: de/index.docbook:69(revnumber)
-msgid "Palimpsest Disk Utility Manual Manual V 1.0"
-msgstr "»Palimpsest Disk Utility Manual Utility« Handbuch V 1.0"
-
-#: de/index.docbook:64(para)
+#: de/index.docbook:63(para)
 msgid "Wolfgang Ulbrich <email>chat-to-me@raveit.de</email>"
 msgstr "Wolfgang Ulbrich <email>chat-to-me@raveit.de</email>"
 
-#: de/index.docbook:73(para)
+#: de/index.docbook:69(revnumber)
+msgid "Palimpsest Disk Utility Manual Manual V 0.1"
+msgstr "»Palimpsest Disk Utility Manual Utility« Handbuch V 0.1"
+
+#: de/index.docbook:72(para)
 msgid "David Zeuthen <email>davidz@redhat.com</email>"
 msgstr "David Zeuthen <email>davidz@redhat.com</email>"
 
 #: de/index.docbook:79(releaseinfo)
-msgid "This manual describes version 1.8 of Mate Disk Utility."
-msgstr "Dieses Handbuch beschreibt Version 1.8 von Mate Disk Utility."
+msgid "This manual describes version 0.2 of Mate Disk Utility."
+msgstr "Dieses Handbuch beschreibt Version 0.2 von Mate Disk Utility."
 
 #: de/index.docbook:82(title)
 msgid "Feedback"
 msgstr "Rückmeldungen"
 
 #: de/index.docbook:83(para)
-msgid "To report a bug or make a suggestion regarding the <application>Mate Disk Utility</application> application or this manual, follow the directions in the <ulink url=\"help:mate-user-quide\" type=\"help\">MATE Feedback Page</ulink>."
-msgstr "Um einen Fehler zu melden oder einen Vorschlag zur Anwendung <application>Mate Disk Utility</application> oder zu diesem Handbuch zu machen, folgen Sie den Anweisungen auf der <ulink url=\"help:mate-user-quide\" type=\"help\">MATE-Seite für Rückmeldungen</ulink>."
+msgid "To report a bug or make a suggestion regarding the <application>Mate Disk "
+"Utility</application> application or this manual, follow the directions in "
+"the <ulink url=\"help:mate-user-quide\" type=\"help\">MATE Feedback Page</"
+"ulink>."
+msgstr "Wenn Sie Fehler finden oder Vorschläge zur <application>Mate Disk Utility</"
+"application> Anwendung oder diesem Handbuch haben, befolgen Sie bitte die "
+"Anweisungen auf der <ulink url=\"help:mate-feedback\" type=\"help\">MATE-"
+"Seite für Rückmeldungen</ulink>."
+
+#: C/legal.xml:2(para)
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any later version published by the Free Software Foundation with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in the file COPYING-DOCS distributed with this manual."
+msgstr "Das vorliegende Dokument kann gemäß den Bedingungen der GNU Free Documentation License (GFDL), Version 1.1 oder jeder späteren, von der Free Software Foundation veröffentlichten Version ohne unveränderbare Abschnitte sowie ohne Texte auf dem vorderen und hinteren Buchdeckel kopiert, verteilt und/oder modifiziert werden. Eine Kopie der GFDL finden Sie unter diesem <ulink type=\"help\" url=\"help:fdl\">Link</ulink> oder in der mit diesem Handbuch gelieferten Datei COPYING-DOCS."
+
+#: C/legal.xml:12(para)
+msgid "This manual is part of a collection of MATE manuals distributed under the GFDL. If you want to distribute this manual separately from the collection, you can do so by adding a copy of the license to the manual, as described in section 6 of the license."
+msgstr "Dieses Handbuch ist Teil einer Sammlung von MATE-Handbüchern, die unter der GFDL veröffentlicht werden. Wenn Sie dieses Handbuch getrennt von der Sammlung weiterverbreiten möchten, können Sie das tun, indem Sie eine Kopie der Lizenz zum Handbuch hinzufügen, wie es in Abschnitt 6 der Lizenz beschrieben ist."
+
+#: C/legal.xml:19(para)
+msgid "Many of the names used by companies to distinguish their products and services are claimed as trademarks. Where those names appear in any MATE documentation, and the members of the MATE Documentation Project are made aware of those trademarks, then the names are in capital letters or initial capital letters."
+msgstr "Viele der Namen, die von Unternehmen verwendet werden, um ihre Produkte und Dienstleistungen von anderen zu unterscheiden, sind eingetragene Warenzeichen. An den Stellen, an denen diese Namen in einer MATE-Dokumentation erscheinen, werden die Namen in Großbuchstaben oder mit einem großen Anfangsbuchstaben geschrieben, wenn das MATE-Dokumentationsprojekt auf diese Warenzeichen hingewiesen wird."
+
+#: C/legal.xml:28(para)
+msgid "DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT:"
+msgstr "DAS DOKUMENT UND VERÄNDERTE FASSUNGEN DES DOKUMENTS WERDEN UNTER DEN BEDINGUNGEN DER GNU FREE DOCUMENTATION LICENSE ZUR VERFÜGUNG GESTELLT MIT DEM WEITERGEHENDEN VERSTÄNDNIS, DASS:"
+
+#: C/legal.xml:36(para)
+msgid "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr "DIESES DOKUMENT WIRD »WIE VORLIEGEND« GELIEFERT, OHNE GARANTIEN IRGENDEINER ART, SOWOHL AUSDRÜCKLICH GENANNTE ALS AUCH ANGEDEUTETE. DIES BEZIEHT SICH AUCH OHNE EINSCHRÄNKUNG AUF GARANTIEN, DASS DIESES DOKUMENT ODER VERÄNDERTE FASSUNGEN DIESES DOKUMENTS FREI VON HANDELSDEFEKTEN, FÜR EINEN BESTIMMTEN ZWECK GEEIGNET IST ODER DASS ES KEINE RECHTE DRITTER VERLETZT. DAS VOLLE RISIKO WAS QUALITÄT, GENAUIGKEIT UND LEISTUNG DES DOKUMENTS ODER VERÄNDERTE FASSUNGEN DES DOKUMENTS LIEGT BEI IHNEN. SOLLTE EIN DOKUMENT ODER EINE VERÄNDERTE FASSUNG DAVON FEHLER IRGENDEINER ART BEINHALTEN, TRAGEN SIE (NICHT DER URSPRUNGSAUTOR, DER AUTOR ODER EIN MITWIRKENDER) DIE KOSTEN FÜR NOTWENDIGE DIENSTLEISTUNGEN, REPARATUREN ODER FEHLERKORREKTUREN. DIESER HAFTUNGSAUSSCHLUSS IST EIN ESSENZIELLER TEIL DIESER LIZENZ. DIE VERWENDUNG EINES DOKUMENTS ODER EINER VERÄNDERTEN VERSION DES DOKUMENTS IST NICHT GESTATTET AUßER UNTER BEACHTUNG DIESES HAFTUNGSAUSSCHLUSSES UND"
+
+#: C/legal.xml:56(para)
+msgid "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES."
+msgstr "UNTER KEINEN UMSTÄNDEN UND AUF BASIS KEINER RECHTSGRUNDLAGE, EGAL OB DURCH UNERLAUBTEN HANDLUNGEN (EINSCHLIEßLICH FAHRLÄSSIGKEIT), VERTRAG ODER ANDERWEITIG KANN DER AUTOR, URSPRUNGSAUTOR, EIN MITWIRKENDER ODER EIN VERTRIEBSPARTNER DIESES DOKUMENTS ODER EINER VERÄNDERTEN FASSUNG DES DOKUMENTS ODER EIN ZULIEFERER EINER DIESER PARTEIEN, HAFTBAR GEMACHT WERDEN FÜR DIREKTE, INDIREKTE, SPEZIELLE, VERSEHENTLICHE ODER FOLGESCHÄDEN JEGLICHER ART, EINSCHLIEßLICH UND OHNE EINSCHRÄNKUNGEN SCHÄDEN DURCH VERLUST VON KULANZ, ARBEITSAUSFALL, COMPUTERVERSAGEN ODER COMPUTERFEHLFUNKTIONEN ODER ALLE ANDEREN SCHÄDEN ODER VERLUSTE, DIE SICH AUS ODER IN VERBINDUNG MIT DER VERWENDUNG DES DOKUMENTS UND VERÄNDERTER FASSUNGEN DES DOKUMENTS ERGEBEN, AUCH WENN DIE OBEN GENANNTEN PARTEIEN ÜBER DIE MÖGLICHKEIT SOLCHER SCHÄDEN INFORMIERT WAREN."
 
 #: de/index.docbook:91(title)
 msgid "Introduction."
@@ -168,6 +174,8 @@ msgstr "Überprüfen der Festplattengesundheit mit der Laufwerksverwaltung"
 
 #: de/index.docbook:122(para)
 #: de/index.docbook:170(para)
+#: de/index.docbook:239(para)
+#: de/index.docbook:279(para)
 msgid "Open the menu <menuchoice> <guimenu>Applications</guimenu><application>Drive Management</application> </menuchoice>."
 msgstr "Öffnen Sie im Menu <menuchoice> <guimenu>Anwendungen</guimenu><application>Laufwerksverwaltung</application> </menuchoice>."
 
@@ -246,6 +254,78 @@ msgstr "Formatieren einer Festplatte löscht Ihre Dateien nicht sicher"
 #: de/index.docbook:212(para)
 msgid "Formatting a disk is not a completely secure way of wiping all of its data. A formatted disk will not appear to have files on it, but it is possible that special recovery software could retrieve the files. If you need to securely delete the files, you will need to use a command-line utility, such as <application>shred</application>."
 msgstr "Das Formatieren eines Datenträgers ist keine 100-prozentig sichere Methode, alle Daten zu löschen. Ein formatierter Datenträger scheint keine Dateien zu enthalten, aber darauf spezialisierte Software könnte die Dateien wiederherzustellen. Wenn Sie die Dateien verlässlich löschen müssen, sollten Sie ein Befehlszeilenprogramm verwenden, wie etwa <application>shred</application>."
+
+#: de/index.docbook:220(title)
+msgid "Manage volumes and partitions"
+msgstr "Datenträger und Partitionen verwalten"
+
+#: de/index.docbook:222(para)
+msgid "The word <emphasis>volume</emphasis> is used to describe a storage device, like a hard disk. It can also refer to a <emphasis>part</emphasis> of the storage on that device, because you can split the storage up into chunks. The computer makes this storage accessible via your file system in a process referred to as <emphasis>mounting</emphasis> . Mounted volumes may be hard drives, USB drives, DVD-RWs, SD cards, and other media. If a volume is currently mounted, you can read (and possibly write) files on it."
+msgstr "Das Wort <emphasis>Datenträger</emphasis> wird verwendet, um ein Speichergerät zu beschreiben, etwa eine Festplatte. Es kann sich auch auf einen <emphasis>Teil</emphasis> des Speichers auf diesem Gerät beziehen, weil Sie Speicherplatz in Blöcke aufteilen können. Der Rechner erlaubt den Zugriff auf diesen Speicher über Ihr Dateisystem durch einen Vorgang, der als <emphasis>Einhängen</emphasis> bezeichnet wird. Eingehängte Datenträger können Festplatten, USB-Laufwerke, DVD-RWs, SD-Karten und andere Medien sein. Wenn ein Datenträger gerade eingehängt ist, können Sie darauf befindliche Dateien lesen (und möglicherweise auch schreiben)."
+
+#: de/index.docbook:226(para)
+msgid "Often, a mounted volume is called a <emphasis>partition</emphasis>, though they are not necessarily the same thing. A “partition” refers to a <emphasis>physical</emphasis> area of storage on a single disk drive. Once a partition has been mounted, it can be referred to as a volume because you can access the files on it. You can think of volumes as the labeled, accessible “storefronts” to the functional “back rooms” of partitions and drives."
+msgstr "Eingehängte Datenträger werden oft als <emphasis>Partitionen</emphasis> bezeichnet, obwohl das nicht unbedingt ein und dasselbe ist. Eine »Partition« meint einen <emphasis>physischen</emphasis> Speicherbereich auf einem bestimmten Laufwerk. Sobald eine Partition eingehängt ist, kann man sie als Datenträger bezeichnen, weil man auf die Dateien darauf zugreifen kann."
+
+#: de/index.docbook:231(title)
+msgid "View and manage volumes and partitions using the disk utility"
+msgstr "Datenträger und Partitionen mit der Laufwerksverwaltung betrachten und verwalten"
+
+#: de/index.docbook:233(para)
+msgid "You can check and modify your computer's storage volumes with the disk utility."
+msgstr "Sie können die Datenträger Ihres Rechners mit der Laufwerksverwaltung überprüfen und verändern."
+
+#: de/index.docbook:244(para)
+msgid "In the pane marked <guimenu>Storage Devices</guimenu>, you will find hard disks, CD/DVD drives, and other physical devices. Click the device you want to inspect."
+msgstr "In der mit <guimenu>Speichergeräte</guimenu> beschrifteten Leiste finden Sie Festplatten, CD/DVD-Laufwerke und andere physische Geräte. Klicken Sie auf das Gerät, das Sie untersuchen wollen."
+
+#: de/index.docbook:249(para)
+msgid "In the right pane, the area labeled <guimenu>Volumes</guimenu> provides a visual breakdown of the volumes and partitions present on the selected device. It also contains a variety of tools used to manage these volumes."
+msgstr "In der rechten Leiste zeigt der mit <guimenu>Datenträger</guimenu> beschriftete Abschnitt eine bildliche Darstellung der Datenträger und Partitionen auf dem gewählten Gerät. Er enthält auch eine Reihe von Hilfsmitteln zur Verwaltung dieser Datenträger."
+
+#: de/index.docbook:252(para)
+msgid "Be careful: it is possible to completely erase the data on your disk with these utilities."
+msgstr "Vorsicht: Es ist möglich, mit diesen Hilfsprogrammen alle Daten auf Ihrer Festplatte unwiederbringlich zu löschen."
+
+#: de/index.docbook:258(para)
+msgid "Your computer most likely has at least one <emphasis>primary</emphasis> partition and a single <emphasis>swap</emphasis> partition. The swap partition is used by the operating system for memory management, and is rarely mounted. The primary partition contains your operating system, applications, settings, and personal files. These files can also be distributed among multiple partitions for security or convenience."
+msgstr "Ihr Rechner hat höchstwahrscheinlich mindestens eine <emphasis>primäre</emphasis> Partition und eine einzelne Partition für den <emphasis>Auslagerungsspeicher</emphasis>, auch als Swap-Partition bezeichnet. Der Auslagerungsspeicher wird vom Betriebssystem für die Verwaltung des Arbeitsspeichers verwendet und wird selten eingehängt. Die primäre Partition enthält Ihr Betriebssystem, Ihre Anwendungen, Einstellungen und persönlichen Dateien. Diese Dateien können auch über mehrere Partitionen verteilt sein, wenn es die Sicherheit erfordert oder anderweitig zweckmäßig ist."
+
+#: de/index.docbook:262(para)
+msgid "One primary partition must contain information that your computer uses to start up, or <emphasis>boot</emphasis>. For this reason it is sometimes called a boot partition, or boot volume. To determine if a volume is bootable, look at its <guimenu>Partition Flags</guimenu> in the disk utility. External media such as USB drives and CDs may also contain a bootable volume."
+msgstr "Eine primäre Partition muss Informationen enthalten, die Ihr Rechner zum Hochfahren oder <emphasis>Booten</emphasis> braucht. Aus diesem Grund wird Sie manchmal Bootpartition genannt. Um festzustellen, ob ein Datenträger bootfähig ist, sehen Sie bei seinen <guimenu>Partitions-Flags</guimenu> in der Laufwerksverwaltung nach. Externe Medien wie USB-Laufwerke und CDs können auch bootfähige Datenträger enthalten."
+
+#: de/index.docbook:271(title)
+msgid "Test the performance of your hard disk"
+msgstr "Testen der Leistungsfähigkeit Ihrer Festplatte"
+
+#: de/index.docbook:273(para)
+msgid "To test the speed of your hard disk:"
+msgstr "So testen Sie die Leistungsfähigkeit Ihrer Festplatte:"
+
+#: de/index.docbook:284(para)
+msgid "Choose the hard disk from the <guimenu>Disk Drives</guimenu> list."
+msgstr "Wählen Sie die Festplatte in der Liste der <guimenu>Speichergeräte</guimenu> aus."
+
+#: de/index.docbook:289(para)
+msgid "Click the <guimenu>Benchmark Drive</guimenu>."
+msgstr "Klicken Sie auf das Zahnradsymbol und wählen Sie <guimenu>Laufwerks-Leistungstest</guimenu>."
+
+#: de/index.docbook:299(para)
+msgid "Click <guimenu>Start Benchmark</guimenu> and adjust the <guimenu>Transfer Rate</guimenu> and <guimenu>Access Time</guimenu> parameters as desired."
+msgstr "Klicken Sie auf <guimenu>Leistungstest starten</guimenu> und passen Sie die Parameter für <guimenu>Übertragungsrate</guimenu> und <guimenu>Zugriffszeit</guimenu> wie gewünscht an."
+
+#: de/index.docbook:303(para)
+msgid "If <guimenu>Also perform write-benchmark</guimenu> is checked, the benchmark will test how fast data can be read from and written to the disk. This will take longer to complete."
+msgstr "Wenn <guimenu>Auch Schreib-Leistungstest ausführen</guimenu> ausgewählt ist, so wird der Test untersuchen, wie schnell Daten von der Platte gelesen und wie schnell Daten darauf geschrieben werden. Diese Möglichkeit wird mehr Zeit in Anspruch nehmen."
+
+#: de/index.docbook:310(para)
+msgid "When the test is finished, the results will appear on the graph. The green points and connecting lines indicate the samples taken; these correspond to the right axis, showing access time, plotted against the bottom axis, representing percentage time elapsed during the benchmark. The blue line represents read rates, while the red line represents write rates; these are shown as access data rates on the left axis, plotted against percentage of the disk traveled, from the outside to the spindle, along the bottom axis."
+msgstr "Wenn die Untersuchung abgeschlossen ist wird das Ergebnis im Diagramm dargestellt. Die grünen Punkte und deren verbindende Linien repräsentieren die Messwerte. Für sie gilt die rechte Achse, welche die Zugriffszeit bemisst. Die untere Achse stellt die verstrichene Testzeit prozentual dar. Die blaue Linie repräsentiert die Lesegeschwindigkeit und die rote Linie die Schreibgeschwindigkeit. Die zugehörigen Transferraten sind auf der linken Achse aufgetragen und die untere Achse zeigt prozentual den von außen zur Spindel hin überfahrenen Medienbereich."
+
+#: de/index.docbook:315(para)
+msgid "Below the graph, values are displayed for minimum, maximum and average read and write rates, average access time and time elapsed since the last benchmark test."
+msgstr "Unterhalb des Graphen werden Werte für minimale, maximale und durchschnittliche Schreib- und Leseraten angezeigt, sowie die mittlere Zugriffszeit und die seit dem letzten Leistungstest vergangene Zeit."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: de/index.docbook:0(None)
