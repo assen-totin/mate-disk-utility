@@ -7,11 +7,11 @@
 # Simos Xenitellis <simos@gnome.org>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-disk-utility master\n"
+"Project-Id-Version: mate-disk-utility\n"
 "POT-Creation-Date: 2009-07-19 11:15+0000\n"
 "PO-Revision-Date: 2009-07-18 19:01+0100\n"
 "Last-Translator: Simos Xenitellis <simos@gnome.org>\n"
-"Language-Team: Greek <team@mate.gr>\n"
+"Language-Team: Greek <team@gnome.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -30,19 +30,93 @@ msgstr " Εγχειρίδιο του <application>Εργαλείου δίσκω�
 msgid "This document describes the Mate Disk Utility application."
 msgstr "Αυτό το έγγραφο περιγράφει το εργαλείο δίσκων MateDisk. "
 
-#: C/index.docbook:25(year) C/index.docbook:45(date)
+#: C/index.docbook:25(year)
+#: C/index.docbook:61(date)
+msgid "2014"
+msgstr "2014"
+
+#: C/index.docbook:29(year)
+#: C/index.docbook:70(date)
 msgid "2008"
 msgstr "2008"
 
 #: C/index.docbook:26(holder)
+msgid "Wolfgang Ulbrich"
+msgstr "Wolfgang Ulbrich"
+
+#: C/index.docbook:30(holder)
 msgid "David Zeuthen"
 msgstr "David Zeuthen"
 
-#: C/index.docbook:29(publishername)
+#: C/index.docbook:33(publishername)
 msgid "MATE Documentation Project"
 msgstr "Έργο τεκμηρίωσης MATE"
 
-#: C/index.docbook:2(para)
+#: C/index.docbook:36(publishername)
+msgid "GNOME Documentation Project"
+msgstr "Έργο τεκμηρίωσης GNOME"
+
+#: C/index.docbook:41(firstname)
+msgid "Wolfgang"
+msgstr "Wolfgang"
+
+#: C/index.docbook:41(surname)
+msgid "Ulbrich"
+msgstr "Ulbrich"
+
+#: C/index.docbook:44(email)
+msgid "chat-to-me@raveit.de"
+msgstr "chat-to-me@raveit.de"
+
+#: C/index.docbook:49(firstname)
+msgid "David"
+msgstr "David"
+
+#: C/index.docbook:49(surname)
+msgid "Zeuthen"
+msgstr "Zeuthen"
+
+#: C/index.docbook:52(email)
+msgid "davidz@redhat.com"
+msgstr "davidz@redhat.com"
+
+#: C/index.docbook:60(revnumber)
+msgid "Mate Disk Utility Manual V 0.2"
+msgstr "Εγχειρίδιο του εργαλείου δίσκων MateDisk, V 0.2"
+
+#: C/index.docbook:63(para)
+msgid "Wolfgang Ulbrich <email>chat-to-me@raveit.de</email>"
+msgstr "Wolfgang Ulbrich <email>chat-to-me@raveit.de</email>"
+
+#: C/index.docbook:69(revnumber)
+msgid "Palimpsest Disk Utility Manual Manual V 0.1"
+msgstr "Εγχειρίδιο του εργαλείου δίσκων Palimpsest, V 0.1"
+
+#: C/index.docbook:72(para)
+msgid "David Zeuthen <email>davidz@redhat.com</email>"
+msgstr "David Zeuthen <email>davidz@redhat.com</email>"
+
+#: C/index.docbook:79(releaseinfo)
+msgid "This manual describes version 0.2 of Mate Disk Utility."
+msgstr ""
+"Αυτό το εγχειρίδιο περιγράφει την έκδοση 0.1 του εργαλείου δίσκων MateDisk."
+
+#: C/index.docbook:82(title)
+msgid "Feedback"
+msgstr "Ανάδραση"
+
+#: C/index.docbook:83(para)
+msgid "To report a bug or make a suggestion regarding the <application>Mate Disk "
+"Utility</application> application or this manual, follow the directions in "
+"the <ulink url=\"help:mate-user-quide\" type=\"help\">MATE Feedback Page</"
+"ulink>."
+msgstr ""
+"Για να αναφέρετε ένα σφάλμα η να κάνετε μια πρόταση σχετικά με το "
+"<application>Εργαλείο δίσκων Mate Disk Utility</application> ή αυτό το εγχειρίδιο, "
+"ακολουθήστε τις οδηγίες στην <ulink url=\"help:mate-user-quide\" type=\"help"
+"\">Σελίδα ανάδρασης MATE</ulink>."
+
+#: C/legal.xml:2(para)
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
@@ -59,7 +133,7 @@ msgstr ""
 "<ulink type=\"help\" url=\"help:fdl\">σύνδεσμο</ulink> ή στο αρχείο COPYING "
 "DOCS το οποίο διανεμήθηκε με αυτό το εγχειρίδιο."
 
-#: C/index.docbook:12(para)
+#: C/legal.xml:12(para)
 msgid ""
 "This manual is part of a collection of MATE manuals distributed under the "
 "GFDL. If you want to distribute this manual separately from the collection, "
@@ -72,7 +146,7 @@ msgstr ""
 "ένα αντίγραφο της άδειας χρήσης στο εγχειρίδιο, όπως περιγράφεται στον τομέα "
 "6 της άδειας χρήσης. "
 
-#: C/index.docbook:19(para)
+#: C/legal.xml:19(para)
 msgid ""
 "Many of the names used by companies to distinguish their products and "
 "services are claimed as trademarks. Where those names appear in any MATE "
@@ -86,7 +160,16 @@ msgstr ""
 "του Έργου Τεκμηρίωσης MATE το γνωρίζουν, τότε τα ονόματα αυτά είναι με "
 "κεφαλαία ή με αρχικά κεφαλαία γράμματα."
 
-#: C/index.docbook:35(para)
+#: C/legal.xml:28(para)
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT:"
+msgstr ""
+"ΤΟ ΠΑΡΟΝ ΕΓΓΡΑΦΟ ΚΑΙ ΟΙ ΤΡΟΠΟΙΗΜΕΝΕΣ ΕΚΔΟΣΕΙΣ ΑΥΤΟΥ ΠΑΡΕΧΟΝΤΑΙ ΥΠΟ ΤΟΥΣ "
+"ΟΡΟΥΣ ΤΗΣ ΕΛΕΥΘΕΡΗΣ ΑΔΕΙΑΣ ΤΕΚΜΗΡΙΩΣΗΣ GNU (GFDL) ΚΑΙ ΜΕ ΤΗΝ ΠΕΡΑΙΤΕΡΩ "
+"ΔΙΕΥΚΡΙΝΙΣΗ ΟΤΙ:"
+
+#: C/legal.xml:36(para)
 msgid ""
 "DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
 "EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
@@ -114,7 +197,7 @@ msgstr ""
 "ΤΡΟΠΟΠΟΙΗΜΕΝΩΝ ΕΚΔΟΣΕΩΝ ΑΥΤΟΥ ΣΥΜΦΩΝΑ ΜΕ ΤΟΥΣ ΟΡΟΥΣ ΤΗΣ ΠΑΡΟΥΣΑΣ,  ΠΑΡΑ ΜΟΝΟ "
 "ΕΑΝ ΣΥΝΟΔΕΥΕΤΑΙ ΑΠΟ ΤΗΝ ΑΠΟΠΟΙΗΣΗ ΕΓΓΥΗΣΗΣ,  ΚΑΙ"
 
-#: C/index.docbook:55(para)
+#: C/legal.xml:56(para)
 msgid ""
 "UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
 "NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
@@ -140,69 +223,18 @@ msgstr ""
 "ΕΚΔΟΣΕΩΝ ΑΥΤΟΥ, ΑΚΟΜΑ ΚΑΙ ΑΝ ΤΑ ΩΣ ΑΝΩ ΜΕΡΗ ΕΙΧΑΝ ΛΑΒΕΙ ΓΝΩΣΗ ΤΗΣ "
 "ΠΙΘΑΝΟΤΗΤΑΣ ΠΡΟΚΛΗΣΗΣ ΤΕΤΟΙΩΝ ΖΗΜΙΩΝ."
 
-#: C/index.docbook:28(para)
-msgid ""
-"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
-"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
-"<placeholder-1/>"
-msgstr ""
-"ΤΟ ΠΑΡΟΝ ΕΓΓΡΑΦΟ ΚΑΙ ΟΙ ΤΡΟΠΟΙΗΜΕΝΕΣ ΕΚΔΟΣΕΙΣ ΑΥΤΟΥ ΠΑΡΕΧΟΝΤΑΙ ΥΠΟ ΤΟΥΣ "
-"ΟΡΟΥΣ ΤΗΣ ΕΛΕΥΘΕΡΗΣ ΑΔΕΙΑΣ ΤΕΚΜΗΡΙΩΣΗΣ GNU (GFDL) ΚΑΙ ΜΕ ΤΗΝ ΠΕΡΑΙΤΕΡΩ "
-"ΔΙΕΥΚΡΙΝΙΣΗ ΟΤΙ: <placeholder-1/>"
-
-#: C/index.docbook:34(firstname)
-msgid "David"
-msgstr "David"
-
-#: C/index.docbook:34(surname)
-msgid "Zeuthen"
-msgstr "Zeuthen"
-
-#: C/index.docbook:37(email)
-msgid "davidz@redhat.com"
-msgstr "davidz@redhat.com"
-
-#: C/index.docbook:44(revnumber)
-msgid "Mate Disk Utility Manual V 0.1"
-msgstr "Εγχειρίδιο του εργαλείου δίσκων MateDisk, V 0.1"
-
-#: C/index.docbook:47(para)
-msgid "David Zeuthen <email>davidz@redhat.com</email>"
-msgstr "David Zeuthen <email>davidz@redhat.com</email>"
-
-#: C/index.docbook:54(releaseinfo)
-msgid "This manual describes version 0.1 of Mate Disk Utility."
-msgstr ""
-"Αυτό το εγχειρίδιο περιγράφει την έκδοση 0.1 του εργαλείου δίσκων MateDisk."
-
-#: C/index.docbook:57(title)
-msgid "Feedback"
-msgstr "Ανάδραση"
-
-#: C/index.docbook:58(para)
-msgid ""
-"To report a bug or make a suggestion regarding the <application>MateDisk "
-"Disk Utility</application> application or this manual, follow the directions "
-"in the <ulink url=\"help:mate-user-quide\" type=\"help\">MATE Feedback "
-"Page</ulink>."
-msgstr ""
-"Για να αναφέρετε ένα σφάλμα η να κάνετε μια πρόταση σχετικά με το "
-"<application>Εργαλείο δίσκων MateDisk</application> ή αυτό το εγχειρίδιο, "
-"ακολουθήστε τις οδηγίες στην <ulink url=\"help:mate-user-quide\" type=\"help"
-"\">Σελίδα ανάδρασης MATE</ulink>."
-
-#: C/index.docbook:66(title)
+#: C/index.docbook:91(title)
 msgid "Introduction."
 msgstr "Εισαγωγή."
 
-#: C/index.docbook:67(para)
+#: C/index.docbook:92(para)
 msgid ""
 "This is the <application>Mate Disk Utility</application> user's guide."
 msgstr ""
 "Αυτός είναι ο οδηγός χρήστη του <application>Εργαλείου δίσκων MateDisk</"
 "application>."
 
-#: C/index.docbook:69(title)
+#: C/index.docbook:94(title)
 msgid "<application>Mate Disk Utility</application> Window"
 msgstr "Παράθυρο του <application>Εργαλείου δίσκων MateDisk</application>"
 
@@ -210,20 +242,180 @@ msgstr "Παράθυρο του <application>Εργαλείου δίσκων Mat
 msgid "Mate Disk Utility"
 msgstr "Εργαλείο δίσκων MateDisk"
 
-#: C/index.docbook:77(phrase)
+#: C/index.docbook:102(phrase)
 msgid "Shows <placeholder-1/> main window."
 msgstr "Δείχνει <placeholder-1/> το κυρίως παράθυρο."
 
-#: C/index.docbook:85(title)
-msgid "Advanced Mate Disk Utility."
-msgstr "Εργαλείο δίσκων MateDisk για προχωρημένους"
-
-#: C/index.docbook:86(para)
-msgid ""
-"Mate Disk Utility is a complex program, with many advanced features."
+#: C/index.docbook:110(title)
+msgid "Checking the hard disk."
 msgstr ""
-"Η εφαρμογή Εργαλείο δίσκων MateDisk είναι ένα σύνθετο πρόγραμμα, με πολλά "
-"προχωρημένα χαρακτηριστικά."
+
+#: C/index.docbook:111(para)
+msgid "Hard disks have a built-in health-check tool called <application>SMART</application> (Self-Monitoring, Analysis, and Reporting Technology), which continually checks the disk for potential problems. SMART also warns you if the disk is about to fail, helping you avoid loss of important data."
+msgstr ""
+
+#: C/index.docbook:114(para)
+msgid "Although SMART runs automatically, you can also check your disk's health by running the <application>Drive Management</application> application:"
+msgstr ""
+
+#: C/index.docbook:118(title)
+msgid "Check your disk's health using the Disks application"
+msgstr ""
+
+#: C/index.docbook:122(para)
+#: C/index.docbook:170(para)
+#: C/index.docbook:239(para)
+#: C/index.docbook:279(para)
+msgid "Open the menu <menuchoice> <guimenu>Applications</guimenu><application>Drive Management</application> </menuchoice>."
+msgstr ""
+
+#: C/index.docbook:127(para)
+msgid "Select the disk you want to check from the <guimenu>Storage Devices List</guimenu>. Information and status of the disk will appear under <guimenu>Drive</guimenu>."
+msgstr ""
+
+#: C/index.docbook:131(para)
+msgid "<guimenu>SMART Status</guimenu> should say »Disk is healthy«."
+msgstr ""
+
+#: C/index.docbook:136(para)
+msgid "Click the <guimenu>SMART Data</guimenu>, button to view more drive information, or to run a self-test."
+msgstr ""
+
+#: C/index.docbook:144(title)
+msgid "What if the disk isn't healthy?"
+msgstr ""
+
+#: C/index.docbook:146(para)
+msgid "Even if the <guimenu>SMART Status</guimenu> indicates that the disk <emphasis>isn't</emphasis> healthy, there may be no cause for alarm. However, it's better to be prepared with a <emphasis>backup</emphasis> to prevent data loss."
+msgstr ""
+
+#: C/index.docbook:149(para)
+msgid "If the status says »Pre-fail« , the disk is still reasonably healthy but signs of wear have been detected which mean it might fail in the near future. If your hard disk (or computer) is a few years old, you are likely to see this message on at least some of the health checks. You should <emphasis>backup your important files regularly</emphasis> and check the disk status periodically to see if it gets worse."
+msgstr ""
+
+#: C/index.docbook:154(para)
+msgid "If it gets worse, you may wish to take the computer/hard disk to a professional for further diagnosis or repair."
+msgstr ""
+
+#: C/index.docbook:162(title)
+msgid "Wipe everything off a removable disk"
+msgstr ""
+
+#: C/index.docbook:164(para)
+msgid "If you have a removable disk, like a USB memory stick or an external hard disk, you may sometimes wish to completely remove all of its files and folders. You can do this by <emphasis>formatting</emphasis>. the disk - this deletes all of the files on the disk and leaves it empty."
+msgstr ""
+
+#: C/index.docbook:168(title)
+msgid "Format a removable disk"
+msgstr ""
+
+#: C/index.docbook:175(para)
+msgid "Select the disk you want to wipe from the <guimenu>Storage Devices</guimenu> list."
+msgstr ""
+
+#: C/index.docbook:180(para)
+msgid "Make sure that you have selected the correct disk! If you choose the wrong disk, all of the files on the other disk will be deleted!"
+msgstr ""
+
+#: C/index.docbook:186(para)
+msgid "In the Volumes section, click <guimenu>Unmount Volume</guimenu>. Then click <guimenu>Format Volume</guimenu>."
+msgstr ""
+
+#: C/index.docbook:191(para)
+msgid "In the window that pops up, choose a filesystem <guimenu>Type</guimenu> for the disk."
+msgstr ""
+
+#: C/index.docbook:194(para)
+msgid "If you use the disk on Windows and Mac OS computers in addition to Linux computers, choose <guimenu>FAT</guimenu>. If you only use it on Windows, <guimenu>NTFS</guimenu> may be a better option. A brief description of the <guimenu>file system type</guimenu> will be presented as a label."
+msgstr ""
+
+#: C/index.docbook:199(para)
+msgid "Give the disk a name and click <guimenu>Format</guimenu>, to begin wiping the disk."
+msgstr ""
+
+#: C/index.docbook:204(para)
+msgid "Once the formatting has finished, <guimenu>safely remove</guimenu> the disk. It should now be blank and ready to use again."
+msgstr ""
+
+#: C/index.docbook:211(title)
+msgid "Formatting a disk does not securely delete your files"
+msgstr ""
+
+#: C/index.docbook:212(para)
+msgid "Formatting a disk is not a completely secure way of wiping all of its data. A formatted disk will not appear to have files on it, but it is possible that special recovery software could retrieve the files. If you need to securely delete the files, you will need to use a command-line utility, such as <application>shred</application>."
+msgstr ""
+
+#: C/index.docbook:220(title)
+msgid "Manage volumes and partitions"
+msgstr ""
+
+#: C/index.docbook:222(para)
+msgid "The word <emphasis>volume</emphasis> is used to describe a storage device, like a hard disk. It can also refer to a <emphasis>part</emphasis> of the storage on that device, because you can split the storage up into chunks. The computer makes this storage accessible via your file system in a process referred to as <emphasis>mounting</emphasis> . Mounted volumes may be hard drives, USB drives, DVD-RWs, SD cards, and other media. If a volume is currently mounted, you can read (and possibly write) files on it."
+msgstr ""
+
+#: C/index.docbook:226(para)
+msgid "Often, a mounted volume is called a <emphasis>partition</emphasis>, though they are not necessarily the same thing. A “partition” refers to a <emphasis>physical</emphasis> area of storage on a single disk drive. Once a partition has been mounted, it can be referred to as a volume because you can access the files on it. You can think of volumes as the labeled, accessible “storefronts” to the functional “back rooms” of partitions and drives."
+msgstr ""
+
+#: C/index.docbook:231(title)
+msgid "View and manage volumes and partitions using the disk utility"
+msgstr ""
+
+#: C/index.docbook:233(para)
+msgid "You can check and modify your computer's storage volumes with the disk utility."
+msgstr ""
+
+#: C/index.docbook:244(para)
+msgid "In the pane marked <guimenu>Storage Devices</guimenu>, you will find hard disks, CD/DVD drives, and other physical devices. Click the device you want to inspect."
+msgstr ""
+
+#: C/index.docbook:249(para)
+msgid "In the right pane, the area labeled <guimenu>Volumes</guimenu> provides a visual breakdown of the volumes and partitions present on the selected device. It also contains a variety of tools used to manage these volumes."
+msgstr ""
+
+#: C/index.docbook:252(para)
+msgid "Be careful: it is possible to completely erase the data on your disk with these utilities."
+msgstr ""
+
+#: C/index.docbook:258(para)
+msgid "Your computer most likely has at least one <emphasis>primary</emphasis> partition and a single <emphasis>swap</emphasis> partition. The swap partition is used by the operating system for memory management, and is rarely mounted. The primary partition contains your operating system, applications, settings, and personal files. These files can also be distributed among multiple partitions for security or convenience."
+msgstr ""
+
+#: C/index.docbook:262(para)
+msgid "One primary partition must contain information that your computer uses to start up, or <emphasis>boot</emphasis>. For this reason it is sometimes called a boot partition, or boot volume. To determine if a volume is bootable, look at its <guimenu>Partition Flags</guimenu> in the disk utility. External media such as USB drives and CDs may also contain a bootable volume."
+msgstr ""
+
+#: C/index.docbook:271(title)
+msgid "Test the performance of your hard disk"
+msgstr ""
+
+#: C/index.docbook:273(para)
+msgid "To test the speed of your hard disk:"
+msgstr ""
+
+#: C/index.docbook:284(para)
+msgid "Choose the hard disk from the <guimenu>Disk Drives</guimenu> list."
+msgstr ""
+
+#: C/index.docbook:289(para)
+msgid "Click the <guimenu>Benchmark Drive</guimenu>."
+msgstr "Klicken Sie auf das Zahnradsymbol und wählen Sie <guimenu>Laufwerks-Leistungstest</guimenu>."
+
+#: C/index.docbook:299(para)
+msgid "Click <guimenu>Start Benchmark</guimenu> and adjust the <guimenu>Transfer Rate</guimenu> and <guimenu>Access Time</guimenu> parameters as desired."
+msgstr ""
+
+#: C/index.docbook:303(para)
+msgid "If <guimenu>Also perform write-benchmark</guimenu> is checked, the benchmark will test how fast data can be read from and written to the disk. This will take longer to complete."
+msgstr ""
+
+#: C/index.docbook:310(para)
+msgid "When the test is finished, the results will appear on the graph. The green points and connecting lines indicate the samples taken; these correspond to the right axis, showing access time, plotted against the bottom axis, representing percentage time elapsed during the benchmark. The blue line represents read rates, while the red line represents write rates; these are shown as access data rates on the left axis, plotted against percentage of the disk traveled, from the outside to the spindle, along the bottom axis."
+msgstr ""
+
+#: C/index.docbook:315(para)
+msgid "Below the graph, values are displayed for minimum, maximum and average read and write rates, average access time and time elapsed since the last benchmark test."
+msgstr ""
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: C/index.docbook:0(None)
