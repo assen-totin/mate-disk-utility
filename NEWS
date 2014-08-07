@@ -1,5 +1,25 @@
 -------------------------
-mate-disk-utility 1.6.1
+mate-disk-utility 1.8.0
+-------------------------
+
+- improve help languages
+
+-------------------------
+mate-disk-utility 1.7.0
+-------------------------
+
+- port to yelp
+
+- enable help
+
+-------------------------
+mate-disk-utility 1.6.3
+-------------------------
+
+- support both mate-keyring and ibsecret
+
+-------------------------
+mate-disk-utility 1.6.2
 -------------------------
 
 - switch back to gnome-keyring
