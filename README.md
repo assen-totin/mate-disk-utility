@@ -1,12 +1,3 @@
-Due a lack of time i will focus my work on other linux projects.
-
-
-This repo is obsolete !
-=======================
-
-Feel free to catch it ;)
-
-
 mate-disk-utility
 =================
 
@@ -14,6 +5,7 @@ Disk management application
 
 Fork of Palimpsest
 
+Origally forked and maintained up to 1.8.0 by NiceandGently.
 
 -------------------------
 mate-disk-utility 1.8.0
